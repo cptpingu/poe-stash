@@ -1,0 +1,8 @@
+## POE STASH
+
+Scrap stash from official website and display it publicly.
+
+### Dependencies
+
+gin-tonic:
+go get -u github.com/gin-gonic/gin
