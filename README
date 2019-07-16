@@ -6,3 +6,6 @@ Scrap stash from official website and display it publicly.
 
 gin-tonic:
 go get -u github.com/gin-gonic/gin
+
+Path of Exile library:
+go get github.com/raggaer/respoe/...
