@@ -3,8 +3,6 @@ package scraper
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
-	"net/http"
 	"strings"
 
 	"gitlab.perso/poe-stash/inventory"
@@ -27,38 +25,12 @@ func parseStashTab(data []byte) (*inventory.StashTab, error) {
 }
 
 // ScrapStash scraps a stash from the official website.
-func (s *Scraper) ScrapStash(charID, indexID int) (stash *inventory.StashTab, err error) {
-	client := &http.Client{}
+func (s *Scraper) ScrapStash(charID, indexID int) (*inventory.StashTab, error) {
 	url := fmt.Sprintf(StashURL, s.accountName, s.realm, s.league, charID, indexID)
-	req, errRequest := http.NewRequest("GET", url, nil)
+	body, errRequest := s.CallAPI(url)
 	if errRequest != nil {
 		return nil, errRequest
 	}
-	cookie := http.Cookie{
-		Name:  "POESESSID",
-		Value: s.poeSessionID,
-	}
-	req.AddCookie(&cookie)
-	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
-	resp, errResponse := client.Do(req)
-	if errResponse != nil {
-		return nil, errResponse
-	}
-	defer func() {
-		if err == nil {
-			err = resp.Body.Close()
-		}
-	}()
-
-	if resp.StatusCode != 200 {
-		return nil, fmt.Errorf("error while calling PoE API (code %d), using this url: %s", resp.StatusCode, url)
-	}
-
-	body, errRead := ioutil.ReadAll(resp.Body)
-	if errRead != nil {
-		return nil, errRead
-	}
-
 	stash, errStash := parseStashTab(body)
 	if errStash != nil {
 		return nil, errStash
@@ -68,7 +40,7 @@ func (s *Scraper) ScrapStash(charID, indexID int) (stash *inventory.StashTab, er
 }
 
 // ScrapAllStashes scraps all stashes from the official website.
-func (s *Scraper) ScrapAllStashes(charID int) (stash []*inventory.StashTab, err error) {
+func (s *Scraper) ScrapAllStashes(charID int) ([]*inventory.StashTab, error) {
 	var stashes []*inventory.StashTab
 	maxIndexID := 11
 	for i := 0; i <= maxIndexID; i++ {

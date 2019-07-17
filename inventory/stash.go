@@ -12,13 +12,13 @@ type Color struct {
 // Tab describes a tabulation style (background color,
 // custom name, style, and so on)
 type Tab struct {
-	Name            string `json:"n"`
-	Index           int    `json:"i"`
-	Id              string `json:"id"`
-	Type            string `json:"type"`
 	Hidden          bool   `json:"hidden"`
 	Selected        bool   `json:"selected"`
+	Index           int    `json:"i"`
 	BackgroundColor Color  `json:"colour"`
+	Name            string `json:"n"`
+	Id              string `json:"id"`
+	Type            string `json:"type"`
 	ImgL            string `json:"srcL"`
 	ImgC            string `json:"srcC"`
 	ImgR            string `json:"srcR"`
