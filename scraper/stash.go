@@ -39,16 +39,16 @@ func (s *Scraper) ScrapStash(charID, indexID int) (*inventory.StashTab, error) {
 	return stash, nil
 }
 
-// ScrapAllStashes scraps all stashes from the official website.
-func (s *Scraper) ScrapAllStashes(charID int) ([]*inventory.StashTab, error) {
-	var stashes []*inventory.StashTab
+// ScrapWholeStash scraps all tabs in a stash from the official website.
+func (s *Scraper) ScrapWholeStash(charID int) ([]*inventory.StashTab, error) {
+	var stashTab []*inventory.StashTab
 	maxIndexID := 11
 	for i := 0; i <= maxIndexID; i++ {
 		stash, err := s.ScrapStash(0, i)
 		if err != nil {
 			return nil, err
 		}
-		stashes = append(stashes, stash)
+		stashTab = append(stashTab, stash)
 	}
-	return stashes, nil
+	return stashTab, nil
 }

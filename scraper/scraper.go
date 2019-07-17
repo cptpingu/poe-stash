@@ -4,10 +4,12 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+
+	"gitlab.perso/poe-stash/inventory"
 )
 
 const (
-	// StashURL is the official URL for the getting a user account stashes.
+	// StashURL is the official URL for the getting of a user account stash.
 	StashURL = "https://www.pathofexile.com/character-window/get-stash-items?accountName=%s&realm=%s&league=%s&tabs=%d&tabIndex=%d"
 	// ViewProfileURL is the official URL for the getting a user account main profile information.
 	ViewProfileURL = "http://www.pathofexile.com/account/view-profile/%s"
@@ -25,6 +27,12 @@ type Scraper struct {
 	league       string
 
 	client http.Client
+}
+
+// ScrapedData holds everything scrapped.
+type ScrapedData struct {
+	Characters []*inventory.CharacterInventory
+	Stash      []*inventory.StashTab
 }
 
 // NewScraper returns a configured scraper.
@@ -71,4 +79,38 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 		return nil, errRead
 	}
 	return body, nil
+}
+
+// ScrapEverything scraps items, characters, profile, inventory and so on...
+func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
+	data := &ScrapedData{
+		Characters: make([]*inventory.CharacterInventory, 2),
+		Stash:      nil,
+	}
+
+	// Get the list of all characters of a user.
+	characters, errChar := s.ScrapCharacters()
+	if errChar != nil {
+		return nil, errChar
+	}
+
+	// Get inventory of every characters found.
+	for _, character := range characters {
+		if !character.Expired {
+			inventory, errInventory := s.ScrapCharacterInventory(character.Name)
+			if errInventory != nil {
+				return nil, errInventory
+			}
+			data.Characters = append(data.Characters, inventory)
+		}
+	}
+
+	// Retrieves the stash of an account.
+	stash, errStash := s.ScrapWholeStash(0)
+	if errStash != nil {
+		return nil, errStash
+	}
+	data.Stash = stash
+
+	return data, nil
 }
