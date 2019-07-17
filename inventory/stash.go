@@ -27,8 +27,8 @@ type Tab struct {
 // StashTab holds all stash tabulations (thus all items).
 type StashTab struct {
 	NumTabs int
-	Tabs    []Tab
-	Items   []Item
+	// Tabs    []Tab
+	Items []Item
 	// CurrencyLayout FIXME
 }
 

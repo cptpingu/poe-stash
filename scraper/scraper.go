@@ -84,7 +84,7 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 // ScrapEverything scraps items, characters, profile, inventory and so on...
 func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	data := &ScrapedData{
-		Characters: make([]*inventory.CharacterInventory, 2),
+		Characters: make([]*inventory.CharacterInventory, 0, 10),
 		Stash:      nil,
 	}
 
@@ -106,7 +106,7 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	}
 
 	// Retrieves the stash of an account.
-	stash, errStash := s.ScrapWholeStash(0)
+	stash, errStash := s.ScrapWholeStash(11)
 	if errStash != nil {
 		return nil, errStash
 	}

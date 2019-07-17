@@ -25,8 +25,8 @@ func parseStashTab(data []byte) (*inventory.StashTab, error) {
 }
 
 // ScrapStash scraps a stash from the official website.
-func (s *Scraper) ScrapStash(charID, indexID int) (*inventory.StashTab, error) {
-	url := fmt.Sprintf(StashURL, s.accountName, s.realm, s.league, charID, indexID)
+func (s *Scraper) ScrapStash(indexID int) (*inventory.StashTab, error) {
+	url := fmt.Sprintf(StashURL, s.accountName, s.realm, s.league, 0, indexID)
 	body, errRequest := s.CallAPI(url)
 	if errRequest != nil {
 		return nil, errRequest
@@ -40,11 +40,10 @@ func (s *Scraper) ScrapStash(charID, indexID int) (*inventory.StashTab, error) {
 }
 
 // ScrapWholeStash scraps all tabs in a stash from the official website.
-func (s *Scraper) ScrapWholeStash(charID int) ([]*inventory.StashTab, error) {
+func (s *Scraper) ScrapWholeStash(nbTab int) ([]*inventory.StashTab, error) {
 	var stashTab []*inventory.StashTab
-	maxIndexID := 11
-	for i := 0; i <= maxIndexID; i++ {
-		stash, err := s.ScrapStash(0, i)
+	for i := 0; i <= nbTab; i++ {
+		stash, err := s.ScrapStash(i)
 		if err != nil {
 			return nil, err
 		}
