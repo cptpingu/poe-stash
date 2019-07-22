@@ -22,6 +22,9 @@ func NewGenerator(writer io.Writer) Generator {
 
 // GenerateHTML generates HTML from scraped data.
 func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
+	if err := g.GenerateWealth(data.Wealth); err != nil {
+		return err
+	}
 	if err := g.GenerateCharacters(data.Characters); err != nil {
 		return err
 	}
@@ -34,10 +37,18 @@ func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
 	return nil
 }
 
+// GenerateWealth generates HTML part for wealth account in chaos orbs.
+func (g *Generator) GenerateWealth(wealth int) error {
+	_, err := fmt.Fprint(g.writer, "Wealth: ", wealth, "\n")
+	return err
+}
+
 // GenerateCharacters generates HTML part for characters.
 func (g *Generator) GenerateCharacters(characters []*inventory.CharacterInventory) error {
 	for _, character := range characters {
-		fmt.Fprint(g.writer, character.CharDesc.Name, "\n")
+		if _, err := fmt.Fprint(g.writer, character.CharDesc.Name, "\n"); err != nil {
+			return err
+		}
 	}
 	return nil
 }
@@ -46,7 +57,9 @@ func (g *Generator) GenerateCharacters(characters []*inventory.CharacterInventor
 func (g *Generator) GenerateInventory(characters []*inventory.CharacterInventory) error {
 	for i, character := range characters {
 		for _, item := range character.Items {
-			fmt.Fprint(g.writer, characters[i].CharDesc.Name, " got ", item.Name, "\n")
+			if _, err := fmt.Fprint(g.writer, characters[i].CharDesc.Name, " got ", item.Name, "\n"); err != nil {
+				return err
+			}
 		}
 	}
 	return nil
@@ -55,11 +68,17 @@ func (g *Generator) GenerateInventory(characters []*inventory.CharacterInventory
 // GenerateStash generates the whole stash of an account.
 func (g *Generator) GenerateStash(stashTabs []*inventory.StashTab) error {
 	for i, tab := range stashTabs {
-		fmt.Fprint(g.writer, "    item's tab:", i)
-		if len(tab.Items) > 0 {
-			fmt.Fprint(g.writer, " Object example:", tab.Items[0].Type)
+		if _, err := fmt.Fprint(g.writer, "    item's tab:", i); err != nil {
+			return err
 		}
-		fmt.Fprint(g.writer, "\n")
+		if len(tab.Items) > 0 {
+			if _, err := fmt.Fprint(g.writer, " Object example:", tab.Items[0].Type); err != nil {
+				return err
+			}
+		}
+		if _, err := fmt.Fprint(g.writer, "\n"); err != nil {
+			return err
+		}
 	}
 	return nil
 }

@@ -2,8 +2,10 @@ package scraper
 
 import (
 	"fmt"
+	"hash/fnv"
 	"io/ioutil"
 	"net/http"
+	"strconv"
 
 	"gitlab.perso/poe-stash/inventory"
 )
@@ -21,6 +23,9 @@ const (
 
 // Scraper scraps path of exile site using its API.
 type Scraper struct {
+	cache    bool
+	cacheDir string
+
 	accountName  string
 	poeSessionID string
 	realm        string
@@ -33,11 +38,14 @@ type Scraper struct {
 type ScrapedData struct {
 	Characters []*inventory.CharacterInventory
 	Stash      []*inventory.StashTab
+	Wealth     int
 }
 
 // NewScraper returns a configured scraper.
 func NewScraper(accountName, poeSessionID, realm, league string) *Scraper {
 	return &Scraper{
+		cache:        true,
+		cacheDir:     "cache",
 		accountName:  accountName,
 		poeSessionID: poeSessionID,
 		realm:        realm,
@@ -46,8 +54,25 @@ func NewScraper(accountName, poeSessionID, realm, league string) *Scraper {
 	}
 }
 
+// hash url into a number.
+func hash(s string) string {
+	h := fnv.New32a()
+	h.Write([]byte(s))
+	return strconv.Itoa(int(h.Sum32()))
+}
+
 // CallAPI calls a distant API and returns the content.
 func (s *Scraper) CallAPI(url string) ([]byte, error) {
+	var fileCache string
+	if s.cache {
+		fileCache = s.cacheDir + "/" + hash(url)
+		if b, err := ioutil.ReadFile(fileCache); err != nil {
+			fmt.Println("can't read cache", err)
+		} else {
+			return b, nil
+		}
+	}
+
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return nil, err
@@ -78,6 +103,13 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 	if errRead != nil {
 		return nil, errRead
 	}
+
+	if s.cache {
+		if err := ioutil.WriteFile(fileCache, body, 0644); err != nil {
+			fmt.Println("can't write to cache", err)
+		}
+	}
+
 	return body, nil
 }
 
@@ -111,6 +143,7 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 		return nil, errStash
 	}
 	data.Stash = stash
+	data.Wealth = inventory.ComputeWealth(data.Stash)
 
 	return data, nil
 }

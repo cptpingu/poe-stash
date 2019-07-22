@@ -48,6 +48,7 @@ type Item struct {
 	CosmeticMods []string `json:"cosmeticMods"`
 
 	FlavorText []string `json:"flavourText"`
+	Category   Category `json:"category"`
 }
 
 // Socket describes a socket.
@@ -78,3 +79,12 @@ const (
 	ProphecyFrameType
 	RelicFrameType
 )
+
+// Category is the type of category of an item.
+type Category struct {
+	Armor       []string `json:"armor"`
+	Accessories []string `json:"accessories"`
+	Currency    []string `json:"currency"`
+	Jewels      []string `json:"jewels"`
+	Weapons     []string `json:"weapons"`
+}
