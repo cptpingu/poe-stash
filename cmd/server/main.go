@@ -18,7 +18,7 @@ import (
 func viewAccountHandler(c *gin.Context) {
 	account := c.Params.ByName("account")
 
-	content, err := ioutil.ReadFile("data/" + account + ".html")
+	content, err := ioutil.ReadFile(scraper.DataDir + account + ".html")
 	if err != nil {
 		c.Data(http.StatusNotFound, "text/html; charset=utf-8", []byte("Account "+account+" not found!"))
 		return
@@ -45,14 +45,14 @@ func genAccountHandler(c *gin.Context) {
 		league = param[0]
 	}
 
-	scraper := scraper.NewScraper(account, poeSessID, realm, league)
-	data, errScrap := scraper.ScrapEverything()
+	scrap := scraper.NewScraper(account, poeSessID, realm, league)
+	data, errScrap := scrap.ScrapEverything()
 	if errScrap != nil {
 		fmt.Println("can't scrap data", errScrap)
 		os.Exit(2)
 	}
 
-	output := "data/" + account + ".html"
+	output := scraper.DataDir + account + ".html"
 	file, err := os.Create(output)
 	if err != nil {
 		panic(err)
@@ -84,7 +84,7 @@ func setupRouter() *gin.Engine {
 		"****": "****",
 	}))
 
-	router.Static("/data", "./data")
+	router.Static("/data", scraper.DataDir)
 	router.GET("/view/:account", viewAccountHandler)
 	authorized.GET("/gen/:account/:poesessid", genAccountHandler)
 

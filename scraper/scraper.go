@@ -19,6 +19,11 @@ const (
 	ProfileCharactersURL = "https://pathofexile.com/character-window/get-characters?accountName=%s"
 	// ProfileCharacterItemsURL is the official URL for the getting a user account inventories.
 	ProfileCharacterItemsURL = "https://www.pathofexile.com/character-window/get-items?accountName=%s&realm=%s&character=%s"
+
+	// DataDir is where all data are.
+	DataDir = "data/"
+	// DataCacheDir is the cache directory.
+	DataCacheDir = DataDir + "cache/"
 )
 
 // Scraper scraps path of exile site using its API.
@@ -45,7 +50,7 @@ type ScrapedData struct {
 func NewScraper(accountName, poeSessionID, realm, league string) *Scraper {
 	return &Scraper{
 		cache:        true,
-		cacheDir:     "cache",
+		cacheDir:     DataCacheDir,
 		accountName:  accountName,
 		poeSessionID: poeSessionID,
 		realm:        realm,
@@ -65,7 +70,7 @@ func hash(s string) string {
 func (s *Scraper) CallAPI(url string) ([]byte, error) {
 	var fileCache string
 	if s.cache {
-		fileCache = s.cacheDir + "/" + hash(url)
+		fileCache = s.cacheDir + hash(url)
 		if b, err := ioutil.ReadFile(fileCache); err != nil {
 			fmt.Println("can't read cache", err)
 		} else {
