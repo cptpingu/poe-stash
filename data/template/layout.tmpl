@@ -1,0 +1,70 @@
+{{ define "layout" }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <link href="https://web.poecdn.com/css/font.css?v=5a27f0cafa65fb0e9b63219fe028c658" media="screen" rel="stylesheet" type="text/css" >
+    <link href="https://web.poecdn.com/image/favicon/apple-touch-icon.png?v=1" rel="apple-touch-icon" sizes="180x180" >
+    <link href="https://web.poecdn.com/image/favicon/favicon-32x32.png?v=1" rel="icon" type="image/png" sizes="32x32" >
+    <link href="https://web.poecdn.com/image/favicon/favicon-16x16.png?v=1" rel="icon" type="image/png" sizes="16x16" >
+    <link href="https://web.poecdn.com/image/favicon/site.webmanifest?v=2" rel="manifest" >
+    <link href="https://web.poecdn.com/image/favicon/safari-pinned-tab.svg?v=1" rel="mask-icon" >
+    <link href="https://web.poecdn.com/image/favicon/favicon.ico?v=1" rel="shortcut icon" >
+    <link href="https://web.poecdn.com/css/modern.css?v=c571aeb7e2c00c2a74e2aa02ff18d280" media="screen" rel="stylesheet" type="text/css" >
+    <link href="https://web.poecdn.com/css/screen.css?v=725177c3224f3ebe36afd325d363f4a9" media="screen" rel="stylesheet" type="text/css" >
+	<title>PoE Stash</title>
+
+    <style type="text/css">
+      .clear {
+        clear: both;
+        height: 15px;
+        overflow: hidden;
+      }
+
+      .activePanel {
+        .stash {
+            margin-top: 15px;
+        }
+      }
+      .activePanel {
+        padding-top: 15px;
+        width: 600px;
+        float: left;
+      }
+      .tabWindow {
+          position: relative;
+          top: 140px;
+      }
+      .stashTabContainer .tabsOverflow {
+          height: inherit;
+          bottom: 0px;
+          left: 50px;
+      }
+      .stashPanel .stashTabContents {
+          margin-top: 145px;
+          margin-left: 15px;
+          width: 575px;
+          height: 575px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div><b>Wealth:</b> {{ .Wealth }} </div>
+
+    <div class="clear"><!-- --></div>
+
+    {{ template "stash" . }}
+
+    <div class="itemdesc" style="display: none;">
+        {{ range .Stash}}
+            {{ template "itemdesc" . }}
+        {{ end }}
+    </div>
+
+    <div id="poe-popup-container"></div>
+    <div id="poe-modal-overlay"></div>
+  </body>
+</html>
+{{ end }}

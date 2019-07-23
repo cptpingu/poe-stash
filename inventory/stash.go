@@ -24,12 +24,19 @@ type Tab struct {
 	ImgR            string `json:"srcR"`
 }
 
+// Layout is used for custom layout like currency.
+type Layout struct {
+	X float64
+	Y float64
+	W int
+	H int
+}
+
 // StashTab holds all stash tabulations (thus all items).
 type StashTab struct {
-	NumTabs int
-	// Tabs    []Tab
-	Items []Item
-	// CurrencyLayout FIXME
+	NumTabs        int               `json:"numTabs"`
+	Items          []Item            `json:"items"`
+	CurrencyLayout map[string]Layout `json:"currencyLayout"`
 }
 
 func (s *StashTab) String() string {

@@ -1,0 +1,26 @@
+{{define "stash"}}
+    <div class="stash">
+      {{ range $index, $element := .Stash}}
+      <div class="activePanel">
+        <div class="stashPanel">
+          <div class="stashTabContainer tabControl">
+            <div class="tabWindow">
+              <div class="tabs tabsOverflow">
+                <div class="tab" style="display: block; ">
+                  <div class="l" style="background-image: url(&quot;https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0/10d10e4923/Stash_TabL.png&quot;); width: 19px; height: 26px; background-position: 0px 0px;">
+                  </div>
+                  <div class="label" style="background-image: url(&quot;https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0/bc028daabc/Stash_TabL.png&quot;); color: rgb(255, 192, 119); height: 26px; background-position: 0px 0px;">
+                    {{ print $index }}
+                  </div>
+                  <div class="r" style="background-image: url(&quot;https://web.poecdn.com/gen/image/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0/6aa79009ee/Stash_TabL.png&quot;); width: 18px; height: 26px; background-position: 0px 0px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ template "item" $element }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+{{ end }}
