@@ -6,7 +6,7 @@
             <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
             {{ end }}
             {{ range .Items }}
-              <div class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ .Width }} ipH{{ .Height }}"
+              <div class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ .Width }} ipH{{ .Height }} {{ if not .IsIdentified }}unidentified{{ end }}"
                 style="position: absolute; left: {{ DeducePosX $conv .X .Y }}px; top: {{ DeducePosY $conv .X .Y }}px;">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">

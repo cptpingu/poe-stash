@@ -5,6 +5,7 @@ import (
 	"html/template"
 	"io"
 	"io/ioutil"
+	"math"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -31,7 +32,11 @@ func NewGenerator(writer io.Writer) Generator {
 		"DeducePosX":           DeducePosX,
 		"DeducePosY":           DeducePosY,
 		"ItemRarityType":       ItemRarityType,
+		"ItemRarityHeight":     ItemRarityHeight,
 		"GenSpecialBackground": GenSpecialBackground,
+		"ColorType":            ColorType,
+		"WordWrap":             WordWrap,
+		"ConvToCssProgress":    ConvToCssProgress,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
@@ -43,6 +48,23 @@ func NewGenerator(writer io.Writer) Generator {
 		writer:   writer,
 		template: t,
 	}
+}
+
+// WordWrap take string and apply an html wordwrap on it.
+func WordWrap(s string) template.HTML {
+	maxTextSize := 53
+	parts := strings.SplitAfter(s, " ")
+	res := ""
+	nb := 0
+	for _, part := range parts {
+		nb += len(part)
+		res += part
+		if nb > maxTextSize {
+			nb = 0
+			res += "<br />"
+		}
+	}
+	return template.HTML(res)
 }
 
 // findAndParseTemplates find all templates and initialize a template with it.
@@ -105,32 +127,44 @@ func DeducePosY(layout map[string]inventory.Layout, x, y int) float64 {
 	return float64(y) * cellSize
 }
 
-// ItemRarityType return the correct class type from a frame type.
-func ItemRarityType(frameType inventory.FrameType) string {
+// rarityCharacteritics return the item visual characteristics to apply.
+func rarityCharacteritics(frameType inventory.FrameType) (string, string) {
 	switch frameType {
 	case inventory.NormalItemFrameType:
-		return "normalPopup"
+		return "normalPopup", ""
 	case inventory.MagicItemFrameType:
-		return "magicPopup"
+		return "magicPopup", ""
 	case inventory.RareItemFrameType:
-		return "rarePopup"
+		return "rarePopup", "doubleLine"
 	case inventory.UniqueItemFrameType:
-		return "uniquePopup"
+		return "uniquePopup", "doubleLine"
 	case inventory.GemFrameType:
-		return "gemPopup"
+		return "gemPopup", ""
 	case inventory.CurrencyFrameType:
-		return "currencyPopup"
+		return "currencyPopup", ""
 	case inventory.DivinationCardFrameType:
-		return "divinationCardPopup"
+		return "divinationCard", "doubleLine"
 	case inventory.QuestItemFrameType:
-		return "questPopup"
+		return "questPopup", ""
 	case inventory.ProphecyFrameType:
-		return "prophecyPopup"
+		return "prophecyPopup", ""
 	case inventory.RelicFrameType:
-		return "relicPopup"
+		return "relicPopup", ""
 	default:
-		return ""
+		return "", ""
 	}
+}
+
+// ItemRarityType return the correct class type from a frame type.
+func ItemRarityType(frameType inventory.FrameType) string {
+	frameClass, _ := rarityCharacteritics(frameType)
+	return frameClass
+}
+
+// ItemRarityHeight return the correct height from a frame type.
+func ItemRarityHeight(frameType inventory.FrameType) string {
+	_, heightClass := rarityCharacteritics(frameType)
+	return heightClass
 }
 
 // GenSpecialBackground generates a special background
@@ -143,6 +177,25 @@ func GenSpecialBackground(item inventory.Item) string {
 	if item.IsElder {
 		pattern = "style='background-image: url(\"https://www.pathofexile.com/image/inventory/ElderBackground.png?w=%d&h=%d&x=%d&y=%d\");'"
 	}
+	if pattern == "" {
+		return ""
+	}
 	return fmt.Sprintf(pattern, item.Width, item.Height,
 		int(float64(item.X)*cellSize), int(float64(item.Y)*cellSize))
+}
+
+// ColorType deduces the css class to colorize a property
+// from a raw number.
+func ColorType(colorType float64) string {
+	switch colorType {
+	case 1:
+		return "colourAugmented"
+	default:
+		return "colourDefault"
+	}
+}
+
+// ConvToCssProgress convert a progress into css percentage.
+func ConvToCssProgress(progress float64) string {
+	return strconv.Itoa(int(math.Round(progress*100))) + "%"
 }

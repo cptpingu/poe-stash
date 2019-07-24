@@ -36,8 +36,11 @@ type Item struct {
 	ProphecyDifficultyText string `json:"prophecyDiffText"`
 	Note                   string `json:"note"`
 
-	Properties   []ItemProperty `json:"properties"`
-	Requirements []ItemProperty `json:"requirements"`
+	Hybrid HybridType `json:"hydrid"`
+
+	Properties           []ItemProperty `json:"properties"`
+	AdditionalProperties []ItemProperty `json:"additionalProperties"`
+	Requirements         []ItemProperty `json:"requirements"`
 
 	Sockets       []Socket `json:"sockets"`
 	SocketedItems []Item   `json:"socketedItems"`
@@ -64,6 +67,7 @@ type ItemProperty struct {
 	Name        string        `json:"name"`
 	Values      []interface{} `json:"values"`
 	DisplayMode int           `json:"displayMode"`
+	Progress    float64       `json:"progress"`
 }
 
 // FrameType is a type of rarity of an item.
@@ -89,4 +93,13 @@ type Category struct {
 	Currency    []string `json:"currency"`
 	Jewels      []string `json:"jewels"`
 	Weapons     []string `json:"weapons"`
+}
+
+// HybridType represent vaal gems additional properties.
+type HybridType struct {
+	IsVaalGem             bool           `json:"isVaalGem"`
+	BaseTypeName          string         `json:"baseTypeName"`
+	SecondDescriptionText string         `json:"secDescrText"`
+	Properties            []ItemProperty `json:"properties"`
+	ExplicitMods          []string       `json:"explicitMods"`
 }
