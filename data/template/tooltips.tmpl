@@ -1,0 +1,32 @@
+{{ define "tooltips" }}
+    <script type="text/javascript">
+    {{ range .Stash}}
+      {{ range .Items }}
+        tippy('#item-{{ .Id }}', {
+            animation: 'none',
+            duration: 0,
+            arrow: false,
+            delay: [0],
+            allowHTML: true,
+            placement: 'top',
+            hideOnClick: false,
+            interactive: false,
+            size: "large",
+            content: document.getElementById('item-{{ .Id }}-tooltip').innerHTML
+        })
+      {{ end }}
+    {{ end }}
+
+        tippy('#toto', {
+            animation: 'none',
+            duration: 0,
+            arrow: false,
+            delay: [0],
+            allowHTML: true,
+            interactive: true,
+            theme: "none",
+            size: "large",
+            content: document.getElementById('item-06f57abcbc27abd052fb3ff0880e7b2b19602ad2f1ac12e70251dace7a092df8-tooltip').innerHTML
+        })
+    </script>
+{{ end }}

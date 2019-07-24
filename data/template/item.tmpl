@@ -1,4 +1,4 @@
-{{define "item"}}
+{{ define "item" }}
             {{ $conv := .CurrencyLayout }}
             {{ if .CurrencyLayout }}
             <div class="stashTabContents poeScroll currencyStash" style="border-color: rgb(124, 84, 54);">
@@ -11,7 +11,7 @@
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
                   <div class="icon ">
-                    <img src="{{ .Icon }}" alt="">
+                    <img id="item-{{ .Id }}" src="{{ .Icon }}" alt="" />
                     <div class="sockets numSockets0" style="display: block;"></div>
                     {{ if (gt .StackSize 0) }}
                     <span class="stackSize">{{ .StackSize }}</span>

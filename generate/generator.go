@@ -3,7 +3,11 @@ package generate
 import (
 	"html/template"
 	"io"
+	"io/ioutil"
+	"os"
+	"path/filepath"
 	"strconv"
+	"strings"
 
 	"gitlab.perso/poe-stash/inventory"
 	"gitlab.perso/poe-stash/scraper"
@@ -21,14 +25,45 @@ type Generator struct {
 
 // NewGenerator constructs a new generator.
 func NewGenerator(writer io.Writer) Generator {
-	t := template.Must(template.New("").Funcs(template.FuncMap{
+	t := template.Must(findAndParseTemplates(templateDir, ".tmpl", template.FuncMap{
 		"DeducePosX": DeducePosX,
 		"DeducePosY": DeducePosY,
-	}).ParseGlob(templateDir + "*.tmpl"))
+	}))
 	return Generator{
 		writer:   writer,
 		template: t,
 	}
+}
+
+// findAndParseTemplates find all templates and initialize a template with it.
+func findAndParseTemplates(rootDir, ext string, funcMap template.FuncMap) (*template.Template, error) {
+	cleanRoot := filepath.Clean(rootDir)
+	pfx := len(cleanRoot) + 1
+	root := template.New("")
+
+	err := filepath.Walk(cleanRoot, func(path string, info os.FileInfo, e1 error) error {
+		if !info.IsDir() && strings.HasSuffix(path, ext) {
+			if e1 != nil {
+				return e1
+			}
+
+			b, e2 := ioutil.ReadFile(path)
+			if e2 != nil {
+				return e2
+			}
+
+			name := path[pfx:]
+			t := root.New(name).Funcs(funcMap)
+			t, e2 = t.Parse(string(b))
+			if e2 != nil {
+				return e2
+			}
+		}
+
+		return nil
+	})
+
+	return root, err
 }
 
 // GenerateHTML generates HTML from scraped data.

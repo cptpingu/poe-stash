@@ -1,55 +1,56 @@
-{{define "itemdesc"}}
+{{ define "itemdesc" }}
           {{ range .Items }}
-          <div class="middle">
+          <div id="item-{{ .Id }}-tooltip" style="display: none;">
             <div class="itemPopupContainer newItemPopup uniquePopup">
               <div class="itemBoxContent">
                 <div class="itemHeader doubleLine">
                   <span class="l"></span>
-                    <div class="itemName">
-                      <span class="lc">{{ .Name }}</span>
-                    </div>
-                <div class="itemName typeLine">
+                  <div class="itemName">
+                    <span class="lc">{{ .Name }}</span>
+                  </div>
+                  <div class="itemName typeLine">
                     <span class="lc">{{ .Type }}</span>
+                  </div>
+                  <span class="r"></span>
                 </div>
-                <span class="r"></span>
-              </div>
-              <div class="content">
-                <div class="displayProperty">
-                  <span class="lc s" data-field="ar">
-                    <span>Armour</span>: <span class="colourDefault">377</span>
-                  </span>
+                <div class="content">
+                    <div class="displayProperty">
+                    <span class="lc s" data-field="ar">
+                        <span>Armour</span>: <span class="colourDefault">377</span>
+                    </span>
+                    </div>
+                    <div class="displayProperty">
+                    <span class="lc s" data-field="es">
+                        <span>Energy Shield</span>: <span class="colourAugmented">116</span>
+                    </span>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="displayProperty">
+                    <span class="lc s" data-field="ilvl">Item Level: <span class="colourDefault">12</span></span>
+                    </div>
+                    <div class="requirements">
+                    <span class="lc">Requires <span>Level</span> <span class="colourDefault">64</span>, <span class="colourDefault">90</span> <span>Str</span>, <span class="colourDefault">105</span> <span>Int</span></span>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="explicitMod" data-mod="7">
+                    <span class="lc l">
+                        <span>[6]</span>
+                    </span>
+                    <span class="lc s" data-field="stat.explicit.stat_4077843608">Has 6 Sockets</span>
+                    <span class="lc r">
+                        <span></span>
+                    </span>
+                    </div>
+                    <div class="explicitMod" data-mod="1">
+                    <span class="lc l">
+                        <span>[8—24]</span>
+                    </span>
+                    <span class="lc s" data-field="stat.explicit.stat_1379411836">+9 to all Attributes</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="9"><span class="lc l"><span>[4—10 to 14—36]</span></span><span class="lc s" data-field="stat.explicit.stat_3032590688">Adds 6 to 35 Physical Damage to Attacks</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="6"><span class="lc l"><span>[20—60]</span></span><span class="lc s" data-field="stat.explicit.stat_587431675">23% increased Global Critical Strike Chance</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="5"><span class="lc l"><span>[15—50]</span></span><span class="lc s" data-field="stat.explicit.stat_4052037485">+29 to maximum Energy Shield</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="2"><span class="lc l"><span>[20—60]</span></span><span class="lc s" data-field="stat.explicit.stat_3299347043">+50 to maximum Life</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="3"><span class="lc l"><span>[20—50]</span></span><span class="lc s" data-field="stat.explicit.stat_1050105434">+32 to maximum Mana</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="4"><span class="lc l"><span>[6—30]</span></span><span class="lc s" data-field="stat.explicit.stat_3917489142">29% increased Rarity of Items found</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="8"><span class="lc l"><span>[15—50]</span></span><span class="lc s" data-field="stat.explicit.stat_3141070085">34% increased Elemental Damage</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="0"><span class="lc l"><span>[76—78]</span></span><span class="lc s" data-field="stat.explicit.stat_798767971">Your Maximum Resistances are 76%</span><span class="lc r"><span></span>
+                    </span>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="textCurrency itemNote">~price 25 chaos</div>
                 </div>
-                <div class="displayProperty">
-                  <span class="lc s" data-field="es">
-                    <span>Energy Shield</span>: <span class="colourAugmented">116</span>
-                  </span>
-                </div>
-                <div class="separator"></div>
-                <div class="displayProperty">
-                  <span class="lc s" data-field="ilvl">Item Level: <span class="colourDefault">12</span></span>
-                </div>
-                <div class="requirements">
-                  <span class="lc">Requires <span>Level</span> <span class="colourDefault">64</span>, <span class="colourDefault">90</span> <span>Str</span>, <span class="colourDefault">105</span> <span>Int</span></span>
-                </div>
-                <div class="separator"></div>
-                <div class="explicitMod" data-mod="7">
-                  <span class="lc l">
-                    <span>[6]</span>
-                  </span>
-                  <span class="lc s" data-field="stat.explicit.stat_4077843608">Has 6 Sockets</span>
-                  <span class="lc r">
-                    <span></span>
-                  </span>
-                </div>
-                <div class="explicitMod" data-mod="1">
-                  <span class="lc l">
-                    <span>[8—24]</span>
-                  </span>
-                  <span class="lc s" data-field="stat.explicit.stat_1379411836">+9 to all Attributes</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="9"><span class="lc l"><span>[4—10 to 14—36]</span></span><span class="lc s" data-field="stat.explicit.stat_3032590688">Adds 6 to 35 Physical Damage to Attacks</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="6"><span class="lc l"><span>[20—60]</span></span><span class="lc s" data-field="stat.explicit.stat_587431675">23% increased Global Critical Strike Chance</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="5"><span class="lc l"><span>[15—50]</span></span><span class="lc s" data-field="stat.explicit.stat_4052037485">+29 to maximum Energy Shield</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="2"><span class="lc l"><span>[20—60]</span></span><span class="lc s" data-field="stat.explicit.stat_3299347043">+50 to maximum Life</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="3"><span class="lc l"><span>[20—50]</span></span><span class="lc s" data-field="stat.explicit.stat_1050105434">+32 to maximum Mana</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="4"><span class="lc l"><span>[6—30]</span></span><span class="lc s" data-field="stat.explicit.stat_3917489142">29% increased Rarity of Items found</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="8"><span class="lc l"><span>[15—50]</span></span><span class="lc s" data-field="stat.explicit.stat_3141070085">34% increased Elemental Damage</span><span class="lc r"><span></span></span></div><div class="explicitMod" data-mod="0"><span class="lc l"><span>[76—78]</span></span><span class="lc s" data-field="stat.explicit.stat_798767971">Your Maximum Resistances are 76%</span><span class="lc r"><span></span>
-                  </span>
-                </div>
-                <div class="separator"></div>
-                <div class="textCurrency itemNote">~price 25 chaos</div>
               </div>
             </div>
           </div>
