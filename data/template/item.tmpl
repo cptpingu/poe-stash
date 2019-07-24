@@ -10,7 +10,7 @@
                 style="position: absolute; left: {{ DeducePosX $conv .X .Y }}px; top: {{ DeducePosY $conv .X .Y }}px;">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
-                  <div class="icon ">
+                  <div class="icon {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}" {{ GenSpecialBackground . | attr }}>
                     <img id="item-{{ .Id }}" src="{{ .Icon }}" alt="" />
                     <div class="sockets numSockets0" style="display: block;"></div>
                     {{ if (gt .StackSize 0) }}

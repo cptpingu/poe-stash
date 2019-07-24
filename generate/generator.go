@@ -1,6 +1,7 @@
 package generate
 
 import (
+	"fmt"
 	"html/template"
 	"io"
 	"io/ioutil"
@@ -15,6 +16,7 @@ import (
 
 const (
 	templateDir = scraper.DataDir + "template/"
+	cellSize    = 47.4645
 )
 
 // Generator construct html files from a scraped user.
@@ -26,8 +28,16 @@ type Generator struct {
 // NewGenerator constructs a new generator.
 func NewGenerator(writer io.Writer) Generator {
 	t := template.Must(findAndParseTemplates(templateDir, ".tmpl", template.FuncMap{
-		"DeducePosX": DeducePosX,
-		"DeducePosY": DeducePosY,
+		"DeducePosX":           DeducePosX,
+		"DeducePosY":           DeducePosY,
+		"ItemRarityType":       ItemRarityType,
+		"GenSpecialBackground": GenSpecialBackground,
+		"attr": func(s string) template.HTMLAttr {
+			return template.HTMLAttr(s)
+		},
+		"safe": func(s string) template.HTML {
+			return template.HTML(s)
+		},
 	}))
 	return Generator{
 		writer:   writer,
@@ -71,12 +81,6 @@ func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
 	return g.template.ExecuteTemplate(g.writer, "layout", data)
 }
 
-// AdjustItemPos transforms relative stash position in
-// absolute css position.
-func AdjustItemPos(pos int) float64 {
-	return float64(pos) * 47.4645
-}
-
 // DeducePosX transforms relative stash position in
 // absolute css position using a given layout.
 func DeducePosX(layout map[string]inventory.Layout, x, y int) float64 {
@@ -86,7 +90,7 @@ func DeducePosX(layout map[string]inventory.Layout, x, y int) float64 {
 		}
 		return 0
 	}
-	return float64(x) * 47.4645
+	return float64(x) * cellSize
 }
 
 // DeducePosY transforms relative stash position in
@@ -98,5 +102,47 @@ func DeducePosY(layout map[string]inventory.Layout, x, y int) float64 {
 		}
 		return 0
 	}
-	return float64(y) * 47.4645
+	return float64(y) * cellSize
+}
+
+// ItemRarityType return the correct class type from a frame type.
+func ItemRarityType(frameType inventory.FrameType) string {
+	switch frameType {
+	case inventory.NormalItemFrameType:
+		return "normalPopup"
+	case inventory.MagicItemFrameType:
+		return "magicPopup"
+	case inventory.RareItemFrameType:
+		return "rarePopup"
+	case inventory.UniqueItemFrameType:
+		return "uniquePopup"
+	case inventory.GemFrameType:
+		return "gemPopup"
+	case inventory.CurrencyFrameType:
+		return "currencyPopup"
+	case inventory.DivinationCardFrameType:
+		return "divinationCardPopup"
+	case inventory.QuestItemFrameType:
+		return "questPopup"
+	case inventory.ProphecyFrameType:
+		return "prophecyPopup"
+	case inventory.RelicFrameType:
+		return "relicPopup"
+	default:
+		return ""
+	}
+}
+
+// GenSpecialBackground generates a special background
+// like shaper or elder ones.
+func GenSpecialBackground(item inventory.Item) string {
+	pattern := ""
+	if item.IsShaper {
+		pattern = "style='background-image: url(\"https://www.pathofexile.com/image/inventory/ShaperBackground.png?w=%d&h=%d&x=%d&y=%d\");'"
+	}
+	if item.IsElder {
+		pattern = "style='background-image: url(\"https://www.pathofexile.com/image/inventory/ElderBackground.png?w=%d&h=%d&x=%d&y=%d\");'"
+	}
+	return fmt.Sprintf(pattern, item.Width, item.Height,
+		int(float64(item.X)*cellSize), int(float64(item.Y)*cellSize))
 }

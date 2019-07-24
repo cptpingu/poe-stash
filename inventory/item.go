@@ -8,6 +8,8 @@ type Item struct {
 	IsLockedToCharacter bool `json:"lockedToCharacter"`
 	IsSupport           bool `json:"support"`
 	IsRelic             bool `json:"isRelic"`
+	IsElder             bool `json:"elder"`
+	IsShaper            bool `json:"shaper"`
 
 	Width        int `json:"w"`
 	Height       int `json:"h"`
