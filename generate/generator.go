@@ -40,11 +40,18 @@ func NewGenerator(writer io.Writer) Generator {
 		"ConvToCssProgress":    ConvToCssProgress,
 		"PoEMarkup":            PoEMarkup,
 		"PoEMarkupLinesOnly":   PoEMarkupLinesOnly,
+		"ColorToSocketClass":   ColorToSocketClass,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
 		"safe": func(s string) template.HTML {
 			return template.HTML(s)
+		},
+		"mod": func(a, b int) bool {
+			return a%b == 0
+		},
+		"add": func(a, b int) int {
+			return a + b
 		},
 	}))
 	return Generator{
@@ -289,4 +296,20 @@ func PoEMarkupLinesOnly(lines []string) template.HTML {
 	res := replacePoEMarkup(strings.Join(lines, "\n"))
 	strings.Replace(res, "\n", "<br />", -1)
 	return template.HTML(res)
+}
+
+// ColorToSocketClass convert a color into a socket class.
+func ColorToSocketClass(color string) string {
+	switch color {
+	case "R":
+		return "socketStr"
+	case "G":
+		return "socketDex"
+	case "B":
+		return "socketInt"
+	case "W":
+		return "socketGen"
+	default:
+		return ""
+	}
 }

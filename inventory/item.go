@@ -59,6 +59,7 @@ type Item struct {
 type Socket struct {
 	GroupId   int    `json:"group"`
 	Attribute string `json:"attr"`
+	Color     string `json:"sColour"`
 }
 
 // ItemProperty holds item properties (name, how to display, ...).

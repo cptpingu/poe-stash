@@ -6,13 +6,31 @@
             <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
             {{ end }}
             {{ range .Items }}
-              <div class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ .Width }} ipH{{ .Height }} {{ if not .IsIdentified }}unidentified{{ end }}"
+              <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ .Width }} ipH{{ .Height }} {{ if not .IsIdentified }}unidentified{{ end }}"
                 style="position: absolute; left: {{ DeducePosX $conv .X .Y }}px; top: {{ DeducePosY $conv .X .Y }}px;">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
                   <div class="icon {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}" {{ GenSpecialBackground . | attr }}>
-                    <img id="item-{{ .Id }}" src="{{ .Icon }}" alt="" />
-                    <div class="sockets numSockets0" style="display: block;"></div>
+                    <img src="{{ .Icon }}" alt="" />
+
+                    {{ if .Sockets }}
+                      <div class="sockets numSockets{{ len .Sockets}}" style="display: block;">
+                      {{ $prev := -1 }}
+                      {{ $socket := .Sockets }}
+                      {{ range $idx, $elt := .Sockets}}
+                        {{ if ge $prev 0 }}
+                          {{ if eq (index $socket $idx).GroupId (index $socket $prev).GroupId }}
+                          <div class="socketLink socketLink{{ $prev }}"></div>
+                          {{ end }}
+                        {{ end }}
+
+                        <div class="socket {{ ColorToSocketClass $elt.Color }} {{ if and (lt $idx 4) (mod $idx 2) }} socketRight {{ end }}" alt="{{ .GroupId }}"></div>
+
+                        {{ $prev = $idx }}
+                      {{ end }}
+                      </div>
+                    {{ end }}
+
                     {{ if (gt .StackSize 0) }}
                     <span class="stackSize">{{ .StackSize }}</span>
                     {{ end }}
