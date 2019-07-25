@@ -28,11 +28,10 @@
 
               <div class="flavourTextWrapper">
                 <div class="flavourTextContainer">
-                  <div class="flavourText"><span class="lc">
+                  <div class="flavourText">
                     <span class="lc">
-                    {{ range .FlavorText }}
-                      {{ PoEMarkupLinesOnly . }}<br />
-                    {{ end }}
+                    {{ PoEMarkupLinesOnly .FlavorText }}
+                    </span>
                   </div>
                 </div>
               </div>
