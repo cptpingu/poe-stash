@@ -2,6 +2,45 @@
           {{ range .Items }}
           <div id="item-{{ .Id }}-tooltip" style="display: none;">
             <div class="itemPopupContainer newItemPopup {{ ItemRarityType .FrameType }}">
+
+            {{ if .ArtFilename }}
+            <!-- Divination card -->
+            <div class="cardFace">
+                <img src="https://web.poecdn.com/image/gen/divination_cards/{{ .ArtFilename }}.png">
+            </div>
+            <div class="itemBoxContent">
+              <div class="itemHeader">
+                <span class="l"></span>
+                <div class="itemName">
+                  <span class="lc">{{ .Type }}</span>
+                </div>
+                <span class="r"></span>
+              </div>
+
+              <div class="stackSize">{{ .StackSize }}/{{ .MaxStackSize }}</div>
+              <div class="explicitModsWrapper">
+                <div class="explicitModsContainer">
+                  {{ range .ExplicitMods }}
+                      {{ PoEMarkup . }}
+                  {{ end }}
+                </div>
+              </div>
+
+              <div class="flavourTextWrapper">
+                <div class="flavourTextContainer">
+                  <div class="flavourText"><span class="lc">
+                    <span class="lc">
+                    {{ range .FlavorText }}
+                      {{ PoEMarkupLinesOnly . }}<br />
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <!-- !Divination card -->
+            {{ else }}
+
               <div class="itemBoxContent">
                 <div class="itemHeader {{ ItemRarityHeight .FrameType }} {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}">
                   <span class="l"></span>
@@ -12,6 +51,10 @@
                   <div class="itemName typeLine">
                     <span class="lc">{{ .Type }}</span>
                   </div>
+                  {{ else if .Hybrid.IsVaalGem }}
+                  <div class="itemName">
+                    <span class="lc">{{ .Hybrid.BaseTypeName }}</span>
+                  </div>
                   {{ else }}
                   <div class="itemName">
                     <span class="lc">{{ .Type }}</span>
@@ -19,6 +62,7 @@
                   {{ end }}
                   <span class="r"></span>
                 </div>
+
                 <div class="content">
 
                     {{ if .Properties }}
@@ -103,6 +147,52 @@
                         {{ end }}
                       {{ end }}
 
+                      <!-- Vaal gem additional properties -->
+                      {{ if .Hybrid.IsVaalGem }}
+                      {{ $name := .Type }}
+                      {{ with .Hybrid }}
+
+                        <div class="separator"></div>
+                        <div class="vaalHeader">
+                            <div class="itemName typeLine">
+                                <span class="lc">{{ $name }}</span>
+                            </div>
+                        </div>
+
+                        {{ if .SecondDescriptionText }}
+                        <div class="separator"></div>
+                        <div class="secDescrText">
+                          <span>{{ .SecondDescriptionText | WordWrap }}</span>
+                        </div>
+                        {{ end }}
+
+                        {{ if .Properties }}
+                          <div class="separator"></div>
+                          {{ range .Properties }}
+                          <div class="displayProperty">
+                            <span class="s">
+                              <span>{{ .Name }}</span> {{ if gt (len .Values) 0 }} : {{ end }}
+                                {{ range .Values }}
+                                  <span class="{{ ColorType (index . 1) }}">{{ (index . 0) }}</span>
+                                {{ end }}
+                            </span>
+                          </div>
+                          {{ end }}
+                        {{ end }}
+
+                        {{ if .ExplicitMods }}
+                          <div class="separator"></div>
+                          {{ range .ExplicitMods }}
+                          <div class="explicitMod">
+                            <span class="s">{{ . }}</span>
+                          </div>
+                          {{ end }}
+                        {{ end }}
+
+                      {{ end }}
+                      {{ end }}
+                      <!-- !vaal -->
+
                       {{ if .IsCorrupted }}
                       <div class="unmet">
                         <span class="lc">Corrupted</span>
@@ -152,6 +242,7 @@
                     {{ end }}
                 </div>
               </div>
+            {{ end }}
             </div>
           </div>
           {{ end }}

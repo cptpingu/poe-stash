@@ -36,8 +36,6 @@ type Item struct {
 	ProphecyDifficultyText string `json:"prophecyDiffText"`
 	Note                   string `json:"note"`
 
-	Hybrid HybridType `json:"hydrid"`
-
 	Properties           []ItemProperty `json:"properties"`
 	AdditionalProperties []ItemProperty `json:"additionalProperties"`
 	Requirements         []ItemProperty `json:"requirements"`
@@ -51,9 +49,10 @@ type Item struct {
 	EnchantMods  []string `json:"enchantMods"`
 	CraftedMods  []string `json:"craftedMods"`
 	CosmeticMods []string `json:"cosmeticMods"`
+	FlavorText   []string `json:"flavourText"`
 
-	FlavorText []string `json:"flavourText"`
-	Category   Category `json:"category"`
+	Category Category   `json:"category"`
+	Hybrid   HybridType `json:"hybrid"`
 }
 
 // Socket describes a socket.

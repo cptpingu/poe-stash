@@ -37,6 +37,8 @@ func NewGenerator(writer io.Writer) Generator {
 		"ColorType":            ColorType,
 		"WordWrap":             WordWrap,
 		"ConvToCssProgress":    ConvToCssProgress,
+		"PoEMarkup":            PoEMarkup,
+		"PoEMarkupLinesOnly":   PoEMarkupLinesOnly,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
@@ -198,4 +200,100 @@ func ColorType(colorType float64) string {
 // ConvToCssProgress convert a progress into css percentage.
 func ConvToCssProgress(progress float64) string {
 	return strconv.Itoa(int(math.Round(progress*100))) + "%"
+}
+
+// interpretLine returns the line interpreted after markup interpretation.
+func interpretLine(raw string) string {
+	f := func(c rune) bool {
+		return c == '<' || c == '>' || c == '{' || c == '}'
+	}
+	parts := strings.FieldsFunc(raw, f)
+	// Nothing match, so it's a normal text.
+	if len(parts) == 1 {
+		return raw
+	}
+
+	desc := make([]string, 0, 3)
+	for _, part := range parts {
+		if strings.TrimSpace(part) != "" {
+			desc = append(desc, part)
+		}
+	}
+
+	// Should be key/value, or it's an error.
+	if len(desc)%2 != 0 {
+		return "#error(PoEMarkup)"
+	}
+
+	// Interpret markers.
+	res := ""
+	pattern := "<span class=\"PoEMarkup %s\">%s</span>"
+	sizePattern := "<span class=\"PoEMarkup\" style=\"font-size: %fpx;\">%s</span>"
+	for i := 0; i < len(desc); i += 2 {
+		if i != 0 {
+			res += " "
+		}
+		switch desc[i] {
+		case "whiteitem",
+			"magicitem",
+			"rareitem",
+			"uniqueitem",
+			"gemitem",
+			"currencyitem",
+			"prophecy",
+			"divination",
+			"normal",
+			"augmented",
+			"corrupted",
+			"smaller",
+			"default":
+			res += fmt.Sprintf(pattern, desc[i], desc[i+1])
+		case "size:25":
+			res += fmt.Sprintf(sizePattern, 12.5, desc[i+1])
+		case "size:26":
+			res += fmt.Sprintf(sizePattern, 13, desc[i+1])
+		case "size:27":
+			res += fmt.Sprintf(sizePattern, 13.5, desc[i+1])
+		case "size:28":
+			res += fmt.Sprintf(sizePattern, 14, desc[i+1])
+		case "size:29":
+			res += fmt.Sprintf(sizePattern, 14.5, desc[i+1])
+		case "size:30":
+			res += fmt.Sprintf(sizePattern, 15, desc[i+1])
+		case "size:31":
+			res += fmt.Sprintf(sizePattern, 15.5, desc[i+1])
+		case "size:32":
+			res += fmt.Sprintf(sizePattern, 16, desc[i+1])
+		default:
+			// Don't match, so let's write it as it is.
+			res += "&lt;" + desc[i] + "&gt;{" + desc[i+1] + "}"
+		}
+	}
+
+	return res
+}
+
+// PoEMarkup converts a raw string containing markup into HTML.
+func PoEMarkup(raw string) template.HTML {
+	lines := strings.Split(raw, "\r\n")
+	res := ""
+	for _, line := range lines {
+		res += "<div class=\"explicitMod\">\n"
+		res += "  <span class=\"lc\">\n"
+		res += "    " + interpretLine(line) + "\n"
+		res += "  </span>\n"
+		res += "</div>\n"
+	}
+	return template.HTML(res)
+}
+
+// PoEMarkupLinesOnly converts a raw string containing markup into HTML.
+// It is expexcted to only have lines separated by end of lines.
+func PoEMarkupLinesOnly(raw string) template.HTML {
+	lines := strings.Split(raw, "\\r\\n")
+	res := ""
+	for _, line := range lines {
+		res += "    " + interpretLine(line) + "\n"
+	}
+	return template.HTML(res)
 }
