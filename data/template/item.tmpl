@@ -34,13 +34,17 @@
                       {{ $socket := .Sockets }}
                       {{ $socketed := .SocketedItems }}
                       {{ range $idx, $elt := .Sockets}}
+
+                        {{/* Check if current socket is in the same group has the previous one. */}}
                         {{ if ge $prev 0 }}
                           {{ if eq (index $socket $idx).GroupId (index $socket $prev).GroupId }}
                           <div class="socketLink socketLink{{ $prev }}"></div>
                           {{ end }}
                         {{ end }}
 
-                        <div {{ SocketedId $idx $socketed }} class="socket {{ SocketedClass $idx $socketed }} {{ ColorToSocketClass $elt.Color }} {{ if and (lt $idx 4) (mod $idx 2) }} socketRight {{ end }}" alt="{{ .GroupId }}">
+                        {{/* Generate id for tooltip + generated color + embed gem + check if socket has to be aligned on the right. */}}
+                        <div {{ SocketedId $idx $socketed }}
+                          class="socket {{ SocketedClass $idx $socketed }} {{ ColorToSocketClass $elt.Color }} {{ SocketRight $idx }}" alt="{{ .GroupId }}">
                         </div>
 
                         {{ $prev = $idx }}

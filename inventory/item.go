@@ -20,7 +20,7 @@ type Item struct {
 	X            int `json:"x"`
 	Y            int `json:"y"`
 	TalismanTier int `json:"talismanTier"`
-	SocketGroup  int `json:"socket"`
+	Socket       int `json:"socket"`
 
 	FrameType FrameType `json:"frameType"`
 

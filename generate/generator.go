@@ -43,6 +43,7 @@ func NewGenerator(writer io.Writer) Generator {
 		"PoEMarkup":            PoEMarkup,
 		"PoEMarkupLinesOnly":   PoEMarkupLinesOnly,
 		"ColorToSocketClass":   ColorToSocketClass,
+		"SocketRight":          SocketRight,
 		"SocketedClass":        SocketedClass,
 		"SocketedId":           SocketedId,
 		"AltWeaponImage":       AltWeaponImage,
@@ -51,9 +52,6 @@ func NewGenerator(writer io.Writer) Generator {
 		},
 		"safe": func(s string) template.HTML {
 			return template.HTML(s)
-		},
-		"mod": func(a, b int) bool {
-			return a%b == 0
 		},
 		"add": func(a, b int) int {
 			return a + b
@@ -375,13 +373,41 @@ func ColorToSocketClass(color string) string {
 	}
 }
 
+// SocketRight find if a socket has to be aligned right or not.
+// Sockets are listed in a "snake" order.
+// 0-1
+//   |
+// 3-2
+// |
+// 4-5
+func SocketRight(idx int) string {
+	switch idx {
+	case 1, 2, 5:
+		return "socketRight"
+	}
+	return ""
+}
+
+// searchSocketId search the right corresponding socket id.
+// return -1 if nothing is found.
+func searchSocketId(idx int, socketedItems []inventory.Item) int {
+	for socketedIndex, v := range socketedItems {
+		if idx == v.Socket {
+			return socketedIndex
+		}
+	}
+	return -1
+}
+
 // SocketedClass computes if a socket contains an item
 // and construct everything needed to display it.
 func SocketedClass(idx int, socketedItems []inventory.Item) string {
-	if idx >= len(socketedItems) {
+	// Search the coresponding socket id in socketed.
+	iSocket := searchSocketId(idx, socketedItems)
+	if iSocket < 0 || iSocket >= len(socketedItems) {
 		return ""
 	}
-	item := socketedItems[idx]
+	item := socketedItems[iSocket]
 	if item.IsAbyssJewel {
 		return "socketed abyssJewel"
 	}
@@ -401,10 +427,11 @@ func SocketedClass(idx int, socketedItems []inventory.Item) string {
 
 // SocketedId computes id to attach mouseover to.
 func SocketedId(idx int, socketedItems []inventory.Item) template.HTMLAttr {
-	if idx >= len(socketedItems) {
+	iSocket := searchSocketId(idx, socketedItems)
+	if iSocket < 0 || iSocket >= len(socketedItems) {
 		return ""
 	}
-	item := socketedItems[idx]
+	item := socketedItems[iSocket]
 	return template.HTMLAttr(fmt.Sprintf(`id="item-%s"`, item.Id))
 }
 
