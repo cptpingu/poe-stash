@@ -1,6 +1,7 @@
 package generate
 
 import (
+	"errors"
 	"fmt"
 	"html/template"
 	"io"
@@ -8,6 +9,7 @@ import (
 	"math"
 	"os"
 	"path/filepath"
+	"reflect"
 	"strconv"
 	"strings"
 
@@ -54,6 +56,32 @@ func NewGenerator(writer io.Writer) Generator {
 		},
 		"add": func(a, b int) int {
 			return a + b
+		},
+		"dict": func(values ...interface{}) (map[string]interface{}, error) {
+			if len(values) == 0 {
+				return nil, errors.New("invalid dict call")
+			}
+			dict := make(map[string]interface{})
+			for i := 0; i < len(values); i++ {
+				key, isset := values[i].(string)
+				if !isset {
+					if reflect.TypeOf(values[i]).Kind() == reflect.Map {
+						m := values[i].(map[string]interface{})
+						for i, v := range m {
+							dict[i] = v
+						}
+					} else {
+						return nil, errors.New("dict values must be maps")
+					}
+				} else {
+					i++
+					if i == len(values) {
+						return nil, errors.New("specify the key for non array values")
+					}
+					dict[key] = values[i]
+				}
+			}
+			return dict, nil
 		},
 	}))
 	return Generator{
@@ -117,26 +145,54 @@ func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
 
 // DeducePosX transforms relative stash position in
 // absolute css position using a given layout.
-func DeducePosX(layout map[string]inventory.Layout, x, y int) float64 {
-	if len(layout) > 0 {
+func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y int) float64 {
+	switch inventory.LayoutType(layoutType) {
+	case inventory.CurrencyLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.X
 		}
-		return 0
+	case inventory.InventoryLayout:
+		key := inventoryId + "X"
+		switch inventoryId {
+		case "MainInventory":
+			if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+				return value + float64(x)*cellSize
+			}
+		case "Flask":
+			key = inventoryId + "X" + strconv.Itoa(x)
+		}
+		if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+			return value
+		}
+	default:
+		return float64(x) * cellSize
 	}
-	return float64(x) * cellSize
+	return 0
 }
 
 // DeducePosY transforms relative stash position in
 // absolute css position using a given layout.
-func DeducePosY(layout map[string]inventory.Layout, x, y int) float64 {
-	if len(layout) > 0 {
+func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y int) float64 {
+	switch inventory.LayoutType(layoutType) {
+	case inventory.CurrencyLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.Y
 		}
-		return 0
+	case inventory.InventoryLayout:
+		key := inventoryId + "Y"
+		switch inventoryId {
+		case "MainInventory":
+			if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+				return value + float64(y)*cellSize
+			}
+		}
+		if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+			return value
+		}
+	default:
+		return float64(y) * cellSize
 	}
-	return float64(y) * cellSize
+	return 0
 }
 
 // rarityCharacteritics return the item visual characteristics to apply.

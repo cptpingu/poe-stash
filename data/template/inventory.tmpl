@@ -1,0 +1,32 @@
+{{ define "inventory" }}
+    <div class="inventoryManager">
+      <div class="inventoryPanelControls">
+        <div class="inventoryPanelButton inventory left selected"></div>
+        <div class="inventoryPanelButton cosmetic right"></div>
+      </div>
+      <div class="activePanel">
+        <div class="mainInventoryPanel">
+          <div class="weaponSwap1 left" style="display: block;"></div>
+          <div class="weaponSwap2 left" style="display: none;"></div>
+          <div class="weaponSwap1 right" style="display: block;"></div>
+          <div class="weaponSwap2 right" style="display: none;"></div>
+          <div class="weaponSwapMini left" style="display: block;">
+            <div class="miniIconContainer">
+              <img src="https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Aurumvorax.png?scale=1&amp;w=1&amp;h=4&amp;v=3a42eabd24a9a7b28903de3e53344b22" alt="" style="width: 17.3287px; height: 69px; top: 6px; left: 14.8357px;">
+            </div>
+          </div>
+          <div class="weaponSwapMini right" style="display: block;">
+            <div class="miniIconContainer">
+              <img src="https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5Unique.png?scale=1&amp;w=2&amp;h=3&amp;v=8e4e2fd787fdf7203f95165c70586bff" alt="" style="width: 35.0262px; height: 51.75px; top: 14.625px; left: 5.9869px;">
+            </div>
+          </div>
+
+            {{ $layoutType := "inventory" }}
+            {{ range .Items }}
+              {{ template "item" dict "LocalItem" . "LayoutType" $layoutType }}
+            {{ end }}
+
+        </div>
+      </div>
+    </div>
+{{ end }}

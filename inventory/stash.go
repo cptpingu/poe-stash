@@ -26,10 +26,11 @@ type Tab struct {
 
 // Layout is used for custom layout like currency.
 type Layout struct {
-	X float64
-	Y float64
-	W int
-	H int
+	Type LayoutType // Not mapped used internally.
+	X    float64    `json:"x"`
+	Y    float64    `json:"y"`
+	W    int        `json:"w"`
+	H    int        `json:"h"`
 }
 
 // StashTab holds all stash tabulations (thus all items).

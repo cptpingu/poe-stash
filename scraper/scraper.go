@@ -134,11 +134,11 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	// Get inventory of every characters found.
 	for _, character := range characters {
 		if !character.Expired {
-			inventory, errInventory := s.ScrapCharacterInventory(character.Name)
+			charInventory, errInventory := s.ScrapCharacterInventory(character.Name)
 			if errInventory != nil {
 				return nil, errInventory
 			}
-			data.Characters = append(data.Characters, inventory)
+			data.Characters = append(data.Characters, charInventory)
 		}
 	}
 

@@ -106,3 +106,12 @@ type HybridType struct {
 	Properties            []ItemProperty `json:"properties"`
 	ExplicitMods          []string       `json:"explicitMods"`
 }
+
+// LayoutType is the type of layout.
+type LayoutType string
+
+const (
+	DefaultLayout   LayoutType = ""
+	CurrencyLayout             = "currency"
+	InventoryLayout            = "inventory"
+)

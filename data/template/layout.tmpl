@@ -22,14 +22,17 @@
         height: 15px;
         overflow: hidden;
       }
-
       .activePanel {
         .stash {
             margin-top: 15px;
         }
       }
+      .customContainerPanel {
+        width: 600px;
+        float: left;
+      }
       .activePanel {
-        padding-top: 15px;
+        padding-top: 0px;
         width: 600px;
         float: left;
       }
@@ -64,6 +67,16 @@
       .newItemContainer {
         background-color: none;
       }
+      .inventoryManagerMenu {
+        min-height: inherit;
+      }
+      .inventoryManager {
+        width: 600px;
+      }
+      .characters {
+        width: 600px;
+        height: inherit !important;
+      }
     </style>
 
   </head>
@@ -72,11 +85,37 @@
 
     <div class="clear"><!-- --></div>
 
+    {{ range .Characters }}
+      {{ with .CharDesc }}
+      <div class="customContainerPanel">
+        <div class="inventoryManagerMenu">
+          <div class="characters">
+            <div class="character {{ if .LastActive }} active {{ end }}">
+              <div class="icon {{ .Class }}"></div>
+              <div class="infoLine1">
+                <span class="characterName">{{ .Name }}</span>
+              </div>
+              <div class="infoLine2">Level {{ .Level }} {{ .Class }}</div>
+              <div class="infoLine3">{{ .League }} League</div>
+            </div>
+          </div>
+        </div>
+        <small class="experience">XP: {{ .Experience }}</small>
+        {{ end }}
+        {{ template "inventory" . }}
+      </div>
+    {{ end }}
+
+    <div class="clear"><!-- --></div>
+
     {{ template "stash" . }}
 
     <div id="poe-popup-container">
-    {{ range .Stash}}
-        {{ template "itemdescwithsocket" . }}
+    {{ range .Stash }}
+      {{ template "itemdescwithsocket" . }}
+    {{ end }}
+    {{ range .Characters }}
+      {{ template "itemdescwithsocket" . }}
     {{ end }}
     </div>
 

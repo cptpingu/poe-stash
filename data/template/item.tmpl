@@ -1,13 +1,10 @@
 {{ define "item" }}
-            {{ $conv := .CurrencyLayout }}
-            {{ if .CurrencyLayout }}
-            <div class="stashTabContents poeScroll currencyStash" style="border-color: rgb(124, 84, 54);">
-            {{ else }}
-            <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
-            {{ end }}
-            {{ range .Items }}
+              {{ $item := .LocalItem }}
+              {{ $layout := .Layout }}
+              {{ $layoutType := .LayoutType }}
+              {{ with $item }}
               <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ .Width }} ipH{{ .Height }} {{ if not .IsIdentified }}unidentified{{ end }}"
-                style="position: absolute; left: {{ DeducePosX $conv .X .Y }}px; top: {{ DeducePosY $conv .X .Y }}px;">
+                style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px;">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
                   <div class="icon {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}" {{ GenSpecialBackground . | attr }}>
@@ -39,6 +36,21 @@
                   </div>
                 </div>
               </div>
+              {{ end }}
+{{ end }}
+
+{{ define "items" }}
+            {{ $layout := .CurrencyLayout }}
+            {{ $layoutType := "" }}
+            {{ if .CurrencyLayout }}
+              {{ $layoutType = "currency" }}
+              <div class="stashTabContents poeScroll currencyStash" style="border-color: rgb(124, 84, 54);">
+            {{ else }}
+              {{ $layoutType = "" }}
+              <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
+            {{ end }}
+            {{ range .Items }}
+             {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType }}
             {{ end }}
             </div>
 {{ end }}
