@@ -17,6 +17,7 @@
                       <div class="sockets numSockets{{ len .Sockets}}" style="display: block;">
                       {{ $prev := -1 }}
                       {{ $socket := .Sockets }}
+                      {{ $socketed := .SocketedItems }}
                       {{ range $idx, $elt := .Sockets}}
                         {{ if ge $prev 0 }}
                           {{ if eq (index $socket $idx).GroupId (index $socket $prev).GroupId }}
@@ -24,7 +25,8 @@
                           {{ end }}
                         {{ end }}
 
-                        <div class="socket {{ ColorToSocketClass $elt.Color }} {{ if and (lt $idx 4) (mod $idx 2) }} socketRight {{ end }}" alt="{{ .GroupId }}"></div>
+                        <div {{ SocketedId $idx $socketed }} class="socket {{ SocketedClass $idx $socketed }} {{ ColorToSocketClass $elt.Color }} {{ if and (lt $idx 4) (mod $idx 2) }} socketRight {{ end }}" alt="{{ .GroupId }}">
+                        </div>
 
                         {{ $prev = $idx }}
                       {{ end }}

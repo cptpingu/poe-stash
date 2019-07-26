@@ -10,6 +10,7 @@ type Item struct {
 	IsRelic             bool `json:"isRelic"`
 	IsElder             bool `json:"elder"`
 	IsShaper            bool `json:"shaper"`
+	IsAbyssJewel        bool `json:"abyssJewel"`
 
 	Width        int `json:"w"`
 	Height       int `json:"h"`
@@ -19,6 +20,7 @@ type Item struct {
 	X            int `json:"x"`
 	Y            int `json:"y"`
 	TalismanTier int `json:"talismanTier"`
+	SocketGroup  int `json:"socket"`
 
 	FrameType FrameType `json:"frameType"`
 
@@ -35,6 +37,7 @@ type Item struct {
 	ProphecyText           string `json:"prophecyText"`
 	ProphecyDifficultyText string `json:"prophecyDiffText"`
 	Note                   string `json:"note"`
+	SocketColor            string `json:"colour"`
 
 	Properties           []ItemProperty `json:"properties"`
 	AdditionalProperties []ItemProperty `json:"additionalProperties"`

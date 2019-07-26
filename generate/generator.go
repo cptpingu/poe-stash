@@ -41,6 +41,8 @@ func NewGenerator(writer io.Writer) Generator {
 		"PoEMarkup":            PoEMarkup,
 		"PoEMarkupLinesOnly":   PoEMarkupLinesOnly,
 		"ColorToSocketClass":   ColorToSocketClass,
+		"SocketedClass":        SocketedClass,
+		"SocketedId":           SocketedId,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
@@ -309,7 +311,42 @@ func ColorToSocketClass(color string) string {
 		return "socketInt"
 	case "W":
 		return "socketGen"
+	case "A":
+		return "socketAbyss"
 	default:
 		return ""
 	}
+}
+
+// SocketedClass computes if a socket contains an item
+// and construct everything needed to display it.
+func SocketedClass(idx int, socketedItems []inventory.Item) string {
+	if idx >= len(socketedItems) {
+		return ""
+	}
+	item := socketedItems[idx]
+	if item.IsAbyssJewel {
+		return "socketed abyssJewel"
+	}
+	switch item.SocketColor {
+	case "S":
+		return "socketed strGem"
+	case "D":
+		return "socketed dexGem"
+	case "I":
+		return "socketed intGem"
+	case "G":
+		return "socketed genGem"
+	default:
+		return "socketed"
+	}
+}
+
+// SocketedId computes id to attach mouseover to.
+func SocketedId(idx int, socketedItems []inventory.Item) template.HTMLAttr {
+	if idx >= len(socketedItems) {
+		return ""
+	}
+	item := socketedItems[idx]
+	return template.HTMLAttr(fmt.Sprintf(`id="item-%s"`, item.Id))
 }

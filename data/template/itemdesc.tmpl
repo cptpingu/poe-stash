@@ -1,5 +1,4 @@
 {{ define "itemdesc" }}
-          {{ range .Items }}
           <div id="item-{{ .Id }}-tooltip" style="display: none;">
             <div class="itemPopupContainer newItemPopup {{ ItemRarityType .FrameType }}">
 
@@ -244,5 +243,17 @@
             {{ end }}
             </div>
           </div>
+{{ end }}
+
+{{ define "itemdescwithsocket" }}
+          {{ range .Items }}
+            {{ template "itemdesc" . }}
+          {{ end }}
+
+          <!-- Socketed gems -->
+          {{ range .Items }}
+            {{ range .SocketedItems }}
+              {{ template "itemdesc" . }}
+            {{ end }}
           {{ end }}
 {{ end }}
