@@ -27,6 +27,7 @@ func main() {
 	realm := flag.String("realm", "pc", "the realm (pc, ps4, xbox)")
 	league := flag.String("league", "Standard", "league name (anarchy, legion, synthesis, delve...)")
 	output := flag.String("output", "-", "where to genreate html file (put \"-\" for stdin")
+	cache := flag.Bool("cache", false, "do not call distant api, and use local cache if possible")
 	flag.Parse()
 	mandatoryOption(*account, "account")
 	mandatoryOption(*poeSessID, "poesessid")
@@ -34,7 +35,7 @@ func main() {
 	mandatoryOption(*league, "league")
 	mandatoryOption(*output, "output")
 
-	scraper := scraper.NewScraper(*account, *poeSessID, *realm, *league)
+	scraper := scraper.NewScraper(*account, *poeSessID, *realm, *league, *cache)
 	data, errScrap := scraper.ScrapEverything()
 	if errScrap != nil {
 		fmt.Println("can't scrap data", errScrap)

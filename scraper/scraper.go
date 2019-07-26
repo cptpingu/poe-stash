@@ -47,9 +47,9 @@ type ScrapedData struct {
 }
 
 // NewScraper returns a configured scraper.
-func NewScraper(accountName, poeSessionID, realm, league string) *Scraper {
+func NewScraper(accountName, poeSessionID, realm, league string, cache bool) *Scraper {
 	return &Scraper{
-		cache:        true,
+		cache:        cache,
 		cacheDir:     DataCacheDir,
 		accountName:  accountName,
 		poeSessionID: poeSessionID,
