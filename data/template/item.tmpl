@@ -3,8 +3,26 @@
               {{ $layout := .Layout }}
               {{ $layoutType := .LayoutType }}
               {{ with $item }}
-              <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ .Width }} ipH{{ .Height }} {{ if not .IsIdentified }}unidentified{{ end }}"
-                style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px;">
+                {{ $width := .Width }}
+                {{ $height := .Height }}
+                {{ $visibility := "" }}
+                {{ $swap := "" }}
+                {{ if eq $layoutType "inventory" }}
+                  {{ if or (eq .InventoryId "Offhand") (eq .InventoryId "Weapon") }}
+                    {{ $width = 2 }}
+                    {{ $height = 4 }}
+                    {{ $swap = "swap2" }}
+                    {{ $visibility = "block" }}
+                  {{ end }}
+                  {{ if or (eq .InventoryId "Offhand2") (eq .InventoryId "Weapon2") }}
+                    {{ $width = 2 }}
+                    {{ $height = 4 }}
+                    {{ $swap = "swap1" }}
+                    {{ $visibility = "none" }}
+                  {{ end }}
+                {{ end }}
+              <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ $width }} ipH{{ $height }} {{ if not .IsIdentified }}unidentified{{ end }} {{ $swap }}"
+                style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px; display: {{ $visibility }};">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
                   <div class="icon {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}" {{ GenSpecialBackground . | attr }}>

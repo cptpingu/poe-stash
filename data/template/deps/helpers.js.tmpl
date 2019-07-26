@@ -1,0 +1,43 @@
+{{ define "helpers.js" }}
+    <script type="text/javascript">
+    function swapWeapon(id, action) {
+        var panel = document.getElementById(id);
+        if (panel == undefined) {
+            console.log('Unknow panel id:', id);
+            return;
+        }
+        var klasses1 = panel.getElementsByClassName('swap1');
+        if (klasses1 == undefined) {
+            console.log("Can't get classes: swap1");
+            return;
+        }
+        var klasses2 = panel.getElementsByClassName('swap2');
+        if (klasses2 == undefined) {
+            console.log("Can't get classes: swap2");
+            return;
+        }
+
+        switch (action) {
+            case 1:
+                for (var i = 0; i < klasses1.length; i++) {
+                    klasses1[i].style.display="none";
+                }
+                for (var i = 0; i < klasses2.length; i++) {
+                    klasses2[i].style.display="block";
+                }
+                break;
+            case 2:
+                for (var i = 0; i < klasses2.length; i++) {
+                    klasses2[i].style.display="none";
+                }
+                for (var i = 0; i < klasses1.length; i++) {
+                    klasses1[i].style.display="block";
+                }
+                break;
+            default:
+                console.log('unknow action:', action);
+                return;
+        }
+    }
+    </script>
+{{ end }}

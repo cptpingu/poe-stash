@@ -45,6 +45,7 @@ func NewGenerator(writer io.Writer) Generator {
 		"ColorToSocketClass":   ColorToSocketClass,
 		"SocketedClass":        SocketedClass,
 		"SocketedId":           SocketedId,
+		"AltWeaponImage":       AltWeaponImage,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
@@ -405,4 +406,36 @@ func SocketedId(idx int, socketedItems []inventory.Item) template.HTMLAttr {
 	}
 	item := socketedItems[idx]
 	return template.HTMLAttr(fmt.Sprintf(`id="item-%s"`, item.Id))
+}
+
+// AltWeaponImage returns the miniature image for alternative weapons.
+func AltWeaponImage(items []*inventory.Item, filter string) template.HTMLAttr {
+	for _, item := range items {
+		if item.InventoryId == filter {
+			top := 0.0
+			switch item.Height {
+			case 4:
+				top = 6
+			case 3:
+				top = 14.625
+			case 2:
+				top = 23.25
+			}
+			left := 0.0
+			switch item.Width {
+			case 2:
+				left = 5.9869
+			case 1:
+				left = 14.8357
+			}
+			return template.HTMLAttr(fmt.Sprintf(`src="%s" alt="" style="width: %fpx; height: %fpx; top: %fpx; left: %fpx;"`,
+				item.Icon,
+				float64(item.Width)*17.3287,
+				float64(item.Height)*17.25,
+				top,
+				left,
+			))
+		}
+	}
+	return ""
 }

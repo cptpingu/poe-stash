@@ -1,7 +1,7 @@
 {{ define "tooltips" }}
     <script type="text/javascript">
     <!-- Generate tooltip for stash items -->
-    {{ range .Stash}}
+    {{ range .Stash }}
       {{ range .Items }}
         {{ template "tooltip" . }}
         {{ range .SocketedItems }}
@@ -11,7 +11,7 @@
     {{ end }}
 
     <!-- Generate tooltip for characters inventory items -->
-    {{ range .Characters}}
+    {{ range .Characters }}
       {{ range .Items }}
         {{ template "tooltip" . }}
         {{ range .SocketedItems }}
