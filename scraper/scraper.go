@@ -143,7 +143,7 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	}
 
 	// Retrieves the stash of an account.
-	stash, errStash := s.ScrapWholeStash(11)
+	stash, errStash := s.ScrapWholeStash()
 	if errStash != nil {
 		return nil, errStash
 	}

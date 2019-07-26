@@ -40,9 +40,18 @@ func (s *Scraper) ScrapStash(indexID int) (*inventory.StashTab, error) {
 }
 
 // ScrapWholeStash scraps all tabs in a stash from the official website.
-func (s *Scraper) ScrapWholeStash(nbTab int) ([]*inventory.StashTab, error) {
+func (s *Scraper) ScrapWholeStash() ([]*inventory.StashTab, error) {
 	var stashTab []*inventory.StashTab
-	for i := 0; i <= nbTab; i++ {
+
+	// Scrap first stash to get the number of stash.
+	firstStash, err := s.ScrapStash(0)
+	if err != nil {
+		return nil, err
+	}
+	stashTab = append(stashTab, firstStash)
+
+	// Scrap the rest.
+	for i := 1; i < firstStash.NumTabs; i++ {
 		stash, err := s.ScrapStash(i)
 		if err != nil {
 			return nil, err
