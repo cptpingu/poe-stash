@@ -39,5 +39,102 @@
                 return;
         }
     }
+
+    var noSupport = "Your browser doesn't support local storage :'(";
+
+    function setPriceNote(id, price) {
+        if (typeof(Storage) !== "undefined") {
+            localStorage.setItem(id, price);
+        } else {
+            console.log(noSupport);
+            alert(noSupport);
+        }
+    }
+
+    function getPriceNote(id) {
+        if (typeof(Storage) !== "undefined") {
+            var price = localStorage.getItem(id);
+            if (price == undefined) {
+                return ""
+            }
+            return price;
+        } else {
+            console.log(noSupport);
+        }
+        return "";
+    }
+
+    function generateToolTipContent(id) {
+        var domTooltip = document.getElementById('item-' + id + '-tooltip');
+        if (domTooltip != undefined) {
+            var items = domTooltip.getElementsByClassName('customPriceContainer');
+            if (items.length > 0 && items[0] != undefined) {
+                var item = items[0];
+                var priceNote = getPriceNote('item-' + id);
+                if (priceNote != "") {
+                    var prices = item.getElementsByClassName('customPrice');
+                    if (prices.length > 0 && prices[0] != undefined) {
+                        var price = prices[0];
+                        item.style.display = 'block';
+                        price.innerHTML = priceNote;
+                    }
+                }
+            }
+            return domTooltip.innerHTML;
+        }
+        return "";
+    }
+
+    function updateToolTipContent(elt, id) {
+        elt.setContent(generateToolTipContent(id));
+    }
+
+    function openModal(id, objectName, objectAltName) {
+        var modal = document.getElementById('modal');
+        var container = document.getElementById('main-container');
+        var name = document.getElementById('item-name');
+        var submit = document.getElementById('modal-submit');
+
+        var header =  "";
+        if (objectName != "") {
+           header = objectName + " - ";
+        }
+        if (objectAltName != "") {
+            header += objectAltName;
+        }
+        name.innerHTML = header;
+        modal.className = "modal";
+        container.className = "desactivate";
+        submit.onclick = function(event) {
+            modal.className = "modal hidden";
+            container.className = "";
+            var modalPrice = document.getElementById('modal-price');
+            var modalCurrency = document.getElementById('modal-currency');
+            var currency = modalCurrency.options[modalCurrency.selectedIndex];
+            var note = "~price " + modalPrice.value + " " + currency.value;
+            setPriceNote(id, note);
+        }
+    }
+
+    function initModal() {
+        var modal = document.getElementById('modal');
+        var close = document.getElementById('closeModal');
+        var container = document.getElementById('main-container');
+
+        // Click on close button
+        close.onclick = function(event) {
+            modal.className = "modal hidden";
+            container.className = "";
+        }
+        // Click outside of the modal
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.className = "modal hidden";
+                container.className = "";
+            }
+        }
+    }
+
+    initModal();
     </script>
 {{ end }}

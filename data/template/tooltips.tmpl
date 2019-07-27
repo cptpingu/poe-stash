@@ -24,15 +24,21 @@
 
 {{ define "tooltip" }}
         tippy('#item-{{ .Id }}', {
-            animation: 'none',
+            animation: '',
             duration: 0,
+            delay: 0,
             arrow: false,
-            delay: [0],
             allowHTML: true,
+            inertia: false,
+            animateFill: true,
+            ignoreAttributes: true,
             placement: 'top',
-            hideOnClick: false,
+            hideOnClick: true,
             interactive: false,
             size: "large",
-            content: document.getElementById('item-{{ .Id }}-tooltip').innerHTML
+            content: generateToolTipContent('{{ .Id }}'),
+            onShow: function (elt) {
+              updateToolTipContent(elt, '{{ .Id }}');
+            },
         })
 {{ end }}

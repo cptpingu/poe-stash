@@ -22,7 +22,9 @@
                   {{ end }}
                 {{ end }}
               <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ $width }} ipH{{ $height }} {{ if not .IsIdentified }}unidentified{{ end }} {{ $swap }}"
-                style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px; display: {{ $visibility }};">
+                style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px; display: {{ $visibility }};"
+                data-desc="[some description]"
+                onclick="openModal('item-{{ .Id }}', '{{ .Name }}', '{{ .Type }}')">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
                   <div class="icon {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}" {{ GenSpecialBackground . | attr }}>
