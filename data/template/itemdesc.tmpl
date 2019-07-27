@@ -40,7 +40,7 @@
             {{ else }}
 
               <div class="itemBoxContent">
-                <div class="itemHeader {{ ItemRarityHeight .FrameType }} {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}">
+                <div class="itemHeader {{ ItemRarityHeight .FrameType }} {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }} {{ if .IsVeiled }}veiled{{ end }}">
                   <span class="l"></span>
                   {{ if .Name }}
                   <div class="itemName">
@@ -141,6 +141,14 @@
                         {{ range .CraftedMods }}
                         <div class="craftedMod">
                           <span class="s">{{ . }}</span>
+                        </div>
+                        {{ end }}
+                      {{ end }}
+
+                      {{ if and .IsVeiled .VeiledMods }}
+                        {{ range .VeiledMods }}
+                        <div class="veiledMod">
+                          <span class="lc suffix suffix02">Veiled Suffix</span>
                         </div>
                         {{ end }}
                       {{ end }}

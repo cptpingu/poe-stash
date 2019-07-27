@@ -11,6 +11,7 @@ type Item struct {
 	IsElder             bool `json:"elder"`
 	IsShaper            bool `json:"shaper"`
 	IsAbyssJewel        bool `json:"abyssJewel"`
+	IsVeiled            bool `json:"veiled"`
 
 	Width        int `json:"w"`
 	Height       int `json:"h"`
@@ -52,6 +53,7 @@ type Item struct {
 	EnchantMods  []string `json:"enchantMods"`
 	CraftedMods  []string `json:"craftedMods"`
 	CosmeticMods []string `json:"cosmeticMods"`
+	VeiledMods   []string `json:"veiledMods"`
 	FlavorText   []string `json:"flavourText"`
 
 	Category Category   `json:"category"`
