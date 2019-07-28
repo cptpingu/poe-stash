@@ -1,0 +1,196 @@
+{{ define "style.css" }}
+    <style type="text/css">
+      .clear {
+        clear: both;
+        height: 15px;
+        overflow: hidden;
+      }
+      .activePanel {
+        .stash {
+            margin-top: 15px;
+        }
+      }
+      .customContainerPanel {
+        width: 600px;
+        float: left;
+      }
+      .activePanel {
+        padding-top: 0px;
+        width: 600px;
+        float: left;
+      }
+      .tabWindow {
+          position: relative;
+          top: 140px;
+      }
+      .stashTabContainer .tabsOverflow {
+          height: inherit;
+          bottom: 0px;
+          left: 50px;
+      }
+      .stashPanel .stashTabContents {
+          margin-top: 145px;
+          margin-left: 15px;
+          width: 575px;
+          height: 575px;
+      }
+      .tippy-backdrop {
+        background-color: transparent;
+      }
+      .tippy-tooltip[data-size="large"] {
+        padding: .375rem .75rem;
+        font-size: 1.3rem;
+      }
+      .tippy-popper {
+        max-width: inherit;
+      }
+      .tippy-tooltip {
+        max-width: inherit !important;
+      }
+      .newItemContainer {
+        background-color: none;
+      }
+      .inventoryManagerMenu {
+        min-height: inherit;
+      }
+      .inventoryManagerMenu .characters {
+        overflow: hidden;
+      }
+      .inventoryManager {
+        width: 600px;
+      }
+      .characters {
+        width: 600px;
+        height: inherit !important;
+      }
+      #header {
+        color: #F7CC8E;
+        height: 100px;
+        padding-top: 10px;
+        margin: auto;
+        text-align: center;
+        font-size: 60px;
+        font-family: "FontinSmallCaps",Verdana,Arial,Helvetica,sans-serif;
+        -webkit-text-stroke: 1px #5a3806;
+        text-shadow:
+        3px 3px 0 #886437,
+        -1px -1px 0 #886437,
+        1px -1px 0 #886437,
+        -1px 1px 0 #886437,
+        1px 1px 0 #886437;
+      }
+      #modal {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+        -webkit-transition: 0.5s;
+        overflow: auto;
+        transition: all 0.3s linear;
+        font-family: "FontinRegular";
+        background: rgba(0, 0, 0, 0.7);
+      }
+      .hidden {
+        display: none;
+      }
+      .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+        padding: 20px;
+        border-radius: 4px;
+        width: 400px;
+        background: #191A17 url('https://www.pathofexile.com/image/profile/profile-full.jpg?1563488658105') no-repeat top left;
+      }
+      .close {
+        background-position: 0 0;
+        height: 25px;
+        width: 25px;
+        background-image: url('https://www.pathofexile.com/image/UI/button/close-normal.png?1563488599694');
+        border: 0px none;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      .close:hover, .close:focus {
+        text-decoration: none;
+        cursor: pointer;
+        background-image: url('https://www.pathofexile.com/image/UI/button/close-hover.png?1563488599694');
+      }
+      .desactivate {
+        overflow: hidden;
+      }
+      .button {
+        color: #e9cf9f;
+        border: 1px solid #886437;
+        background-color: #5a3806;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: #774c0d;
+      }
+      #modal-price {
+        border: 1px solid #a0a0d0;
+        background: #1e2124;
+        color: #e2e2e2;
+        padding: 1px 4px;
+        min-height: 20px;
+        line-height: 20px;
+      }
+      #modal-currency {
+        color: #e2e2e2;
+        background: #1e2124;
+        border: 1px solid #a0a0d0;
+        padding: 1px 4px;
+        min-height: 20px;
+        line-height: 20px;
+      }
+      #modal-submit {
+        min-height: 20px;
+        line-height: 20px;
+      }
+      #confirm {
+        display: block;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        z-index: 90;
+        padding: 20px;
+        border-radius: 4px;
+        width: 400px;
+        background: #191A17 url('https://www.pathofexile.com/image/profile/profile-full.jpg?1563488658105') no-repeat top left;
+      }
+      .link {
+        text-decoration: underline;
+      }
+      .openAnimation {
+        -webkit-animation: moverTopBottom 500ms forwards;
+        animation: moverTopBottom 500ms forwards;
+      }
+      .closeAnimation {
+        -webkit-animation: moverBottomTop 500ms forwards;
+        animation: moverBottomTop 500ms forwards;
+      }
+      @-webkit-keyframes moverTopBottom {
+        0% { transform: translateY(-200px); }
+        100% { transform: translateY(0px); }
+      }
+      @keyframes moverTopBottom {
+        0% { transform: translateY(-200px); }
+        100% { transform: translateY(0px); }
+      }
+      @-webkit-keyframes moverBottomTop {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-200px); }
+      }
+      @keyframes moverBottomTop {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-200px); }
+      }
+    </style>
+{{ end }}

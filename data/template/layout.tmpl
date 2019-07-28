@@ -16,123 +16,14 @@
     <link href="https://web.poecdn.com/css/modern.css?v=c571aeb7e2c00c2a74e2aa02ff18d280" media="screen" rel="stylesheet" type="text/css" >
     <link href="https://web.poecdn.com/css/screen.css?v=725177c3224f3ebe36afd325d363f4a9" media="screen" rel="stylesheet" type="text/css" >
 
-    <style type="text/css">
-      .clear {
-        clear: both;
-        height: 15px;
-        overflow: hidden;
-      }
-      .activePanel {
-        .stash {
-            margin-top: 15px;
-        }
-      }
-      .customContainerPanel {
-        width: 600px;
-        float: left;
-      }
-      .activePanel {
-        padding-top: 0px;
-        width: 600px;
-        float: left;
-      }
-      .tabWindow {
-          position: relative;
-          top: 140px;
-      }
-      .stashTabContainer .tabsOverflow {
-          height: inherit;
-          bottom: 0px;
-          left: 50px;
-      }
-      .stashPanel .stashTabContents {
-          margin-top: 145px;
-          margin-left: 15px;
-          width: 575px;
-          height: 575px;
-      }
-      .tippy-backdrop {
-        background-color: transparent;
-      }
-      .tippy-tooltip[data-size="large"] {
-        padding: .375rem .75rem;
-        font-size: 1.3rem;
-      }
-      .tippy-popper {
-        max-width: inherit;
-      }
-      .tippy-tooltip {
-        max-width: inherit !important;
-      }
-      .newItemContainer {
-        background-color: none;
-      }
-      .inventoryManagerMenu {
-        min-height: inherit;
-      }
-      .inventoryManagerMenu .characters {
-        overflow: hidden;
-      }
-      .inventoryManager {
-        width: 600px;
-      }
-      .characters {
-        width: 600px;
-        height: inherit !important;
-      }
-      #modal {
-        display: block;
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 9999;
-        width: 100%;
-        height: 100%;
-        padding-top: 100px;
-        -webkit-transition: 0.5s;
-        overflow: auto;
-        transition: all 0.3s linear;
-        font-family: "FontinRegular";
-        background: rgba(0, 0, 0, 0.7);
-      }
-      .hidden {
-        display: none;
-      }
-      .modal-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) !important;
-        padding: 20px;
-        border-radius: 4px;
-        width: 400px;
-        background: #191A17 url('https://www.pathofexile.com/image/profile/profile-full.jpg?1563488658105') no-repeat top left;
-      }
-      .close {
-        background-position: 0 0;
-        height: 25px;
-        width: 25px;
-        background-image: url('https://www.pathofexile.com/image/UI/button/close-normal.png?1563488599694');
-        border: 0px none;
-        position: absolute;
-        top: 10px;
-        left: 370px;
-      }
-      .close:hover, .close:focus {
-        text-decoration: none;
-        cursor: pointer;
-        background-image: url('https://www.pathofexile.com/image/UI/button/close-normal.png?1563488599694');
-      }
-      .desactivate {
-        overflow: hidden;
-      }
-    </style>
-
+    {{ template "style.css" }}
   </head>
   <body>
   <div id="main-container" />
+    <div id="header">PoE Stash</div>
+
     <div><b>Wealth:</b> {{ .Wealth }} </div>
-    <button onclick="generateShop()">Generate items shop</button>
+    <button class="button" onclick="generateShop()">Generate items shop</button>
 
     <div class="clear"><!-- --></div>
 
@@ -171,23 +62,7 @@
     </div>
   </div>
 
-  <div id="modal" class="modal hidden">
-    <div class="modal-content">
-      <div id="closeModal" class="close">&nbsp;</div>
-      <h2 id="item-name">#object name</h2>
-      <div class="clear"><!-- --></div>
-      <div style="display: table">
-        <input id="modal-price" type="text" name="price" value="" />
-        <select id="modal-currency" style="display: table-cell">
-          <option value="exa">Exalted orb</option>
-          <option value="chaos" selected="selected">Chaos orb</option>
-          <option value="alch">Alchemy orb</option>
-        </select>
-        <input style="display: table-cell" id="modal-submit" type="button" value="Set price" />
-      </div>
-    </div>
-  </div>
-  </div>
+  {{ template "modals" . }}
 
   {{ template "popper.js" }}
   {{ template "tippy.js" }}

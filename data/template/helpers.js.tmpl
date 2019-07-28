@@ -176,6 +176,21 @@
         }
         text += "This shop has been generated with poe-stash v0.1\n";
         copyStringToClipboard(text);
+        openAlert();
+    }
+
+    function openAlert() {
+        var confirm = document.getElementById('confirm');
+        if (confirm != undefined) {
+            confirm.className = 'openAnimation';
+        }
+    }
+
+    function closeAlert() {
+        var confirm = document.getElementById('confirm');
+        if (confirm != undefined) {
+            confirm.className = 'closeAnimation';
+        }
     }
 
     initModal();

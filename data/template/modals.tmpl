@@ -1,0 +1,30 @@
+{{ define "modals" }}
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <div id="closeModal" class="close">&nbsp;</div>
+      <h2 id="item-name">#object name</h2>
+      <div class="clear"><!-- --></div>
+      <div style="display: table">
+        <input id="modal-price" type="text" name="price" value="" />
+        <select id="modal-currency" style="display: table-cell">
+          <option value="exa">Exalted orb</option>
+          <option value="chaos" selected="selected">Chaos orb</option>
+          <option value="alch">Alchemy orb</option>
+        </select>
+        <input style="display: table-cell" id="modal-submit" class="button" type="button" value="Set price" />
+      </div>
+    </div>
+  </div>
+
+  <div id="confirm" class="hidden closeAnimation" role="alert">
+    <p><strong>Your shop has been created!</strong></p>
+    <p>
+      Everything has been copied into your clipboard.
+      Now go on the official forum and paste the code.
+    </p>
+    <p>
+      Go to: <a class="link" href="https://www.pathofexile.com/forum/view-forum/standard-trading-shops">Official trade forum</a>
+    </p>
+    <div id="closeAlert" class="close" onclick="closeAlert()">&nbsp;</div>
+  </div>
+{{ end }}
