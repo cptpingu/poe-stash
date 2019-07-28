@@ -28,8 +28,9 @@
           </div>
 
             {{ $layoutType := "inventory" }}
+            {{ $charName := .CharDesc.Name }}
             {{ range .Items }}
-              {{ template "item" dict "LocalItem" . "LayoutType" $layoutType }}
+              {{ template "item" dict "LocalItem" . "LayoutType" $layoutType "CharName" $charName}}
             {{ end }}
 
         </div>

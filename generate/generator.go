@@ -47,6 +47,7 @@ func NewGenerator(writer io.Writer) Generator {
 		"SocketedClass":        SocketedClass,
 		"SocketedId":           SocketedId,
 		"AltWeaponImage":       AltWeaponImage,
+		"SellDescription":      SellDescription,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
@@ -465,4 +466,14 @@ func AltWeaponImage(items []*inventory.Item, filter string) template.HTMLAttr {
 		}
 	}
 	return ""
+}
+
+// SellDescription generates the text for the trade forum.
+func SellDescription(item inventory.Item, charName string) string {
+	desc := ""
+	if !strings.HasPrefix(item.InventoryId, "Stash") {
+		desc = ` character="` + charName + `"`
+	}
+	return fmt.Sprintf(`[linkItem location=%s%s league="%s" x="%d" y="%d"]`,
+		item.InventoryId, desc, item.League, item.X, item.Y)
 }

@@ -2,6 +2,8 @@
               {{ $item := .LocalItem }}
               {{ $layout := .Layout }}
               {{ $layoutType := .LayoutType }}
+              {{ $charName := .CharName }}
+
               {{ with $item }}
                 {{ $width := .Width }}
                 {{ $height := .Height }}
@@ -23,7 +25,7 @@
                 {{ end }}
               <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ $width }} ipH{{ $height }} {{ if not .IsIdentified }}unidentified{{ end }} {{ $swap }}"
                 style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px; display: {{ $visibility }};"
-                data-desc="[some description]"
+                data-sell="{{ SellDescription . $charName }}"
                 onclick="openModal('item-{{ .Id }}', '{{ .Name }}', '{{ .Type }}')">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
@@ -74,7 +76,7 @@
               <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
             {{ end }}
             {{ range .Items }}
-             {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType }}
+             {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType "CharName" "NoCharNameNeededHere" }}
             {{ end }}
             </div>
 {{ end }}

@@ -135,6 +135,49 @@
         }
     }
 
+    function copyStringToClipboard(str) {
+        var el = document.createElement('textarea');
+        el.value = str;
+        // Set non-editable to avoid focus and move outside of view
+        el.setAttribute('readonly', '');
+        el.style = {position: 'absolute', left: '-9999px'};
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+    }
+
+    function generateShop() {
+        var dict = {};
+        var items = document.getElementsByClassName('newItemContainer');
+        // Retrieve all sellable objects
+        for (var i = 0; i < items.length; i++) {
+            var desc = items[i].getAttribute("data-sell");
+            if (desc != undefined) {
+                var price = getPriceNote(items[i].id);
+                if (price != "") {
+                    if (dict[price] == undefined) {
+                        dict[price] = [];
+                    }
+                    dict[price].push(desc);
+                }
+            }
+        }
+
+        // Construct shop list regrouped by prices
+        var text = 'Welcome to my shop !\n';
+        for (var price in dict) {
+            text += '[spoiler="' + price + '"]\n';
+            var items = dict[price];
+            for (var i = 0; i < items.length; i++) {
+                text += items[i] + "\n";
+            }
+            text += "[/spoiler]\n";
+        }
+        text += "This shop has been generated with poe-stash v0.1\n";
+        copyStringToClipboard(text);
+    }
+
     initModal();
     </script>
 {{ end }}
