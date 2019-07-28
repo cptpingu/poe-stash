@@ -1,11 +1,14 @@
 package main
 
 import (
+	"flag"
+	"fmt"
 	"html/template"
 
 	"github.com/gin-gonic/gin"
 
 	"gitlab.perso/poe-stash/cmd/server/page"
+	"gitlab.perso/poe-stash/generate"
 	"gitlab.perso/poe-stash/scraper"
 )
 
@@ -13,15 +16,10 @@ import (
 func setupRouter() *gin.Engine {
 	router := gin.Default()
 
-	t, err := template.ParseFiles(
-		"data/template/main.tmpl",
-		"data/template/redirect.tmpl",
-		"data/template/error.tmpl",
-	)
-	if err != nil {
-		panic(err)
-	}
+	t := template.Must(generate.LoadAllTemplates())
 	router.SetHTMLTemplate(t)
+	// router.Use(errorHandler)
+	router.NoRoute(page.CustomErrorHandler)
 
 	router.Static("/data", scraper.DataDir)
 	router.GET("/", page.MainPageHandler)
@@ -40,6 +38,8 @@ func setupRouter() *gin.Engine {
 // This server allows to generate and view account characters,
 // stash and items for given users.
 func main() {
+	port := flag.Int("port", 2121, "port")
+	flag.Parse()
 	r := setupRouter()
-	r.Run(":2121")
+	r.Run(fmt.Sprintf(":%d", *port))
 }

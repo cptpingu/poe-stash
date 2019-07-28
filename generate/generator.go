@@ -31,7 +31,15 @@ type Generator struct {
 
 // NewGenerator constructs a new generator.
 func NewGenerator(writer io.Writer) Generator {
-	t := template.Must(findAndParseTemplates(templateDir, ".tmpl", template.FuncMap{
+	return Generator{
+		writer:   writer,
+		template: template.Must(LoadAllTemplates()),
+	}
+}
+
+// LoadAllTemplates load all templates.
+func LoadAllTemplates() (*template.Template, error) {
+	return FindAndParseTemplates(templateDir, ".tmpl", template.FuncMap{
 		"DeducePosX":           DeducePosX,
 		"DeducePosY":           DeducePosY,
 		"ItemRarityType":       ItemRarityType,
@@ -83,11 +91,7 @@ func NewGenerator(writer io.Writer) Generator {
 			}
 			return dict, nil
 		},
-	}))
-	return Generator{
-		writer:   writer,
-		template: t,
-	}
+	})
 }
 
 // WordWrap take string and apply an html wordwrap on it.
@@ -107,8 +111,8 @@ func WordWrap(s string) template.HTML {
 	return template.HTML(res)
 }
 
-// findAndParseTemplates find all templates and initialize a template with it.
-func findAndParseTemplates(rootDir, ext string, funcMap template.FuncMap) (*template.Template, error) {
+// FindAndParseTemplates find all templates and initialize a template with it.
+func FindAndParseTemplates(rootDir, ext string, funcMap template.FuncMap) (*template.Template, error) {
 	cleanRoot := filepath.Clean(rootDir)
 	pfx := len(cleanRoot) + 1
 	root := template.New("")
@@ -140,7 +144,7 @@ func findAndParseTemplates(rootDir, ext string, funcMap template.FuncMap) (*temp
 
 // GenerateHTML generates HTML from scraped data.
 func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
-	return g.template.ExecuteTemplate(g.writer, "layout", data)
+	return g.template.ExecuteTemplate(g.writer, "profile", data)
 }
 
 // DeducePosX transforms relative stash position in

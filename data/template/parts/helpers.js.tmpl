@@ -193,6 +193,24 @@
         }
     }
 
+    function formatSubmit() {
+        var account = document.getElementById('account');
+        if (account == undefined) {
+            console.log("Can't get account!");
+            return;
+        }
+        var poesessid = document.getElementById('poesessid');
+        if (poesessid == undefined) {
+            console.log("Can't get poesessid!");
+            return;
+        }
+        console.log(account);
+        console.log(account.value);
+        console.log(poesessid);
+        console.log(poesessid.value);
+        window.location.href = "/gen/" + account.value + "/" + poesessid.value;
+    }
+
     initModal();
     </script>
 {{ end }}
