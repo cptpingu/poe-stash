@@ -4,9 +4,12 @@
     <div id="main-page">
       <div>
       <h1>Existing accounts</h2>
-      <ul>
+      <ul class="accounts">
         {{ range . }}
-        <li><a href="/view/{{ . }}">{{ . }}</a></li>
+        <li>
+            <a href="/view/{{ . }}">{{ . }}</a>
+            <button title="Refresh" class="refresh" onclick="redirectToGen('{{ . }}', '')"></button>
+        </li>
         {{ end }}
       </ul>
       </div>
@@ -16,6 +19,10 @@
         <form action="/gen" method="GET">
           <input id="account" class="input-text" type="text" name="account" value="" placeholder="Account Name" />
           <input id="poesessid" class="input-text" type="text" name="poesessid" value="" placeholder="PoE sessid" />
+          <select id="league" class="dropdown" type="text" name="league">
+            <option value="standard" selected="selected">Standard</option>
+            <option value="legion">Legion</option>
+          </select>
           <input type="button" class="button button-submit" onclick="formatSubmit()" value="Generate" />
         </form>
       </div>

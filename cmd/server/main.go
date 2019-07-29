@@ -18,7 +18,6 @@ func setupRouter() *gin.Engine {
 
 	t := template.Must(generate.LoadAllTemplates())
 	router.SetHTMLTemplate(t)
-	// router.Use(errorHandler)
 	router.NoRoute(page.CustomErrorHandler)
 
 	router.Static("/data", scraper.DataDir)
@@ -29,7 +28,7 @@ func setupRouter() *gin.Engine {
 		"***":  "***",
 		"****": "****",
 	}))
-	authorized.GET("/gen/:account/:poesessid", page.GenAccountHandler)
+	authorized.GET("/gen/:account", page.GenAccountHandler)
 
 	return router
 }

@@ -63,6 +63,56 @@
         width: 600px;
         height: inherit !important;
       }
+      .accounts li {
+        display: table;
+        background: url('https://www.pathofexile.com/image/gen/inventory-sprite.png?1562824100090') no-repeat;
+        background-position: -80px -109px;
+        height: 31px;
+        width: 200px;
+        padding-left: 15px;
+        padding-top: 6px;
+      }
+      .accounts li a {
+        font-family: "FontinSmallCaps",Verdana,Arial,Helvetica,sans-serif;
+        text-decoration: none;
+        display: table-cell;
+        width: 100%;
+      }
+      .accounts li a:hover {
+        color: #eCcBa9;
+      }
+      .refresh {
+        background: url('https://www.pathofexile.com/image/gen/trade.png?1563952712425') no-repeat;
+        background-size: 286px 253px;
+        background-position: -255px -124px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        border: 0;
+        top: -4px;
+        position: relative;
+        right: 2px;
+      }
+      .refresh:hover {
+        -webkit-animation-name: rotate;
+        -webkit-animation-duration:500ms;
+        -webkit-animation-iteration-count:1;
+        -webkit-animation-timing-function:linear;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-name: rotate;
+        -moz-animation-duration:500ms;
+        -moz-animation-iteration-count:1;
+        -moz-animation-timing-function:linear;
+        -moz-animation-fill-mode: forwards;
+      }
+      @-webkit-keyframes rotate {
+        from {-webkit-transform:rotate(0deg);}
+        to {  -webkit-transform:rotate(90deg);}
+      }
+      @-moz-keyframes rotate {
+        from {-moz-transform:rotate(0deg);}
+        to {  -moz-transform:rotate(90deg);}
+      }
       #header {
         color: #F7CC8E;
         height: 100px;
@@ -104,9 +154,6 @@
         border: 1px solid #A38D6D;
         padding: 10px;
         border-radius: 4px;
-      }
-      #main-page a {
-        text-decoration: underline;
       }
       #modal {
         display: block;

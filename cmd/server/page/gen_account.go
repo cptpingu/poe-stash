@@ -2,6 +2,8 @@ package page
 
 import (
 	"bufio"
+	"fmt"
+	"io/ioutil"
 	"net/http"
 	"os"
 
@@ -17,16 +19,29 @@ func GenAccountHandler(c *gin.Context) {
 	_ = user
 
 	account := c.Params.ByName("account")
-	poeSessID := c.Params.ByName("poesessid")
+	poeSessID := ""
 	realm := "pc"
 	league := "Standard"
 
 	query := c.Request.URL.Query()
+	if param, ok := query["poesessid"]; ok {
+		poeSessID = param[0]
+	}
 	if param, ok := query["realm"]; ok {
 		realm = param[0]
 	}
 	if param, ok := query["league"]; ok {
 		league = param[0]
+	}
+
+	// It could be a refresh, try to deduce it from previous run.
+	if poeSessID == "" {
+		fmt.Println("no poesessid for account ", account, ", let's deduce it!")
+		if sess, errFile := ioutil.ReadFile(scraper.DataCacheDir + account + ".poesessid"); errFile != nil {
+			fmt.Println("can't find any cached poesessid for account", account)
+		} else {
+			poeSessID = string(sess)
+		}
 	}
 
 	scrap := scraper.NewScraper(account, poeSessID, realm, league, false)
@@ -55,5 +70,11 @@ func GenAccountHandler(c *gin.Context) {
 		return
 	}
 	w.Flush()
+
+	// Everything is fine, let's store the poeSessID.
+	if errFile := ioutil.WriteFile(scraper.DataCacheDir+account+".poesessid", []byte(poeSessID), 0644); errFile != nil {
+		// Non fatal error, storing the session is not mandatory.
+		fmt.Println("error occured:", errFile)
+	}
 	c.HTML(http.StatusOK, "redirect", "/view/"+account)
 }

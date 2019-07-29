@@ -12,12 +12,13 @@ go get github.com/raggaer/respoe/...
 
 TODO
  Nice xp bar
- List all accounts on website by parsing *.html
- Forum post generation
  Individual item generation?
+ Ctrl+c or button to copy item char for poe price? "Estimate plz" button ?
  Wealth improvements
- Retrieve local storage price to fill modal
- Better desin of the modal (+ change close button hover)
- Real clickable header to go to the home page
+ Retrieve local storage price to fill modal (using the last value is fine, for new item)
  League and realm choose on generation
  Add hidden comment to mark the version used to generate file
+ Stash custom name (in the first object listed)
+ Wait animation + disable when generating or refreshing
+ Bug divine vessel
+ Bug flask
