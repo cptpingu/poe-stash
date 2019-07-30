@@ -70,12 +70,22 @@
             {{ $layout := .CurrencyLayout }}
             {{ $layoutType := "" }}
             {{ if .CurrencyLayout }}
+              {{ $layout = .CurrencyLayout }}
               {{ $layoutType = "currency" }}
               <div class="stashTabContents poeScroll currencyStash" style="border-color: rgb(124, 84, 54);">
+            {{ else if .FragmentLayout }}
+              {{ $layout = .FragmentLayout }}
+              {{ $layoutType = "fragment" }}
+              <div class="stashTabContents poeScroll fragmentStash" style="border-color: rgb(124, 84, 54);">
+            {{ else if .MapLayout }}
+              {{ $layout = .MapLayout }}
+              {{ $layoutType = "map" }}
+              <div class="stashTabContents poeScroll mapStash" style="border-color: rgb(124, 84, 54);">
             {{ else }}
               {{ $layoutType = "" }}
               <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
             {{ end }}
+
             {{ range .Items }}
              {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType "CharName" "NoCharNameNeededHere" }}
             {{ end }}

@@ -35,9 +35,11 @@ type Layout struct {
 
 // StashTab holds all stash tabulations (thus all items).
 type StashTab struct {
-	NumTabs        int               `json:"numTabs"`
-	Items          []Item            `json:"items"`
-	CurrencyLayout map[string]Layout `json:"currencyLayout"`
+	NumTabs        int                `json:"numTabs"`
+	Items          []Item             `json:"items"`
+	CurrencyLayout map[string]Layout  `json:"currencyLayout"`
+	FragmentLayout map[string]Layout  `json:"fragmentLayout"`
+	MapLayout      *map[string]Layout `json:"mapLayout"`
 }
 
 func (s *StashTab) String() string {

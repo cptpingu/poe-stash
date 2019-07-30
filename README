@@ -12,13 +12,13 @@ go get github.com/raggaer/respoe/...
 
 TODO
  Nice xp bar
- Individual item generation?
- Ctrl+c or button to copy item char for poe price? "Estimate plz" button ?
+ More rigourous item description generation
  Wealth improvements
  Retrieve local storage price to fill modal (using the last value is fine, for new item)
  League and realm choose on generation
  Add hidden comment to mark the version used to generate file
  Stash custom name (in the first object listed)
- Wait animation + disable when generating or refreshing
- Bug divine vessel
- Bug flask
+ Wait animation + disable when generating or refreshing whole account from the main page
+ Bug divine vessel size in fragments layout
+ Bug divine vessel description
+ Bug flask description

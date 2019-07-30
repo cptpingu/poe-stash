@@ -157,6 +157,12 @@ func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layo
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.X
 		}
+	case inventory.FragmentLayout:
+		if value, ok := layout[strconv.Itoa(x)]; ok {
+			return value.X
+		}
+	case inventory.MapLayout:
+		return 0
 	case inventory.InventoryLayout:
 		key := inventoryId + "X"
 		switch inventoryId {
@@ -184,6 +190,12 @@ func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layo
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.Y
 		}
+	case inventory.FragmentLayout:
+		if value, ok := layout[strconv.Itoa(x)]; ok {
+			return value.Y
+		}
+	case inventory.MapLayout:
+		return 0
 	case inventory.InventoryLayout:
 		key := inventoryId + "Y"
 		switch inventoryId {
