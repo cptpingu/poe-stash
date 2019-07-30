@@ -37,6 +37,7 @@ type Layout struct {
 type StashTab struct {
 	NumTabs        int                `json:"numTabs"`
 	Items          []Item             `json:"items"`
+	Tabs           []Tab              `json:"tabs"`
 	CurrencyLayout map[string]Layout  `json:"currencyLayout"`
 	FragmentLayout map[string]Layout  `json:"fragmentLayout"`
 	MapLayout      *map[string]Layout `json:"mapLayout"`
