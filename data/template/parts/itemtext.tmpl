@@ -1,0 +1,161 @@
+{{- define "itemtext" }}
+Rarity: {{ ItemRarity .FrameType }}
+
+  {{- if .ArtFilename }}
+{{.Type }}
+--------
+Stack Size: {{ .StackSize }}/{{- .MaxStackSize }}
+--------
+    {{- range .ExplicitMods }}
+{{ PoEMarkup . }}
+    {{- end }}
+--------
+{{ PoEMarkupLinesOnly .FlavorText }}
+  {{- else }}
+    {{- if .Name }}
+{{ .Name }}
+{{ .Type }}
+    {{- else if .Hybrid.IsVaalGem }}
+{{ .Hybrid.BaseTypeName }}
+    {{- else }}
+{{ .Type }}
+    {{- end }}
+
+    {{- if .Properties }}
+--------
+    {{- range .Properties }}
+{{.Name }}{{ if gt (len .Values) 0 }}: {{ end }}
+      {{- range .Values }}
+      {{- index . 0 }}{{ AugmentedType (index . 1) }}
+      {{- end }}
+    {{- end }}
+
+      {{- if .Requirements }}
+--------
+Requirements:
+        {{- range .Requirements }}
+{{ .Name }}
+          {{- range .Values }}: {{ index . 0 }}{{ AugmentedType (index . 1) }}{{- end }}
+        {{- end }}
+      {{- end }}
+--------
+Sockets: {{ if .Sockets }}
+    {{- $prev := -1 }}
+    {{- $socket := .Sockets }}
+    {{- range $idx, $elt := .Sockets}}
+      {{- /* Check if current socket is in the same group has the previous one. */}}
+      {{- if ge $prev 0 }}
+        {{- if eq (index $socket $idx).GroupId (index $socket $prev).GroupId }}-{{ else }} {{ end }}
+      {{- end }}{{ $elt.Color }}
+      {{- $prev = $idx }}
+    {{- end }}
+  {{- end }}
+
+      {{- if .ItemLevel }}
+--------
+Item Level: {{ .ItemLevel }}
+      {{- end }}
+--------
+      {{- if .ImplicitMods }}
+        {{- range .ImplicitMods }}
+{{ . }}
+        {{- end }}
+      {{- end }}
+
+      {{- if .SecondDescriptionText }}
+{{ .SecondDescriptionText }}
+      {{- end }}
+
+      {{- if .EnchantMods }}
+        {{- range .EnchantMods }}
+{{ . }}
+        {{- end }}
+      {{- end }}
+
+      {{- if not .IsIdentified }}
+unidentified
+      {{- else }}
+        {{- if .ExplicitMods }}
+          {{- range .ExplicitMods }}
+{{ . }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+
+      {{- if .CraftedMods }}
+        {{- range .CraftedMods }}
+{{ . }}
+        {{- end }}
+      {{- end }}
+
+      {{- if and .IsVeiled .VeiledMods }}
+        {{- range .VeiledMods }}
+Veiled
+        {{- end }}
+      {{- end }}
+
+      {{- if .Hybrid.IsVaalGem }}
+        {{- $name := .Type }}
+        {{- with .Hybrid }}
+{{ $name }}
+
+          {{- if .SecondDescriptionText }}
+{{ .SecondDescriptionText }}
+          {{- end }}
+
+          {{- if .Properties }}
+            {{- range .Properties }}
+              {{- .Name }} {{- if gt (len .Values) 0 }} : {{- end }}
+                {{- range .Values }}
+{{ index . 0 }}
+                {{- end }}
+            {{- end }}
+          {{- end }}
+
+          {{- if .ExplicitMods }}
+            {{- range .ExplicitMods }}
+{{ . }}
+            {{- end }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+
+      {{- if .AdditionalProperties }}
+        {{- $prop := index .AdditionalProperties 0 }}
+        {{- index (index $prop.Values 0) 0 }}
+      {{- end }}
+
+      {{- if .FlavorText }}
+        {{- if .ExplicitMods }}
+--------
+        {{- end }}
+        {{- range .FlavorText }}
+{{ . }}
+        {{- end }}
+      {{- end }}
+      {{- if .DescriptionText }}
+--------
+{{ .DescriptionText }}
+      {{- end }}
+
+      {{- if .IsElder }}
+--------
+Elder Item
+      {{- end }}
+      {{- if .IsShaper }}
+--------
+Shaper Item
+      {{- end }}
+      {{- if .IsVeiled }}
+--------
+Veiled Item
+      {{- end }}
+
+      {{- if .IsCorrupted }}
+--------
+Corrupted
+      {{- end }}
+
+    {{- end }}
+  {{- end }}
+{{- end }}

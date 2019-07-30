@@ -42,10 +42,12 @@ func LoadAllTemplates() (*template.Template, error) {
 	return FindAndParseTemplates(templateDir, ".tmpl", template.FuncMap{
 		"DeducePosX":           DeducePosX,
 		"DeducePosY":           DeducePosY,
+		"ItemRarity":           ItemRarity,
 		"ItemRarityType":       ItemRarityType,
 		"ItemRarityHeight":     ItemRarityHeight,
 		"GenSpecialBackground": GenSpecialBackground,
 		"ColorType":            ColorType,
+		"AugmentedType":        AugmentedType,
 		"WordWrap":             WordWrap,
 		"ConvToCssProgress":    ConvToCssProgress,
 		"PoEMarkup":            PoEMarkup,
@@ -200,42 +202,48 @@ func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layo
 }
 
 // rarityCharacteritics return the item visual characteristics to apply.
-func rarityCharacteritics(frameType inventory.FrameType) (string, string) {
+func rarityCharacteritics(frameType inventory.FrameType) (string, string, string) {
 	switch frameType {
 	case inventory.NormalItemFrameType:
-		return "normalPopup", ""
+		return "Normal", "normalPopup", ""
 	case inventory.MagicItemFrameType:
-		return "magicPopup", ""
+		return "Magic", "magicPopup", ""
 	case inventory.RareItemFrameType:
-		return "rarePopup", "doubleLine"
+		return "Rare", "rarePopup", "doubleLine"
 	case inventory.UniqueItemFrameType:
-		return "uniquePopup", "doubleLine"
+		return "Unique", "uniquePopup", "doubleLine"
 	case inventory.GemFrameType:
-		return "gemPopup", ""
+		return "Gem", "gemPopup", ""
 	case inventory.CurrencyFrameType:
-		return "currencyPopup", ""
+		return "Currency", "currencyPopup", ""
 	case inventory.DivinationCardFrameType:
-		return "divinationCard", "doubleLine"
+		return "Divination Card", "divinationCard", "doubleLine"
 	case inventory.QuestItemFrameType:
-		return "questPopup", ""
+		return "Quest", "questPopup", ""
 	case inventory.ProphecyFrameType:
-		return "prophecyPopup", ""
+		return "Normal", "prophecyPopup", ""
 	case inventory.RelicFrameType:
-		return "relicPopup", ""
+		return "Relic", "relicPopup", ""
 	default:
-		return "", ""
+		return "", "", ""
 	}
+}
+
+// ItemRarity return the correct class type from a frame type.
+func ItemRarity(frameType inventory.FrameType) string {
+	rarity, _, _ := rarityCharacteritics(frameType)
+	return rarity
 }
 
 // ItemRarityType return the correct class type from a frame type.
 func ItemRarityType(frameType inventory.FrameType) string {
-	frameClass, _ := rarityCharacteritics(frameType)
+	_, frameClass, _ := rarityCharacteritics(frameType)
 	return frameClass
 }
 
 // ItemRarityHeight return the correct height from a frame type.
 func ItemRarityHeight(frameType inventory.FrameType) string {
-	_, heightClass := rarityCharacteritics(frameType)
+	_, _, heightClass := rarityCharacteritics(frameType)
 	return heightClass
 }
 
@@ -264,6 +272,17 @@ func ColorType(colorType float64) string {
 		return "colourAugmented"
 	default:
 		return "colourDefault"
+	}
+}
+
+// AugmentedType deduces the css class to colorize a property
+// from a raw number.
+func AugmentedType(atype float64) string {
+	switch atype {
+	case 1:
+		return " (augmented)"
+	default:
+		return ""
 	}
 }
 

@@ -26,6 +26,7 @@
               <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ $width }} ipH{{ $height }} {{ if not .IsIdentified }}unidentified{{ end }} {{ $swap }}"
                 style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px; display: {{ $visibility }};"
                 data-sell="{{ SellDescription . $charName }}"
+                data-desc="{{ template "itemtext" $item }}"
                 onclick="openModal('item-{{ .Id }}', '{{ .Name }}', '{{ .Type }}')">
                 <div class="socketPopups"></div>
                 <div class="iconContainer">

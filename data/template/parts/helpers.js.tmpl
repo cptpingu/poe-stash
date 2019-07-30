@@ -89,10 +89,21 @@
         elt.setContent(generateToolTipContent(id));
     }
 
-    function openModal(id, objectName, objectAltName) {
+    function openWindowWithPost(text) {
+        console.log(text);
+        var f = document.getElementById('estimate-form');
+        console.log(f);
+        f.itemtext.value = text;
+        console.log(f);
+        window.open('', 'estimation');
+        f.submit();
+    }
+
+    function openModal(id, objectName, objectAltName, desc) {
         var modal = document.getElementById('modal');
         var container = document.getElementById('main-container');
         var name = document.getElementById('item-name');
+        var estimate = document.getElementById('modal-estimate');
         var submit = document.getElementById('modal-submit');
 
         var header =  "";
@@ -114,12 +125,25 @@
             var note = "~price " + modalPrice.value + " " + currency.value;
             setPriceNote(id, note);
         }
+        estimate.onclick = function(event) {
+            var item = document.getElementById(id);
+            if (item != undefined) {
+                var desc = item.getAttribute("data-desc");
+                if (desc != undefined) {
+                    openWindowWithPost(desc)
+                }
+            }
+        }
     }
 
     function initModal() {
         var modal = document.getElementById('modal');
         var close = document.getElementById('closeModal');
         var container = document.getElementById('main-container');
+
+        if (modal == undefined || close == undefined || container == undefined) {
+            return;
+        }
 
         // Click on close button
         close.onclick = function(event) {

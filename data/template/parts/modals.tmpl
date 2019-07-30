@@ -5,6 +5,7 @@
       <h2 id="item-name">#object name</h2>
       <div class="clear"><!-- --></div>
       <div style="display: table">
+        <input style="display: table-cell" id="modal-estimate" class="button button-submit" type="button" value="$?">
         <input id="modal-price" class="input-text" type="text" name="price" value="" />
         <select id="modal-currency" class="dropdown" style="display: table-cell">
           <option value="exa">Exalted orb</option>
@@ -27,4 +28,12 @@
     </p>
     <div id="closeAlert" class="close" onclick="closeAlert()">&nbsp;</div>
   </div>
+
+  <form id="estimate-form" method="post" action="https://www.poeprices.info/query" target="estimation">
+    <textarea type="hidden" name="itemtext" value=""><!-- --></textarea>
+    <input type="hidden" name="league" value="Standard" />
+    <input type="hidden" name="auto" value="auto" />
+    <input type="hidden" name="myshops" value="" />
+    <input type="hidden" name="myaccounts" value="" />
+  </form>
 {{ end }}
