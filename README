@@ -8,8 +8,10 @@ gin-tonic:
 go get -u github.com/gin-gonic/gin
 
 TODO
-* More rigourous item description generation
+ More rigourous item description generation
  Wealth improvements
+ Display selling item differently
+ Merge or replace export/import choice with dropdown
  Retrieve local storage price to fill modal (using the last value is fine, for new item)
  League and realm choose on generation
  Add hidden comment to mark the version used to generate file

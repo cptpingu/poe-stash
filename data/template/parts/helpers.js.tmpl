@@ -44,7 +44,11 @@
 
     function setPriceNote(id, price) {
         if (typeof(Storage) !== "undefined") {
-            localStorage.setItem(id, price);
+            if (price == "") {
+                localStorage.removeItem(id);
+            } else {
+                localStorage.setItem(id, price);
+            }
         } else {
             console.log(noSupport);
             alert(noSupport);
@@ -71,12 +75,15 @@
             if (items.length > 0 && items[0] != undefined) {
                 var item = items[0];
                 var priceNote = getPriceNote('item-' + id);
-                if (priceNote != "") {
-                    var prices = item.getElementsByClassName('customPrice');
-                    if (prices.length > 0 && prices[0] != undefined) {
-                        var price = prices[0];
-                        item.style.display = 'block';
-                        price.innerHTML = priceNote;
+                var prices = item.getElementsByClassName('customPrice');
+                if (prices.length > 0 && prices[0] != undefined) {
+                    var price = prices[0];
+                    price.innerHTML = priceNote;
+                    if (priceNote != "") {
+                            item.style.display = 'block';
+                    } else {
+                        // Price has been removed
+                        item.style.display = 'none';
                     }
                 }
             }
@@ -123,7 +130,11 @@
             var modalCurrency = document.getElementById('modal-currency');
             var currency = modalCurrency.options[modalCurrency.selectedIndex];
             var note = "~price " + modalPrice.value + " " + currency.value;
-            setPriceNote(id, note);
+            if (modalPrice.value == "") {
+                setPriceNote(id, "");
+            } else {
+                setPriceNote(id, note);
+            }
         }
         estimate.onclick = function(event) {
             var item = document.getElementById(id);
@@ -203,17 +214,70 @@
         openAlert();
     }
 
+    function exportShop() {
+        var data = JSON.stringify(localStorage);
+        let content = "data:text/html;charset=utf-8," + data;
+        var encodedUri = encodeURI(content);
+        var link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "poe-shop.txt");
+        document.body.appendChild(link); // Required for FF
+        link.click();
+        link.parentNode.removeChild(link);
+    }
+
+    function initImport() {
+        document.getElementById('shop-file').addEventListener('change', importShop, false);
+    }
+
+    function importShop(evt) {
+        console.log('called?', evt);
+
+        // Check for the various File API support.
+        if (!window.File || !window.FileReader || !window.FileList || !window.Blob) {
+            alert('The File APIs are not fully supported in this browser. Import is not possible!');
+            return;
+        }
+
+        var files = evt.target.files;
+        console.log(files);
+        var output = [];
+        for (var i = 0, f; f = files[i]; i++) {
+            console.log(f.name, f.type);
+            // Only process text files.
+            if (!f.type.match('text.*')) {
+                continue;
+            }
+
+            var reader = new FileReader();
+            // Closure to capture the file information.
+            reader.onload = (function(theFile) {
+                return function(e) {
+                    var rawDataFile = e.target.result;
+                    var data = JSON.parse(rawDataFile);
+                    if (data != "") {
+                        Object.keys(data).forEach(function (k) {
+                            localStorage.setItem(k, data[k]);
+                        });
+                    }
+                };
+            })(f);
+
+            reader.readAsText(f);
+        }
+    }
+
     function openAlert() {
         var confirm = document.getElementById('confirm');
         if (confirm != undefined) {
-            confirm.className = 'openAnimation';
+            confirm.className = 'box openAnimation';
         }
     }
 
     function closeAlert() {
         var confirm = document.getElementById('confirm');
         if (confirm != undefined) {
-            confirm.className = 'closeAnimation';
+            confirm.className = 'box closeAnimation';
         }
     }
 
@@ -239,6 +303,7 @@
         redirectToGen(account.value, poesessid.value);
     }
 
+    initImport();
     initModal();
     </script>
 {{ end }}

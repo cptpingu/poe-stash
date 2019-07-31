@@ -214,9 +214,20 @@
         border: 1px solid #886437;
         background-color: #5a3806;
         cursor: pointer;
+        font-weight: normal;
       }
       .button:hover {
         background-color: #774c0d;
+      }
+      .button-label {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0.3px;
+        padding-bottom: 0.3px;
+      }
+      .selector:not(*:root), .button-label {
+        padding-top: 1.5px;
+        padding-bottom: 1.5px;
       }
       .input-text {
         border: 1px solid #a0a0d0;
@@ -244,9 +255,18 @@
         top: 25px;
         right: 25px;
         z-index: 90;
-        padding: 20px;
-        border-radius: 4px;
         width: 400px;
+        padding: 20px;
+      }
+      #shop {
+        position: fixed;
+        top: 1px;
+        left: 1px;
+        display: inline-block;
+        padding: 10px !important;
+      }
+      .box {
+        border-radius: 4px;
         background: #191A17 url('https://www.pathofexile.com/image/profile/profile-full.jpg?1563488658105') no-repeat top left;
         border: 1px solid;
       }
@@ -297,6 +317,14 @@
       }
       progress::-webkit-progress-value {
         background: linear-gradient(to top, #000, #ffc077);
+      }
+      .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
       }
     </style>
 {{ end }}

@@ -2,7 +2,16 @@
   {{ template "header" }}
 
     <div><b>Wealth:</b> {{ .Wealth }} </div>
-    <button class="button" onclick="generateShop()">Generate items shop</button>
+    <div id="shop" class="box">
+      <button class="button" onclick="generateShop()">Generate items shop</button>
+      <button class="button" onclick="exportShop()">Export shop</button>
+      <input type="file" name="files[]" id="shop-file" class="inputfile inputfile-1" accept=".txt" multiple="">
+      <label for="shop-file">
+        <span class="button button-label" >
+          Import shop
+        </span>
+      </label>
+    </div>
 
     <div class="clear"><!-- --></div>
 
