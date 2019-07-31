@@ -1,37 +1,44 @@
 {{ define "inventory" }}
+    {{ $character := .Character }}
+    {{ $skill := .Skill }}
+    {{ $layoutType := "inventory" }}
+    {{ $charName := $character.CharDesc.Name }}
+
     <div class="inventoryManager">
       <div class="inventoryPanelControls">
         <div class="inventoryPanelButton inventory left selected"></div>
         <div class="inventoryPanelButton cosmetic right"></div>
       </div>
       <div class="activePanel">
-        <div class="mainInventoryPanel" id="{{ .CharDesc.Name }}">
-          <div class="weaponSwap1 swap2 left" style="display: block;" onclick="swapWeapon('{{ .CharDesc.Name }}', 2)"></div>
-          <div class="weaponSwap2 swap1 left" style="display: none;" onclick="swapWeapon('{{ .CharDesc.Name }}', 1)"></div>
-          <div class="weaponSwap1 swap2 right" style="display: block;" onclick="swapWeapon('{{ .CharDesc.Name }}', 2)"></div>
-          <div class="weaponSwap2 swap1 right" style="display: none;" onclick="swapWeapon('{{ .CharDesc.Name }}', 1)"></div>
+        <div class="mainInventoryPanel" id="{{ $charName }}">
+          {{ range $idx, $item := $skill.Items }}
+            {{ template "item" dict "LocalItem" $item "LayoutType" "jewel" "CharName" $charName "Idx" $idx }}
+          {{ end }}
+
+          <div class="weaponSwap1 swap2 left" style="display: block;" onclick="swapWeapon('{{ $character.CharDesc.Name }}', 2)"></div>
+          <div class="weaponSwap2 swap1 left" style="display: none;" onclick="swapWeapon('{{ $character.CharDesc.Name }}', 1)"></div>
+          <div class="weaponSwap1 swap2 right" style="display: block;" onclick="swapWeapon('{{ $character.CharDesc.Name }}', 2)"></div>
+          <div class="weaponSwap2 swap1 right" style="display: none;" onclick="swapWeapon('{{ $character.CharDesc.Name }}', 1)"></div>
           <div class="weaponSwapMini left" style="display: block;">
             <div class="miniIconContainer swap1" style="display: none;">
-              <img {{ AltWeaponImage .Items "Weapon" }} />
+              <img {{ AltWeaponImage $character.Items "Weapon" }} />
             </div>
             <div class="miniIconContainer swap2" style="display: block;">
-              <img {{ AltWeaponImage .Items "Weapon2" }} />
+              <img {{ AltWeaponImage $character.Items "Weapon2" }} />
             </div>
           </div>
           <div class="weaponSwapMini right" style="display: block;">
             <div class="miniIconContainer swap1" style="display: none;">
-              <img {{ AltWeaponImage .Items "Offhand" }} />
+              <img {{ AltWeaponImage $character.Items "Offhand" }} />
             </div>
             <div class="miniIconContainer swap2" style="display: block;">
-              <img {{ AltWeaponImage .Items "Offhand2" }} />
+              <img {{ AltWeaponImage $character.Items "Offhand2" }} />
             </div>
           </div>
 
-            {{ $layoutType := "inventory" }}
-            {{ $charName := .CharDesc.Name }}
-            {{ range .Items }}
-              {{ template "item" dict "LocalItem" . "LayoutType" $layoutType "CharName" $charName}}
-            {{ end }}
+          {{ range $idx, $item := $character.Items }}
+            {{ template "item" dict "LocalItem" $item "LayoutType" $layoutType "CharName" $charName "Idx" $idx }}
+          {{ end }}
 
         </div>
       </div>

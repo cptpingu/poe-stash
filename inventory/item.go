@@ -116,6 +116,7 @@ const (
 	DefaultLayout   LayoutType = ""
 	CurrencyLayout             = "currency"
 	InventoryLayout            = "inventory"
+	JewelLayout                = "jewel"
 	FragmentLayout             = "fragment"
 	MapLayout                  = "map"
 )

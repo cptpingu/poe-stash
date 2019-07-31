@@ -4,19 +4,6 @@ import (
 	"encoding/json"
 )
 
-// Character profile character
-type Character struct {
-	Expired         bool   `json:"expired"`
-	LastActive      bool   `json:"lastActive"`
-	Level           int    `json:"level"`
-	AscendancyClass int    `json:"ascendancyClass"`
-	ClassID         int    `json:"classId"`
-	Experience      int64  `json:"experience"`
-	Name            string `json:"name"`
-	League          string `json:"league"`
-	Class           string `json:"class"`
-}
-
 // DefaultInventoryLayout is the default mapping for placing
 // inventory items correctly.
 var DefaultInventoryLayout = map[string]float64{
@@ -54,6 +41,20 @@ var DefaultInventoryLayout = map[string]float64{
 	"Offhand2Y":      111.209,
 }
 
+// Character profile character
+type Character struct {
+	Expired         bool   `json:"expired"`
+	LastActive      bool   `json:"lastActive"`
+	Level           int    `json:"level"`
+	AscendancyClass int    `json:"ascendancyClass"`
+	ClassID         int    `json:"classId"`
+	Experience      int64  `json:"experience"`
+	Name            string `json:"name"`
+	League          string `json:"league"`
+	Class           string `json:"class"`
+}
+
+// String converts this structure to its string representation.
 func (c *Character) String() string {
 	json, err := json.MarshalIndent(c, "", "\t")
 	if err != nil {
@@ -68,7 +69,26 @@ type CharacterInventory struct {
 	Items    []*Item   `json:"items"`
 }
 
+// String converts this structure to its string representation.
 func (c *CharacterInventory) String() string {
+	json, err := json.MarshalIndent(c, "", "\t")
+	if err != nil {
+		return "<marshalling error>"
+	}
+	return string(json)
+}
+
+// CharacterSkills holds all skills choosen by the character
+// and also all items (jewels or abyss) put in the slots.
+type CharacterSkills struct {
+	Hashes          []int   `json:"hashes"`
+	Items           []*Item `json:"items"`
+	JewelSlots      []int   `json:"jewel_slots"`
+	VisualOverrides []int   `json:"visual_overrides"`
+}
+
+// String converts this structure to its string representation.
+func (c *CharacterSkills) String() string {
 	json, err := json.MarshalIndent(c, "", "\t")
 	if err != nil {
 		return "<marshalling error>"

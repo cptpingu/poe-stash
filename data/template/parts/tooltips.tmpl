@@ -19,6 +19,16 @@
         {{ end }}
       {{ end }}
     {{ end }}
+
+    <!-- Generate tooltip for characters skills items -->
+    {{ range .Skills }}
+      {{ range .Items }}
+        {{ template "tooltip" . }}
+        {{ range .SocketedItems }}
+          {{ template "tooltip" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
     </script>
 {{ end }}
 

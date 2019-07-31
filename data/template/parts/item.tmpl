@@ -3,6 +3,7 @@
               {{ $layout := .Layout }}
               {{ $layoutType := .LayoutType }}
               {{ $charName := .CharName }}
+              {{ $idx := .Idx }}
 
               {{ with $item }}
                 {{ $width := .Width }}
@@ -24,7 +25,7 @@
                   {{ end }}
                 {{ end }}
               <div id="item-{{ .Id }}" class="newItemContainer iW{{ .Width }} iH{{ .Height }} itemRendered itemPlaced ipW{{ $width }} ipH{{ $height }} {{ if not .IsIdentified }}unidentified{{ end }} {{ $swap }}"
-                style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y }}px; display: {{ $visibility }};"
+                style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y $idx }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y $idx }}px; display: {{ $visibility }};"
                 data-sell="{{ SellDescription . $charName }}"
                 data-desc="{{ template "itemtext" $item }}"
                 onclick="openModal('item-{{ .Id }}', '{{ .Name }}', '{{ .Type }}')">
@@ -34,7 +35,7 @@
                     <img src="{{ .Icon }}" alt="" />
 
                     {{ if .Sockets }}
-                      <div class="sockets numSockets{{ len .Sockets}}" style="display: block;">
+                      <div class="sockets numSockets{{ len .Sockets }}" style="display: block;">
                       {{ $prev := -1 }}
                       {{ $socket := .Sockets }}
                       {{ $socketed := .SocketedItems }}
@@ -87,7 +88,7 @@
             {{ end }}
 
             {{ range .Items }}
-             {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType "CharName" "NoCharNameNeededHere" }}
+             {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType "CharName" "NoCharNameNeededHere" "Idx" 0 }}
             {{ end }}
             </div>
 {{ end }}

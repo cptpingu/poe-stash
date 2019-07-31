@@ -151,7 +151,7 @@ func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
 
 // DeducePosX transforms relative stash position in
 // absolute css position using a given layout.
-func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y int) float64 {
+func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y, idx int) float64 {
 	switch inventory.LayoutType(layoutType) {
 	case inventory.CurrencyLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
@@ -163,6 +163,8 @@ func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layo
 		}
 	case inventory.MapLayout:
 		return 0
+	case inventory.JewelLayout:
+		return 287 + float64(idx)*47
 	case inventory.InventoryLayout:
 		key := inventoryId + "X"
 		switch inventoryId {
@@ -184,7 +186,7 @@ func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layo
 
 // DeducePosY transforms relative stash position in
 // absolute css position using a given layout.
-func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y int) float64 {
+func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y, idx int) float64 {
 	switch inventory.LayoutType(layoutType) {
 	case inventory.CurrencyLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
@@ -196,6 +198,8 @@ func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layo
 		}
 	case inventory.MapLayout:
 		return 0
+	case inventory.JewelLayout:
+		return -47
 	case inventory.InventoryLayout:
 		key := inventoryId + "Y"
 		switch inventoryId {

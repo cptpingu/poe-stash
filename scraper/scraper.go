@@ -19,6 +19,8 @@ const (
 	ProfileCharactersURL = "https://pathofexile.com/character-window/get-characters?accountName=%s"
 	// ProfileCharacterItemsURL is the official URL for the getting a user account inventories.
 	ProfileCharacterItemsURL = "https://www.pathofexile.com/character-window/get-items?accountName=%s&realm=%s&character=%s"
+	// ProfileCharacterSkillsURL is the official URL for getting a user skills and jewels/abyss put in it.
+	ProfileCharacterSkillsURL = "https://www.pathofexile.com/character-window/get-passive-skills?character=%s&accountName=%s"
 
 	// DataDir is where all data are.
 	DataDir = "data/"
@@ -42,6 +44,7 @@ type Scraper struct {
 // ScrapedData holds everything scrapped.
 type ScrapedData struct {
 	Characters []*inventory.CharacterInventory
+	Skills     []*inventory.CharacterSkills
 	Stash      []*inventory.StashTab
 	Wealth     int
 }
@@ -122,6 +125,7 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	data := &ScrapedData{
 		Characters: make([]*inventory.CharacterInventory, 0, 10),
+		Skills:     make([]*inventory.CharacterSkills, 0, 10),
 		Stash:      nil,
 	}
 
@@ -139,6 +143,11 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 				return nil, errInventory
 			}
 			data.Characters = append(data.Characters, charInventory)
+			charSkills, errSkills := s.ScrapCharacterSkills(character.Name)
+			if errSkills != nil {
+				return nil, errSkills
+			}
+			data.Skills = append(data.Skills, charSkills)
 		}
 	}
 

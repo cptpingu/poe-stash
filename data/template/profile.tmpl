@@ -6,8 +6,9 @@
 
     <div class="clear"><!-- --></div>
 
-    {{ range .Characters }}
-      {{ with .CharDesc }}
+    {{ $skills := .Skills }}
+    {{ range $idx, $char := .Characters }}
+      {{ with $char.CharDesc }}
       <div class="customContainerPanel">
         <div class="inventoryManagerMenu">
           <div class="characters">
@@ -22,8 +23,8 @@
           </div>
         </div>
         <small class="experience">XP: {{ .Experience }}</small>
-        {{ end }}
-        {{ template "inventory" . }}
+      {{ end }}
+      {{ template "inventory" dict "Character" $char "Skill" (index $skills $idx) }}
       </div>
     {{ end }}
 
@@ -38,6 +39,10 @@
     {{ range .Characters }}
       {{ template "itemdescwithsocket" . }}
     {{ end }}
+    {{ range .Skills }}
+      {{ template "itemdescwithsocket" . }}
+    {{ end }}
+
     </div>
 
     {{ template "modals" . }}

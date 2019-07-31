@@ -56,3 +56,28 @@ func (s *Scraper) ScrapCharacterInventory(charName string) (*inventory.Character
 
 	return inventory, nil
 }
+
+// parseSkills parses a Path of Exile character skills.
+func parseSkills(data []byte) (*inventory.CharacterSkills, error) {
+	skills := inventory.CharacterSkills{}
+	if err := json.Unmarshal(data, &skills); err != nil {
+		return nil, err
+	}
+
+	return &skills, nil
+}
+
+// ScrapCharacterSkills scraps the inventory of a given character.
+func (s *Scraper) ScrapCharacterSkills(charName string) (*inventory.CharacterSkills, error) {
+	url := fmt.Sprintf(ProfileCharacterSkillsURL, charName, s.accountName)
+	body, errRequest := s.CallAPI(url)
+	if errRequest != nil {
+		return nil, errRequest
+	}
+	inventory, errInventory := parseSkills(body)
+	if errInventory != nil {
+		return nil, errInventory
+	}
+
+	return inventory, nil
+}
