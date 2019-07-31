@@ -7,12 +7,8 @@ Scrap stash from official website and display it publicly.
 gin-tonic:
 go get -u github.com/gin-gonic/gin
 
-Path of Exile library:
-go get github.com/raggaer/respoe/...
-
 TODO
- Nice xp bar
- More rigourous item description generation
+* More rigourous item description generation
  Wealth improvements
  Retrieve local storage price to fill modal (using the last value is fine, for new item)
  League and realm choose on generation

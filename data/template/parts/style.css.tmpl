@@ -13,6 +13,8 @@
       .customContainerPanel {
         width: 600px;
         float: left;
+        background-color: black;
+        border: 1px solid #3a2317;
       }
       .activePanel {
         padding-top: 0px;
@@ -52,6 +54,7 @@
       }
       .inventoryManagerMenu {
         min-height: inherit;
+        width: 295px;
       }
       .inventoryManagerMenu .characters {
         overflow: hidden;
@@ -273,6 +276,27 @@
       @keyframes moverBottomTop {
         0% { transform: translateY(0px); }
         100% { transform: translateY(-200px); }
+      }
+      .experience p {
+        margin: 0px;
+        text-align: center;
+        font-family: "FontinSmallCaps",Verdana,Arial,Helvetica,sans-serif;
+      }
+      progress {
+        width: 290px;
+        height: 10px;
+        border: 0px;
+      }
+      /* Progress background color */
+      progress, progress::-webkit-progress-bar {
+        background-color: #1d1c19 !important;
+      }
+      /* Progress bar color */
+      progress::-moz-progress-bar {
+        background: linear-gradient(to top, #000, #ffc077);
+      }
+      progress::-webkit-progress-value {
+        background: linear-gradient(to top, #000, #ffc077);
       }
     </style>
 {{ end }}

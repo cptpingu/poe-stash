@@ -58,6 +58,10 @@ func LoadAllTemplates() (*template.Template, error) {
 		"SocketedId":           SocketedId,
 		"AltWeaponImage":       AltWeaponImage,
 		"SellDescription":      SellDescription,
+		"XpToNextLevel":        inventory.XpToNextLevel,
+		"CurrentXp":            inventory.CurrentXp,
+		"XpNeeded":             inventory.XpNeeded,
+		"PrettyPrint":          inventory.PrettyPrint,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
