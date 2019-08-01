@@ -67,11 +67,15 @@
                       {{ range .Properties }}
                       <div class="displayProperty">
                         <span class="s">
-                          <span>{{ .Name }}</span> {{ if gt (len .Values) 0 }} : {{ end }}
+                          {{ if ContainsPattern .Name }}
+                          <span>{{ GenProperties . }}</span>
+                          {{ else }}
+                          <span>{{ .Name }}</span>{{ if gt (len .Values) 0 }} : {{ end }}
                             {{ range .Values }}
                               <span class="{{ ColorType (index . 1) }}">{{ (index . 0) }}</span>
                             {{ end }}
-                        </span>
+                          </span>
+                          {{ end }}
                       </div>
                       {{ end }}
                     {{ end }}
@@ -132,7 +136,7 @@
                         <div class="separator"></div>
                         {{ range .ExplicitMods }}
                         <div class="explicitMod">
-                          <span class="s">{{ . }}</span>
+                          <span class="s">{{ . | nl2br | safe }}</span>
                         </div>
                         {{ end }}
                       {{ end }}

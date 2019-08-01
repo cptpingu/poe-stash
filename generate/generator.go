@@ -62,6 +62,8 @@ func LoadAllTemplates() (*template.Template, error) {
 		"CurrentXp":            inventory.CurrentXp,
 		"XpNeeded":             inventory.XpNeeded,
 		"PrettyPrint":          inventory.PrettyPrint,
+		"ContainsPattern":      ContainsPattern,
+		"GenProperties":        GenProperties,
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
@@ -96,6 +98,9 @@ func LoadAllTemplates() (*template.Template, error) {
 				}
 			}
 			return dict, nil
+		},
+		"nl2br": func(line string) string {
+			return strings.Replace(line, "\n", "<br />", -1)
 		},
 	})
 }
@@ -519,4 +524,36 @@ func SellDescription(item inventory.Item, charName string) string {
 	}
 	return fmt.Sprintf(`[linkItem location=%s%s league="%s" x="%d" y="%d"]`,
 		item.InventoryId, desc, item.League, item.X, item.Y)
+}
+
+// ContainsPattern checks if sentence contains any pattern
+// like %0, %1, and so on...
+func ContainsPattern(s string) bool {
+	for i := 0; i < 10; i++ {
+		if strings.Contains(s, "%"+strconv.Itoa(i)) {
+			return true
+		}
+	}
+	return false
+}
+
+// GenProperties generate properties for item with formatted
+// strings like flasks.
+func GenProperties(property inventory.ItemProperty) template.HTML {
+	var args []interface{}
+	for _, value := range property.Values {
+		v := value.([]interface{})
+		desc := v[0].(string)
+		mode := ColorType(v[1].(float64))
+		args = append(args, mode, desc)
+	}
+	pattern := property.Name
+	for i := 0; i < 10; i++ {
+		pattern = strings.ReplaceAll(
+			pattern,
+			"%"+strconv.Itoa(i),
+			`<span class="%s">%s</span>`,
+		)
+	}
+	return template.HTML(fmt.Sprintf(pattern, args...))
 }
