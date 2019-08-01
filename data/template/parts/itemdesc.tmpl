@@ -70,7 +70,7 @@
                           {{ if ContainsPattern .Name }}
                           <span>{{ GenProperties . }}</span>
                           {{ else }}
-                          <span>{{ .Name }}</span>{{ if gt (len .Values) 0 }} : {{ end }}
+                          <span>{{ ReplacePoEMarkup .Name | safe }}</span>{{ if gt (len .Values) 0 }} : {{ end }}
                             {{ range .Values }}
                               <span class="{{ ColorType (index . 1) }}">{{ (index . 0) }}</span>
                             {{ end }}

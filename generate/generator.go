@@ -50,6 +50,7 @@ func LoadAllTemplates() (*template.Template, error) {
 		"AugmentedType":        AugmentedType,
 		"WordWrap":             WordWrap,
 		"ConvToCssProgress":    ConvToCssProgress,
+		"ReplacePoEMarkup":     ReplacePoEMarkup,
 		"PoEMarkup":            PoEMarkup,
 		"PoEMarkupLinesOnly":   PoEMarkupLinesOnly,
 		"ColorToSocketClass":   ColorToSocketClass,
@@ -316,11 +317,11 @@ func ConvToCssProgress(progress float64) string {
 	return strconv.Itoa(int(math.Round(progress*100))) + "%"
 }
 
-// replacePoEMarkup returns the line interpreted after markup interpretation.
+// ReplacePoEMarkup returns the line interpreted after markup interpretation.
 // Grammar examples:
 //  <property>{text}
 //	<property>{<property>{text}}
-func replacePoEMarkup(raw string) string {
+func ReplacePoEMarkup(raw string) string {
 	// Just a raw text, return it.
 	first := strings.Index(raw, "<")
 	if first < 0 {
@@ -376,14 +377,14 @@ func replacePoEMarkup(raw string) string {
 
 	return prefix +
 		"<span class=\"PoEMarkup" + property + "\"" + style + ">" +
-		replacePoEMarkup(raw[bracketL+1:bracketR]) +
+		ReplacePoEMarkup(raw[bracketL+1:bracketR]) +
 		"</span>" +
-		replacePoEMarkup(suffix)
+		ReplacePoEMarkup(suffix)
 }
 
 // PoEMarkup converts a raw string containing markup into HTML.
 func PoEMarkup(raw string) template.HTML {
-	line := replacePoEMarkup(raw)
+	line := ReplacePoEMarkup(raw)
 	lines := strings.Split(line, "\r\n")
 	res := ""
 	for _, line := range lines {
@@ -399,7 +400,7 @@ func PoEMarkup(raw string) template.HTML {
 // PoEMarkupLinesOnly converts a raw string containing markup into HTML.
 // It is expexcted to only have lines separated by end of lines.
 func PoEMarkupLinesOnly(lines []string) template.HTML {
-	res := replacePoEMarkup(strings.Join(lines, "\n"))
+	res := ReplacePoEMarkup(strings.Join(lines, "\n"))
 	strings.Replace(res, "\n", "<br />", -1)
 	return template.HTML(res)
 }
