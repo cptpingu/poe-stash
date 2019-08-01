@@ -96,6 +96,36 @@
         elt.setContent(generateToolTipContent(id));
     }
 
+    // Update currency image
+    function updateCurrencyThumbnail(id) {
+        var thumbnail = document.getElementById(id + '-currency');
+        if (thumbnail == undefined) {
+            // Socketed gems have no thumbnail
+            return;
+        }
+        var imgThumbnail = document.getElementById(id + '-currency-img');
+        var txtThumbnail = document.getElementById(id + '-currency-span');
+        var priceNote = getPriceNote(id);
+        if (priceNote == "") {
+            thumbnail.style.display = 'none';
+        } else {
+            thumbnail.style.display = 'block';
+            var words = priceNote.split(' ');
+            switch (words[2]) {
+                case "chaos":
+                    imgThumbnail.src = 'https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyRerollRare.png?scale=1&w=1&h=1&v=c60aa876dd6bab31174df91b1da1b4f9'
+                    break;
+                case "alch":
+                    imgThumbnail.src = 'https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyUpgradeToRare.png?scale=1&w=1&h=1&v=89c110be97333995522c7b2c29cae728'
+                    break;
+                case "exa":
+                    imgThumbnail.src = 'https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1&v=1745ebafbd533b6f91bccf588ab5efc5'
+                    break;
+            }
+            txtThumbnail.innerHTML = 'x' + words[1];
+        }
+    }
+
     function openWindowWithPost(text) {
         console.log(text);
         var f = document.getElementById('estimate-form');
@@ -135,6 +165,7 @@
             } else {
                 setPriceNote(id, note);
             }
+            updateCurrencyThumbnail(id);
         }
         estimate.onclick = function(event) {
             var item = document.getElementById(id);

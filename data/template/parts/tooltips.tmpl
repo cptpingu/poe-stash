@@ -33,6 +33,7 @@
 {{ end }}
 
 {{ define "tooltip" }}
+        // Init all tooltip events.
         tippy('#item-{{ .Id }}', {
             animation: '',
             duration: 0,
@@ -50,5 +51,8 @@
             onShow: function (elt) {
               updateToolTipContent(elt, '{{ .Id }}');
             },
-        })
+        });
+
+        // Load all custom price currency thumbnails.
+        updateCurrencyThumbnail('item-{{ .Id }}');
 {{ end }}
