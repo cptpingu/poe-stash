@@ -142,6 +142,12 @@
         var name = document.getElementById('item-name');
         var estimate = document.getElementById('modal-estimate');
         var submit = document.getElementById('modal-submit');
+        var modalPrice = document.getElementById('modal-price');
+        var currentPrice = getPriceNote(id);
+        if (currentPrice != "") {
+            var words = currentPrice.split(' ');
+            modalPrice.value = words[1];
+        }
 
         var header =  "";
         if (objectName != "") {
@@ -156,7 +162,6 @@
         submit.onclick = function(event) {
             modal.className = "modal hidden";
             container.className = "";
-            var modalPrice = document.getElementById('modal-price');
             var modalCurrency = document.getElementById('modal-currency');
             var currency = modalCurrency.options[modalCurrency.selectedIndex];
             var note = "~price " + modalPrice.value + " " + currency.value;

@@ -11,7 +11,6 @@ TODO
  More rigourous item description generation
  Wealth improvements
  Merge or replace export/import choice with dropdown
- Retrieve local storage price to fill modal (using the last value is fine, for new item)
  League and realm choose on generation
  Add hidden comment to mark the version used to generate file
  Wait animation + disable when generating or refreshing whole account from the main page
