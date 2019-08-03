@@ -183,6 +183,14 @@
         }
     }
 
+    function openWaitModal() {
+        var modal = document.getElementById('wait-modal');
+        var container = document.getElementById('main-container');
+        modal.className = "modal";
+        container.className = "desactivate";
+    }
+
+
     function initModal() {
         var modal = document.getElementById('modal');
         var close = document.getElementById('closeModal');
@@ -263,7 +271,10 @@
     }
 
     function initImport() {
-        document.getElementById('shop-file').addEventListener('change', importShop, false);
+        var shop = document.getElementById('shop-file');
+        if (shop != undefined) {
+            shop.addEventListener('change', importShop, false);
+        }
     }
 
     function importShop(evt) {
@@ -318,6 +329,7 @@
     }
 
     function redirectToGen(account, poeSessid) {
+        openWaitModal();
         if (poeSessid != "") {
             window.location.href = "/gen/" + account + "?poesessid=" + poeSessid;
         } else {

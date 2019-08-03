@@ -9,5 +9,9 @@
       <div><a href="{{ . }}">Click here to be redirected!</a></div>
     </div>
 
+    <script type="text/javascript">
+      window.location.replace('{{ . }}');
+    </script>
+
   {{ template "footer" }}
 {{ end }}
