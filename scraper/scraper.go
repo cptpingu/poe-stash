@@ -43,6 +43,8 @@ type Scraper struct {
 
 // ScrapedData holds everything scrapped.
 type ScrapedData struct {
+	Version string
+
 	Characters []*inventory.CharacterInventory
 	Skills     []*inventory.CharacterSkills
 	Stash      []*inventory.StashTab

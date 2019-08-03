@@ -65,6 +65,9 @@ func LoadAllTemplates() (*template.Template, error) {
 		"PrettyPrint":          inventory.PrettyPrint,
 		"ContainsPattern":      ContainsPattern,
 		"GenProperties":        GenProperties,
+		"Version": func() string {
+			return "v0.1"
+		},
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
