@@ -12,3 +12,5 @@ TODO
  Wealth improvements
  Merge or replace export/import choice with dropdown
  League and realm choose on generation
+ Import not working without a reload
+ Need to clear cache to avoid infinite growth

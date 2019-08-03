@@ -226,6 +226,34 @@
         document.body.removeChild(el);
     }
 
+    function toInt(str) {
+        var parsed = parseInt(str, 10);
+        if (isNaN(parsed)) {
+            return 0;
+        }
+        return parsed;
+    }
+
+    // Receive a desc like "~price <value> >currency>"
+    // and extract the value.
+    function valueFromDesc(desc) {
+        var res = 0;
+        var words = desc.split(' ');
+        switch (words[2]) {
+            case "chaos":
+                res = 10000;
+                break;
+            case "alch":
+                res = 1000;
+                break;
+            case "exa":
+                res = 100000;
+                break;
+        }
+
+        return res + toInt(words[1]);
+    }
+
     function generateShop() {
         var dict = {};
         var items = document.getElementsByClassName('newItemContainer');
@@ -235,21 +263,26 @@
             if (desc != undefined) {
                 var price = getPriceNote(items[i].id);
                 if (price != "") {
-                    if (dict[price] == undefined) {
-                        dict[price] = [];
+                    var value = valueFromDesc(price);
+                    console.log(desc, value);
+                    if (dict[value] == undefined) {
+                        dict[value] = [];
                     }
-                    dict[price].push(desc);
+                    dict[value].push({'desc': desc, 'price': price});
                 }
             }
         }
 
-        // Construct shop list regrouped by prices
+        // Construct shop list regrouped and sorted by prices
         var text = 'Welcome to my shop !\n';
-        for (var price in dict) {
+        for (var value in dict) {
+            var items = dict[value];
+            // Here, we are guaranted to have at least one element
+            // and all of them should have the same price note.
+            var price = items[0].price;
             text += '[spoiler="' + price + '"]\n';
-            var items = dict[price];
             for (var i = 0; i < items.length; i++) {
-                text += items[i] + "\n";
+                text += items[i].desc + "\n";
             }
             text += "[/spoiler]\n";
         }
