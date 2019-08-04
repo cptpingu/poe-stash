@@ -232,6 +232,18 @@
         return parsed;
     }
 
+    // Returns the real value.
+    function realValue(desc) {
+        var words = desc.split(' ');
+        return toInt(words[1]);
+    }
+
+    // Returns the real type.
+    function realType(desc) {
+        var words = desc.split(' ');
+        return words[2];
+    }
+
     // Receive a desc like "~price <value> >currency>"
     // and extract the value.
     function valueFromDesc(desc) {
@@ -252,6 +264,7 @@
         return res + toInt(words[1]);
     }
 
+
     function generateShop() {
         var dict = {};
         var items = document.getElementsByClassName('newItemContainer');
@@ -265,25 +278,54 @@
                     if (dict[value] == undefined) {
                         dict[value] = [];
                     }
-                    dict[value].push({'desc': desc, 'price': price});
+                    dict[value].push({
+                        'desc': desc,
+                        'price': price,
+                        'realvalue': realValue(price),
+                        'realtype': realType(price),
+                    });
                 }
             }
         }
 
         // Construct shop list regrouped and sorted by prices
-        var text = 'Welcome to my shop !\n';
+        var text = 'Welcome to my shop !\n\n';
+        var summary = "\n\nSell summary:\n";
+        var count = {};
         for (var value in dict) {
             var items = dict[value];
             // Here, we are guaranted to have at least one element
             // and all of them should have the same price note.
             var price = items[0].price;
+            var realtype = items[0].realtype;
+            var realvalue = items[0].realvalue;
+            // Compute summary
+            var sum = items.length * realvalue;
+            summary += " * " + items.length + " items at " +
+                + realvalue + " " + realtype +
+                " = " + sum + "\n";
+            if (count[realtype] == undefined) {
+                count[realtype] = {'sum': 0, 'nb': 0};
+            }
+            count[realtype].sum += sum;
+            count[realtype].nb += items.length;
             text += '[spoiler="' + price + '"]\n';
             for (var i = 0; i < items.length; i++) {
                 text += items[i].desc + "\n";
             }
             text += "[/spoiler]\n";
         }
-        text += "This shop has been generated with poe-stash {{ Version }}\n";
+        text += summary;
+        var nbTotal = 0;
+        var breakdown = "";
+        for (var si in count) {
+            breakdown += " * " + count[si].sum + " " + si +
+                " (with " + count[si].nb + " items)\n";
+            nbTotal += count[si].nb;
+        }
+        text += "\nTotal (" + nbTotal + " items):\n"
+        text += breakdown;
+        text += '\n\n[span color="#c44312"]This shop has been generated with poe-stash {{ Version }}[/span]\n';
         copyStringToClipboard(text);
         openAlert();
         cleanCache();
