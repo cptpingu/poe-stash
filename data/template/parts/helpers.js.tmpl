@@ -127,11 +127,8 @@
     }
 
     function openWindowWithPost(text) {
-        console.log(text);
         var f = document.getElementById('estimate-form');
-        console.log(f);
         f.itemtext.value = text;
-        console.log(f);
         window.open('', 'estimation');
         f.submit();
     }
@@ -170,6 +167,7 @@
             } else {
                 setPriceNote(id, note);
             }
+            // cleanCache();
             updateCurrencyThumbnail(id);
         }
         estimate.onclick = function(event) {
@@ -264,7 +262,6 @@
                 var price = getPriceNote(items[i].id);
                 if (price != "") {
                     var value = valueFromDesc(price);
-                    console.log(desc, value);
                     if (dict[value] == undefined) {
                         dict[value] = [];
                     }
@@ -289,6 +286,7 @@
         text += "This shop has been generated with poe-stash {{ Version }}\n";
         copyStringToClipboard(text);
         openAlert();
+        cleanCache();
     }
 
     function exportShop() {
@@ -311,8 +309,6 @@
     }
 
     function importShop(evt) {
-        console.log('called?', evt);
-
         // Check for the various File API support.
         if (!window.File || !window.FileReader || !window.FileList || !window.Blob) {
             alert('The File APIs are not fully supported in this browser. Import is not possible!');
@@ -320,10 +316,8 @@
         }
 
         var files = evt.target.files;
-        console.log(files);
         var output = [];
         for (var i = 0, f; f = files[i]; i++) {
-            console.log(f.name, f.type);
             // Only process text files.
             if (!f.type.match('text.*')) {
                 continue;
@@ -338,12 +332,29 @@
                     if (data != "") {
                         Object.keys(data).forEach(function (k) {
                             localStorage.setItem(k, data[k]);
+                            updateCurrencyThumbnail(k);
                         });
                     }
                 };
             })(f);
 
             reader.readAsText(f);
+        }
+    }
+
+    // Search for all item currently not there
+    function cleanCache() {
+        // Retrieve all sellable objects
+        var dict = {}
+        var items = document.getElementsByClassName('newItemContainer');
+        for (var i = 0; i < items.length; i++) {
+            dict[items[i].id] = true;
+        }
+        // Remove all item in storage not present on the page
+        for (var key in window.localStorage){
+            if (window.localStorage.hasOwnProperty(key) && document.getElementById(key) == undefined) {
+                setPriceNote(key, '');
+            }
         }
     }
 
