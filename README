@@ -11,6 +11,7 @@ TODO
  More rigourous item description generation
  Wealth improvements
  Merge or replace export/import choice with dropdown
- League and realm choose on generation
  Shop id for the link after shop generation
- Form validation on main page
+ Action to "see" all items non currently selling
+ Don't hardcode account passwords!
+ 

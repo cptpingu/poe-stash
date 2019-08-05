@@ -414,13 +414,70 @@
         }
     }
 
-    function redirectToGen(account, poeSessid) {
+    function redirectToGen(account, poeSessid, league, realm) {
         openWaitModal();
+        var link = "/gen/" + account;
         if (poeSessid != "") {
-            window.location.href = "/gen/" + account + "?poesessid=" + poeSessid;
-        } else {
-            window.location.href = "/gen/" + account;
+            link += "?poesessid=" + poeSessid;
         }
+        if (league != "") {
+            link += "?realm=" + realm;
+        }
+        if (realm != "") {
+            link += "?league=" + league;
+        }
+        window.location.href = link;
+    }
+
+    function refresh(account) {
+        redirectToGen(account, '', '', '');
+    }
+
+    function validateForm(account, poesessid) {
+        var errbox = document.getElementById('errbox');
+        var account = document.getElementById('account');
+        var no_account = document.getElementById('no-account');
+        var poesessid = document.getElementById('poesessid');
+        var no_sess = document.getElementById('no-sess');
+        var invalid_sess = document.getElementById('invalid-sess');
+        var submit_btn = document.getElementById('submit-btn');
+        var errorOccured  = false;
+
+        if (account.value == "") {
+            account.classList.add('input-error');
+            no_account.classList.remove('hidden');
+            errorOccured  = true;
+        } else {
+            account.classList.remove('input-error');
+            no_account.classList.add('hidden');
+        }
+        if (poesessid.value == "") {
+            poesessid.classList.add('input-error');
+            no_sess.classList.remove('hidden');
+            errorOccured  = true;
+        } else {
+            poesessid.classList.remove('input-error');
+            no_sess.classList.add('hidden');
+
+            if (!/^[,a-zA-Z0-9-]{1,128}$/.test(poesessid.value)) {
+                poesessid.classList.add('input-error');
+                invalid_sess.classList.remove('hidden');
+                errorOccured  = true;
+            } else {
+                poesessid.classList.remove('input-error');
+                invalid_sess.classList.add('hidden');
+            }
+        }
+
+        if (errorOccured) {
+            errbox.classList.remove('hidden');
+            submit_btn.disabled = true;
+            return false;
+        }
+
+        errbox.classList.add('hidden');
+        submit_btn.disabled = false;
+        return true;
     }
 
     function formatSubmit() {
@@ -434,7 +491,26 @@
             console.log("Can't get poesessid!");
             return;
         }
-        redirectToGen(account.value, poesessid.value);
+        var league = document.getElementById('league');
+        if (league == undefined) {
+            console.log("Can't get league!");
+            return;
+        }
+        var realm = document.getElementById('realm');
+        if (realm == undefined) {
+            console.log("Can't get realm!");
+            return;
+        }
+
+        // Check validity
+        if (!validateForm()) {
+            return;
+        }
+
+        redirectToGen(account.value,
+            poesessid.value,
+            league.options[league.selectedIndex].value,
+            realm.options[realm.selectedIndex].value);
     }
 
     initImport();

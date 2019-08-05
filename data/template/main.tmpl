@@ -8,7 +8,7 @@
         {{ range . }}
         <li>
             <a href="/view/{{ . }}">{{ . }}</a>
-            <button title="Refresh" class="refresh" onclick="redirectToGen('{{ . }}', '')"></button>
+            <button title="Refresh" class="refresh" onclick="refresh('{{ . }}')"></button>
         </li>
         {{ end }}
       </ul>
@@ -17,18 +17,31 @@
       <div>
         <h1>Refresh or fetch a new account</h2>
         <form action="/gen" method="GET">
-          <input id="account" class="input-text" type="text" name="account" value="" placeholder="Account Name" />
-          <input id="poesessid" class="input-text" type="text" name="poesessid" value="" placeholder="PoE sessid" />
+          <input id="account" class="input-text" type="text" name="account" value="" placeholder="Account Name" onfocusout="validateForm()" />
+          <input id="poesessid" class="input-text" type="text" name="poesessid" value="" placeholder="PoE sessid" onfocusout="validateForm()" />
           <select id="league" class="dropdown" type="text" name="league">
             <option value="standard" selected="selected">Standard</option>
             <option value="legion">Legion</option>
           </select>
-          <input type="button" class="button button-submit" onclick="formatSubmit()" value="Generate" />
+          <select id="realm" class="dropdown" type="text" name="realm">
+            <option value="pc" selected="selected">PC</option>
+            <option value="ps4">PS4</option>
+            <option value="xbox">Xbox</option>
+          </select>
+          <input id="submit-btn" type="button" class="button button-submit" onclick="formatSubmit()" value="Generate" disabled="disabled" />
         </form>
+
+        <div class="error hidden" id="errbox">
+          <ul>
+            <li id="no-account" class="hidden">Account not provided!</li>
+            <li id="no-sess" class="hidden">PoeSessid not provided!</li>
+            <li id="invalid-sess" class="hidden">Invalid PoeSessid! Check it's a valid sessid: <a href="#getsessid">how to get poesessid</a></li>
+          </ul>
+        </div>
       </div>
 
       <div>
-        <h1>How to get the POESESSID<h1>
+        <h1 id="getsessid">How to get the POESESSID<h1>
 
         <p>
           <h2>Firefox</h2>
