@@ -231,7 +231,7 @@
                       <div class="flavourText">
                         <span class="lc">
                         {{ range .FlavorText }}
-                          {{ . }}<br />
+                          {{ ReplacePoEMarkup . | safe }}<br />
                         {{ end }}
                         </span>
                       </div>
