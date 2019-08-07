@@ -513,6 +513,36 @@
             realm.options[realm.selectedIndex].value);
     }
 
+    function highlightItems(highlightType) {
+        var items = document.getElementsByClassName('newItemContainer');
+        // Retrieve all sellable objects
+        for (var i = 0; i < items.length; i++) {
+            var id = items[i].id;
+            var currency = document.getElementById(id + '-currency');
+            if (currency != undefined) {
+                switch (highlightType) {
+                    case 'all':
+                        items[i].style.opacity = 1.0;
+                        break;
+                    case 'sell':
+                        if (currency.style.display != 'none') {
+                            items[i].style.opacity = 1.0;
+                        } else {
+                            items[i].style.opacity = 0.3;
+                        }
+                        break;
+                    case 'noprice':
+                        if (currency.style.display == 'none') {
+                            items[i].style.opacity = 1.0;
+                        } else {
+                            items[i].style.opacity = 0.3;
+                        }
+                        break;
+                }
+            }
+        }
+    }
+
     initImport();
     initModal();
     </script>

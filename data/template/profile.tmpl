@@ -11,6 +11,11 @@
           Import shop
         </span>
       </label>
+      <select id="highlight" class="dropdown" onchange="highlightItems(this.value)">
+        <option value="all" selected="selected">Show all</option>
+        <option value="sell">Show price items</option>
+        <option value="noprice">Show no price set</option>
+      </select>
     </div>
 
     <div class="clear"><!-- --></div>
