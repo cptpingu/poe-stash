@@ -133,6 +133,15 @@
         f.submit();
     }
 
+    function selectDropdownOptionByName(dropdown, name) {
+        for (var i = 0; i < dropdown.options.length; i++) {
+            if (dropdown.options[i].value == name) {
+                dropdown.selectedIndex = i;
+                break;
+            }
+        }
+    }
+
     function openModal(id, objectName, objectAltName, desc) {
         var modal = document.getElementById('modal');
         var container = document.getElementById('main-container');
@@ -140,10 +149,12 @@
         var estimate = document.getElementById('modal-estimate');
         var submit = document.getElementById('modal-submit');
         var modalPrice = document.getElementById('modal-price');
+        var modalCurrency = document.getElementById('modal-currency');
         var currentPrice = getPriceNote(id);
         if (currentPrice != "") {
             var words = currentPrice.split(' ');
             modalPrice.value = words[1];
+            selectDropdownOptionByName(modalCurrency, words[2]);
         }
 
         var header =  "";
@@ -159,7 +170,6 @@
         submit.onclick = function(event) {
             modal.className = "modal hidden";
             container.className = "";
-            var modalCurrency = document.getElementById('modal-currency');
             var currency = modalCurrency.options[modalCurrency.selectedIndex];
             var note = "~price " + modalPrice.value + " " + currency.value;
             if (modalPrice.value == "") {
