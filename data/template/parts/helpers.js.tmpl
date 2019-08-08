@@ -358,6 +358,29 @@
         if (shop != undefined) {
             shop.addEventListener('change', importShop, false);
         }
+        var mergebox = document.getElementById('merge');
+        var value = localStorage.getItem('merge');
+        if (value == undefined) {
+            value = "true";
+        }
+        if (value == "true") {
+            mergebox.checked = true;
+        } else {
+            mergebox.checked = false;
+        }
+    }
+
+    function clearAllPrices() {
+        // Clear the local storage.
+        localStorage.clear();
+        // Hide all thumbnails.
+        var items = document.getElementsByClassName('newItemContainer');
+        for (var i = 0; i < items.length; i++) {
+            var thumbnail = document.getElementById(items[i].id + '-currency');
+            if (thumbnail != undefined) {
+                thumbnail.style.display = 'none';
+            }
+        }
     }
 
     function importShop(evt) {
@@ -382,6 +405,17 @@
                     var rawDataFile = e.target.result;
                     var data = JSON.parse(rawDataFile);
                     if (data != "") {
+                        // Check if we merge or replace content.
+                        var mergeData = localStorage.getItem('merge');
+                        if (mergeData == undefined) {
+                            mergeData = "true";
+                        }
+                        if (mergeData !== "true") {
+                            clearAllPrices();
+                            localStorage.setItem('merge', mergeData);
+                        }
+
+                        // Import all prices.
                         Object.keys(data).forEach(function (k) {
                             localStorage.setItem(k, data[k]);
                             updateCurrencyThumbnail(k);
@@ -403,7 +437,7 @@
             dict[items[i].id] = true;
         }
         // Remove all item in storage not present on the page
-        for (var key in window.localStorage){
+        for (var key in window.localStorage) {
             if (window.localStorage.hasOwnProperty(key) && document.getElementById(key) == undefined) {
                 setPriceNote(key, '');
             }
@@ -551,6 +585,12 @@
                 }
             }
         }
+    }
+
+    function onMergeChange(elt) {
+        var mergebox = document.getElementById('merge');
+        // Remember value for next opening.
+        localStorage.setItem('merge', mergebox.checked);
     }
 
     initImport();
