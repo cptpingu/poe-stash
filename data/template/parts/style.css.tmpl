@@ -357,8 +357,10 @@
         position: absolute;
         bottom: 0px;
         left: 0px;
-        size: 5px;
         display: inline-block;
+      }
+      .thumbnail {
+        size: 5px;
         width: 20px;
         height: 20px;
       }
@@ -367,6 +369,28 @@
       }
       .sockets {
         z-index: 3;
+      }
+      #wealth {
+        font-family: "FontinSmallCaps",Verdana,Arial,Helvetica,sans-serif;
+        background-color: black;
+        border: 1px solid #3a2317;
+        padding: 10px;
+        max-width: 600px;
+        white-space: nowrap;
+        margin: 0;
+      }
+      .thumbnail:before,
+      .thumbnail_before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+      #wealth .thumbnail {
+        top: 1px;
+      }
+      img {
+        vertical-align: middle;
       }
     </style>
 {{ end }}

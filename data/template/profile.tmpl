@@ -1,7 +1,13 @@
 {{ define "profile" }}
   {{ template "header" }}
 
-    <div><b>Wealth:</b> {{ .Wealth }} </div>
+    <div id="wealth">
+      <b>Estimated wealth:</b><img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyRerollRare.png?scale=1&amp;w=1&amp;h=1&amp;v=c60aa876dd6bab31174df91b1da1b4f9"><small>x</small>{{ .Wealth.EstimatedChaos }} (with
+      <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1&v=1745ebafbd533b6f91bccf588ab5efc5"><small>x</small>{{ .Wealth.NbExa }}
+      <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyRerollRare.png?scale=1&amp;w=1&amp;h=1&amp;v=c60aa876dd6bab31174df91b1da1b4f9"><small>x</small>{{ .Wealth.NbChaos }}
+      <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyUpgradeToRare.png?scale=1&w=1&h=1&v=89c110be97333995522c7b2c29cae728"><small>x</small>{{ .Wealth.NbAlch }}
+      )
+    </div>
     <div id="shop" class="box">
       <button class="button" onclick="generateShop()">Generate items shop</button>
       <button class="button" onclick="exportShop()">Export shop</button>
@@ -12,7 +18,7 @@
         </span>
       </label>
       <span id="merge-box">
-        <input type="checkbox" id="merge" name="merge" checked="checked" onclick="onMergeChange()">
+        <input type="checkbox" id="merge" name="merge" checked="checked" onclick="onMergeChange(this)">
         <label for="merge">Merge</label>
       </span>
       <select id="highlight" class="dropdown" onchange="highlightItems(this.value)">

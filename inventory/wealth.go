@@ -102,16 +102,47 @@ func getCount(properties []ItemProperty) int {
 	return 0
 }
 
+// WealthBreakdown holds total wealth and its details.
+type WealthBreakdown struct {
+	EstimatedChaos int
+	NbAlch         int
+	NbChaos        int
+	NbExa          int
+}
+
 // ComputeWealth computes the wealth in chaos orbs contained in a stash.
-func ComputeWealth(stashTabs []*StashTab) int {
-	var chaos float64
-	for _, tab := range stashTabs {
-		for _, item := range tab.Items {
-			if value, ok := CurrencyExchangeRate[item.Type]; ok {
-				chaos += float64(getCount(item.Properties)) * value
-			}
+func ComputeWealth(stashTabs []*StashTab, characters []*CharacterInventory) WealthBreakdown {
+	var wealth WealthBreakdown
+	var estimate float64
+
+	compute := func(item *Item) {
+		nb := getCount(item.Properties)
+		switch item.Type {
+		case "Orb of Alchemy":
+			wealth.NbAlch += nb
+		case "Chaos Orb":
+			wealth.NbChaos += nb
+		case "Exalted Orb":
+			wealth.NbExa += nb
+		}
+		if value, ok := CurrencyExchangeRate[item.Type]; ok {
+			estimate += float64(nb) * value
 		}
 	}
 
-	return int(chaos)
+	// Get currencies in stash.
+	for _, tab := range stashTabs {
+		for _, item := range tab.Items {
+			compute(&item)
+		}
+	}
+	// Get currencies in inventories.
+	for _, character := range characters {
+		for _, item := range character.Items {
+			compute(item)
+		}
+	}
+
+	wealth.EstimatedChaos = int(estimate)
+	return wealth
 }

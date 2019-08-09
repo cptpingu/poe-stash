@@ -30,7 +30,7 @@
                 data-desc="{{ template "itemtext" $item }}"
                 onclick="openModal('item-{{ .Id }}', '{{ .Name }}', '{{ .Type }}')">
                 <div id="item-{{ .Id }}-currency" class="item-price" style="display: none;">
-                  <img id="item-{{ .Id }}-currency-img" src="" />
+                  <img id="item-{{ .Id }}-currency-img" class="thumbnail" src="" />
                   <span id="item-{{ .Id }}-currency-span">xx</span>
                 </div>
                 <div class="socketPopups"></div>

@@ -48,7 +48,7 @@ type ScrapedData struct {
 	Characters []*inventory.CharacterInventory
 	Skills     []*inventory.CharacterSkills
 	Stash      []*inventory.StashTab
-	Wealth     int
+	Wealth     inventory.WealthBreakdown
 }
 
 // NewScraper returns a configured scraper.
@@ -159,7 +159,7 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 		return nil, errStash
 	}
 	data.Stash = stash
-	data.Wealth = inventory.ComputeWealth(data.Stash)
+	data.Wealth = inventory.ComputeWealth(data.Stash, data.Characters)
 
 	return data, nil
 }
