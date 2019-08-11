@@ -28,6 +28,7 @@
                 style="position: absolute; left: {{ DeducePosX $layoutType .InventoryId $layout .X .Y $idx }}px; top: {{ DeducePosY $layoutType .InventoryId $layout .X .Y $idx }}px; display: {{ $visibility }};"
                 data-sell="{{ SellDescription . $charName }}"
                 data-desc="{{ template "itemtext" $item }}"
+                data-premium-price="{{ .Note }}"
                 onclick="openModal('item-{{ .Id }}', '{{ .Name }}', '{{ .Type }}')">
                 <div id="item-{{ .Id }}-currency" class="item-price" style="display: none;">
                   <img id="item-{{ .Id }}-currency-img" class="thumbnail" src="" />
