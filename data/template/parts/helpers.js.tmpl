@@ -359,14 +359,16 @@
             shop.addEventListener('change', importShop, false);
         }
         var mergebox = document.getElementById('merge');
-        var value = localStorage.getItem('merge');
-        if (value == undefined) {
-            value = "true";
-        }
-        if (value == "true") {
-            mergebox.checked = true;
-        } else {
-            mergebox.checked = false;
+        if (mergebox != undefined) {
+            var value = localStorage.getItem('merge');
+            if (value == undefined) {
+                value = "true";
+            }
+            if (value == "true") {
+                mergebox.checked = true;
+            } else {
+                mergebox.checked = false;
+            }
         }
     }
 

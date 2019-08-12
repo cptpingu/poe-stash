@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.perso/poe-stash/inventory"
-	"gitlab.perso/poe-stash/scraper"
+	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/scraper"
 )
 
 const (
