@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"gitlab.perso/poe-stash/inventory"
+	"github.com/poe-stash/inventory"
 )
 
 // parseStashTab parses a Path of Exile stash tabulation.

@@ -198,6 +198,12 @@
         container.className = "desactivate";
     }
 
+    function closeWaitModal() {
+        var modal = document.getElementById('wait-modal');
+        var container = document.getElementById('main-container');
+        modal.className = "modal hidden";
+        container.className = "";
+    }
 
     function initModal() {
         var modal = document.getElementById('modal');
@@ -300,6 +306,11 @@
 
         // Construct shop list regrouped and sorted by prices
         var text = 'Welcome to my shop !\n\n';
+        text += '\nWant to show your stash to others?';
+        text += ' Price your item visually like a premium stash?';
+        text += ' You do not want to install anything, and want something which works everywhere (pc, mac, windows and phone)?\n';
+        text += '\n[url="https://cptpingu.github.io/poe-stash/"][span color="#9f8d19"]Check this project: poe-stash[/span][/url]\n\n';
+
         var summary = "\n\nSell summary:\n";
         var count = {};
         for (var value in dict) {
@@ -336,6 +347,7 @@
         text += "\nTotal (" + nbTotal + " items):\n"
         text += breakdown;
         text += '\n\n[span color="#c44312"]This shop has been generated with poe-stash {{ Version }}[/span]\n';
+        text += '[url="https://cptpingu.github.io/poe-stash/"][span color="#9f8d19"]Try it yourself here![/span][/url]\n';
         copyStringToClipboard(text);
         openAlert();
         cleanCache();
@@ -359,14 +371,16 @@
             shop.addEventListener('change', importShop, false);
         }
         var mergebox = document.getElementById('merge');
-        var value = localStorage.getItem('merge');
-        if (value == undefined) {
-            value = "true";
-        }
-        if (value == "true") {
-            mergebox.checked = true;
-        } else {
-            mergebox.checked = false;
+        if (mergebox != undefined) {
+            var value = localStorage.getItem('merge');
+            if (value == undefined) {
+                value = "true";
+            }
+            if (value == "true") {
+                mergebox.checked = true;
+            } else {
+                mergebox.checked = false;
+            }
         }
     }
 
@@ -460,15 +474,15 @@
 
     function redirectToGen(account, poeSessid, league, realm) {
         openWaitModal();
-        var link = "/gen/" + account;
+        var link = "/gen/" + account + "?gen=1";
         if (poeSessid != "") {
-            link += "?poesessid=" + poeSessid;
+            link += "&poesessid=" + poeSessid;
         }
         if (league != "") {
-            link += "?realm=" + realm;
+            link += "&realm=" + realm;
         }
         if (realm != "") {
-            link += "?league=" + league;
+            link += "&league=" + league;
         }
         window.location.href = link;
     }

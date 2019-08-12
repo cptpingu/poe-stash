@@ -6,8 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"gitlab.perso/poe-stash/generate"
-	"gitlab.perso/poe-stash/scraper"
+	"github.com/poe-stash/generate"
+	"github.com/poe-stash/misc"
+	"github.com/poe-stash/scraper"
 )
 
 // mandatoryOption ensure an option is not empty.
@@ -25,15 +26,20 @@ func main() {
 	account := flag.String("account", "", "account name")
 	poeSessID := flag.String("poesessid", "", "poesessid got after login on the official website")
 	realm := flag.String("realm", "pc", "the realm (pc, ps4, xbox)")
-	league := flag.String("league", "Standard", "league name (anarchy, legion, synthesis, delve...)")
-	output := flag.String("output", "-", "where to genreate html file (put \"-\" for stdin")
-	cache := flag.Bool("cache", false, "do not call distant api, and use local cache if possible")
+	league := flag.String("league", "standard", "league name (anarchy, legion, synthesis, delve...)")
+	output := flag.String("output", "", "where to generate html file (put \"-\" for stdin), if empty, a generated name will be created (account-league.html)")
+	cache := flag.Bool("cache", false, "do not call distant api, and use local cache if possible, for debug purpose only")
+	version := flag.Bool("version", false, "display the version of this tool")
 	flag.Parse()
 	mandatoryOption(*account, "account")
 	mandatoryOption(*poeSessID, "poesessid")
 	mandatoryOption(*realm, "realm")
 	mandatoryOption(*league, "league")
-	mandatoryOption(*output, "output")
+
+	if *version {
+		fmt.Println(misc.Version)
+		return
+	}
 
 	scraper := scraper.NewScraper(*account, *poeSessID, *realm, *league, *cache)
 	data, errScrap := scraper.ScrapEverything()
@@ -44,6 +50,10 @@ func main() {
 
 	var file *os.File
 	var err error
+	if *output == "" {
+		*output = *account + "-" + *league + ".html"
+	}
+
 	if *output == "-" {
 		file = os.Stdout
 	} else {

@@ -13,8 +13,10 @@ import (
 	"strconv"
 	"strings"
 
-	"gitlab.perso/poe-stash/inventory"
-	"gitlab.perso/poe-stash/scraper"
+	"github.com/poe-stash/misc"
+
+	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/scraper"
 )
 
 const (
@@ -66,7 +68,7 @@ func LoadAllTemplates() (*template.Template, error) {
 		"ContainsPattern":      ContainsPattern,
 		"GenProperties":        GenProperties,
 		"Version": func() string {
-			return "v0.1"
+			return misc.Version
 		},
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)

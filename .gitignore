@@ -1,4 +1,8 @@
-poe-stash
+poe-stash-cli-*
+poe-stash-server-*
 data/*.html
 data/cache/*
 pass.txt
+.vscode
+*.tar.gz
+*.zip

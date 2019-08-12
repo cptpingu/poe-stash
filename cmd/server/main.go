@@ -11,9 +11,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"gitlab.perso/poe-stash/cmd/server/page"
-	"gitlab.perso/poe-stash/generate"
-	"gitlab.perso/poe-stash/scraper"
+	"github.com/poe-stash/cmd/server/page"
+	"github.com/poe-stash/generate"
+	"github.com/poe-stash/misc"
+	"github.com/poe-stash/scraper"
 )
 
 // setupRouter setups the http server and all its pages.
@@ -29,8 +30,12 @@ func setupRouter(passwords map[string]string) *gin.Engine {
 	router.GET("/view/:account", page.ViewAccountHandler)
 	router.GET("/download/:account", page.DownloadFileHandler)
 
-	authorized := router.Group("/", gin.BasicAuth(passwords))
-	authorized.GET("/gen/:account", page.GenAccountHandler)
+	if passwords != nil {
+		authorized := router.Group("/", gin.BasicAuth(passwords))
+		authorized.GET("/gen/:account", page.GenAccountHandler)
+	} else {
+		router.GET("/gen/:account", page.GenAccountHandler)
+	}
 
 	return router
 }
@@ -77,12 +82,22 @@ func loadPasswords(filename string) (r map[string]string, mainErr error) {
 // stash and items for given users.
 func main() {
 	port := flag.Int("port", 2121, "port")
-	passwordFile := flag.String("passwords", "./pass.txt", "password file (containing login:pass in plain text)")
+	passwordFile := flag.String("passwords", "", "password file (containing login:pass in plain text)")
+	version := flag.Bool("version", false, "display the version of this tool")
 	flag.Parse()
 
-	passwords, err := loadPasswords(*passwordFile)
-	if err != nil {
-		panic(err)
+	if *version {
+		fmt.Println(misc.Version)
+		return
+	}
+
+	var passwords map[string]string
+	if *passwordFile != "" {
+		var err error
+		_, err = loadPasswords(*passwordFile)
+		if err != nil {
+			panic(err)
+		}
 	}
 	r := setupRouter(passwords)
 	r.Run(fmt.Sprintf(":%d", *port))
