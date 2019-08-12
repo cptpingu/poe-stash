@@ -11,9 +11,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"gitlab.perso/poe-stash/cmd/server/page"
-	"gitlab.perso/poe-stash/generate"
-	"gitlab.perso/poe-stash/scraper"
+	"github.com/poe-stash/cmd/server/page"
+	"github.com/poe-stash/generate"
+	"github.com/poe-stash/scraper"
 )
 
 // setupRouter setups the http server and all its pages.

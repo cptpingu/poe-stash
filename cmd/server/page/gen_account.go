@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"gitlab.perso/poe-stash/generate"
-	"gitlab.perso/poe-stash/scraper"
+	"github.com/poe-stash/generate"
+	"github.com/poe-stash/scraper"
 )
 
 // GenAccountHandler handles refresh of an account.

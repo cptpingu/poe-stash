@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"gitlab.perso/poe-stash/inventory"
+	"github.com/poe-stash/inventory"
 )
 
 const (
@@ -126,6 +126,7 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 // ScrapEverything scraps items, characters, profile, inventory and so on...
 func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	data := &ScrapedData{
+		Version:    "v0.1",
 		Characters: make([]*inventory.CharacterInventory, 0, 10),
 		Skills:     make([]*inventory.CharacterSkills, 0, 10),
 		Stash:      nil,
