@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"gitlab.perso/poe-stash/inventory"
+	"github.com/poe-stash/inventory"
 )
 
 const (

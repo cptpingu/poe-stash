@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"gitlab.perso/poe-stash/inventory"
+	"github.com/poe-stash/inventory"
 )
 
 // parseCharacters parses a Path of Exile characters.
