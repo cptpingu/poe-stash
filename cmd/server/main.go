@@ -27,6 +27,7 @@ func setupRouter(passwords map[string]string) *gin.Engine {
 	router.Static("/data", scraper.DataDir)
 	router.GET("/", page.MainPageHandler)
 	router.GET("/view/:account", page.ViewAccountHandler)
+	router.GET("/download/:account", page.DownloadFileHandler)
 
 	authorized := router.Group("/", gin.BasicAuth(passwords))
 	authorized.GET("/gen/:account", page.GenAccountHandler)

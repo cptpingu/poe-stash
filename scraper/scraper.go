@@ -43,12 +43,11 @@ type Scraper struct {
 
 // ScrapedData holds everything scrapped.
 type ScrapedData struct {
-	Version string
-
-	Characters []*inventory.CharacterInventory
-	Skills     []*inventory.CharacterSkills
-	Stash      []*inventory.StashTab
-	Wealth     inventory.WealthBreakdown
+	AccountName string
+	Characters  []*inventory.CharacterInventory
+	Skills      []*inventory.CharacterSkills
+	Stash       []*inventory.StashTab
+	Wealth      inventory.WealthBreakdown
 }
 
 // NewScraper returns a configured scraper.
@@ -126,9 +125,10 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 // ScrapEverything scraps items, characters, profile, inventory and so on...
 func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	data := &ScrapedData{
-		Characters: make([]*inventory.CharacterInventory, 0, 10),
-		Skills:     make([]*inventory.CharacterSkills, 0, 10),
-		Stash:      nil,
+		AccountName: s.accountName,
+		Characters:  make([]*inventory.CharacterInventory, 0, 10),
+		Skills:      make([]*inventory.CharacterSkills, 0, 10),
+		Stash:       nil,
 	}
 
 	// Get the list of all characters of a user.

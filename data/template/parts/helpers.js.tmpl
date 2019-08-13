@@ -611,7 +611,18 @@
         localStorage.setItem('merge', mergebox.checked);
     }
 
+    function showDownloadShareButton() {
+        // Show ribbon if file is not a local file.
+        if (window.location.href.indexOf("file://") != 0) {
+            var ribbon = document.getElementById('ribbon');
+            if (ribbon != undefined) {
+                ribbon.style.display = 'block';
+            }
+        }
+    }
+
     initImport();
     initModal();
+    showDownloadShareButton();
     </script>
 {{ end }}
