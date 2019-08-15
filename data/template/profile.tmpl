@@ -1,16 +1,16 @@
 {{ define "profile" }}
-  {{ template "header" }}
+  {{ $title := (print " - " .Account) }}
+  {{ template "header" dict "Title" $title }}
 
     <div id="ribbon" style="display: none;">
-      <a href="/download/{{ .AccountName }}" class="button ribbon">Download/Share</a>
+      <a href="/download/{{ .Account }}?league={{ .League }}&realm={{ .Realm }}&date={{ .Date | DateFormat }}" class="button ribbon">Download/Share</a>
     </div>
 
     <div id="wealth">
       <b>Estimated wealth:</b><img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyRerollRare.png?scale=1&amp;w=1&amp;h=1&amp;v=c60aa876dd6bab31174df91b1da1b4f9"><small>x</small>{{ .Wealth.EstimatedChaos }} (with
       <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1&v=1745ebafbd533b6f91bccf588ab5efc5"><small>x</small>{{ .Wealth.NbExa }}
       <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyRerollRare.png?scale=1&amp;w=1&amp;h=1&amp;v=c60aa876dd6bab31174df91b1da1b4f9"><small>x</small>{{ .Wealth.NbChaos }}
-      <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyUpgradeToRare.png?scale=1&w=1&h=1&v=89c110be97333995522c7b2c29cae728"><small>x</small>{{ .Wealth.NbAlch }}
-      )
+      <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyUpgradeToRare.png?scale=1&w=1&h=1&v=89c110be97333995522c7b2c29cae728"><small>x</small>{{ .Wealth.NbAlch }})
     </div>
     <div id="shop" class="box">
       <button class="button" onclick="generateShop()">Generate items shop</button>
@@ -67,6 +67,13 @@
     <div class="clear"><!-- --></div>
 
     {{ template "stash" . }}
+
+    <div class="clear"><!-- --></div>
+
+    <div class="date-gen">
+      This profile has been generated at {{ PrettyDate }} by
+      <a href="https://cptpingu.github.io/poe-stash">poe-stash</a> {{ Version }}
+    </div>
 
     <div id="poe-popup-container">
     {{ range .Stash }}

@@ -1,0 +1,13 @@
+Real issues
+  * New release needed
+  * How to use the generated file (What to do with the generated file), where to host?
+  * Support ("I need your help" section)
+  * Contact
+  * FAQ
+  * Regenerate demo files to add download button
+
+Ideas
+  * More rigourous item description generation
+  * Shop id for the link after shop generation
+  * Search bar? (lot of works, may easily be slow)
+  * Minify generated files, reducing size.

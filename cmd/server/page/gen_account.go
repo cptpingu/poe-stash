@@ -18,7 +18,7 @@ func GenAccountHandler(c *gin.Context) {
 	account := c.Params.ByName("account")
 	poeSessID := ""
 	realm := "pc"
-	league := "Standard"
+	league := "standard"
 
 	query := c.Request.URL.Query()
 	if param, ok := query["poesessid"]; ok {
@@ -48,7 +48,8 @@ func GenAccountHandler(c *gin.Context) {
 		return
 	}
 
-	output := scraper.DataDir + account + ".html"
+	name := fmt.Sprintf("%s-%s-%s", account, league, realm)
+	output := fmt.Sprintf("%s%s.html", scraper.DataDir, name)
 	file, err := os.Create(output)
 	if err != nil {
 		c.HTML(http.StatusOK, "error", err)
@@ -73,5 +74,5 @@ func GenAccountHandler(c *gin.Context) {
 		// Non fatal error, storing the session is not mandatory.
 		fmt.Println("error occured:", errFile)
 	}
-	c.HTML(http.StatusOK, "redirect", "/view/"+account)
+	c.HTML(http.StatusOK, "redirect", "/view/"+name)
 }

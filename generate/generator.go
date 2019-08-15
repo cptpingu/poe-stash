@@ -12,6 +12,7 @@ import (
 	"reflect"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/poe-stash/misc"
 
@@ -107,6 +108,12 @@ func LoadAllTemplates() (*template.Template, error) {
 		},
 		"nl2br": func(line string) string {
 			return strings.Replace(line, "\n", "<br />", -1)
+		},
+		"PrettyDate": func() string {
+			return time.Now().Format("2006-01-02 15:04:05")
+		},
+		"DateFormat": func(d time.Time) string {
+			return d.Format("2006-01-02")
 		},
 	})
 }

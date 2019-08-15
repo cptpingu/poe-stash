@@ -488,7 +488,12 @@
     }
 
     function refresh(account) {
-        redirectToGen(account, '', '', '');
+        var words = account.split('-');
+        if (words.length == 1) {
+            redirectToGen(account, '', '', '');
+        } else {
+            redirectToGen(words[0], '', words[1], words[2]);
+        }
     }
 
     function validateForm(account, poesessid) {
