@@ -7,6 +7,7 @@ import (
 	"html/template"
 	"io"
 	"os"
+	"path/filepath"
 	"strings"
 
 	"github.com/gin-gonic/gin"
@@ -77,6 +78,12 @@ func loadPasswords(filename string) (r map[string]string, mainErr error) {
 	return res, nil
 }
 
+// dirExists checks if directory exists.
+func dirExists(dir string) bool {
+	stat, err := os.Stat(dir)
+	return err == nil && stat.IsDir()
+}
+
 // main is the main routine which launch the http server.
 // This server allows to generate and view account characters,
 // stash and items for given users.
@@ -89,6 +96,20 @@ func main() {
 	if *version {
 		fmt.Println(misc.Version)
 		return
+	}
+
+	// Check data dir exists.
+	if !dirExists(scraper.DataDir) {
+		// Try to cd on the directory where the binary is launched.
+		currentDir := filepath.Dir(os.Args[0])
+		fmt.Println("No data directory, trying to fallback on", currentDir)
+		err := os.Chdir(currentDir)
+		if err != nil {
+			panic(err)
+		}
+		if !dirExists(scraper.DataDir) {
+			panic("can't find any data directory!")
+		}
 	}
 
 	var passwords map[string]string
