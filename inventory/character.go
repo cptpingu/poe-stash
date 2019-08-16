@@ -81,10 +81,9 @@ func (c *CharacterInventory) String() string {
 // CharacterSkills holds all skills choosen by the character
 // and also all items (jewels or abyss) put in the slots.
 type CharacterSkills struct {
-	Hashes          []int   `json:"hashes"`
-	Items           []*Item `json:"items"`
-	JewelSlots      []int   `json:"jewel_slots"`
-	VisualOverrides []int   `json:"visual_overrides"`
+	Hashes     []int   `json:"hashes"`
+	Items      []*Item `json:"items"`
+	JewelSlots []int   `json:"jewel_slots"`
 }
 
 // String converts this structure to its string representation.
