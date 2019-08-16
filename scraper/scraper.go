@@ -39,7 +39,8 @@ type Scraper struct {
 	realm        string
 	league       string
 
-	client http.Client
+	client           http.Client
+	rateLimitManager RateLimitManager
 }
 
 // ScrapedData holds everything scrapped.
@@ -57,13 +58,14 @@ type ScrapedData struct {
 // NewScraper returns a configured scraper.
 func NewScraper(accountName, poeSessionID, realm, league string, cache bool) *Scraper {
 	return &Scraper{
-		cache:        cache,
-		cacheDir:     DataCacheDir,
-		accountName:  accountName,
-		poeSessionID: poeSessionID,
-		realm:        realm,
-		league:       league,
-		client:       http.Client{},
+		cache:            cache,
+		cacheDir:         DataCacheDir,
+		accountName:      accountName,
+		poeSessionID:     poeSessionID,
+		realm:            realm,
+		league:           league,
+		client:           http.Client{},
+		rateLimitManager: NewPoeRateLimitManager(poeSessionID),
 	}
 }
 
@@ -97,10 +99,31 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 	req.AddCookie(&cookie)
 	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
 
+	// Handle rate limiting.
+	baseURL := req.URL.Hostname() + req.URL.EscapedPath()
+	rateLimiter := s.rateLimitManager.GetRateLimiter(s.poeSessionID, baseURL)
+
+	waitTime, queryDone := rateLimiter.NextQuery()
+	time.Sleep(waitTime)
+
+	// Query the server.
 	resp, errResponse := s.client.Do(req)
+	queryDone()
 	if errResponse != nil {
 		return nil, errResponse
 	}
+
+	// Let check if there are some rate limiting rules
+	rateLimitRules := resp.Header.Get("X-Rate-Limit-Account")
+	rateLimitState := resp.Header.Get("X-Rate-Limit-Account-State")
+	rules, errRule := ExtractFirstRuleFromString(rateLimitRules)
+	state, errState := ExtractFirstRuleFromString(rateLimitState)
+	// If so, then update our current rate limit counters with the ones
+	// the server see from its side (for better accuracy).
+	if errRule == nil && errState == nil {
+		s.rateLimitManager.UpdateRateLimiter(s.poeSessionID, baseURL, rules, state)
+	}
+
 	defer func() {
 		localErr := resp.Body.Close()
 		if err == nil {

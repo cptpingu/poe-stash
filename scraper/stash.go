@@ -58,5 +58,6 @@ func (s *Scraper) ScrapWholeStash() ([]*inventory.StashTab, error) {
 		}
 		stashTab = append(stashTab, stash)
 	}
+
 	return stashTab, nil
 }
