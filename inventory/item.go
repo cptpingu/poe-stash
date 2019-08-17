@@ -113,10 +113,13 @@ type HybridType struct {
 type LayoutType string
 
 const (
-	DefaultLayout   LayoutType = ""
-	CurrencyLayout             = "currency"
-	InventoryLayout            = "inventory"
-	JewelLayout                = "jewel"
-	FragmentLayout             = "fragment"
-	MapLayout                  = "map"
+	DefaultLayout    LayoutType = ""
+	CurrencyLayout              = "currency"
+	InventoryLayout             = "inventory"
+	JewelLayout                 = "jewel"
+	FragmentLayout              = "fragment"
+	MapLayout                   = "map"
+	QuadLayout                  = "quad"
+	EssenceLayout               = "essence"
+	DivinationLayout            = "divination"
 )

@@ -41,6 +41,8 @@ type StashTab struct {
 	CurrencyLayout map[string]Layout  `json:"currencyLayout"`
 	FragmentLayout map[string]Layout  `json:"fragmentLayout"`
 	MapLayout      *map[string]Layout `json:"mapLayout"`
+	EssenceLayout  *map[string]Layout `json:"essenceLayout"`
+	QuadLayout     bool               `json:"quadLayout"`
 }
 
 func (s *StashTab) String() string {

@@ -175,11 +175,9 @@ func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
 // absolute css position using a given layout.
 func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y, idx int) float64 {
 	switch inventory.LayoutType(layoutType) {
-	case inventory.CurrencyLayout:
-		if value, ok := layout[strconv.Itoa(x)]; ok {
-			return value.X
-		}
-	case inventory.FragmentLayout:
+	case inventory.CurrencyLayout,
+		inventory.FragmentLayout,
+		inventory.EssenceLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.X
 		}
@@ -210,11 +208,9 @@ func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layo
 // absolute css position using a given layout.
 func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y, idx int) float64 {
 	switch inventory.LayoutType(layoutType) {
-	case inventory.CurrencyLayout:
-		if value, ok := layout[strconv.Itoa(x)]; ok {
-			return value.Y
-		}
-	case inventory.FragmentLayout:
+	case inventory.CurrencyLayout,
+		inventory.FragmentLayout,
+		inventory.EssenceLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.Y
 		}

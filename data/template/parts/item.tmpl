@@ -83,6 +83,10 @@
               {{ $layout = .FragmentLayout }}
               {{ $layoutType = "fragment" }}
               <div class="stashTabContents poeScroll fragmentStash" style="border-color: rgb(124, 84, 54);">
+            {{ else if .EssenceLayout }}
+              {{ $layout = .EssenceLayout }}
+              {{ $layoutType = "essence" }}
+              <div class="stashTabContents poeScroll essenceStash" style="border-color: rgb(124, 84, 54);">
             {{ else if .MapLayout }}
               {{ $layout = .MapLayout }}
               {{ $layoutType = "map" }}
