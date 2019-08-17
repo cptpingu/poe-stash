@@ -80,6 +80,9 @@ func LoadAllTemplates() (*template.Template, error) {
 		"add": func(a, b int) int {
 			return a + b
 		},
+		"div": func(a, b int) int {
+			return a / b
+		},
 		"dict": func(values ...interface{}) (map[string]interface{}, error) {
 			if len(values) == 0 {
 				return nil, errors.New("invalid dict call")
@@ -198,6 +201,8 @@ func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layo
 		if value, ok := inventory.DefaultInventoryLayout[key]; ok {
 			return value
 		}
+	case inventory.QuadLayout:
+		return float64(x) * cellSize / 2
 	default:
 		return float64(x) * cellSize
 	}
@@ -229,6 +234,8 @@ func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layo
 		if value, ok := inventory.DefaultInventoryLayout[key]; ok {
 			return value
 		}
+	case inventory.QuadLayout:
+		return float64(y) * cellSize / 2
 	default:
 		return float64(y) * cellSize
 	}

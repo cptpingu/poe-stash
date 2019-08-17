@@ -91,6 +91,9 @@
               {{ $layout = .MapLayout }}
               {{ $layoutType = "map" }}
               <div class="stashTabContents poeScroll mapStash" style="border-color: rgb(124, 84, 54);">
+            {{ else if .QuadLayout }}
+              {{ $layoutType = "quad" }}
+              <div class="stashTabContents poeScroll quadStash" style="border-color: rgb(124, 84, 54);">
             {{ else }}
               {{ $layoutType = "" }}
               <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
