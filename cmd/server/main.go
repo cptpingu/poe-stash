@@ -120,6 +120,7 @@ func main() {
 			panic(err)
 		}
 	}
+
 	r := setupRouter(passwords)
 	r.Run(fmt.Sprintf(":%d", *port))
 }

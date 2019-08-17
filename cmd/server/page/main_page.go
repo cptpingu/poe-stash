@@ -9,6 +9,9 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
+
+	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/scraper"
 )
 
 // listAllAccounts list all fetch accounts.
@@ -39,5 +42,18 @@ func MainPageHandler(c *gin.Context) {
 		c.HTML(http.StatusInternalServerError, "error", err)
 		return
 	}
-	c.HTML(http.StatusOK, "main", accounts)
+
+	scraper := scraper.NewScraper("", "", "", "", false)
+	leagues, errLeagues := scraper.GetLeagues()
+	if errLeagues != nil {
+		c.HTML(http.StatusInternalServerError, "error", errLeagues)
+	}
+
+	c.HTML(http.StatusOK, "main", struct {
+		Accounts []string
+		Leagues  []*inventory.League
+	}{
+		Accounts: accounts,
+		Leagues:  leagues,
+	})
 }

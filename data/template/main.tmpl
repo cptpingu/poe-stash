@@ -5,7 +5,7 @@
       <div>
       <h1>Existing accounts</h2>
       <ul class="accounts">
-        {{ range . }}
+        {{ range .Accounts }}
         <li>
             <a href="/view/{{ . }}">{{ . }}</a>
             <button title="Refresh" class="refresh" onclick="refresh('{{ . }}')"></button>
@@ -20,8 +20,9 @@
           <input id="account" class="input-text" type="text" name="account" value="" placeholder="Account Name" onfocusout="validateForm()" />
           <input id="poesessid" class="input-text" type="text" name="poesessid" value="" placeholder="PoE sessid" onfocusout="validateForm()" />
           <select id="league" class="dropdown" name="league">
-            <option value="standard" selected="selected">Standard</option>
-            <option value="legion">Legion</option>
+            {{ range .Leagues }}
+            <option value="{{ .Id | urlquery }}" {{ if eq .Id "Standard" }} selected="selected" {{ end }}>{{ .Id }}</option>
+            {{ end }}
           </select>
           <select id="realm" class="dropdown" name="realm">
             <option value="pc" selected="selected">PC</option>

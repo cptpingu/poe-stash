@@ -22,6 +22,8 @@ const (
 	ProfileCharacterItemsURL = "https://www.pathofexile.com/character-window/get-items?accountName=%s&realm=%s&character=%s"
 	// ProfileCharacterSkillsURL is the official URL for getting a user skills and jewels/abyss put in it.
 	ProfileCharacterSkillsURL = "https://www.pathofexile.com/character-window/get-passive-skills?character=%s&accountName=%s"
+	// LeaguesURL is the official URL for getting the list of all leagues.
+	LeaguesURL = "http://api.pathofexile.com/leagues?type=main&compact=1"
 
 	// DataDir is where all data are.
 	DataDir = "data/"
@@ -77,10 +79,10 @@ func hash(s string) string {
 }
 
 // CallAPI calls a distant API and returns the content.
-func (s *Scraper) CallAPI(url string) ([]byte, error) {
+func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 	var fileCache string
 	if s.cache {
-		fileCache = s.cacheDir + hash(url)
+		fileCache = s.cacheDir + hash(apiURL)
 		if b, err := ioutil.ReadFile(fileCache); err != nil {
 			fmt.Println("can't read cache", err)
 		} else {
@@ -88,7 +90,7 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 		}
 	}
 
-	req, err := http.NewRequest("GET", url, nil)
+	req, err := http.NewRequest("GET", apiURL, nil)
 	if err != nil {
 		return nil, err
 	}
@@ -132,7 +134,7 @@ func (s *Scraper) CallAPI(url string) ([]byte, error) {
 	}()
 
 	if resp.StatusCode != 200 {
-		return nil, fmt.Errorf("error while calling PoE API (code %d), using this url: %s", resp.StatusCode, url)
+		return nil, fmt.Errorf("error while calling PoE API (code %d), using this url: %s", resp.StatusCode, apiURL)
 	}
 
 	body, errRead := ioutil.ReadAll(resp.Body)
@@ -192,4 +194,18 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	data.Wealth = inventory.ComputeWealth(data.Stash, data.Characters)
 
 	return data, nil
+}
+
+// GetLeagues retrieves all available league names.
+func (s *Scraper) GetLeagues() ([]*inventory.League, error) {
+	body, errRequest := s.CallAPI(LeaguesURL)
+	if errRequest != nil {
+		return nil, errRequest
+	}
+	leagues, errLeagues := inventory.ParseLeagues(body)
+	if errLeagues != nil {
+		return nil, errLeagues
+	}
+
+	return leagues, nil
 }
