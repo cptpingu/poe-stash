@@ -95,11 +95,7 @@ go run cmd/cli/main.go --account cptpingu --poesessid 87f93201234f1234f --output
 ### Not supported yet
 
   * Map stash tab (known issue: https://www.pathofexile.com/forum/view-thread/1733474#p13674912)
-  * Quad stash tab
-  * Essence stash tab
   * Unique stash tab
-  * Divination stash tab
-  * Remove only stash tab
   * Too much jewels on the character will overflow
 
 ### FAQ

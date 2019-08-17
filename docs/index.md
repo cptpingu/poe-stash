@@ -19,9 +19,9 @@ Share a stash with a friend:
 ## Download
 
 Released versions are available here:
-  * [Windows](https://github.com/cptpingu/poe-stash/releases/download/v0.3/poe-stash-windows-amd64.zip)
-  * [Linux](https://github.com/cptpingu/poe-stash/releases/download/v0.3/poe-stash-linux-x86_64.tar.gz)
-  * [MacOS](https://github.com/cptpingu/poe-stash/releases/download/v0.3/poe-stash-darwin-x86_64.tar.gz)
+  * [Windows](https://github.com/cptpingu/poe-stash/releases/download/v0.4/poe-stash-windows-amd64.zip)
+  * [Linux](https://github.com/cptpingu/poe-stash/releases/download/v0.4/poe-stash-linux-x86_64.tar.gz)
+  * [MacOS](https://github.com/cptpingu/poe-stash/releases/download/v0.4/poe-stash-darwin-x86_64.tar.gz)
 
 ## Getting started
 
@@ -88,10 +88,8 @@ Read some explanation here: [Pricing items](prices.md)
 I'm facing some issues, I could use a hand:
   * English is not my first language, thus checking this documentation is
     correctly written would be great!
-  * I don't have some premium stash type. So I don't know how to handle them. If
-    you have special stash tabs, send me the generated json, so I can start to
-    support them.
-  * I don't know how a *remove stash only* behave. Would be interested as well.
+  * I don't have a unique premium stash type. So I don't know how to handle it.
+    If you got one, send me the generated json, so I can start to support it.
   * Do you have a character with a lot of jewels? I would like to know how it
     behave in my tools.
 
