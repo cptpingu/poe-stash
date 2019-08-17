@@ -94,13 +94,61 @@
             {{ else if .QuadLayout }}
               {{ $layoutType = "quad" }}
               <div class="stashTabContents poeScroll quadStash" style="border-color: rgb(124, 84, 54);">
+            {{ else if .DivinationLayout.Cards }}
+              {{ $layoutType = "divination" }}
+              <div class="scroll-wrapper stashTabContents poeScroll divinationStash" style="position: absolute; border-color: rgb(124, 84, 54);">
+                <div class="stashTabContents poeScroll divinationStash scroll-content scroll-scrolly_visible" style="border-color: rgb(124, 84, 54); height: auto; margin-top: 0px; margin-right: 0px; max-height: 569px;">
+                  {{ $items := .Items }}
+                  {{ range .DivinationLayout.Cards }}
+                  <div class="stashPanelDivinationCard {{ .Name | squeeze }}" style="width: 172px; height: 261px; display: block;">
+                    <div class="stashPanelDivinationCardName FontinSmallCaps">{{ .Name }}</div>
+                    <div class="newItemContainer iW1 iH1 divinationCard itemRendered itemPlaced ipW1 ipH1" style="width: 172px; height: 261px; position: absolute; left: 0px; top: 0px;">
+                      {{ $item := SearchItem $items .Name }}
+                      {{ if $item.ArtFilename }}
+                        {{ template "divinationcard" dict "Item" $item "Small" true }}
+                      {{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                </div>
+
+                <div class="scroll-element scroll-x scroll-element_arrows_visible scroll-scrolly_visible" style="">
+                  <div class="scroll-element_outer">
+                    <div class="scroll-element_size"></div>
+                    <div class="scroll-element_track"></div>
+                    <div class="scroll-bar" style="width: 100px;"></div>
+                  </div>
+                </div>
+                <div class="scroll-element scroll-y scroll-element_arrows_visible scroll-scrolly_visible" style="">
+                  <div class="scroll-element_corner"></div>
+                  <div class="scroll-arrow scroll-arrow_less"></div>
+                  <div class="scroll-arrow scroll-arrow_more"></div>
+                  <div class="scroll-element_outer">
+                    <div class="scroll-element_size"></div>
+                    <div class="scroll-element_inner-wrapper">
+                      <div class="scroll-element_inner scroll-element_track">
+                        <div class="scroll-element_inner-bottom"></div>
+                      </div>
+                    </div>
+                    <div class="scroll-bar" style="height: 12px; top: 0px;">
+                      <div class="scroll-bar_body">
+                        <div class="scroll-bar_body-inner"></div>
+                      </div>
+                      <div class="scroll-bar_bottom"></div>
+                      <div class="scroll-bar_center"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             {{ else }}
               {{ $layoutType = "" }}
               <div class="stashTabContents poeScroll" style="border-color: rgb(124, 84, 54);">
             {{ end }}
 
-            {{ range .Items }}
-             {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType "CharName" "NoCharNameNeededHere" "Idx" 0 }}
+            {{ if ne $layoutType "divination" }}
+              {{ range .Items }}
+                {{ template "item" dict "LocalItem" . "Layout" $layout "LayoutType" $layoutType "CharName" "NoCharNameNeededHere" "Idx" 0 }}
+              {{ end }}
             {{ end }}
             </div>
 {{ end }}

@@ -7,10 +7,10 @@ Rarity: {{ ItemRarity .FrameType }}
 Stack Size: {{ .StackSize }}/{{- .MaxStackSize }}
 --------
     {{- range .ExplicitMods }}
-{{ PoEMarkup . }}
+{{ PoEMarkup . false }}
     {{- end }}
 --------
-{{ PoEMarkupLinesOnly .FlavorText }}
+{{ PoEMarkupLinesOnly .FlavorText false }}
   {{- else }}
     {{- if .Name }}
 {{ .Name }}

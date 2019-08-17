@@ -1,0 +1,35 @@
+{{ define "divinationcard" }}
+{{ $item := .Item }}
+{{ $small := .Small }}
+<div class="cardFace">
+    <img src="https://web.poecdn.com/image/gen/divination_cards/{{ $item.ArtFilename }}.png">
+</div>
+<div class="itemBoxContent">
+    <div class="itemHeader">
+    <span class="l"></span>
+    <div class="itemName">
+        <span class="lc">{{ $item.Type }}</span>
+    </div>
+    <span class="r"></span>
+    </div>
+
+    <div class="stackSize">{{ $item.StackSize }}/{{ $item.MaxStackSize }}</div>
+    <div class="explicitModsWrapper">
+    <div class="explicitModsContainer">
+        {{ range $item.ExplicitMods }}
+            {{ PoEMarkup . $small }}
+        {{ end }}
+    </div>
+    </div>
+
+    <div class="flavourTextWrapper">
+    <div class="flavourTextContainer">
+        <div class="flavourText">
+        <span class="lc">
+        {{ PoEMarkupLinesOnly $item.FlavorText $small }}
+        </span>
+        </div>
+    </div>
+    </div>
+</div>
+{{ end }}

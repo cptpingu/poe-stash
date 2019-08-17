@@ -33,15 +33,31 @@ type Layout struct {
 	H    int        `json:"h"`
 }
 
+// CardLayout is used for the divination card layout.
+type CardLayout struct {
+	Name string `json:"name"`
+}
+
+// DivineLayout hold the divination layout information.
+type DivineLayout struct {
+	Height int          `json:"h"`
+	Width  int          `json:"w"`
+	PadX   int          `json:"padx"`
+	PadY   int          `json:"pady"`
+	Scale  float64      `json:"scale"`
+	Cards  []CardLayout `json:"cards"`
+}
+
 // StashTab holds all stash tabulations (thus all items).
 type StashTab struct {
-	NumTabs        int               `json:"numTabs"`
-	QuadLayout     bool              `json:"quadLayout"`
-	Items          []Item            `json:"items"`
-	Tabs           []Tab             `json:"tabs"`
-	CurrencyLayout map[string]Layout `json:"currencyLayout"`
-	FragmentLayout map[string]Layout `json:"fragmentLayout"`
-	EssenceLayout  map[string]Layout `json:"essenceLayout"`
+	NumTabs          int               `json:"numTabs"`
+	QuadLayout       bool              `json:"quadLayout"`
+	Items            []Item            `json:"items"`
+	Tabs             []Tab             `json:"tabs"`
+	CurrencyLayout   map[string]Layout `json:"currencyLayout"`
+	FragmentLayout   map[string]Layout `json:"fragmentLayout"`
+	EssenceLayout    map[string]Layout `json:"essenceLayout"`
+	DivinationLayout DivineLayout      `json:"divinationLayout"`
 
 	// Can be empty, hence the *, for allowing to be nullable.
 	MapLayout *map[string]Layout `json:"mapLayout"`

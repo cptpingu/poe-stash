@@ -86,7 +86,7 @@ func TestPoEMarkup(t *testing.T) {
 	}
 
 	for _, current := range tests {
-		res := replacePoEMarkup(current.input)
+		res := ReplacePoEMarkup(current.input, false)
 		if res != current.expected {
 			t.Errorf("\n\texpected:\n%v\n\tbut got:\n%v\n", current.expected, res)
 		}

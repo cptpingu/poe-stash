@@ -3,40 +3,7 @@
             <div class="itemPopupContainer newItemPopup {{ ItemRarityType .FrameType }}">
 
             {{ if .ArtFilename }}
-            <!-- Divination card -->
-            <div class="cardFace">
-                <img src="https://web.poecdn.com/image/gen/divination_cards/{{ .ArtFilename }}.png">
-            </div>
-            <div class="itemBoxContent">
-              <div class="itemHeader">
-                <span class="l"></span>
-                <div class="itemName">
-                  <span class="lc">{{ .Type }}</span>
-                </div>
-                <span class="r"></span>
-              </div>
-
-              <div class="stackSize">{{ .StackSize }}/{{ .MaxStackSize }}</div>
-              <div class="explicitModsWrapper">
-                <div class="explicitModsContainer">
-                  {{ range .ExplicitMods }}
-                      {{ PoEMarkup . }}
-                  {{ end }}
-                </div>
-              </div>
-
-              <div class="flavourTextWrapper">
-                <div class="flavourTextContainer">
-                  <div class="flavourText">
-                    <span class="lc">
-                    {{ PoEMarkupLinesOnly .FlavorText }}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-              <!-- !Divination card -->
+              {{ template "divinationcard" dict "Item" . "Small" false }}
             {{ else }}
 
               <div class="itemBoxContent">
@@ -70,7 +37,7 @@
                           {{ if ContainsPattern .Name }}
                           <span>{{ GenProperties . }}</span>
                           {{ else }}
-                          <span>{{ ReplacePoEMarkup .Name | safe }}</span>{{ if gt (len .Values) 0 }} : {{ end }}
+                          <span>{{ ReplacePoEMarkup .Name false | safe }}</span>{{ if gt (len .Values) 0 }} : {{ end }}
                             {{ range .Values }}
                               <span class="{{ ColorType (index . 1) }}">{{ (index . 0) }}</span>
                             {{ end }}
@@ -231,7 +198,7 @@
                       <div class="flavourText">
                         <span class="lc">
                         {{ range .FlavorText }}
-                          {{ ReplacePoEMarkup . | safe }}<br />
+                          {{ ReplacePoEMarkup . false | safe }}<br />
                         {{ end }}
                         </span>
                       </div>

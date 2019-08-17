@@ -13,6 +13,7 @@ import (
 	"strconv"
 	"strings"
 	"time"
+	"unicode"
 
 	"github.com/poe-stash/misc"
 
@@ -68,6 +69,7 @@ func LoadAllTemplates() (*template.Template, error) {
 		"PrettyPrint":          inventory.PrettyPrint,
 		"ContainsPattern":      ContainsPattern,
 		"GenProperties":        GenProperties,
+		"SearchItem":           SearchItem,
 		"Version": func() string {
 			return misc.Version
 		},
@@ -82,6 +84,17 @@ func LoadAllTemplates() (*template.Template, error) {
 		},
 		"div": func(a, b int) int {
 			return a / b
+		},
+		"squeeze": func(s string) string {
+			return strings.Map(
+				func(r rune) rune {
+					if unicode.IsLetter(r) {
+						return r
+					}
+					return -1
+				},
+				s,
+			)
 		},
 		"dict": func(values ...interface{}) (map[string]interface{}, error) {
 			if len(values) == 0 {
@@ -336,7 +349,7 @@ func ConvToCssProgress(progress float64) string {
 // Grammar examples:
 //  <property>{text}
 //	<property>{<property>{text}}
-func ReplacePoEMarkup(raw string) string {
+func ReplacePoEMarkup(raw string, small bool) string {
 	// Just a raw text, return it.
 	first := strings.Index(raw, "<")
 	if first < 0 {
@@ -381,7 +394,10 @@ func ReplacePoEMarkup(raw string) string {
 		if err != nil {
 			return tokenErr
 		}
-		fontSize := float64(nb) / 2.0
+		fontSize := float64(nb) * 0.5
+		if small {
+			fontSize = float64(nb) * 0.35
+		}
 		style = " style=\"font-size:" + strconv.FormatFloat(fontSize, 'f', -1, 64) + "px\""
 		property = ""
 	} else {
@@ -392,14 +408,14 @@ func ReplacePoEMarkup(raw string) string {
 
 	return prefix +
 		"<span class=\"PoEMarkup" + property + "\"" + style + ">" +
-		ReplacePoEMarkup(raw[bracketL+1:bracketR]) +
+		ReplacePoEMarkup(raw[bracketL+1:bracketR], small) +
 		"</span>" +
-		ReplacePoEMarkup(suffix)
+		ReplacePoEMarkup(suffix, small)
 }
 
 // PoEMarkup converts a raw string containing markup into HTML.
-func PoEMarkup(raw string) template.HTML {
-	line := ReplacePoEMarkup(raw)
+func PoEMarkup(raw string, small bool) template.HTML {
+	line := ReplacePoEMarkup(raw, small)
 	lines := strings.Split(line, "\r\n")
 	res := ""
 	for _, line := range lines {
@@ -414,8 +430,8 @@ func PoEMarkup(raw string) template.HTML {
 
 // PoEMarkupLinesOnly converts a raw string containing markup into HTML.
 // It is expexcted to only have lines separated by end of lines.
-func PoEMarkupLinesOnly(lines []string) template.HTML {
-	res := ReplacePoEMarkup(strings.Join(lines, "\n"))
+func PoEMarkupLinesOnly(lines []string, small bool) template.HTML {
+	res := ReplacePoEMarkup(strings.Join(lines, "\n"), small)
 	strings.Replace(res, "\n", "<br />", -1)
 	return template.HTML(res)
 }
@@ -572,4 +588,14 @@ func GenProperties(property inventory.ItemProperty) template.HTML {
 		)
 	}
 	return template.HTML(fmt.Sprintf(pattern, args...))
+}
+
+// SearchItem search an item by its name.
+func SearchItem(items []inventory.Item, name string) inventory.Item {
+	for _, item := range items {
+		if item.Type == name {
+			return item
+		}
+	}
+	return inventory.Item{}
 }
