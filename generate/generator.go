@@ -277,7 +277,7 @@ func rarityCharacteritics(frameType inventory.FrameType) (string, string, string
 	case inventory.ProphecyFrameType:
 		return "Normal", "prophecyPopup", ""
 	case inventory.RelicFrameType:
-		return "Relic", "relicPopup", ""
+		return "Relic", "relicPopup", "doubleLine"
 	default:
 		return "", "", ""
 	}
