@@ -33,8 +33,9 @@ const (
 
 // Scraper scraps path of exile site using its API.
 type Scraper struct {
-	cache    bool
-	cacheDir string
+	verbosity int
+	cache     bool
+	cacheDir  string
 
 	accountName  string
 	poeSessionID string
@@ -58,9 +59,8 @@ type ScrapedData struct {
 }
 
 // NewScraper returns a configured scraper.
-func NewScraper(accountName, poeSessionID, realm, league string, cache bool) *Scraper {
+func NewScraper(accountName, poeSessionID, realm, league string) *Scraper {
 	return &Scraper{
-		cache:            cache,
 		cacheDir:         DataCacheDir,
 		accountName:      accountName,
 		poeSessionID:     poeSessionID,
@@ -69,6 +69,17 @@ func NewScraper(accountName, poeSessionID, realm, league string, cache bool) *Sc
 		client:           http.Client{},
 		rateLimitManager: NewPoeRateLimitManager(poeSessionID),
 	}
+}
+
+// EnableCache enable caching of queries.
+// Useful for debug, do not enable it in production.
+func (s *Scraper) EnableCache() {
+	s.cache = true
+}
+
+// SetVerbosity set verbosity of logs.
+func (s *Scraper) SetVerbosity(v int) {
+	s.verbosity = v
 }
 
 // hash url into a number.
@@ -106,6 +117,12 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 	rateLimiter := s.rateLimitManager.GetRateLimiter(s.poeSessionID, baseURL)
 
 	waitTime, queryDone := rateLimiter.NextQuery()
+	if s.verbosity > 0 {
+		fmt.Println("wait:", waitTime, "query:", apiURL)
+		if s.verbosity > 1 {
+			fmt.Println("request:", req)
+		}
+	}
 	time.Sleep(waitTime)
 
 	// Query the server.
@@ -117,13 +134,26 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 
 	// Let check if there are some rate limiting rules
 	rateLimitRules := resp.Header.Get("X-Rate-Limit-Account")
+	if rateLimitRules == "" {
+		rateLimitRules = resp.Header.Get("X-Rate-Limit-Ip")
+	}
 	rateLimitState := resp.Header.Get("X-Rate-Limit-Account-State")
+	if rateLimitState == "" {
+		rateLimitState = resp.Header.Get("X-Rate-Limit-Ip-State")
+	}
 	rules, errRule := ExtractFirstRuleFromString(rateLimitRules)
 	state, errState := ExtractFirstRuleFromString(rateLimitState)
 	// If so, then update our current rate limit counters with the ones
 	// the server see from its side (for better accuracy).
 	if errRule == nil && errState == nil {
 		s.rateLimitManager.UpdateRateLimiter(s.poeSessionID, baseURL, rules, state)
+	}
+	if s.verbosity > 0 {
+		r := s.rateLimitManager.GetRateLimiter(s.poeSessionID, baseURL)
+		fmt.Println("Status:", resp.StatusCode, "Rate:", r.NbQuery, "/", r.NbMaxQuery, "ServerRate:", rateLimitState, rateLimitRules)
+		if s.verbosity > 1 {
+			fmt.Println("Response:", resp)
+		}
 	}
 
 	defer func() {
