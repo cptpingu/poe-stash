@@ -43,7 +43,7 @@ func MainPageHandler(c *gin.Context) {
 		return
 	}
 
-	scraper := scraper.NewScraper("", "", "", "", false)
+	scraper := scraper.NewScraper("", "", "", "")
 	leagues, errLeagues := scraper.GetLeagues()
 	if errLeagues != nil {
 		c.HTML(http.StatusInternalServerError, "error", errLeagues)

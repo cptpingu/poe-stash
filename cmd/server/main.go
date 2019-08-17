@@ -18,9 +18,18 @@ import (
 	"github.com/poe-stash/scraper"
 )
 
+// EnvMiddleware will add env to query.
+func EnvMiddleware(verbosity int) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		c.Set("verbosity", verbosity)
+		c.Next()
+	}
+}
+
 // setupRouter setups the http server and all its pages.
-func setupRouter(passwords map[string]string) *gin.Engine {
+func setupRouter(passwords map[string]string, verbosity int) *gin.Engine {
 	router := gin.Default()
+	router.Use(EnvMiddleware(verbosity))
 
 	t := template.Must(generate.LoadAllTemplates())
 	router.SetHTMLTemplate(t)
@@ -91,6 +100,7 @@ func main() {
 	port := flag.Int("port", 2121, "port")
 	passwordFile := flag.String("passwords", "", "password file (containing login:pass in plain text)")
 	version := flag.Bool("version", false, "display the version of this tool")
+	verbosity := flag.Int("verbosity", 0, "set the log verbose level")
 	flag.Parse()
 
 	if *version {
@@ -121,6 +131,6 @@ func main() {
 		}
 	}
 
-	r := setupRouter(passwords)
+	r := setupRouter(passwords, *verbosity)
 	r.Run(fmt.Sprintf(":%d", *port))
 }

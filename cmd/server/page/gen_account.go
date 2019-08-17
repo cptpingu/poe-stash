@@ -15,6 +15,8 @@ import (
 
 // GenAccountHandler handles refresh of an account.
 func GenAccountHandler(c *gin.Context) {
+	verbosity := c.MustGet("verbosity").(int)
+
 	account := c.Params.ByName("account")
 	poeSessID := ""
 	realm := "pc"
@@ -41,7 +43,8 @@ func GenAccountHandler(c *gin.Context) {
 		}
 	}
 
-	scrap := scraper.NewScraper(account, poeSessID, realm, league, false)
+	scrap := scraper.NewScraper(account, poeSessID, realm, league)
+	scrap.SetVerbosity(verbosity)
 	data, errScrap := scrap.ScrapEverything()
 	if errScrap != nil {
 		c.HTML(http.StatusOK, "error", errScrap)

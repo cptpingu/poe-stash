@@ -30,6 +30,7 @@ func main() {
 	league := flag.String("league", "standard", "league name (anarchy, legion, synthesis, delve...)")
 	output := flag.String("output", "", "where to generate html file (put \"-\" for stdin), if empty, a generated name will be created (account-league.html)")
 	cache := flag.Bool("cache", false, "do not call distant api, and use local cache if possible, for debug purpose only")
+	verbosity := flag.Int("verbosity", 0, "set the log verbose level")
 	interactive := flag.Bool("interactive", false, "interactive mode")
 	version := flag.Bool("version", false, "display the version of this tool")
 	flag.Parse()
@@ -67,7 +68,12 @@ func main() {
 		}
 	}
 
-	scraper := scraper.NewScraper(*account, *poeSessID, *realm, *league, *cache)
+	scraper := scraper.NewScraper(*account, *poeSessID, *realm, *league)
+	if *cache {
+		scraper.EnableCache()
+	}
+	scraper.SetVerbosity(*verbosity)
+
 	data, errScrap := scraper.ScrapEverything()
 	if errScrap != nil {
 		fmt.Println("can't scrap data", errScrap)

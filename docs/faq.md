@@ -2,6 +2,12 @@
 
 ## Frequently asked questions
 
+### Generating my profile is quite long
+
+Issue is, GGG is rate limiting queries to the speed of one per second. What it
+means is I can't download fast. So every stash tab will take one second to be
+fetch. If you have hundred of it, then you will have to wait several minutes.
+
 ### Your currencies are not up to date
 
 Yes, it's hard coded, not live. They will never be exact, or intended to be.

@@ -19,9 +19,9 @@ Share a stash with a friend:
 ## Download
 
 Released versions are available here:
-  * [Windows](https://github.com/cptpingu/poe-stash/releases/download/v0.2/poe-stash-windows-amd64.zip)
-  * [Linux](https://github.com/cptpingu/poe-stash/releases/download/v0.2/poe-stash-linux-x86_64.tar.gz)
-  * [MacOS](https://github.com/cptpingu/poe-stash/releases/download/v0.2/poe-stash-darwin-x86_64.tar.gz)
+  * [Windows](https://github.com/cptpingu/poe-stash/releases/download/v0.3/poe-stash-windows-amd64.zip)
+  * [Linux](https://github.com/cptpingu/poe-stash/releases/download/v0.3/poe-stash-linux-x86_64.tar.gz)
+  * [MacOS](https://github.com/cptpingu/poe-stash/releases/download/v0.3/poe-stash-darwin-x86_64.tar.gz)
 
 ## Getting started
 
