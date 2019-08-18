@@ -26,7 +26,7 @@ func mandatoryOption(opt string, name string) bool {
 func main() {
 	account := flag.String("account", "", "account name")
 	poeSessID := flag.String("poesessid", "", "poesessid got after login on the official website")
-	realm := flag.String("realm", "pc", "the realm (pc, ps4, xbox)")
+	realm := flag.String("realm", "pc", "the realm (pc, sony, xbox)")
 	league := flag.String("league", "standard", "league name (anarchy, legion, synthesis, delve...)")
 	output := flag.String("output", "", "where to generate html file (put \"-\" for stdin), if empty, a generated name will be created (account-league.html)")
 	cache := flag.Bool("cache", false, "do not call distant api, and use local cache if possible, for debug purpose only")
