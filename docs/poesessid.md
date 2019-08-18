@@ -4,21 +4,27 @@
 
 ### Firefox
 
-  * Press the F12 key.
+  * Go the official PoE website: https://www.pathofexile.com
+  * Log in
+  * Press the F12 key on the PoE website.
   * Select the "Storage".
   * Expand the "Cookies", select the https://www.pathofexile.com.
   * Copy the value of the "POESESSID".
 
 ### Chrome
 
-  * Press the F12 key.
+  * Go the official PoE website: https://www.pathofexile.com
+  * Log in
+  * Press the F12 key on the PoE website.
   * Select the "Application".
   * Expand the "Cookies", select the https://www.pathofexile.com.
   * Copy the value of the "POESESSID".
 
 ### IE11
 
-  * Press the F12 key.
+  * Go the official PoE website: https://www.pathofexile.com
+  * Log in
+  * Press the F12 key on the PoE website.
   * Select the "Network".
   * Enables the capture of network traffic.
   * Reloads the page.

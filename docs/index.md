@@ -10,8 +10,8 @@ your stuff, browsable as if you were in game.
 ## Goal
 
 Share a stash with a friend:
-  * Easily
-  * Nothing to install (if hosted)
+  * Easy
+  * Nothing to install, just run it
   * Portable (should be compatible with everything)
   * Simple to use
   * Intuitive (very similar as the in-game interface)
