@@ -3,6 +3,7 @@ package scraper
 import (
 	"encoding/json"
 	"fmt"
+	"net/url"
 
 	"github.com/poe-stash/inventory"
 )
@@ -19,7 +20,7 @@ func parseCharacters(data []byte) ([]*inventory.Character, error) {
 
 // ScrapCharacters scraps all characters own by a user.
 func (s *Scraper) ScrapCharacters() ([]*inventory.Character, error) {
-	url := fmt.Sprintf(ProfileCharactersURL, s.accountName)
+	url := fmt.Sprintf(ProfileCharactersURL, url.QueryEscape(s.accountName))
 	body, errRequest := s.CallAPI(url)
 	if errRequest != nil {
 		return nil, errRequest
@@ -44,7 +45,7 @@ func parseInventory(data []byte) (*inventory.CharacterInventory, error) {
 
 // ScrapCharacterInventory scraps the inventory of a given character.
 func (s *Scraper) ScrapCharacterInventory(charName string) (*inventory.CharacterInventory, error) {
-	url := fmt.Sprintf(ProfileCharacterItemsURL, s.accountName, s.realm, charName)
+	url := fmt.Sprintf(ProfileCharacterItemsURL, url.QueryEscape(s.accountName), url.QueryEscape(s.realm), url.QueryEscape(charName))
 	body, errRequest := s.CallAPI(url)
 	if errRequest != nil {
 		return nil, errRequest
@@ -69,7 +70,7 @@ func parseSkills(data []byte) (*inventory.CharacterSkills, error) {
 
 // ScrapCharacterSkills scraps the inventory of a given character.
 func (s *Scraper) ScrapCharacterSkills(charName string) (*inventory.CharacterSkills, error) {
-	url := fmt.Sprintf(ProfileCharacterSkillsURL, charName, s.accountName)
+	url := fmt.Sprintf(ProfileCharacterSkillsURL, url.QueryEscape(charName), url.QueryEscape(s.accountName))
 	body, errRequest := s.CallAPI(url)
 	if errRequest != nil {
 		return nil, errRequest

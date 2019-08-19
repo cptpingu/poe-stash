@@ -3,6 +3,7 @@ package scraper
 import (
 	"encoding/json"
 	"fmt"
+	"net/url"
 	"strings"
 
 	"github.com/poe-stash/inventory"
@@ -26,7 +27,7 @@ func parseStashTab(data []byte) (*inventory.StashTab, error) {
 
 // ScrapStash scraps a stash from the official website.
 func (s *Scraper) ScrapStash(indexID int) (*inventory.StashTab, error) {
-	url := fmt.Sprintf(StashURL, s.accountName, s.realm, s.league, 1, indexID)
+	url := fmt.Sprintf(StashURL, url.QueryEscape(s.accountName), url.QueryEscape(s.realm), url.QueryEscape(s.league), 1, indexID)
 	body, errRequest := s.CallAPI(url)
 	if errRequest != nil {
 		return nil, errRequest
