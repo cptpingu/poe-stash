@@ -96,8 +96,8 @@
               <div class="stashTabContents poeScroll quadStash" style="border-color: rgb(124, 84, 54);">
             {{ else if .DivinationLayout.Cards }}
               {{ $layoutType = "divination" }}
-              <div class="scroll-wrapper stashTabContents poeScroll divinationStash" style="position: absolute; border-color: rgb(124, 84, 54);">
-                <div class="stashTabContents poeScroll divinationStash scroll-content scroll-scrolly_visible" style="border-color: rgb(124, 84, 54); height: auto; margin-top: 0px; margin-right: 0px; max-height: 569px;">
+              <div class="scroll-wrapper stashTabContents divinationStash" style="position: absolute; border-color: rgb(124, 84, 54);">
+                <div class="stashTabContents poeScroll divinationStash scroll-content scroll-scrolly_visible" style="border-color: rgb(124, 84, 54); height: auto; margin-top: 0px; margin-left: 0px; max-height: 569px;">
                   {{ $items := .Items }}
                   {{ range .DivinationLayout.Cards }}
                   <div class="stashPanelDivinationCard {{ .Name | squeeze }}" style="width: 172px; height: 261px; display: block;">
