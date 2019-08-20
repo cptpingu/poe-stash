@@ -55,17 +55,22 @@ func main() {
 			os.Exit(1)
 		}
 	} else {
+		scanner := bufio.NewScanner(os.Stdin)
 		fmt.Print("Account: ")
-		fmt.Scanf("%s", account)
+		scanner.Scan()
+		*account = scanner.Text()
 		fmt.Print("PoE Sessid: ")
-		fmt.Scanf("%s", poeSessID)
+		scanner.Scan()
+		*poeSessID = scanner.Text()
 		fmt.Print("League (empty = standard): ")
-		fmt.Scanf("%s", league)
+		scanner.Scan()
+		*league = scanner.Text()
 		if *league == "" {
 			*league = "standard"
 		}
 		fmt.Print("Realm (empty = pc): ")
-		fmt.Scanf("%s", realm)
+		scanner.Scan()
+		*realm = scanner.Text()
 		if *realm == "" {
 			*realm = "pc"
 		}
