@@ -75,6 +75,9 @@ func LoadAllTemplates() (*template.Template, error) {
 		"attr": func(s string) template.HTMLAttr {
 			return template.HTMLAttr(s)
 		},
+		"ieq": func(a, b string) bool {
+			return strings.ToLower(a) == strings.ToLower(b)
+		},
 		"safe": func(s string) template.HTML {
 			return template.HTML(s)
 		},
