@@ -1,6 +1,9 @@
-package inventory
+package models
 
-import "encoding/json"
+import (
+	"encoding/json"
+	"strings"
+)
 
 // Color holds primary colors.
 type Color struct {
@@ -69,4 +72,20 @@ func (s *StashTab) String() string {
 		return "<marshalling error>"
 	}
 	return string(json)
+}
+
+// ParseStashTab parses a Path of Exile stash tabulation.
+func ParseStashTab(data []byte) (*StashTab, error) {
+	stash := StashTab{}
+	if err := json.Unmarshal(data, &stash); err != nil {
+		return nil, err
+	}
+
+	// Clean useless markers in the json.
+	for _, item := range stash.Items {
+		item.Name = strings.TrimPrefix(item.Name, "<<set:MS>><<set:M>><<set:S>>")
+		item.Type = strings.TrimPrefix(item.Type, "<<set:MS>><<set:M>><<set:S>>")
+	}
+
+	return &stash, nil
 }

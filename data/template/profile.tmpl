@@ -1,6 +1,6 @@
 {{ define "profile" }}
   {{ $title := (print " - " .Account) }}
-  {{ template "header" dict "Title" $title }}
+  {{ template "header" dict "Title" $title "Demo" .Demo }}
 
     <div id="ribbon" style="display: none;">
       <a href="/download/{{ .Account }}?league={{ .League }}&realm={{ .Realm }}&date={{ .Date | DateFormat }}" class="button ribbon">Download/Share</a>

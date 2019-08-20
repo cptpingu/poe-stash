@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/models"
 )
 
 const (
@@ -29,12 +29,15 @@ const (
 	DataDir = "data/"
 	// DataCacheDir is the cache directory.
 	DataCacheDir = DataDir + "cache/"
+	// DemoDir is the cache directory.
+	DemoDir = "demo/"
 )
 
 // Scraper scraps path of exile site using its API.
 type Scraper struct {
-	verbosity int
 	cache     bool
+	demo      bool
+	verbosity int
 	cacheDir  string
 
 	accountName  string
@@ -48,14 +51,16 @@ type Scraper struct {
 
 // ScrapedData holds everything scrapped.
 type ScrapedData struct {
+	Demo       bool
 	Account    string
 	League     string
 	Realm      string
 	Date       time.Time
-	Characters []*inventory.CharacterInventory
-	Skills     []*inventory.CharacterSkills
-	Stash      []*inventory.StashTab
-	Wealth     inventory.WealthBreakdown
+	Characters []*models.CharacterInventory
+	Skills     []*models.CharacterSkills
+	Stash      []*models.StashTab
+	TabsDesc   []models.Tab
+	Wealth     models.WealthBreakdown
 }
 
 // NewScraper returns a configured scraper.
@@ -80,6 +85,11 @@ func (s *Scraper) EnableCache() {
 // SetVerbosity set verbosity of logs.
 func (s *Scraper) SetVerbosity(v int) {
 	s.verbosity = v
+}
+
+// SetDemo set demo mode.
+func (s *Scraper) SetDemo(isDemo bool) {
+	s.demo = isDemo
 }
 
 // hash url into a number.
@@ -184,12 +194,13 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 // ScrapEverything scraps items, characters, profile, inventory and so on...
 func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	data := &ScrapedData{
+		Demo:       s.demo,
 		Account:    s.accountName,
 		League:     s.league,
 		Realm:      s.realm,
 		Date:       time.Now(),
-		Characters: make([]*inventory.CharacterInventory, 0, 10),
-		Skills:     make([]*inventory.CharacterSkills, 0, 10),
+		Characters: make([]*models.CharacterInventory, 0, 10),
+		Skills:     make([]*models.CharacterSkills, 0, 10),
 		Stash:      nil,
 	}
 
@@ -216,23 +227,24 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	}
 
 	// Retrieves the stash of an account.
-	stash, errStash := s.ScrapWholeStash()
+	tabsDesc, stash, errStash := s.ScrapWholeStash()
 	if errStash != nil {
 		return nil, errStash
 	}
+	data.TabsDesc = tabsDesc
 	data.Stash = stash
-	data.Wealth = inventory.ComputeWealth(data.Stash, data.Characters)
+	data.Wealth = models.ComputeWealth(data.Stash, data.Characters)
 
 	return data, nil
 }
 
 // GetLeagues retrieves all available league names.
-func (s *Scraper) GetLeagues() ([]*inventory.League, error) {
+func (s *Scraper) GetLeagues() ([]*models.League, error) {
 	body, errRequest := s.CallAPI(LeaguesURL)
 	if errRequest != nil {
 		return nil, errRequest
 	}
-	leagues, errLeagues := inventory.ParseLeagues(body)
+	leagues, errLeagues := models.ParseLeagues(body)
 	if errLeagues != nil {
 		return nil, errLeagues
 	}

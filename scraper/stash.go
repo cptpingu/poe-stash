@@ -1,38 +1,33 @@
 package scraper
 
 import (
-	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"net/url"
-	"strings"
+	"strconv"
 
-	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/models"
 )
 
-// parseStashTab parses a Path of Exile stash tabulation.
-func parseStashTab(data []byte) (*inventory.StashTab, error) {
-	stash := inventory.StashTab{}
-	if err := json.Unmarshal(data, &stash); err != nil {
-		return nil, err
-	}
-
-	// Clean useless markers in the json.
-	for _, item := range stash.Items {
-		item.Name = strings.TrimPrefix(item.Name, "<<set:MS>><<set:M>><<set:S>>")
-		item.Type = strings.TrimPrefix(item.Type, "<<set:MS>><<set:M>><<set:S>>")
-	}
-
-	return &stash, nil
-}
-
 // ScrapStash scraps a stash from the official website.
-func (s *Scraper) ScrapStash(indexID int) (*inventory.StashTab, error) {
-	url := fmt.Sprintf(StashURL, url.QueryEscape(s.accountName), url.QueryEscape(s.realm), url.QueryEscape(s.league), 1, indexID)
-	body, errRequest := s.CallAPI(url)
-	if errRequest != nil {
-		return nil, errRequest
+func (s *Scraper) ScrapStash(indexID int) (*models.StashTab, error) {
+	var body []byte
+	var err error
+	if s.demo {
+		filename := DemoDir + s.accountName + "/stash_" + strconv.Itoa(indexID) + ".json"
+		body, err = ioutil.ReadFile(filename)
+		if err != nil {
+			return nil, err
+		}
+	} else {
+		url := fmt.Sprintf(StashURL, url.QueryEscape(s.accountName), url.QueryEscape(s.realm), url.QueryEscape(s.league), 1, indexID)
+		body, err = s.CallAPI(url)
+		if err != nil {
+			return nil, err
+		}
 	}
-	stash, errStash := parseStashTab(body)
+
+	stash, errStash := models.ParseStashTab(body)
 	if errStash != nil {
 		return nil, errStash
 	}
@@ -41,13 +36,13 @@ func (s *Scraper) ScrapStash(indexID int) (*inventory.StashTab, error) {
 }
 
 // ScrapWholeStash scraps all tabs in a stash from the official website.
-func (s *Scraper) ScrapWholeStash() ([]*inventory.StashTab, error) {
-	var stashTab []*inventory.StashTab
+func (s *Scraper) ScrapWholeStash() ([]models.Tab, []*models.StashTab, error) {
+	var stashTab []*models.StashTab
 
 	// Scrap first stash to get the number of stash.
 	firstStash, err := s.ScrapStash(0)
 	if err != nil {
-		return nil, err
+		return nil, nil, err
 	}
 	stashTab = append(stashTab, firstStash)
 
@@ -55,10 +50,10 @@ func (s *Scraper) ScrapWholeStash() ([]*inventory.StashTab, error) {
 	for i := 1; i < firstStash.NumTabs; i++ {
 		stash, err := s.ScrapStash(i)
 		if err != nil {
-			return nil, err
+			return nil, nil, err
 		}
 		stashTab = append(stashTab, stash)
 	}
 
-	return stashTab, nil
+	return firstStash.Tabs, stashTab, nil
 }

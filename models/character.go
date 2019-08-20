@@ -1,4 +1,4 @@
-package inventory
+package models
 
 import (
 	"encoding/json"
@@ -63,6 +63,15 @@ func (c *Character) String() string {
 	return string(json)
 }
 
+// ParseCharacters parses a Path of Exile characters.
+func ParseCharacters(data []byte) ([]*Character, error) {
+	characters := []*Character{}
+	if err := json.Unmarshal(data, &characters); err != nil {
+		return nil, err
+	}
+	return characters, nil
+}
+
 // CharacterInventory holds inventory of a character.
 type CharacterInventory struct {
 	CharDesc Character `json:"character"`
@@ -76,6 +85,16 @@ func (c *CharacterInventory) String() string {
 		return "<marshalling error>"
 	}
 	return string(json)
+}
+
+// ParseInventory parses a Path of Exile character inventory.
+func ParseInventory(data []byte) (*CharacterInventory, error) {
+	inventory := CharacterInventory{}
+	if err := json.Unmarshal(data, &inventory); err != nil {
+		return nil, err
+	}
+
+	return &inventory, nil
 }
 
 // CharacterSkills holds all skills choosen by the character
@@ -93,4 +112,13 @@ func (c *CharacterSkills) String() string {
 		return "<marshalling error>"
 	}
 	return string(json)
+}
+
+// ParseSkills parses a Path of Exile character skills.
+func ParseSkills(data []byte) (*CharacterSkills, error) {
+	skills := CharacterSkills{}
+	if err := json.Unmarshal(data, &skills); err != nil {
+		return nil, err
+	}
+	return &skills, nil
 }

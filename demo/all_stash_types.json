@@ -1,0 +1,12 @@
+{
+    "account":"cptpingu",
+    "league":"standard",
+    "realm":"pc",
+    "characters":"demo/all_stash_types/characters.json",
+    "skills":[
+        "demo/all_stash_types/skill1.json"
+    ],
+    "stash":[
+        "demo/all_stash_types/stash1.json"
+    ]
+}

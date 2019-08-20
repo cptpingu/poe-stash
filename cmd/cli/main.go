@@ -30,6 +30,7 @@ func main() {
 	league := flag.String("league", "standard", "league name (anarchy, legion, synthesis, delve...)")
 	output := flag.String("output", "", "where to generate html file (put \"-\" for stdin), if empty, a generated name will be created (account-league.html)")
 	cache := flag.Bool("cache", false, "do not call distant api, and use local cache if possible, for debug purpose only")
+	demo := flag.Bool("demo", false, "use local files to generate example profiles")
 	verbosity := flag.Int("verbosity", 0, "set the log verbose level")
 	interactive := flag.Bool("interactive", false, "interactive mode")
 	version := flag.Bool("version", false, "display the version of this tool")
@@ -43,9 +44,11 @@ func main() {
 	if !*interactive {
 		valid := true
 		valid = mandatoryOption(*account, "account") && valid
-		valid = mandatoryOption(*poeSessID, "poesessid") && valid
-		valid = mandatoryOption(*realm, "realm") && valid
-		valid = mandatoryOption(*league, "league") && valid
+		if !*demo {
+			valid = mandatoryOption(*poeSessID, "poesessid") && valid
+			valid = mandatoryOption(*realm, "realm") && valid
+			valid = mandatoryOption(*league, "league") && valid
+		}
 		if !valid {
 			fmt.Println()
 			flag.Usage()
@@ -69,11 +72,11 @@ func main() {
 	}
 
 	scraper := scraper.NewScraper(*account, *poeSessID, *realm, *league)
+	scraper.SetDemo(*demo)
 	if *cache {
 		scraper.EnableCache()
 	}
 	scraper.SetVerbosity(*verbosity)
-
 	data, errScrap := scraper.ScrapEverything()
 	if errScrap != nil {
 		fmt.Println("can't scrap data", errScrap)
@@ -107,4 +110,5 @@ func main() {
 		os.Exit(3)
 	}
 	w.Flush()
+	fmt.Println("File sucessfully generated:", *output)
 }

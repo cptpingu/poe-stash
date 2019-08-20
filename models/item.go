@@ -1,4 +1,4 @@
-package inventory
+package models
 
 // Item is a description of all properties of a single item.
 type Item struct {

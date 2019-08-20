@@ -1,31 +1,32 @@
 package scraper
 
 import (
-	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"net/url"
 
-	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/models"
 )
 
-// parseCharacters parses a Path of Exile characters.
-func parseCharacters(data []byte) ([]*inventory.Character, error) {
-	characters := []*inventory.Character{}
-	if err := json.Unmarshal(data, &characters); err != nil {
-		return nil, err
+// ScrapCharacters scraps all characters owned by a user.
+func (s *Scraper) ScrapCharacters() ([]*models.Character, error) {
+	var body []byte
+	var err error
+	if s.demo {
+		filename := DemoDir + s.accountName + "/characters.json"
+		body, err = ioutil.ReadFile(filename)
+		if err != nil {
+			return nil, err
+		}
+	} else {
+		url := fmt.Sprintf(ProfileCharactersURL, url.QueryEscape(s.accountName))
+		body, err = s.CallAPI(url)
+		if err != nil {
+			return nil, err
+		}
 	}
 
-	return characters, nil
-}
-
-// ScrapCharacters scraps all characters own by a user.
-func (s *Scraper) ScrapCharacters() ([]*inventory.Character, error) {
-	url := fmt.Sprintf(ProfileCharactersURL, url.QueryEscape(s.accountName))
-	body, errRequest := s.CallAPI(url)
-	if errRequest != nil {
-		return nil, errRequest
-	}
-	characters, errCharacters := parseCharacters(body)
+	characters, errCharacters := models.ParseCharacters(body)
 	if errCharacters != nil {
 		return nil, errCharacters
 	}
@@ -33,24 +34,25 @@ func (s *Scraper) ScrapCharacters() ([]*inventory.Character, error) {
 	return characters, nil
 }
 
-// parseInventory parses a Path of Exile character inventory.
-func parseInventory(data []byte) (*inventory.CharacterInventory, error) {
-	inventory := inventory.CharacterInventory{}
-	if err := json.Unmarshal(data, &inventory); err != nil {
-		return nil, err
-	}
-
-	return &inventory, nil
-}
-
 // ScrapCharacterInventory scraps the inventory of a given character.
-func (s *Scraper) ScrapCharacterInventory(charName string) (*inventory.CharacterInventory, error) {
-	url := fmt.Sprintf(ProfileCharacterItemsURL, url.QueryEscape(s.accountName), url.QueryEscape(s.realm), url.QueryEscape(charName))
-	body, errRequest := s.CallAPI(url)
-	if errRequest != nil {
-		return nil, errRequest
+func (s *Scraper) ScrapCharacterInventory(charName string) (*models.CharacterInventory, error) {
+	var body []byte
+	var err error
+	if s.demo {
+		filename := DemoDir + s.accountName + "/" + charName + "_inventory.json"
+		body, err = ioutil.ReadFile(filename)
+		if err != nil {
+			return nil, err
+		}
+	} else {
+		url := fmt.Sprintf(ProfileCharacterItemsURL, url.QueryEscape(s.accountName), url.QueryEscape(s.realm), url.QueryEscape(charName))
+		body, err = s.CallAPI(url)
+		if err != nil {
+			return nil, err
+		}
 	}
-	inventory, errInventory := parseInventory(body)
+
+	inventory, errInventory := models.ParseInventory(body)
 	if errInventory != nil {
 		return nil, errInventory
 	}
@@ -58,24 +60,25 @@ func (s *Scraper) ScrapCharacterInventory(charName string) (*inventory.Character
 	return inventory, nil
 }
 
-// parseSkills parses a Path of Exile character skills.
-func parseSkills(data []byte) (*inventory.CharacterSkills, error) {
-	skills := inventory.CharacterSkills{}
-	if err := json.Unmarshal(data, &skills); err != nil {
-		return nil, err
-	}
-
-	return &skills, nil
-}
-
 // ScrapCharacterSkills scraps the inventory of a given character.
-func (s *Scraper) ScrapCharacterSkills(charName string) (*inventory.CharacterSkills, error) {
-	url := fmt.Sprintf(ProfileCharacterSkillsURL, url.QueryEscape(charName), url.QueryEscape(s.accountName))
-	body, errRequest := s.CallAPI(url)
-	if errRequest != nil {
-		return nil, errRequest
+func (s *Scraper) ScrapCharacterSkills(charName string) (*models.CharacterSkills, error) {
+	var body []byte
+	var err error
+	if s.demo {
+		filename := DemoDir + s.accountName + "/" + charName + "_skills.json"
+		body, err = ioutil.ReadFile(filename)
+		if err != nil {
+			return nil, err
+		}
+	} else {
+		url := fmt.Sprintf(ProfileCharacterSkillsURL, url.QueryEscape(charName), url.QueryEscape(s.accountName))
+		body, err = s.CallAPI(url)
+		if err != nil {
+			return nil, err
+		}
 	}
-	inventory, errInventory := parseSkills(body)
+
+	inventory, errInventory := models.ParseSkills(body)
 	if errInventory != nil {
 		return nil, errInventory
 	}

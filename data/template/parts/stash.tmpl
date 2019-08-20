@@ -1,19 +1,36 @@
 {{ define "stash" }}
     <div class="stash">
-      {{ range $index, $element := .Stash}}
+      {{ $tabsDesc := .TabsDesc }}
+      {{ range $index, $element := .Stash }}
       <div class="activePanel">
         <div class="stashPanel">
           <div class="stashTabContainer tabControl">
             <div class="tabWindow">
               <div class="tabs tabsOverflow">
                 <div class="tab" style="display: block; ">
-                  {{ $tab := index .Tabs $index }}
-                  <div class="l" style="background-image: url(&quot;{{ $tab.ImgL }}&quot;); width: 19px; height: 26px; background-position: 0px 0px;">
+                  {{ $imgL := "" }}
+                  {{ $imgC := "" }}
+                  {{ $imgR := "" }}
+                  {{ $name := "unknown" }}
+                  {{ if .Tabs }}
+                    {{ $tab := index .Tabs $index }}
+                    {{ $imgL = $tab.ImgL }}
+                    {{ $imgC = $tab.ImgC }}
+                    {{ $imgR = $tab.ImgR }}
+                    {{ $name = $tab.Name }}
+                  {{ else }}
+                    {{ $tab := index $tabsDesc $index }}
+                    {{ $imgL = $tab.ImgL }}
+                    {{ $imgC = $tab.ImgC }}
+                    {{ $imgR = $tab.ImgR }}
+                    {{ $name = $tab.Name }}
+                  {{ end }}
+                  <div class="l" style="background-image: url(&quot;{{ $imgL }}&quot;); width: 19px; height: 26px; background-position: 0px 0px;">
                   </div>
-                  <div class="label" style="background-image: url(&quot;{{ $tab.ImgC }}&quot;); color: rgb(255, 192, 119); height: 26px; background-position: 0px 0px;">
-                      {{ print $tab.Name }}
+                  <div class="label" style="background-image: url(&quot;{{ $imgC }}&quot;); color: rgb(255, 192, 119); height: 26px; background-position: 0px 0px;">
+                      {{ print $name }}
                   </div>
-                  <div class="r" style="background-image: url(&quot;{{ $tab.ImgR }}&quot;); width: 18px; height: 26px; background-position: 0px 0px;">
+                  <div class="r" style="background-image: url(&quot;{{ $imgR }}&quot;); width: 18px; height: 26px; background-position: 0px 0px;">
                   </div>
                 </div>
               </div>

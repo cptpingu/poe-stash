@@ -10,7 +10,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/models"
 	"github.com/poe-stash/scraper"
 )
 
@@ -51,7 +51,7 @@ func MainPageHandler(c *gin.Context) {
 
 	c.HTML(http.StatusOK, "main", struct {
 		Accounts []string
-		Leagues  []*inventory.League
+		Leagues  []*models.League
 	}{
 		Accounts: accounts,
 		Leagues:  leagues,

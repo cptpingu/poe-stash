@@ -16,8 +16,7 @@ import (
 	"unicode"
 
 	"github.com/poe-stash/misc"
-
-	"github.com/poe-stash/inventory"
+	"github.com/poe-stash/models"
 	"github.com/poe-stash/scraper"
 )
 
@@ -63,10 +62,10 @@ func LoadAllTemplates() (*template.Template, error) {
 		"SocketedId":           SocketedId,
 		"AltWeaponImage":       AltWeaponImage,
 		"SellDescription":      SellDescription,
-		"XpToNextLevel":        inventory.XpToNextLevel,
-		"CurrentXp":            inventory.CurrentXp,
-		"XpNeeded":             inventory.XpNeeded,
-		"PrettyPrint":          inventory.PrettyPrint,
+		"XpToNextLevel":        models.XpToNextLevel,
+		"CurrentXp":            models.CurrentXp,
+		"XpNeeded":             models.XpNeeded,
+		"PrettyPrint":          models.PrettyPrint,
 		"ContainsPattern":      ContainsPattern,
 		"GenProperties":        GenProperties,
 		"SearchItem":           SearchItem,
@@ -189,32 +188,32 @@ func (g *Generator) GenerateHTML(data *scraper.ScrapedData) error {
 
 // DeducePosX transforms relative stash position in
 // absolute css position using a given layout.
-func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y, idx int) float64 {
-	switch inventory.LayoutType(layoutType) {
-	case inventory.CurrencyLayout,
-		inventory.FragmentLayout,
-		inventory.EssenceLayout:
+func DeducePosX(layoutType, inventoryId string, layout map[string]models.Layout, x, y, idx int) float64 {
+	switch models.LayoutType(layoutType) {
+	case models.CurrencyLayout,
+		models.FragmentLayout,
+		models.EssenceLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.X
 		}
-	case inventory.MapLayout:
+	case models.MapLayout:
 		return 0
-	case inventory.JewelLayout:
+	case models.JewelLayout:
 		return 287 + float64(idx)*47
-	case inventory.InventoryLayout:
+	case models.InventoryLayout:
 		key := inventoryId + "X"
 		switch inventoryId {
 		case "MainInventory":
-			if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+			if value, ok := models.DefaultInventoryLayout[key]; ok {
 				return value + float64(x)*cellSize
 			}
 		case "Flask":
 			key = inventoryId + "X" + strconv.Itoa(x)
 		}
-		if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+		if value, ok := models.DefaultInventoryLayout[key]; ok {
 			return value
 		}
-	case inventory.QuadLayout:
+	case models.QuadLayout:
 		return float64(x) * cellSize / 2
 	default:
 		return float64(x) * cellSize
@@ -224,30 +223,30 @@ func DeducePosX(layoutType, inventoryId string, layout map[string]inventory.Layo
 
 // DeducePosY transforms relative stash position in
 // absolute css position using a given layout.
-func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layout, x, y, idx int) float64 {
-	switch inventory.LayoutType(layoutType) {
-	case inventory.CurrencyLayout,
-		inventory.FragmentLayout,
-		inventory.EssenceLayout:
+func DeducePosY(layoutType, inventoryId string, layout map[string]models.Layout, x, y, idx int) float64 {
+	switch models.LayoutType(layoutType) {
+	case models.CurrencyLayout,
+		models.FragmentLayout,
+		models.EssenceLayout:
 		if value, ok := layout[strconv.Itoa(x)]; ok {
 			return value.Y
 		}
-	case inventory.MapLayout:
+	case models.MapLayout:
 		return 0
-	case inventory.JewelLayout:
+	case models.JewelLayout:
 		return -47
-	case inventory.InventoryLayout:
+	case models.InventoryLayout:
 		key := inventoryId + "Y"
 		switch inventoryId {
 		case "MainInventory":
-			if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+			if value, ok := models.DefaultInventoryLayout[key]; ok {
 				return value + float64(y)*cellSize
 			}
 		}
-		if value, ok := inventory.DefaultInventoryLayout[key]; ok {
+		if value, ok := models.DefaultInventoryLayout[key]; ok {
 			return value
 		}
-	case inventory.QuadLayout:
+	case models.QuadLayout:
 		return float64(y) * cellSize / 2
 	default:
 		return float64(y) * cellSize
@@ -256,27 +255,27 @@ func DeducePosY(layoutType, inventoryId string, layout map[string]inventory.Layo
 }
 
 // rarityCharacteritics return the item visual characteristics to apply.
-func rarityCharacteritics(frameType inventory.FrameType) (string, string, string) {
+func rarityCharacteritics(frameType models.FrameType) (string, string, string) {
 	switch frameType {
-	case inventory.NormalItemFrameType:
+	case models.NormalItemFrameType:
 		return "Normal", "normalPopup", ""
-	case inventory.MagicItemFrameType:
+	case models.MagicItemFrameType:
 		return "Magic", "magicPopup", ""
-	case inventory.RareItemFrameType:
+	case models.RareItemFrameType:
 		return "Rare", "rarePopup", "doubleLine"
-	case inventory.UniqueItemFrameType:
+	case models.UniqueItemFrameType:
 		return "Unique", "uniquePopup", "doubleLine"
-	case inventory.GemFrameType:
+	case models.GemFrameType:
 		return "Gem", "gemPopup", ""
-	case inventory.CurrencyFrameType:
+	case models.CurrencyFrameType:
 		return "Currency", "currencyPopup", ""
-	case inventory.DivinationCardFrameType:
+	case models.DivinationCardFrameType:
 		return "Divination Card", "divinationCard", "doubleLine"
-	case inventory.QuestItemFrameType:
+	case models.QuestItemFrameType:
 		return "Quest", "questPopup", ""
-	case inventory.ProphecyFrameType:
+	case models.ProphecyFrameType:
 		return "Normal", "prophecyPopup", ""
-	case inventory.RelicFrameType:
+	case models.RelicFrameType:
 		return "Relic", "relicPopup", "doubleLine"
 	default:
 		return "", "", ""
@@ -284,26 +283,26 @@ func rarityCharacteritics(frameType inventory.FrameType) (string, string, string
 }
 
 // ItemRarity return the correct class type from a frame type.
-func ItemRarity(frameType inventory.FrameType) string {
+func ItemRarity(frameType models.FrameType) string {
 	rarity, _, _ := rarityCharacteritics(frameType)
 	return rarity
 }
 
 // ItemRarityType return the correct class type from a frame type.
-func ItemRarityType(frameType inventory.FrameType) string {
+func ItemRarityType(frameType models.FrameType) string {
 	_, frameClass, _ := rarityCharacteritics(frameType)
 	return frameClass
 }
 
 // ItemRarityHeight return the correct height from a frame type.
-func ItemRarityHeight(frameType inventory.FrameType) string {
+func ItemRarityHeight(frameType models.FrameType) string {
 	_, _, heightClass := rarityCharacteritics(frameType)
 	return heightClass
 }
 
 // GenSpecialBackground generates a special background
 // like shaper or elder ones.
-func GenSpecialBackground(item inventory.Item) string {
+func GenSpecialBackground(item models.Item) string {
 	pattern := ""
 	if item.IsShaper {
 		pattern = "style='background-image: url(\"https://www.pathofexile.com/image/inventory/ShaperBackground.png?w=%d&h=%d&x=%d&y=%d\");'"
@@ -471,7 +470,7 @@ func SocketRight(idx int) string {
 
 // searchSocketId search the right corresponding socket id.
 // return -1 if nothing is found.
-func searchSocketId(idx int, socketedItems []inventory.Item) int {
+func searchSocketId(idx int, socketedItems []models.Item) int {
 	for socketedIndex, v := range socketedItems {
 		if idx == v.Socket {
 			return socketedIndex
@@ -482,7 +481,7 @@ func searchSocketId(idx int, socketedItems []inventory.Item) int {
 
 // SocketedClass computes if a socket contains an item
 // and construct everything needed to display it.
-func SocketedClass(idx int, socketedItems []inventory.Item) string {
+func SocketedClass(idx int, socketedItems []models.Item) string {
 	// Search the coresponding socket id in socketed.
 	iSocket := searchSocketId(idx, socketedItems)
 	if iSocket < 0 || iSocket >= len(socketedItems) {
@@ -507,7 +506,7 @@ func SocketedClass(idx int, socketedItems []inventory.Item) string {
 }
 
 // SocketedId computes id to attach mouseover to.
-func SocketedId(idx int, socketedItems []inventory.Item) template.HTMLAttr {
+func SocketedId(idx int, socketedItems []models.Item) template.HTMLAttr {
 	iSocket := searchSocketId(idx, socketedItems)
 	if iSocket < 0 || iSocket >= len(socketedItems) {
 		return ""
@@ -517,7 +516,7 @@ func SocketedId(idx int, socketedItems []inventory.Item) template.HTMLAttr {
 }
 
 // AltWeaponImage returns the miniature image for alternative weapons.
-func AltWeaponImage(items []*inventory.Item, filter string) template.HTMLAttr {
+func AltWeaponImage(items []*models.Item, filter string) template.HTMLAttr {
 	for _, item := range items {
 		if item.InventoryId == filter {
 			top := 0.0
@@ -549,7 +548,7 @@ func AltWeaponImage(items []*inventory.Item, filter string) template.HTMLAttr {
 }
 
 // SellDescription generates the text for the trade forum.
-func SellDescription(item inventory.Item, charName string) string {
+func SellDescription(item models.Item, charName string) string {
 	desc := ""
 	if !strings.HasPrefix(item.InventoryId, "Stash") {
 		desc = ` character="` + charName + `"`
@@ -571,7 +570,7 @@ func ContainsPattern(s string) bool {
 
 // GenProperties generate properties for item with formatted
 // strings like flasks.
-func GenProperties(property inventory.ItemProperty) template.HTML {
+func GenProperties(property models.ItemProperty) template.HTML {
 	var args []interface{}
 	for _, value := range property.Values {
 		v := value.([]interface{})
@@ -591,11 +590,11 @@ func GenProperties(property inventory.ItemProperty) template.HTML {
 }
 
 // SearchItem search an item by its name.
-func SearchItem(items []inventory.Item, name string) inventory.Item {
+func SearchItem(items []models.Item, name string) models.Item {
 	for _, item := range items {
 		if item.Type == name {
 			return item
 		}
 	}
-	return inventory.Item{}
+	return models.Item{}
 }
