@@ -1,6 +1,7 @@
 {{ define "itemdesc" }}
           <div id="item-{{ .Id }}-tooltip" style="display: none;">
             <div class="itemPopupContainer newItemPopup {{ ItemRarityType .FrameType }}">
+              <input data-id="item-{{ .Id }}" class="index-item" type="hidden" value="{{ GenNaiveSearchIndex . }}" />
 
             {{ if .ArtFilename }}
               {{ template "divinationcard" dict "Item" . "Small" false }}

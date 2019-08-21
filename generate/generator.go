@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"reflect"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -69,6 +70,7 @@ func LoadAllTemplates() (*template.Template, error) {
 		"ContainsPattern":      ContainsPattern,
 		"GenProperties":        GenProperties,
 		"SearchItem":           SearchItem,
+		"GenNaiveSearchIndex":  GenNaiveSearchIndex,
 		"Version": func() string {
 			return misc.Version
 		},
@@ -600,4 +602,63 @@ func SearchItem(items []models.Item, name string) models.Item {
 		}
 	}
 	return models.Item{}
+}
+
+// extractWords extracts relevant words from a sentence.
+func extractWords(line string) []string {
+	line = strings.ToLower(line)
+	line = strings.ReplaceAll(line, "'", " ")
+	line = strings.ReplaceAll(line, ":", " ")
+	return strings.Split(line, " ")
+}
+
+// GenNaiveSearchIndex generates very naive indexing for an item description.
+// It's just a list of selected unique sorted words.
+func GenNaiveSearchIndex(item models.Item) string {
+	words := make(map[string]struct{}, 0)
+
+	// Extract name.
+	for _, v := range extractWords(item.Name) {
+		words[v] = struct{}{}
+	}
+
+	// Extract type of item.
+	for _, v := range extractWords(item.Type) {
+		words[v] = struct{}{}
+	}
+
+	// Extract properties.
+	for _, mod := range item.ExplicitMods {
+		for _, v := range extractWords(mod) {
+			words[v] = struct{}{}
+		}
+	}
+	for _, mod := range item.ImplicitMods {
+		for _, v := range extractWords(mod) {
+			words[v] = struct{}{}
+		}
+	}
+	for _, mod := range item.UtilityMods {
+		for _, v := range extractWords(mod) {
+			words[v] = struct{}{}
+		}
+	}
+	for _, mod := range item.EnchantMods {
+		for _, v := range extractWords(mod) {
+			words[v] = struct{}{}
+		}
+	}
+	for _, mod := range item.CraftedMods {
+		for _, v := range extractWords(mod) {
+			words[v] = struct{}{}
+		}
+	}
+
+	// Construct final string with sorted keywords.
+	keys := make([]string, 0, len(words))
+	for key := range words {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+	return strings.Join(keys, " ")
 }

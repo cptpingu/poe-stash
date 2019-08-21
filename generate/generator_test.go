@@ -1,6 +1,7 @@
 package generate
 
 import (
+	"reflect"
 	"testing"
 )
 
@@ -88,6 +89,34 @@ func TestPoEMarkup(t *testing.T) {
 	for _, current := range tests {
 		res := ReplacePoEMarkup(current.input, false)
 		if res != current.expected {
+			t.Errorf("\n\texpected:\n%v\n\tbut got:\n%v\n", current.expected, res)
+		}
+	}
+}
+
+// TestExtractWords tests that creating an index using item description works.
+func TestExtractWords(t *testing.T) {
+	tests := []struct {
+		input    string
+		expected []string
+	}{
+		{
+			input:    "An Item To LowerCase",
+			expected: []string{"an", "item", "to", "lowercase"},
+		},
+		{
+			input:    "remove single letter like a b c",
+			expected: []string{"remove", "single", "letter", "like"},
+		},
+		{
+			input:    "remove some useless char like ' or :",
+			expected: []string{"remove", "some", "useless", "char", "like", "or"},
+		},
+	}
+
+	for _, current := range tests {
+		res := extractWords(current.input)
+		if !reflect.DeepEqual(res, current.expected) {
 			t.Errorf("\n\texpected:\n%v\n\tbut got:\n%v\n", current.expected, res)
 		}
 	}

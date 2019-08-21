@@ -13,23 +13,29 @@
       <img class="thumbnail" src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyUpgradeToRare.png?scale=1&w=1&h=1&v=89c110be97333995522c7b2c29cae728"><small>x</small>{{ .Wealth.NbAlch }})
     </div>
     <div id="shop" class="box">
-      <button class="button" onclick="generateShop()">Generate items shop</button>
-      <button class="button" onclick="exportShop()">Export shop</button>
-      <input type="file" name="files[]" id="shop-file" class="inputfile inputfile-1" accept=".txt" multiple="">
-      <label for="shop-file">
-        <span class="button button-label" >
-          Import shop
+      <div>
+        <button class="button" onclick="generateShop()">Generate items shop</button>
+        <button class="button" onclick="exportShop()">Export shop</button>
+        <input type="file" name="files[]" id="shop-file" class="inputfile inputfile-1" accept=".txt" multiple="">
+        <label for="shop-file">
+          <span class="button button-label" >
+            Import shop
+          </span>
+        </label>
+        <span id="merge-box">
+          <input type="checkbox" id="merge" name="merge" checked="checked" onclick="onMergeChange(this)">
+          <label for="merge">Merge</label>
         </span>
-      </label>
-      <span id="merge-box">
-        <input type="checkbox" id="merge" name="merge" checked="checked" onclick="onMergeChange(this)">
-        <label for="merge">Merge</label>
-      </span>
-      <select id="highlight" class="dropdown" onchange="highlightItems(this.value)">
-        <option value="all" selected="selected">Show all</option>
-        <option value="sell">Show price items</option>
-        <option value="noprice">Show no price set</option>
-      </select>
+        <select id="highlight" class="dropdown" onchange="highlightItems(this.value)">
+          <option value="all" selected="selected">Show all</option>
+          <option value="sell">Show price items</option>
+          <option value="noprice">Show no price set</option>
+        </select>
+      </div>
+      <div>
+        <input id="searchbar" class="input-text" type="text" name="searchbar" value="" placeholder="Example: ring | vix lunaris | increased damage" />
+        <button id="searchbutton" class="button" onclick="searchItem()">Search</button>
+      </div>
     </div>
 
     <div class="clear"><!-- --></div>

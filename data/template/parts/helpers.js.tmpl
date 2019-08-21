@@ -642,6 +642,99 @@
         }
     }
 
+    // Will highlight matching items.
+    function searchItem() {
+        // Disable search button.
+        var searchbutton = document.getElementById('searchbutton');
+        searchbutton.disabled = true;
+
+        // Get search query.
+        var search = document.getElementById('searchbar');
+        var query = search.value;
+
+        // Reset "not price" highlighting, as we will highlight differently.
+        var search = document.getElementById('highlight');
+        search.selectedIndex = 0;
+
+        // Split and sort search query.
+        var tempQueries = query.split('|');
+        var queries = new Array(0);
+        for (var i = 0; i < tempQueries.length; i++) {
+            var rawSplitQ = tempQueries[i].split(' ');
+            var splitQ = new Array(0);
+            // Remove whitespaces.
+            for (var j = 0; j < rawSplitQ.length; j++) {
+                if (' \t\n\r\v'.indexOf(rawSplitQ[j]) < 0) {
+                    splitQ.push(rawSplitQ[j]);
+                }
+            }
+            splitQ.sort();
+            queries.push(splitQ);
+        }
+
+        // Get all indexed items.
+        var indexItem = document.getElementsByClassName('index-item');
+
+        // Highlight all matching items.
+        for (var i = 0; i < indexItem.length; i++) {
+            var id = indexItem[i].getAttribute('data-id');
+            var item = document.getElementById(id);
+            // Some item description don't have a real item (like divination
+            // in divination stash tabs).
+            if (item != undefined) {
+                var text = indexItem[i].value;
+                var desc = text.split(' ').sort();
+                if (query == "" || queriesMatch(desc, queries)) {
+                    item.style.opacity = 1.0;
+                } else {
+                    item.style.opacity = 0.3;
+                }
+            }
+        }
+
+        // Restore search button.
+        searchbutton.disabled = false;
+    }
+
+    // Check if any queries match the given description array.
+    function queriesMatch(desc, queries) {
+        for (var i = 0; i < queries.length; i++) {
+            if (queryMatch(desc, queries[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    var myDesc = [ "a", "m", "x", "z" ];
+    var myQuery = [ "m", "z" ];
+
+    // Check if a given query match the given description array.
+    // All term of the query has to find a match in the description.
+    // It's a "AND" behavior.
+    function queryMatch(desc, query) {
+        var i = 0;
+        var j = 0;
+        while (i < desc.length && j < query.length) {
+            // The term match, let's check the next one.
+            if (desc[i] == query[j]) {
+                i++;
+                j++;
+            }
+            // No match, let's check the next term.
+            else if (desc[i] < query[j]) {
+                i++;
+            }
+            // No match, and it's seems there will be no match.
+            else {
+                return false;
+            }
+        }
+        // If we arrived here, then check that all terms have found a match.
+        // ie, j has advanced to the end.
+        return j >= query.length;
+    }
+
     initImport();
     initModal();
     {{ if not .Demo }}
