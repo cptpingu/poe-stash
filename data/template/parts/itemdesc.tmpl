@@ -220,6 +220,15 @@
                       </div>
                       {{ end }}
 
+                      {{ if .CosmeticMods }}
+                      <div class="separator"></div>
+                        {{ range .CosmeticMods }}
+                        <div class="cosmeticMod">
+                          <span class="s">{{ . }}</span>
+                        </div>
+                        {{ end }}
+                      {{ end }}
+
                       {{ if .Note }}
                       <div class="separator"></div>
                       <div class="textCurrency itemNote">{{ .Note }}</div>

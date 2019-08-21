@@ -2,6 +2,107 @@
     "items": [
         {
             "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 86,
+            "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/DiamondRing.png?scale=1&w=1&h=1&v=d53fabd123b7c64d59ffe8a6baf7d778",
+            "league": "Standard",
+            "id": "bad050c6f010c7b7d25be10e6c68bee93881757f7441f4458b84a59079d2e577",
+            "shaper": true,
+            "name": "Viper Gyre",
+            "typeLine": "Diamond Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "30% increased Global Critical Strike Chance"
+            ],
+            "explicitMods": [
+                "+69 to maximum Life",
+                "+38% to Lightning Resistance",
+                "+9 Life gained on Kill",
+                "Curse Enemies with Level 8 Assassin's Mark on Hit"
+            ],
+            "craftedMods": [
+                "-7 to Total Mana Cost of Skills"
+            ],
+            "cosmeticMods": [
+                "Has Sapphire Ring Skin. You can reclaim this by shift-clicking this item."
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 0,
+            "inventoryId": "Ring2"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 71,
+            "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Headhunter.png?scale=1&w=2&h=1&v=00b786d294eb957cf1e02b8d95f55425",
+            "league": "Standard",
+            "id": "48bbd52167a948c5e12a6cedb00865da083ef1913ae6d7b80f0d2c0acbbb0607",
+            "name": "Headhunter",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+40 to maximum Life"
+            ],
+            "explicitMods": [
+                "+54 to Strength",
+                "+41 to Dexterity",
+                "+58 to maximum Life",
+                "25% increased Damage with Hits against Rare monsters",
+                "When you Kill a Rare monster, you gain its Modifiers for 20 seconds"
+            ],
+            "cosmeticMods": [
+                "Has Wurm's Molt Skin. You can reclaim this by shift-clicking this item."
+            ],
+            "flavourText": [
+                "A man's soul rules from a cavern of bone, learns and",
+                "judges through flesh-born windows. The heart is meat",
+                "The head is where the Man is",
+                "- Lavianga, Advisor to Kaom"
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Belt"
+        },
+        {
+            "verified": false,
             "w": 2,
             "h": 2,
             "ilvl": 75,
