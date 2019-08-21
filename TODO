@@ -1,6 +1,6 @@
   * More rigourous item description generation
   * Shop id for the link after shop generation
-  * Search bar? (lot of works, may easily be slow)
+  * Advanced query searching? (lots of work)
   * Minify generated files, reducing size.
   * Choose what tabs and characters to generate
     * By character name

@@ -61,15 +61,21 @@ To release new version, I'm using two scripts which generate the archives.
 
 For MacOS and Linux:
 ```
-./gen_bin.sh
+./unix_release.sh
 ```
 
 For Windows:
 ```
-win_gen_bin.bat
+windows_release.bat
 ```
 
 Then I attached the generated archives to a new release.
+
+Then, I generate the demo files using:
+```
+./gen_demo.sh
+```
+
 
 ### Working and debugging (more technical stuff!)
 
