@@ -19,9 +19,9 @@ Share a stash with a friend:
 ## Download
 
 Released versions are available here:
-  * [Windows](https://github.com/cptpingu/poe-stash/releases/download/v0.4/poe-stash-windows-amd64.zip)
-  * [Linux](https://github.com/cptpingu/poe-stash/releases/download/v0.4/poe-stash-linux-x86_64.tar.gz)
-  * [MacOS](https://github.com/cptpingu/poe-stash/releases/download/v0.4/poe-stash-darwin-x86_64.tar.gz)
+  * [Windows](https://github.com/cptpingu/poe-stash/releases/download/v0.5/poe-stash-windows-amd64.zip)
+  * [Linux](https://github.com/cptpingu/poe-stash/releases/download/v0.5/poe-stash-linux-x86_64.tar.gz)
+  * [MacOS](https://github.com/cptpingu/poe-stash/releases/download/v0.5/poe-stash-darwin-x86_64.tar.gz)
 
 ## Getting started
 
@@ -37,7 +37,7 @@ More detailed instructions for your system here:
 
 Want to see what generated files look like?
 
-[See this one for example](http://0217021.free.fr/poe-stash/demo/cptpingu-standard-pc-2019-08-15.html)
+[See this one for example](http://0217021.free.fr/poe-stash/demo/all_stash_types-standard.html)
 
 I generated some more here: [Demo and screenshots](http://0217021.free.fr/poe-stash)
 
@@ -82,6 +82,33 @@ main feature, and will not replace more advanced dedicated tool, but it's still
 useful (at least for me!).
 
 Read some explanation here: [Pricing items](prices.md)
+
+## Search
+
+It's possible to search for item's name, characteristic or type. Note that this
+is a very naive search engine. By default everything is consider an "AND". The
+"OR" can be use with the "|" symbol.
+
+Search for items with life on it:
+```
+life
+```
+
+Search for items with 3 elements:
+```
+fire cold lightning
+```
+
+Search for items with chaos or speed:
+```
+chaos | speed
+```
+
+Search for a ring, an item named "Vix Lunaris" or everything which increase
+damage:
+```
+ring | vix lunaris | increased damage
+```
 
 ## I need your help!
 
