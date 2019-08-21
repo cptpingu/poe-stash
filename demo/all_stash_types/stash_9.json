@@ -1,1 +1,3108 @@
-{"numTabs":14,"items":[{"verified":false,"w":1,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MagmaOrbThreshold.png?scale=1&w=1&h=1&v=634e2ac0472116f3753785fb5ccbb162","league":"Standard","id":"877c5981bcccb661974d479d9c94b020a7703ccba95a598a89c665ead1b3ece8","name":"Inevitability","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["13% increased Fire Damage","With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile","With at least 40 Intelligence in Radius, Magma Orb\nhas 10% increased Area of Effect per Chain"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Izaro gave rise to Chitus.\r","Chitus gave rise to Voll.\r","None could know how it would end.\r","None could stop it."],"frameType":3,"category":{"jewels":[]},"x":2,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BarrageModifier.png?scale=1&w=1&h=1&v=42c9851fd55e6e4818745bec35570021","league":"Standard","id":"e3a51ca59b2138aef0d67fb8dcb6715e21f2bbdabab24cc4a0c550b6a08ed542","name":"Volley Fire","typeLine":"Viridian Jewel","identified":true,"properties":[{"name":"Limited to","values":[["3",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["9% increased Projectile Damage","With at least 40 Dexterity in Radius, Barrage fires an additional 2 projectiles simultaneously on the first and final attacks"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Lioneye's men stood at the walls,\r","eyeing the savages that walked the beach below.\r","With a single word,\r","a thousand bodies, and ten thousand arrows,\r","would litter the sands."],"frameType":3,"category":{"jewels":[]},"x":4,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0","league":"Standard","id":"6b1809fc358eda53af846ee5dbf868a0750c9c44d32cd15a73463fece9f1ddce","name":"","typeLine":"The Unbreathing Queen I","identified":true,"descrText":"Right-click to add this prophecy to your character.","flavourText":["The Unbreathing Queen masterminds an unholy heist, a defilement of the dead."],"prophecyText":"You will encounter spectres in the Fellshrine Ruins, Cemetery Map, or Graveyard Map and slay them.","frameType":8,"category":{"currency":[]},"x":8,"y":10,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BlueJewel3.png?scale=1&w=1&h=1&v=f8776f024c3ecfff3a151b0173490e54","league":"Standard","id":"321c5818dd202610114e51e9aacc7df6824d9395f0b10f2d31a3c734e97de98b","name":"Malicious Intent","typeLine":"Cobalt Jewel","identified":true,"explicitMods":["5% chance to Gain Unholy Might for 4 seconds on Melee Kill"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Each life taken makes the next a little easier."],"frameType":3,"category":{"jewels":[]},"x":5,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GroundSlamModifier.png?scale=1&w=1&h=1&v=a4fe88e419417536f8bd0c83b64619e2","league":"Standard","id":"12b6f7f088314538fae42049b516d21db84613afec7ffba1f41f34611cd87eb3","name":"Rapid Expansion","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["11% increased Global Physical Damage","With at least 40 Strength in Radius, Ground Slam has a 35% chance\nto grant an Endurance Charge when you Stun an Enemy","With at least 40 Strength in Radius, Ground Slam\nhas a 50% increased angle"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Chitus began to aggressively expand his empire\r","into neighbouring nations at great human cost. \r","But for absolute power, there is no price \r","that a Perandus won't pay."],"frameType":3,"category":{"jewels":[]},"x":5,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"6e424cfe82b43182a7a42b1a734711f5ceeb85a61cd7af2fc75ec5c42c3f4290","name":"","typeLine":"Beating Crimson Jewel of Combat","identified":true,"explicitMods":["8% increased Attack Speed with Maces","12% increased Melee Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":3,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/IceShotThreshold.png?scale=1&w=1&h=1&v=781fcee7994502d31bf6ad9615a70418","league":"Standard","id":"6f82eab1a2580a84986dee70abb06162342cf70d7bd0f56d5e23bb6ca1fa3887","name":"Omen on the Winds","typeLine":"Viridian Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["18% increased Damage with Hits against Chilled Enemies","With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect","With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["As Malachai stepped into the Highgate mines,\r","cold winds billowed from the mountain above.\r","One final, feeble attempt to save what was meant to be eternal."],"frameType":3,"category":{"jewels":[]},"x":2,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0","league":"Standard","id":"6a281882a7859171605d3154f24d779471147b31c2f46f211fc3a2851a151402","name":"","typeLine":"The Plaguemaw I","identified":true,"descrText":"Right-click to add this prophecy to your character.","flavourText":["The Plaguemaw enters the red realm and leaves a swirling mass of living stone."],"prophecyText":"You will encounter a powerful golem in a Vaal side area and defeat it.","frameType":8,"category":{"currency":[]},"x":11,"y":8,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"b4d6a8bb20a7c2e2c92c7563dae10e484c9aca5ba1437c63e3a9bced986eddc9","name":"","typeLine":"Fencing Crimson Jewel of Berserking","identified":true,"explicitMods":["4% increased Attack Speed","8% increased Attack Speed with Swords"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":8,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/TemperedBlue.png?scale=1&w=1&h=1&v=7cee1c8f112baeb4276cfe8a20ba0d42","league":"Standard","id":"c663859b65ff6de5d22936e5cff18a5d88d66fdeeb4e98f75f455d35a5b92899","name":"Tempered Mind","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["-1 Intelligence per 1 Intelligence on Allocated Passives in Radius","+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Any thought, no matter how fleeting, changes the thinker.\r","\r","<default>{This item can be transformed on the Altar of Sacrifice along with Vial of Transcendence}"],"frameType":3,"category":{"jewels":[]},"x":6,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GlacialHammerThreshold.png?scale=1&w=1&h=1&v=9371b2824eb84826b5ac0c7758cef249","league":"Standard","id":"119b5681700007242f997619075913034177cbd3edf2a612ddbf572b8833699f","name":"Winter Burial","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["13% increased Cold Damage","With at least 40 Strength in Radius, Glacial Hammer deals\nCold-only Splash Damage to surrounding targets","With at least 40 Strength in Radius, 25% of Glacial\nHammer Physical Damage Converted to Cold Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Exposure led to the deaths of many slaves.\r","And it was the duty of slaves to bury the dead in the frozen ground.\r","A growing circle of misery and death \r","that the elite were all too happy to sustain."],"frameType":3,"category":{"jewels":[]},"x":7,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":61,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"2e32dece5bfc402dfc9c130389079c66d7208a5f51c87297eda0d1ee10d7a7da","name":"","typeLine":"Bandit's Crimson Jewel of Blasting","identified":true,"explicitMods":["6% increased Attack Speed with One Handed Melee Weapons","12% increased Area Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":2,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"f9323180fb18234af4fdf4988e79b4457fca22eba0487d40f1eb252c0308de77","name":"Blight Hope","typeLine":"Crimson Jewel","identified":true,"explicitMods":["+16% to Critical Strike Multiplier with Cold Skills","4% increased Attack and Cast Speed","16% increased Damage with Bleeding","14% increased Damage with Two Handed Weapons"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":2,"category":{"jewels":[]},"x":3,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel10.png?scale=1&w=1&h=1&v=d4e90d1e207874347e8cb9a70638affb","league":"Standard","id":"174306a6c632705f8e70ced0785c9db14a06d81290a07bd6d3c2ab2e99b6561d","name":"Coated Shrapnel","typeLine":"Crimson Jewel","identified":true,"explicitMods":["Traps and Mines deal 4 to 12 additional Physical Damage","Traps and Mines have a 25% chance to Poison on Hit"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["The Ezomytes have a saying:\r","Take everything and waste nothing."],"frameType":3,"category":{"jewels":[]},"x":8,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"4d668298bcbd1aa2a175bdaf639befa7c801ab29f2a360296dd51de68c05ffaf","name":"","typeLine":"Sundering Crimson Jewel of Blasting","identified":true,"explicitMods":["16% increased Critical Strike Chance with Two Handed Melee Weapons","12% increased Area Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":11,"y":7,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0","league":"Standard","id":"4604195a204e619e231d1453151d0e08f3bc08eabc4895067a870beda5d2cd51","name":"","typeLine":"Sun's Punishment","identified":true,"descrText":"Right-click to add this prophecy to your character.","flavourText":["Death's dance with dawn leads to the midday sun, whose spiteful zenith burns indiscriminately."],"prophecyText":"You will defeat Dawn, Harbinger of Solaris while holding Sundance.","frameType":8,"category":{"currency":[]},"x":10,"y":11,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"207646ab330057de21d5812ce54cc4e7b7843885fade5aa91f45d273e344e16a","name":"","typeLine":"Vivid Crimson Jewel of Blasting","identified":true,"explicitMods":["6% increased maximum Life","12% increased Area Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":1,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"b4e1108513b9b2c3ea4cf672fae5609eb5013e975f2267940dcea51cda0d2566","name":"","typeLine":"Piercing Crimson Jewel of Menace","identified":true,"explicitMods":["9% increased Global Critical Strike Chance","+17% to Critical Strike Multiplier with One Handed Melee Weapons"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":9,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GreenCorrupt6.png?scale=1&w=1&h=1&v=aa4efa105c42dc651208d8c9d4f027ec","league":"Standard","id":"5e8eb2d763dd05e99f9f04c52ebcb6397037e3a4dffa505b1b7f65d4f6151f91","name":"Pacifism","typeLine":"Viridian Jewel","identified":true,"corrupted":true,"explicitMods":["-1 to Maximum Frenzy Charges"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["\"Your fear will overcome you.\""],"frameType":3,"category":{"jewels":[]},"x":6,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/ElementalHitFire.png?scale=1&w=1&h=1&v=677eb7c9d22ce345a1cb915460161406","league":"Standard","id":"c64d1834f5898b398410fef1a9b88d7e83d4417e07c34563bfb2e26634ca9819","name":"Combat Focus","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["Elemental Hit deals 10% increased Damage","With 40 total Intelligence and Dexterity in Radius, Elemental Hit deals 50% less Fire Damage","With 40 total Intelligence and Dexterity in Radius, Elemental Hit cannot choose Fire"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Voll stood at the gates of Sarn, and a nation stood behind him. \r","He thought of the righteousness of his cause, \r","and of the glory he would bring to the empire he would soon lead. \r","But as Chitus and his gemlings advanced, he thought only of the fight."],"frameType":3,"category":{"jewels":[]},"x":11,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":2,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/String_of_Servitude.png?scale=1&w=2&h=1&v=d378d0547677e820b15e97bb283dbf87","league":"Standard","id":"16dbce8c1ef1d53a0553fed73507245f567f271a5e3f9f517f3468d044abfd90","name":"String of Servitude","typeLine":"Heavy Belt","identified":true,"corrupted":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["78% increased Rarity of Items found"],"explicitMods":["Implicit Modifier magnitudes are tripled"],"flavourText":["For the Vaal, the relationship between slave and master\r","was as intimate and volatile as that of lovers."],"frameType":3,"category":{"accessories":["belt"]},"x":1,"y":9,"inventoryId":"Stash6"},{"verified":false,"w":2,"h":2,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/Wondertrap.png?scale=1&w=2&h=2&v=e7188400f3fc7bf435f965d65031bc3d","league":"Standard","id":"8b83abf1ca824f8abcd8be1da8176b31c8dc4bf2f9fd9608c9f96c1488da81b3","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":2,"attr":"I","sColour":"B"}],"name":"Wondertrap","typeLine":"Velvet Slippers","identified":true,"properties":[{"name":"Energy Shield","values":[["21",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["9",0]],"displayMode":0},{"name":"Int","values":[["21",0]],"displayMode":1}],"explicitMods":["+5 to Strength","+7 to Dexterity","+7 to Intelligence","+13 to maximum Energy Shield","100% increased Rarity of Items found when on Low Life","10% increased Movement Speed"],"flavourText":["Wonders abound at death's door."],"frameType":3,"category":{"armour":["boots"]},"x":0,"y":7,"inventoryId":"Stash6","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"3e20efdeff63d5646c59d5f13c6e3227223b1fbe1ef38c23d0789032e5f35268","name":"","typeLine":"Bandit's Crimson Jewel of Wounding","identified":true,"explicitMods":["8% increased Damage","6% increased Attack Speed with One Handed Melee Weapons"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":9,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"84201151aa8192a1ef8f9fd633f99c2a58594be6020926810fb74cecd45a2a58","name":"","typeLine":"Sundering Crimson Jewel of Fending","identified":true,"explicitMods":["15% increased Critical Strike Chance with Two Handed Melee Weapons","5% chance to Knock Enemies Back on hit"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":1,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MoltenStrikeThreshold.png?scale=1&w=1&h=1&v=d3e322429c0008b6c88ac44cc4fe45e2","league":"Standard","id":"eda6f776c8b97f61689bd47e269e6aff4c54fa1ad450f610f1ac1fa94fb48209","name":"Wildfire","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["11% increased Fire Damage","With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles","With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["News of Kaom's victory in the south spread quickly.\r","Those in support of the coming rebellion bided their time.\r","The rest fled like rats from a fire."],"frameType":3,"category":{"jewels":[]},"x":3,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/AdditionalSkeletonMagesModifier.png?scale=1&w=1&h=1&v=91b6a27d9dede9305c867478bf6e967f","league":"Standard","id":"927ad567fce8982c1342dea4dfbdd3610208814dfe8768eec1111da87b7cfd38","name":"Dead Reckoning","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["3",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["Minions have +9% to all Elemental Resistances","With at least 40 Intelligence in Radius, Summon Skeleton can summon up to 5 Skeleton Mages"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["A mage from the coast rode up on a broken nag, legs burnt to his bones.\r","Before he collapsed, he uttered:\r","\"I watched the world we know end yesterday.\""],"frameType":3,"category":{"jewels":[]},"x":9,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GlacialHammerThreshold.png?scale=1&w=1&h=1&v=9371b2824eb84826b5ac0c7758cef249","league":"Standard","id":"9c2154504ef438ba581982fa5cffe935350d161ddd71aa304363d75e50fbc461","name":"Winter Burial","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["13% increased Cold Damage","With at least 40 Strength in Radius, Glacial Hammer deals\nCold-only Splash Damage to surrounding targets","With at least 40 Strength in Radius, 25% of Glacial\nHammer Physical Damage Converted to Cold Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Exposure led to the deaths of many slaves.\r","And it was the duty of slaves to bury the dead in the frozen ground.\r","A growing circle of misery and death \r","that the elite were all too happy to sustain."],"frameType":3,"category":{"jewels":[]},"x":8,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicint.png?scale=1&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd","league":"Standard","id":"d65e5e7f020e1288eecf6bc666b52b6ba793be8d338f86e8923a618408168bd1","name":"","typeLine":"Sorcerer's Cobalt Jewel of Berserking","identified":true,"explicitMods":["16% increased Spell Damage while Dual Wielding","3% increased Attack Speed"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":7,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique16.png?scale=1&w=1&h=1&v=3658c0e4bc9ea6ce3d25fbb189f44840","league":"Standard","id":"e015d185af68d3acce19ad8afcf75717515092fe2191ec9d75a26d11c5634733","name":"Mantra of Flames","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0}],"explicitMods":["Adds 5 to 12 Fire Attack Damage per Buff on you","Adds 3 to 6 Fire Spell Damage per Buff on you"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["The strong grow stronger still."],"frameType":3,"category":{"jewels":[]},"x":7,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GreenJewel1.png?scale=1&w=1&h=1&v=dc6d505db72bb1f40e46b1162dd9dbfb","league":"Standard","id":"8c80c4673f4c06ec6e9e674d4ec7401ac0505490e403b96956963612b8be0628","name":"Cheap Construction","typeLine":"Viridian Jewel","identified":true,"explicitMods":["10% reduced Trap Duration","Can have up to 1 additional Trap placed at a time"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Why waste the good stuff on something that's going to blow up?"],"frameType":3,"category":{"jewels":[]},"x":7,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":35,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel5.png?scale=1&w=1&h=1&v=bf2ca1417b5f8d55df93cec15ffb38b4","league":"Standard","id":"ffaff15107abe76750295f79b31e9addd159acc644472ede4656795fad47770c","name":"Energised Armour","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Radius","values":[["Large",0]],"displayMode":0,"type":26}],"explicitMods":["15% increased Armour","Increases and Reductions to Energy Shield in Radius are Transformed to apply to Armour at 200% of their value"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["\"I've yet to see prayer stop an arrow.\""],"frameType":3,"category":{"jewels":[]},"x":10,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/SpectralThrowModifier.png?scale=1&w=1&h=1&v=8a8e1aba404f63651d6c98fb8b0d6d2d","league":"Standard","id":"1eba2e829aafaaa1742ce48bdf0b3ee4580f1fc0908c18dbcc86fae3c631ce80","name":"Steel Spirit","typeLine":"Viridian Jewel","identified":true,"properties":[{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["8% increased Projectile Damage","With at least 40 Dexterity in Radius, each Spectral Throw Projectile gains 5% increased Damage each time it Hits"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["The Sekhema rode to the mountain,\r","With her tribe, devoted and strong.\r","And sewed shut the mouth of nightmare,\r","So that it would not consume her world."],"frameType":3,"category":{"jewels":[]},"x":9,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":85,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicdex.png?scale=1&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b9","league":"Standard","id":"b7fe481251139ec03d14a37d7e5de95a550d59f3842328521da1e1b9094fa535","name":"","typeLine":"Fencing Viridian Jewel of Blasting","identified":true,"explicitMods":["7% increased Attack Speed with Swords","12% increased Area Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":6,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicdex.png?scale=1&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b9","league":"Standard","id":"97a7027a4aa2be567361b77f2efe28a31ea35186c8bfe4dedc65a2e8892c1d1a","name":"Kraken Bliss","typeLine":"Viridian Jewel","identified":true,"explicitMods":["5% increased Attack Speed","6% increased Attack Speed with Swords","7% increased Mine Laying Speed"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":2,"category":{"jewels":[]},"x":5,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":71,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel10.png?scale=1&w=1&h=1&v=d4e90d1e207874347e8cb9a70638affb","league":"Standard","id":"c761ed75a2c6bb838da6f36ee3d4f9ea684e3f027b99ff7bb186760229d2ac7a","name":"Coated Shrapnel","typeLine":"Crimson Jewel","identified":true,"explicitMods":["Traps and Mines deal 5 to 15 additional Physical Damage","Traps and Mines have a 25% chance to Poison on Hit"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["The Ezomytes have a saying:\r","Take everything and waste nothing."],"frameType":3,"category":{"jewels":[]},"x":9,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/FreezingPulseThreshold.png?scale=1&w=1&h=1&v=948e26d7fdd2a15b0e25e95f092d3d68","league":"Standard","id":"bcb0a9fc7d8819aa643343a2424e95173a26ae6df55bd70d9dc53db998d73801","name":"First Snow","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["7% increased Projectile Damage","With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles","With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if\nyou've Shattered an Enemy Recently"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Cadiro watched young Chitus play in the frostbitten grass, care-free, happy,\r","and unburdened by the responsibility the Perandus scion would soon endure."],"frameType":3,"category":{"jewels":[]},"x":3,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"dc5706f642d065058613c8e1bbed73f623ad8f1bc19047d8583c4283c09c6506","name":"","typeLine":"Sinister Crimson Jewel of Combat","identified":true,"explicitMods":["16% increased Damage with Axes","11% increased Melee Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":10,"y":7,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique17.png?scale=1&w=1&h=1&v=c83921a591aee3e2d0b83f5b8d3901e5","league":"Standard","id":"28f3dca61cbd73fa5ec71e31de376f1d4ea8cb6e5de710f0fbdd4400cbf62fc9","name":"Hidden Potential","typeLine":"Viridian Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0}],"explicitMods":["25% increased Damage for each Magic Item Equipped"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["The difference between the master and his apprentice\r","is what they see when they look at the same block of wood."],"frameType":3,"category":{"jewels":[]},"x":2,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":71,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BlightThreshold.png?scale=1&w=1&h=1&v=7debb911ae40235ce0bc6113092f6a80","league":"Standard","id":"138972fa87cb96aebd1e28f5d8da2fa2182ecd9c1800ba7efef14984450f9773","name":"Spreading Rot","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["7% increased Chaos Damage","With at least 40 Intelligence in Radius, Blight inflicts Withered for 2 seconds","With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["The Cataclysm was but the first act in a play of horrors.\r","The dead lingered, and the living began to rot."],"frameType":3,"category":{"jewels":[]},"x":11,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/FreezingPulseThreshold.png?scale=1&w=1&h=1&v=948e26d7fdd2a15b0e25e95f092d3d68","league":"Standard","id":"2d082bc325b7bb9c3f83a8991a0484d404d49130d43fee76a7fbfc36faea477f","name":"First Snow","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["9% increased Projectile Damage","With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles","With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if\nyou've Shattered an Enemy Recently"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Cadiro watched young Chitus play in the frostbitten grass, care-free, happy,\r","and unburdened by the responsibility the Perandus scion would soon endure."],"frameType":3,"category":{"jewels":[]},"x":4,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachFragmentsLightning.png?scale=1&w=1&h=1&v=01c1ec0220d90a59ebdbb1847a915710","league":"Standard","id":"0ab7271481747d9687aaa4025b523e0c29b3a10d2a3057941de6e5984ec23872","name":"","typeLine":"Esh's Enriched Breachstone","identified":true,"descrText":"Travel to Esh's Domain by using this item in the Templar Laboratory or a personal Map Device. Can only be used once.","frameType":0,"category":{"maps":["fragment"]},"x":1,"y":6,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"7c424ba7be68d8aaf1f7d4a33e2a3f39c8748c32783e9baf3d22ccf8e42ddfa2","name":"","typeLine":"Humming Crimson Jewel of Blasting","identified":true,"explicitMods":["16% increased Lightning Damage","12% increased Area Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":4,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachFragmentsLightning.png?scale=1&w=1&h=1&v=01c1ec0220d90a59ebdbb1847a915710","league":"Standard","id":"efbbfe53bc50001c16177f66b333700f8d2324b6afb7db1dbc4877b4c24a356e","name":"","typeLine":"Esh's Enriched Breachstone","identified":true,"descrText":"Travel to Esh's Domain by using this item in the Templar Laboratory or a personal Map Device. Can only be used once.","frameType":0,"category":{"maps":["fragment"]},"x":0,"y":6,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel5.png?scale=1&w=1&h=1&v=bf2ca1417b5f8d55df93cec15ffb38b4","league":"Standard","id":"9a8cce8ce8a6aecb03a06dc30ff382fe2a93d83016207a103281aa0daa8790ea","name":"Energised Armour","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Radius","values":[["Large",0]],"displayMode":0,"type":26}],"explicitMods":["20% increased Armour","Increases and Reductions to Energy Shield in Radius are Transformed to apply to Armour at 200% of their value"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["\"I've yet to see prayer stop an arrow.\""],"frameType":3,"category":{"jewels":[]},"x":11,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BlueJewel3.png?scale=1&w=1&h=1&v=f8776f024c3ecfff3a151b0173490e54","league":"Standard","id":"b17e7f16f91000bb9bbc2786e7f21bb5441af2898321089f2e50f8491d39a1a4","name":"Malicious Intent","typeLine":"Cobalt Jewel","identified":true,"explicitMods":["5% chance to Gain Unholy Might for 4 seconds on Melee Kill"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Each life taken makes the next a little easier."],"frameType":3,"category":{"jewels":[]},"x":6,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":2,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/String_of_Servitude.png?scale=1&w=2&h=1&v=d378d0547677e820b15e97bb283dbf87","league":"Standard","id":"803a74cd75c9ace8e2783cadfd72cccfb8689e8443a05812add20f2d19d6a169","name":"String of Servitude","typeLine":"Heavy Belt","identified":true,"corrupted":true,"implicitMods":["+48% to all Elemental Resistances"],"explicitMods":["Implicit Modifier magnitudes are tripled"],"flavourText":["For the Vaal, the relationship between slave and master\r","was as intimate and volatile as that of lovers."],"frameType":3,"category":{"accessories":["belt"]},"x":3,"y":9,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"af3f7fde6697eaf8f60f8fbb2e06ccfcd12059132ac46bbfd06c7a48a914f0fe","name":"Dusk Wound","typeLine":"Crimson Jewel","identified":true,"explicitMods":["4% increased Attack Speed with Two Handed Melee Weapons","3% reduced Mana Cost of Skills","14% increased Damage with Two Handed Weapons"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":2,"category":{"jewels":[]},"x":4,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/ColdSnapModifier.png?scale=1&w=1&h=1&v=02892c77eb1b00147e6c8092f7123096","league":"Standard","id":"709b92345dcc8683f8a06d1e74e1088d70cb7bbcbf46578ae1163378f0521a9c","name":"Winter's Bounty","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["11% increased Cold Damage","With at least 40 Intelligence in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 Intelligence in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["As a boy, Rigwald was taught to hunt,\r","Through the first snows of winter,\r","When beasts have gorged their fill,\r","And see nothing but the long slumber ahead."],"frameType":3,"category":{"jewels":[]},"x":1,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0","league":"Standard","id":"bc635031e5605a301dfdedf46778d97b4d19afd2e2d4789b3f52d713286ed303","name":"","typeLine":"Kalandra's Craft","identified":true,"descrText":"Right-click to add this prophecy to your character.","flavourText":["A grand treasure fractures like a dropped mirror, yet somehow goes unharmed."],"prophecyText":"You will slay a foe who drops four identical rare items.","frameType":8,"category":{"currency":[]},"x":10,"y":10,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"70973441aca97376bb82b3b2389b4be9d3e9cb5adf37e646e875d8f648d19944","name":"Plague Shard","typeLine":"Crimson Jewel","identified":true,"explicitMods":["15% increased Damage with Swords","6% increased Attack Speed with Swords","+12% to Cold Resistance","14% increased Stun and Block Recovery"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":2,"category":{"jewels":[]},"x":10,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"4e00110be92a874c4ad5bf77a2e72e208da8fada6ac3629907d197e0028102a3","name":"","typeLine":"Soldier's Crimson Jewel of Combat","identified":true,"explicitMods":["10% increased Melee Damage","14% increased Damage with One Handed Weapons"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":5,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"bd0a4cbbdd07fc29316868bc6d1813f9e92b55a352df0802326a23215bd4c224","name":"Soul Ornament","typeLine":"Crimson Jewel","identified":true,"explicitMods":["6% increased Attack Speed with Staves","5% increased maximum Life","+12% to Lightning Resistance","14% increased Stun Duration on Enemies"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":2,"category":{"jewels":[]},"x":2,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique20.png?scale=1&w=1&h=1&v=0bd4c601427fc67ec245b6149eba5abd","league":"Standard","id":"7dce68d7b24fe94012d891db185add3c8028cfa953a82974e583f31868baa05a","name":"Fragile Bloom","typeLine":"Crimson Jewel","identified":true,"explicitMods":["2% of Life Regenerated per second","10% increased Damage taken"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["The first green shoots of Spring are the most resilient,\r","and the most vulnerable."],"frameType":3,"category":{"jewels":[]},"x":8,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":71,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"329a61498f8a043e475321b57d0fdf7f8b8b67c6193f2db75745ea17e669e8fb","name":"","typeLine":"Hungering Crimson Jewel of Menace","identified":true,"explicitMods":["12% increased Global Critical Strike Chance","0.22% of Physical Attack Damage Leeched as Life"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":6,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":61,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MurderousEye.png?scale=1&w=1&h=1&v=6679365e95eb89fd626cf59fa2b57c99","league":"Standard","id":"388f17e8cac24360ed6a5dc22a0bc92446515613fb19b80e07fb7eeb75bffc53","abyssJewel":true,"name":"","typeLine":"Gleaming Murderous Eye Jewel of Malice","identified":true,"properties":[{"name":"Abyss","values":[],"displayMode":0}],"requirements":[{"name":"Level","values":[["38",0]],"displayMode":0}],"explicitMods":["Adds 3 to 4 Chaos Damage to Attacks","Adds 3 to 4 Physical Damage to Mace Attacks"],"descrText":"Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":["abyss"]},"x":10,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0","league":"Standard","id":"6f57acb0e4adfaaa47e9b7c7d5ef3bfe4d97f0ae73629f6d18c59ea5b8e27fa4","name":"","typeLine":"A Master Seeks Help","identified":true,"descrText":"Right-click to add this prophecy to your character.","flavourText":["Pursuing a world of perfect balance, a veiled master seeks aid."],"prophecyText":"You will find Jun and complete her mission.","frameType":8,"category":{"currency":[]},"x":8,"y":11,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0","league":"Standard","id":"9f3d20c8d5fe1eb7392c0448c0cf346ad57a1fee35ac43d00d52d2e7fd2680a8","name":"","typeLine":"Dark Instincts","identified":true,"descrText":"Right-click to add this prophecy to your character.","flavourText":["Guided by luck, the fox hunts the spider in absolute shadow."],"prophecyText":"You will defeat Arakaali, Spinner of Shadows while holding Foxshade.","frameType":8,"category":{"currency":[]},"x":9,"y":11,"inventoryId":"Stash6"},{"verified":false,"w":2,"h":2,"ilvl":62,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/ThePeregrine.png?scale=1&w=2&h=2&v=7c6ee00a609acd86043cbcd2b1199911","league":"Standard","id":"c0a6c9dedf21d3f4222030af45f6719420c7884b266913a51ec80daf1c05de4d","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"The Peregrine","typeLine":"Visored Sallet","identified":true,"properties":[{"name":"Quality","values":[["+11%",1]],"displayMode":0,"type":6},{"name":"Armour","values":[["106",1]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["106",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["23",0]],"displayMode":0},{"name":"Str","values":[["28",0]],"displayMode":1},{"name":"Dex","values":[["28",0]],"displayMode":1}],"explicitMods":["+500 to Accuracy Rating","55% increased Armour and Evasion","29% increased Rarity of Items found","+30% to Lightning Resistance","0.4% of Attack Damage Leeched as Mana","10% increased Movement Speed"],"flavourText":["We wander to pass time.\r","We travel to fulfill."],"frameType":3,"category":{"armour":["helmet"]},"x":1,"y":10,"inventoryId":"Stash6","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":85,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c","league":"Standard","id":"c9bcec6b15b7fa59b2f178df0d45768ff4c6468ae8c33be704409bbbaaea10f3","sockets":[{"group":0,"attr":"D","sColour":"G"}],"name":"Sol League","typeLine":"Nubuck Boots","identified":true,"properties":[{"name":"Evasion Rating","values":[["161",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["40",0]],"displayMode":0},{"name":"Dex","values":[["62",0]],"displayMode":1}],"explicitMods":["+48 to Evasion Rating","+36 to maximum Life","+35% to Fire Resistance","+33% to Cold Resistance","15% increased Movement Speed"],"frameType":2,"category":{"armour":["boots"]},"x":3,"y":10,"inventoryId":"Stash6","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":69,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/PoisonDamageModifier.png?scale=1&w=1&h=1&v=70643080a1ee44e3b496bfde4ed08430","league":"Standard","id":"5689de0bf4ac091b6c838bda7b69f575e417945a1a834ef6a75a828337c53b2f","name":"Growing Agony","typeLine":"Viridian Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["8% increased Damage over Time","With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Damage with Hits and Poison for each Poison on the Enemy","With at least 40 Dexterity in Radius, Viper Strike has a 10% chance per Poison on Enemy to grant Unholy Might for 4 seconds on Hit"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Maligaro understood that devotion to science,\r","Means devotion to trial and error.\r","For Maligaro's errors, death was slow,\r","And very painful."],"frameType":3,"category":{"jewels":[]},"x":10,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring4Unique.png?scale=1&w=1&h=1&v=53570d8ca34bd52e506a93361eae7680","league":"Standard","id":"8fe06172d6b3a69a61b039e7ecb523d240d13117f9e339568d9be394d7fd59d4","name":"Andvarius","typeLine":"Gold Ring","identified":true,"requirements":[{"name":"Level","values":[["20",0]],"displayMode":0}],"implicitMods":["6% increased Rarity of Items found"],"explicitMods":["+10 to Dexterity","63% increased Rarity of Items found","-20% to all Elemental Resistances"],"flavourText":["Danger is the price of wealth."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":10,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":1,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/CleaveThreshold.png?scale=1&w=1&h=1&v=69f0943400f898c4f55b6ea6fa1c8f4f","league":"Standard","id":"894a7d0c27b3c4fc266961cc1597adca0a645fcda45963403e4c4e58e242ec04","name":"Overwhelming Odds","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["13% increased Global Physical Damage","With at least 40 Strength in Radius, Cleave grants Fortify on Hit","With at least 40 Strength in Radius, Cleave has +1 to Radius per Nearby\nEnemy, up to +10"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Even as the tide turned, and victory swiftly became impossible,\r","the legionnaires of Lioneye's Watch stood their ground and fought on,\r","every last man dying a brutal, but honourable death."],"frameType":3,"category":{"jewels":[]},"x":10,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"45782975c414fa8d6e0bd43e31136d4f9050664e0adeabd1e8932e5e877c5775","name":"","typeLine":"Humming Crimson Jewel of Berserking","identified":true,"explicitMods":["14% increased Lightning Damage","3% increased Attack Speed"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":8,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RivetedEye.png?scale=1&w=1&h=1&v=a0904494de195adde172f2d6dd329b05","league":"Standard","id":"5f646183ba87a320e4d09dcfb5ffc61c044982a8c52708342f81b2250e6f1a0a","abyssJewel":true,"name":"","typeLine":"Incinerating Hypnotic Eye Jewel of Phasing","identified":true,"properties":[{"name":"Abyss","values":[],"displayMode":0}],"requirements":[{"name":"Level","values":[["49",0]],"displayMode":0}],"explicitMods":["Adds 15 to 18 Fire Damage to Spells while holding a Shield","8% chance to gain Phasing for 4 seconds on Kill"],"descrText":"Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":["abyss"]},"x":10,"y":6,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RivetedEye.png?scale=1&w=1&h=1&v=a0904494de195adde172f2d6dd329b05","league":"Standard","id":"f07bdd119ec6e0e59abe8c0ee679baa4cf646281c435f01fdc78e9f30e745795","abyssJewel":true,"name":"","typeLine":"Healthy Hypnotic Eye Jewel of Momentum","identified":true,"properties":[{"name":"Abyss","values":[],"displayMode":0}],"requirements":[{"name":"Level","values":[["28",0]],"displayMode":0}],"explicitMods":["+30 to maximum Life","3% increased Movement Speed if you haven't taken Damage Recently"],"descrText":"Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":["abyss"]},"x":11,"y":6,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"0978f3dc8338d144d447fa5c2ea958cc9c448943c0a388b33655b7a5217afa2a","name":"","typeLine":"Soldier's Crimson Jewel of Blasting","identified":true,"explicitMods":["10% increased Area Damage","14% increased Damage with One Handed Weapons"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":7,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":70,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet13.png?scale=1&w=1&h=1&v=d77cab835dcff02f19a41b16e890515c","league":"Standard","id":"8fa10d544de4cba9830687b6937feb9100865bb599bf8eb0fdba548a4db51c78","name":"The Ascetic","typeLine":"Gold Amulet","identified":true,"requirements":[{"name":"Level","values":[["8",0]],"displayMode":0}],"implicitMods":["16% increased Rarity of Items found"],"explicitMods":["80% increased Rarity of Items found with a Normal Item Equipped","12% increased Quantity of Items found with a Magic Item Equipped"],"flavourText":["Many things come to one who has nothing."],"frameType":3,"category":{"accessories":["amulet"]},"x":0,"y":9,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MagmaOrbThreshold.png?scale=1&w=1&h=1&v=634e2ac0472116f3753785fb5ccbb162","league":"Standard","id":"0214312e258da79cc145787584f0900b4494070c432f1d3a6ac8d61f00fe320c","name":"Inevitability","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["11% increased Fire Damage","With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile","With at least 40 Intelligence in Radius, Magma Orb\nhas 10% increased Area of Effect per Chain"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["Izaro gave rise to Chitus.\r","Chitus gave rise to Voll.\r","None could know how it would end.\r","None could stop it."],"frameType":3,"category":{"jewels":[]},"x":1,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":1,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique4.png?scale=1&w=1&h=1&v=aaa28694afa09be8b1c1f085e8cf2d2f","league":"Standard","id":"544c15ffbb1247522ac639630fb168e9dd32359bf520bc26b9d16d1543eda05f","name":"Survival Skills","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0}],"explicitMods":["10% increased Global Physical Damage","+50 to Armour"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["A helping hand has long reach."],"frameType":3,"category":{"jewels":[]},"x":3,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":71,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RaiseZombieThreshold.png?scale=1&w=1&h=1&v=fc8954a3ea60f80baf77948f250a4a2c","league":"Standard","id":"f76964736b072de42c423cef7ba9dc04c32e20fa20c5c5597fb9b45fcfc25be1","name":"Violent Dead","typeLine":"Cobalt Jewel","identified":true,"properties":[{"name":"Limited to","values":[["2",0]],"displayMode":0},{"name":"Radius","values":[["Medium",0]],"displayMode":0,"type":25}],"explicitMods":["Minions deal 12% increased Damage","With at least 40 Intelligence in Radius, Raised\nZombies' Slam Attack has 100% increased Cooldown Recovery Speed","With at least 40 Intelligence in Radius, Raised Zombies' Slam\nAttack deals 30% increased Damage"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["\"Rage, malice, hunger - some traits are more easily carried across the barrier of death.\"\r","- Kadavrus, Surgeon to the Umbra"],"frameType":3,"category":{"jewels":[]},"x":1,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RivetedEye.png?scale=1&w=1&h=1&v=a0904494de195adde172f2d6dd329b05","league":"Standard","id":"d8d7e4c33b30743fa9813267849c92d296a1663e0848798a7fe08c68f6ad1470","abyssJewel":true,"name":"","typeLine":"Hale Hypnotic Eye Jewel of Shelter","identified":true,"properties":[{"name":"Abyss","values":[],"displayMode":0}],"explicitMods":["+22 to maximum Life","+11% to Cold and Lightning Resistances"],"descrText":"Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":["abyss"]},"x":9,"y":6,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":0,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0","league":"Standard","id":"144c80ecbde673654e362085267247e5c6306fd455208a75e2d21c18f81ab628","name":"","typeLine":"The Sharpened Blade","identified":true,"descrText":"Right-click to add this prophecy to your character.","flavourText":["The metal softens beneath the stone, reshaping with great ease."],"prophecyText":"You will greatly enhance the quality of a weapon with a single Blacksmith's Whetstone.","frameType":8,"category":{"currency":[]},"x":9,"y":10,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GolemTempest.png?scale=1&w=1&h=1&v=42e2467180d63e0479f562543baa47e2","league":"Standard","id":"b0b17b1ce0f33ef6366ee5ee66ba775a3431db6ec378f0a93d0eea07118452e5","name":"Primordial Harmony","typeLine":"Cobalt Jewel","identified":true,"explicitMods":["Golem Skills have 24% increased Cooldown Recovery Speed","Golems have 42% increased Cooldown Recovery Speed","17% increased Golem Damage for each Type of Golem you have Summoned","Golems regenerate 2% of their Maximum Life per second","Primordial"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["\"A stone is not a stone.\r","It is but one part of a fortress.\"\r","- Ezomyte proverb"],"frameType":3,"category":{"jewels":[]},"x":5,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GhastlyEye.png?scale=1&w=1&h=1&v=118803f4aa870b0d556958d6a0634cee","league":"Standard","id":"5424629132d54ea458cf21c02da90d98430ac1b3fcd6a69029e9c261bd3cacce","abyssJewel":true,"name":"Foul Globe","typeLine":"Ghastly Eye Jewel","identified":true,"properties":[{"name":"Abyss","values":[],"displayMode":0}],"requirements":[{"name":"Level","values":[["43",0]],"displayMode":0}],"explicitMods":["Minions deal 6 to 10 additional Chaos Damage","5 Energy Shield Regenerated per second","Minions have 3% chance to Taunt on Hit with Attacks","Minions deal 31% increased Damage against Abyssal Monsters"],"descrText":"Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":2,"category":{"jewels":["abyss"]},"x":11,"y":5,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring4Unique.png?scale=1&w=1&h=1&v=53570d8ca34bd52e506a93361eae7680","league":"Standard","id":"aba83fd5fab8cd5581b634356665fa6aff586e55ac0eb0b8dc643ee4903ad972","name":"Andvarius","typeLine":"Gold Ring","identified":true,"requirements":[{"name":"Level","values":[["20",0]],"displayMode":0}],"implicitMods":["12% increased Rarity of Items found"],"explicitMods":["+10 to Dexterity","63% increased Rarity of Items found","-20% to all Elemental Resistances"],"flavourText":["Danger is the price of wealth."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":11,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":72,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique5.png?scale=1&w=1&h=1&v=e1bc414d1737767a4ee5b7735fc3b923","league":"Standard","id":"b437674f5d68acce1558b907ec0acbd51e45fa17f9570ee754ca4a0e13b00c11","name":"Martial Artistry","typeLine":"Crimson Jewel","identified":true,"properties":[{"name":"Limited to","values":[["1",0]],"displayMode":0}],"explicitMods":["11% increased Area of Effect while Unarmed"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","flavourText":["A gentle hand rarely leaves a mark on the world."],"frameType":3,"category":{"jewels":[]},"x":4,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9","league":"Standard","id":"f03c3c4fa0aa89453c3bfd630209a1d57d736f7aa5cf5f652f5efc2236727639","name":"","typeLine":"Sinister Crimson Jewel of Runes","identified":true,"explicitMods":["15% increased Damage with Axes","Totems gain +9% to all Elemental Resistances"],"descrText":"Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.","frameType":1,"category":{"jewels":[]},"x":11,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":65,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map4.png?scale=1&w=1&h=1&v=0da8b18236c9cbc30846484ae760da6b","league":"Standard","id":"6e4ebf5926a67473edd5b96319c91798f6dab39479af03cfd6dd77b5d7049f67","name":"","typeLine":"Overgrown Ruin Map","identified":true,"properties":[{"name":"Map Tier","values":[["1",0]],"displayMode":0,"type":1}],"descrText":"Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.","frameType":0,"category":{"maps":[]},"x":0,"y":4,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":66,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map5.png?scale=1&w=1&h=1&v=af4db84ec4fab982545988b2432e7f35","league":"Standard","id":"4741cccf89288e8bbe9674233a3de06b17f71108e79e9e17d49610f38d3c29b4","name":"","typeLine":"Dunes Map","identified":true,"properties":[{"name":"Map Tier","values":[["1",0]],"displayMode":0,"type":1}],"descrText":"Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.","frameType":0,"category":{"maps":[]},"x":0,"y":2,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":69,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map10.png?scale=1&w=1&h=1&v=38e67db25167df8fbfebaf1656eb46bb","league":"Standard","id":"e1baec5c03aefcc4d2f9ceab77c5fb16ffcdec1fc88265f0f2a6eea2e5831644","name":"","typeLine":"Thicket Map","identified":true,"properties":[{"name":"Map Tier","values":[["2",0]],"displayMode":0,"type":1}],"descrText":"Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.","frameType":0,"category":{"maps":[]},"x":0,"y":3,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":67,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map36.png?scale=1&w=1&h=1&v=8ffdbbe902856e415ad8523e155dabdc","league":"Standard","id":"889f5d873aa7b16d335ebea13dbee6f6bff90a7dc99432151de99e3979a72da7","name":"","typeLine":"Arsenal Map","identified":true,"properties":[{"name":"Map Tier","values":[["2",0]],"displayMode":0,"type":1}],"descrText":"Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.","frameType":0,"category":{"maps":[]},"x":0,"y":1,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":68,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map13.png?scale=1&w=1&h=1&v=496f00264d1c21dc12f521ce655e8453","league":"Standard","id":"a4834ef6338eb9c73445104f25a892d2d836cf865692f4ac15d56007d6cf138d","name":"","typeLine":"Tropical Island Map","identified":true,"properties":[{"name":"Map Tier","values":[["1",0]],"displayMode":0,"type":1}],"descrText":"Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.","frameType":0,"category":{"maps":[]},"x":0,"y":0,"inventoryId":"Stash6"},{"verified":false,"w":1,"h":1,"ilvl":68,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map16.png?scale=1&w=1&h=1&v=53a5cc67333cf7f0d5de731e110bdc37","league":"Standard","id":"b045cb77e56849ffcb49d9b84a02e39f15cfa5ba1dbf072047ee378ca30ed916","name":"","typeLine":"Vaal Pyramid Map","identified":true,"properties":[{"name":"Map Tier","values":[["3",0]],"displayMode":0,"type":1}],"descrText":"Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.","frameType":0,"category":{"maps":[]},"x":0,"y":5,"inventoryId":"Stash6"}]}
+{
+    "numTabs": 14,
+    "items": [
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MagmaOrbThreshold.png?scale=1&w=1&h=1&v=634e2ac0472116f3753785fb5ccbb162",
+            "league": "Standard",
+            "id": "877c5981bcccb661974d479d9c94b020a7703ccba95a598a89c665ead1b3ece8",
+            "name": "Inevitability",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "13% increased Fire Damage",
+                "With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile",
+                "With at least 40 Intelligence in Radius, Magma Orb\nhas 10% increased Area of Effect per Chain"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Izaro gave rise to Chitus.\r",
+                "Chitus gave rise to Voll.\r",
+                "None could know how it would end.\r",
+                "None could stop it."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 2,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BarrageModifier.png?scale=1&w=1&h=1&v=42c9851fd55e6e4818745bec35570021",
+            "league": "Standard",
+            "id": "e3a51ca59b2138aef0d67fb8dcb6715e21f2bbdabab24cc4a0c550b6a08ed542",
+            "name": "Volley Fire",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "3",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "9% increased Projectile Damage",
+                "With at least 40 Dexterity in Radius, Barrage fires an additional 2 projectiles simultaneously on the first and final attacks"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Lioneye's men stood at the walls,\r",
+                "eyeing the savages that walked the beach below.\r",
+                "With a single word,\r",
+                "a thousand bodies, and ten thousand arrows,\r",
+                "would litter the sands."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 4,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0",
+            "league": "Standard",
+            "id": "6b1809fc358eda53af846ee5dbf868a0750c9c44d32cd15a73463fece9f1ddce",
+            "name": "",
+            "typeLine": "The Unbreathing Queen I",
+            "identified": true,
+            "descrText": "Right-click to add this prophecy to your character.",
+            "flavourText": [
+                "The Unbreathing Queen masterminds an unholy heist, a defilement of the dead."
+            ],
+            "prophecyText": "You will encounter spectres in the Fellshrine Ruins, Cemetery Map, or Graveyard Map and slay them.",
+            "frameType": 8,
+            "category": {
+                "currency": []
+            },
+            "x": 8,
+            "y": 10,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BlueJewel3.png?scale=1&w=1&h=1&v=f8776f024c3ecfff3a151b0173490e54",
+            "league": "Standard",
+            "id": "321c5818dd202610114e51e9aacc7df6824d9395f0b10f2d31a3c734e97de98b",
+            "name": "Malicious Intent",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "explicitMods": [
+                "5% chance to Gain Unholy Might for 4 seconds on Melee Kill"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Each life taken makes the next a little easier."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 5,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GroundSlamModifier.png?scale=1&w=1&h=1&v=a4fe88e419417536f8bd0c83b64619e2",
+            "league": "Standard",
+            "id": "12b6f7f088314538fae42049b516d21db84613afec7ffba1f41f34611cd87eb3",
+            "name": "Rapid Expansion",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "11% increased Global Physical Damage",
+                "With at least 40 Strength in Radius, Ground Slam has a 35% chance\nto grant an Endurance Charge when you Stun an Enemy",
+                "With at least 40 Strength in Radius, Ground Slam\nhas a 50% increased angle"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Chitus began to aggressively expand his empire\r",
+                "into neighbouring nations at great human cost. \r",
+                "But for absolute power, there is no price \r",
+                "that a Perandus won't pay."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 5,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "6e424cfe82b43182a7a42b1a734711f5ceeb85a61cd7af2fc75ec5c42c3f4290",
+            "name": "",
+            "typeLine": "Beating Crimson Jewel of Combat",
+            "identified": true,
+            "explicitMods": [
+                "8% increased Attack Speed with Maces",
+                "12% increased Melee Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 3,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/IceShotThreshold.png?scale=1&w=1&h=1&v=781fcee7994502d31bf6ad9615a70418",
+            "league": "Standard",
+            "id": "6f82eab1a2580a84986dee70abb06162342cf70d7bd0f56d5e23bb6ca1fa3887",
+            "name": "Omen on the Winds",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "18% increased Damage with Hits against Chilled Enemies",
+                "With at least 40 Dexterity in Radius, Ice Shot has 25% increased Area of Effect",
+                "With at least 40 Dexterity in Radius, Ice Shot Pierces 3 additional Targets"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "As Malachai stepped into the Highgate mines,\r",
+                "cold winds billowed from the mountain above.\r",
+                "One final, feeble attempt to save what was meant to be eternal."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 2,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0",
+            "league": "Standard",
+            "id": "6a281882a7859171605d3154f24d779471147b31c2f46f211fc3a2851a151402",
+            "name": "",
+            "typeLine": "The Plaguemaw I",
+            "identified": true,
+            "descrText": "Right-click to add this prophecy to your character.",
+            "flavourText": [
+                "The Plaguemaw enters the red realm and leaves a swirling mass of living stone."
+            ],
+            "prophecyText": "You will encounter a powerful golem in a Vaal side area and defeat it.",
+            "frameType": 8,
+            "category": {
+                "currency": []
+            },
+            "x": 11,
+            "y": 8,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "b4d6a8bb20a7c2e2c92c7563dae10e484c9aca5ba1437c63e3a9bced986eddc9",
+            "name": "",
+            "typeLine": "Fencing Crimson Jewel of Berserking",
+            "identified": true,
+            "explicitMods": [
+                "4% increased Attack Speed",
+                "8% increased Attack Speed with Swords"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 8,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/TemperedBlue.png?scale=1&w=1&h=1&v=7cee1c8f112baeb4276cfe8a20ba0d42",
+            "league": "Standard",
+            "id": "c663859b65ff6de5d22936e5cff18a5d88d66fdeeb4e98f75f455d35a5b92899",
+            "name": "Tempered Mind",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "-1 Intelligence per 1 Intelligence on Allocated Passives in Radius",
+                "+100 to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Any thought, no matter how fleeting, changes the thinker.\r",
+                "\r",
+                "<default>{This item can be transformed on the Altar of Sacrifice along with Vial of Transcendence}"
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 6,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GlacialHammerThreshold.png?scale=1&w=1&h=1&v=9371b2824eb84826b5ac0c7758cef249",
+            "league": "Standard",
+            "id": "119b5681700007242f997619075913034177cbd3edf2a612ddbf572b8833699f",
+            "name": "Winter Burial",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "13% increased Cold Damage",
+                "With at least 40 Strength in Radius, Glacial Hammer deals\nCold-only Splash Damage to surrounding targets",
+                "With at least 40 Strength in Radius, 25% of Glacial\nHammer Physical Damage Converted to Cold Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Exposure led to the deaths of many slaves.\r",
+                "And it was the duty of slaves to bury the dead in the frozen ground.\r",
+                "A growing circle of misery and death \r",
+                "that the elite were all too happy to sustain."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 7,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 61,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "2e32dece5bfc402dfc9c130389079c66d7208a5f51c87297eda0d1ee10d7a7da",
+            "name": "",
+            "typeLine": "Bandit's Crimson Jewel of Blasting",
+            "identified": true,
+            "explicitMods": [
+                "6% increased Attack Speed with One Handed Melee Weapons",
+                "12% increased Area Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 2,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "f9323180fb18234af4fdf4988e79b4457fca22eba0487d40f1eb252c0308de77",
+            "name": "Blight Hope",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "explicitMods": [
+                "+16% to Critical Strike Multiplier with Cold Skills",
+                "4% increased Attack and Cast Speed",
+                "16% increased Damage with Bleeding",
+                "14% increased Damage with Two Handed Weapons"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 2,
+            "category": {
+                "jewels": []
+            },
+            "x": 3,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel10.png?scale=1&w=1&h=1&v=d4e90d1e207874347e8cb9a70638affb",
+            "league": "Standard",
+            "id": "174306a6c632705f8e70ced0785c9db14a06d81290a07bd6d3c2ab2e99b6561d",
+            "name": "Coated Shrapnel",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "explicitMods": [
+                "Traps and Mines deal 4 to 12 additional Physical Damage",
+                "Traps and Mines have a 25% chance to Poison on Hit"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The Ezomytes have a saying:\r",
+                "Take everything and waste nothing."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 8,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "4d668298bcbd1aa2a175bdaf639befa7c801ab29f2a360296dd51de68c05ffaf",
+            "name": "",
+            "typeLine": "Sundering Crimson Jewel of Blasting",
+            "identified": true,
+            "explicitMods": [
+                "16% increased Critical Strike Chance with Two Handed Melee Weapons",
+                "12% increased Area Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 11,
+            "y": 7,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0",
+            "league": "Standard",
+            "id": "4604195a204e619e231d1453151d0e08f3bc08eabc4895067a870beda5d2cd51",
+            "name": "",
+            "typeLine": "Sun's Punishment",
+            "identified": true,
+            "descrText": "Right-click to add this prophecy to your character.",
+            "flavourText": [
+                "Death's dance with dawn leads to the midday sun, whose spiteful zenith burns indiscriminately."
+            ],
+            "prophecyText": "You will defeat Dawn, Harbinger of Solaris while holding Sundance.",
+            "frameType": 8,
+            "category": {
+                "currency": []
+            },
+            "x": 10,
+            "y": 11,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "207646ab330057de21d5812ce54cc4e7b7843885fade5aa91f45d273e344e16a",
+            "name": "",
+            "typeLine": "Vivid Crimson Jewel of Blasting",
+            "identified": true,
+            "explicitMods": [
+                "6% increased maximum Life",
+                "12% increased Area Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 1,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "b4e1108513b9b2c3ea4cf672fae5609eb5013e975f2267940dcea51cda0d2566",
+            "name": "",
+            "typeLine": "Piercing Crimson Jewel of Menace",
+            "identified": true,
+            "explicitMods": [
+                "9% increased Global Critical Strike Chance",
+                "+17% to Critical Strike Multiplier with One Handed Melee Weapons"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 9,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GreenCorrupt6.png?scale=1&w=1&h=1&v=aa4efa105c42dc651208d8c9d4f027ec",
+            "league": "Standard",
+            "id": "5e8eb2d763dd05e99f9f04c52ebcb6397037e3a4dffa505b1b7f65d4f6151f91",
+            "name": "Pacifism",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "corrupted": true,
+            "explicitMods": [
+                "-1 to Maximum Frenzy Charges"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "\"Your fear will overcome you.\""
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 6,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/ElementalHitFire.png?scale=1&w=1&h=1&v=677eb7c9d22ce345a1cb915460161406",
+            "league": "Standard",
+            "id": "c64d1834f5898b398410fef1a9b88d7e83d4417e07c34563bfb2e26634ca9819",
+            "name": "Combat Focus",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "Elemental Hit deals 10% increased Damage",
+                "With 40 total Intelligence and Dexterity in Radius, Elemental Hit deals 50% less Fire Damage",
+                "With 40 total Intelligence and Dexterity in Radius, Elemental Hit cannot choose Fire"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Voll stood at the gates of Sarn, and a nation stood behind him. \r",
+                "He thought of the righteousness of his cause, \r",
+                "and of the glory he would bring to the empire he would soon lead. \r",
+                "But as Chitus and his gemlings advanced, he thought only of the fight."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 11,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/String_of_Servitude.png?scale=1&w=2&h=1&v=d378d0547677e820b15e97bb283dbf87",
+            "league": "Standard",
+            "id": "16dbce8c1ef1d53a0553fed73507245f567f271a5e3f9f517f3468d044abfd90",
+            "name": "String of Servitude",
+            "typeLine": "Heavy Belt",
+            "identified": true,
+            "corrupted": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "78% increased Rarity of Items found"
+            ],
+            "explicitMods": [
+                "Implicit Modifier magnitudes are tripled"
+            ],
+            "flavourText": [
+                "For the Vaal, the relationship between slave and master\r",
+                "was as intimate and volatile as that of lovers."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 1,
+            "y": 9,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/Wondertrap.png?scale=1&w=2&h=2&v=e7188400f3fc7bf435f965d65031bc3d",
+            "league": "Standard",
+            "id": "8b83abf1ca824f8abcd8be1da8176b31c8dc4bf2f9fd9608c9f96c1488da81b3",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 2,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Wondertrap",
+            "typeLine": "Velvet Slippers",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "21",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "9",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "21",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+5 to Strength",
+                "+7 to Dexterity",
+                "+7 to Intelligence",
+                "+13 to maximum Energy Shield",
+                "100% increased Rarity of Items found when on Low Life",
+                "10% increased Movement Speed"
+            ],
+            "flavourText": [
+                "Wonders abound at death's door."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 0,
+            "y": 7,
+            "inventoryId": "Stash6",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "3e20efdeff63d5646c59d5f13c6e3227223b1fbe1ef38c23d0789032e5f35268",
+            "name": "",
+            "typeLine": "Bandit's Crimson Jewel of Wounding",
+            "identified": true,
+            "explicitMods": [
+                "8% increased Damage",
+                "6% increased Attack Speed with One Handed Melee Weapons"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 9,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "84201151aa8192a1ef8f9fd633f99c2a58594be6020926810fb74cecd45a2a58",
+            "name": "",
+            "typeLine": "Sundering Crimson Jewel of Fending",
+            "identified": true,
+            "explicitMods": [
+                "15% increased Critical Strike Chance with Two Handed Melee Weapons",
+                "5% chance to Knock Enemies Back on hit"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 1,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MoltenStrikeThreshold.png?scale=1&w=1&h=1&v=d3e322429c0008b6c88ac44cc4fe45e2",
+            "league": "Standard",
+            "id": "eda6f776c8b97f61689bd47e269e6aff4c54fa1ad450f610f1ac1fa94fb48209",
+            "name": "Wildfire",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "11% increased Fire Damage",
+                "With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles",
+                "With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "News of Kaom's victory in the south spread quickly.\r",
+                "Those in support of the coming rebellion bided their time.\r",
+                "The rest fled like rats from a fire."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 3,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/AdditionalSkeletonMagesModifier.png?scale=1&w=1&h=1&v=91b6a27d9dede9305c867478bf6e967f",
+            "league": "Standard",
+            "id": "927ad567fce8982c1342dea4dfbdd3610208814dfe8768eec1111da87b7cfd38",
+            "name": "Dead Reckoning",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "3",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "Minions have +9% to all Elemental Resistances",
+                "With at least 40 Intelligence in Radius, Summon Skeleton can summon up to 5 Skeleton Mages"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "A mage from the coast rode up on a broken nag, legs burnt to his bones.\r",
+                "Before he collapsed, he uttered:\r",
+                "\"I watched the world we know end yesterday.\""
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 9,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GlacialHammerThreshold.png?scale=1&w=1&h=1&v=9371b2824eb84826b5ac0c7758cef249",
+            "league": "Standard",
+            "id": "9c2154504ef438ba581982fa5cffe935350d161ddd71aa304363d75e50fbc461",
+            "name": "Winter Burial",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "13% increased Cold Damage",
+                "With at least 40 Strength in Radius, Glacial Hammer deals\nCold-only Splash Damage to surrounding targets",
+                "With at least 40 Strength in Radius, 25% of Glacial\nHammer Physical Damage Converted to Cold Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Exposure led to the deaths of many slaves.\r",
+                "And it was the duty of slaves to bury the dead in the frozen ground.\r",
+                "A growing circle of misery and death \r",
+                "that the elite were all too happy to sustain."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 8,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicint.png?scale=1&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd",
+            "league": "Standard",
+            "id": "d65e5e7f020e1288eecf6bc666b52b6ba793be8d338f86e8923a618408168bd1",
+            "name": "",
+            "typeLine": "Sorcerer's Cobalt Jewel of Berserking",
+            "identified": true,
+            "explicitMods": [
+                "16% increased Spell Damage while Dual Wielding",
+                "3% increased Attack Speed"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 7,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique16.png?scale=1&w=1&h=1&v=3658c0e4bc9ea6ce3d25fbb189f44840",
+            "league": "Standard",
+            "id": "e015d185af68d3acce19ad8afcf75717515092fe2191ec9d75a26d11c5634733",
+            "name": "Mantra of Flames",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "Adds 5 to 12 Fire Attack Damage per Buff on you",
+                "Adds 3 to 6 Fire Spell Damage per Buff on you"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The strong grow stronger still."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 7,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GreenJewel1.png?scale=1&w=1&h=1&v=dc6d505db72bb1f40e46b1162dd9dbfb",
+            "league": "Standard",
+            "id": "8c80c4673f4c06ec6e9e674d4ec7401ac0505490e403b96956963612b8be0628",
+            "name": "Cheap Construction",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "explicitMods": [
+                "10% reduced Trap Duration",
+                "Can have up to 1 additional Trap placed at a time"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Why waste the good stuff on something that's going to blow up?"
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 7,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 35,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel5.png?scale=1&w=1&h=1&v=bf2ca1417b5f8d55df93cec15ffb38b4",
+            "league": "Standard",
+            "id": "ffaff15107abe76750295f79b31e9addd159acc644472ede4656795fad47770c",
+            "name": "Energised Armour",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Large",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 26
+                }
+            ],
+            "explicitMods": [
+                "15% increased Armour",
+                "Increases and Reductions to Energy Shield in Radius are Transformed to apply to Armour at 200% of their value"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "\"I've yet to see prayer stop an arrow.\""
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 10,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/SpectralThrowModifier.png?scale=1&w=1&h=1&v=8a8e1aba404f63651d6c98fb8b0d6d2d",
+            "league": "Standard",
+            "id": "1eba2e829aafaaa1742ce48bdf0b3ee4580f1fc0908c18dbcc86fae3c631ce80",
+            "name": "Steel Spirit",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "8% increased Projectile Damage",
+                "With at least 40 Dexterity in Radius, each Spectral Throw Projectile gains 5% increased Damage each time it Hits"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The Sekhema rode to the mountain,\r",
+                "With her tribe, devoted and strong.\r",
+                "And sewed shut the mouth of nightmare,\r",
+                "So that it would not consume her world."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 9,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 85,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicdex.png?scale=1&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b9",
+            "league": "Standard",
+            "id": "b7fe481251139ec03d14a37d7e5de95a550d59f3842328521da1e1b9094fa535",
+            "name": "",
+            "typeLine": "Fencing Viridian Jewel of Blasting",
+            "identified": true,
+            "explicitMods": [
+                "7% increased Attack Speed with Swords",
+                "12% increased Area Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 6,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicdex.png?scale=1&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b9",
+            "league": "Standard",
+            "id": "97a7027a4aa2be567361b77f2efe28a31ea35186c8bfe4dedc65a2e8892c1d1a",
+            "name": "Kraken Bliss",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "explicitMods": [
+                "5% increased Attack Speed",
+                "6% increased Attack Speed with Swords",
+                "7% increased Mine Laying Speed"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 2,
+            "category": {
+                "jewels": []
+            },
+            "x": 5,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 71,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel10.png?scale=1&w=1&h=1&v=d4e90d1e207874347e8cb9a70638affb",
+            "league": "Standard",
+            "id": "c761ed75a2c6bb838da6f36ee3d4f9ea684e3f027b99ff7bb186760229d2ac7a",
+            "name": "Coated Shrapnel",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "explicitMods": [
+                "Traps and Mines deal 5 to 15 additional Physical Damage",
+                "Traps and Mines have a 25% chance to Poison on Hit"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The Ezomytes have a saying:\r",
+                "Take everything and waste nothing."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 9,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/FreezingPulseThreshold.png?scale=1&w=1&h=1&v=948e26d7fdd2a15b0e25e95f092d3d68",
+            "league": "Standard",
+            "id": "bcb0a9fc7d8819aa643343a2424e95173a26ae6df55bd70d9dc53db998d73801",
+            "name": "First Snow",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "7% increased Projectile Damage",
+                "With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles",
+                "With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if\nyou've Shattered an Enemy Recently"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Cadiro watched young Chitus play in the frostbitten grass, care-free, happy,\r",
+                "and unburdened by the responsibility the Perandus scion would soon endure."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 3,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "dc5706f642d065058613c8e1bbed73f623ad8f1bc19047d8583c4283c09c6506",
+            "name": "",
+            "typeLine": "Sinister Crimson Jewel of Combat",
+            "identified": true,
+            "explicitMods": [
+                "16% increased Damage with Axes",
+                "11% increased Melee Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 10,
+            "y": 7,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique17.png?scale=1&w=1&h=1&v=c83921a591aee3e2d0b83f5b8d3901e5",
+            "league": "Standard",
+            "id": "28f3dca61cbd73fa5ec71e31de376f1d4ea8cb6e5de710f0fbdd4400cbf62fc9",
+            "name": "Hidden Potential",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "25% increased Damage for each Magic Item Equipped"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The difference between the master and his apprentice\r",
+                "is what they see when they look at the same block of wood."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 71,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BlightThreshold.png?scale=1&w=1&h=1&v=7debb911ae40235ce0bc6113092f6a80",
+            "league": "Standard",
+            "id": "138972fa87cb96aebd1e28f5d8da2fa2182ecd9c1800ba7efef14984450f9773",
+            "name": "Spreading Rot",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "7% increased Chaos Damage",
+                "With at least 40 Intelligence in Radius, Blight inflicts Withered for 2 seconds",
+                "With at least 40 Intelligence in Radius, Blight has 50% increased Hinder Duration"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The Cataclysm was but the first act in a play of horrors.\r",
+                "The dead lingered, and the living began to rot."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 11,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/FreezingPulseThreshold.png?scale=1&w=1&h=1&v=948e26d7fdd2a15b0e25e95f092d3d68",
+            "league": "Standard",
+            "id": "2d082bc325b7bb9c3f83a8991a0484d404d49130d43fee76a7fbfc36faea477f",
+            "name": "First Snow",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "9% increased Projectile Damage",
+                "With at least 40 Intelligence in Radius, Freezing Pulse fires 2 additional Projectiles",
+                "With at least 40 Intelligence in Radius, 25% increased Freezing Pulse Damage if\nyou've Shattered an Enemy Recently"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Cadiro watched young Chitus play in the frostbitten grass, care-free, happy,\r",
+                "and unburdened by the responsibility the Perandus scion would soon endure."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 4,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachFragmentsLightning.png?scale=1&w=1&h=1&v=01c1ec0220d90a59ebdbb1847a915710",
+            "league": "Standard",
+            "id": "0ab7271481747d9687aaa4025b523e0c29b3a10d2a3057941de6e5984ec23872",
+            "name": "",
+            "typeLine": "Esh's Enriched Breachstone",
+            "identified": true,
+            "descrText": "Travel to Esh's Domain by using this item in the Templar Laboratory or a personal Map Device. Can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": [
+                    "fragment"
+                ]
+            },
+            "x": 1,
+            "y": 6,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "7c424ba7be68d8aaf1f7d4a33e2a3f39c8748c32783e9baf3d22ccf8e42ddfa2",
+            "name": "",
+            "typeLine": "Humming Crimson Jewel of Blasting",
+            "identified": true,
+            "explicitMods": [
+                "16% increased Lightning Damage",
+                "12% increased Area Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 4,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachFragmentsLightning.png?scale=1&w=1&h=1&v=01c1ec0220d90a59ebdbb1847a915710",
+            "league": "Standard",
+            "id": "efbbfe53bc50001c16177f66b333700f8d2324b6afb7db1dbc4877b4c24a356e",
+            "name": "",
+            "typeLine": "Esh's Enriched Breachstone",
+            "identified": true,
+            "descrText": "Travel to Esh's Domain by using this item in the Templar Laboratory or a personal Map Device. Can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": [
+                    "fragment"
+                ]
+            },
+            "x": 0,
+            "y": 6,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RedJewel5.png?scale=1&w=1&h=1&v=bf2ca1417b5f8d55df93cec15ffb38b4",
+            "league": "Standard",
+            "id": "9a8cce8ce8a6aecb03a06dc30ff382fe2a93d83016207a103281aa0daa8790ea",
+            "name": "Energised Armour",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Large",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 26
+                }
+            ],
+            "explicitMods": [
+                "20% increased Armour",
+                "Increases and Reductions to Energy Shield in Radius are Transformed to apply to Armour at 200% of their value"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "\"I've yet to see prayer stop an arrow.\""
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 11,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/BlueJewel3.png?scale=1&w=1&h=1&v=f8776f024c3ecfff3a151b0173490e54",
+            "league": "Standard",
+            "id": "b17e7f16f91000bb9bbc2786e7f21bb5441af2898321089f2e50f8491d39a1a4",
+            "name": "Malicious Intent",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "explicitMods": [
+                "5% chance to Gain Unholy Might for 4 seconds on Melee Kill"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Each life taken makes the next a little easier."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 6,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/String_of_Servitude.png?scale=1&w=2&h=1&v=d378d0547677e820b15e97bb283dbf87",
+            "league": "Standard",
+            "id": "803a74cd75c9ace8e2783cadfd72cccfb8689e8443a05812add20f2d19d6a169",
+            "name": "String of Servitude",
+            "typeLine": "Heavy Belt",
+            "identified": true,
+            "corrupted": true,
+            "implicitMods": [
+                "+48% to all Elemental Resistances"
+            ],
+            "explicitMods": [
+                "Implicit Modifier magnitudes are tripled"
+            ],
+            "flavourText": [
+                "For the Vaal, the relationship between slave and master\r",
+                "was as intimate and volatile as that of lovers."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 3,
+            "y": 9,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "af3f7fde6697eaf8f60f8fbb2e06ccfcd12059132ac46bbfd06c7a48a914f0fe",
+            "name": "Dusk Wound",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "explicitMods": [
+                "4% increased Attack Speed with Two Handed Melee Weapons",
+                "3% reduced Mana Cost of Skills",
+                "14% increased Damage with Two Handed Weapons"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 2,
+            "category": {
+                "jewels": []
+            },
+            "x": 4,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/ColdSnapModifier.png?scale=1&w=1&h=1&v=02892c77eb1b00147e6c8092f7123096",
+            "league": "Standard",
+            "id": "709b92345dcc8683f8a06d1e74e1088d70cb7bbcbf46578ae1163378f0521a9c",
+            "name": "Winter's Bounty",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "11% increased Cold Damage",
+                "With at least 40 Intelligence in Radius, Cold Snap grants Power Charges instead of Frenzy Charges when Enemies die in its Area\nWith at least 40 Intelligence in Radius, Cold Snap's Cooldown can be bypassed by Power Charges instead of Frenzy Charges"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "As a boy, Rigwald was taught to hunt,\r",
+                "Through the first snows of winter,\r",
+                "When beasts have gorged their fill,\r",
+                "And see nothing but the long slumber ahead."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 1,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0",
+            "league": "Standard",
+            "id": "bc635031e5605a301dfdedf46778d97b4d19afd2e2d4789b3f52d713286ed303",
+            "name": "",
+            "typeLine": "Kalandra's Craft",
+            "identified": true,
+            "descrText": "Right-click to add this prophecy to your character.",
+            "flavourText": [
+                "A grand treasure fractures like a dropped mirror, yet somehow goes unharmed."
+            ],
+            "prophecyText": "You will slay a foe who drops four identical rare items.",
+            "frameType": 8,
+            "category": {
+                "currency": []
+            },
+            "x": 10,
+            "y": 10,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "70973441aca97376bb82b3b2389b4be9d3e9cb5adf37e646e875d8f648d19944",
+            "name": "Plague Shard",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "explicitMods": [
+                "15% increased Damage with Swords",
+                "6% increased Attack Speed with Swords",
+                "+12% to Cold Resistance",
+                "14% increased Stun and Block Recovery"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 2,
+            "category": {
+                "jewels": []
+            },
+            "x": 10,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "4e00110be92a874c4ad5bf77a2e72e208da8fada6ac3629907d197e0028102a3",
+            "name": "",
+            "typeLine": "Soldier's Crimson Jewel of Combat",
+            "identified": true,
+            "explicitMods": [
+                "10% increased Melee Damage",
+                "14% increased Damage with One Handed Weapons"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 5,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "bd0a4cbbdd07fc29316868bc6d1813f9e92b55a352df0802326a23215bd4c224",
+            "name": "Soul Ornament",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "explicitMods": [
+                "6% increased Attack Speed with Staves",
+                "5% increased maximum Life",
+                "+12% to Lightning Resistance",
+                "14% increased Stun Duration on Enemies"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 2,
+            "category": {
+                "jewels": []
+            },
+            "x": 2,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique20.png?scale=1&w=1&h=1&v=0bd4c601427fc67ec245b6149eba5abd",
+            "league": "Standard",
+            "id": "7dce68d7b24fe94012d891db185add3c8028cfa953a82974e583f31868baa05a",
+            "name": "Fragile Bloom",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "explicitMods": [
+                "2% of Life Regenerated per second",
+                "10% increased Damage taken"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "The first green shoots of Spring are the most resilient,\r",
+                "and the most vulnerable."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 8,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 71,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "329a61498f8a043e475321b57d0fdf7f8b8b67c6193f2db75745ea17e669e8fb",
+            "name": "",
+            "typeLine": "Hungering Crimson Jewel of Menace",
+            "identified": true,
+            "explicitMods": [
+                "12% increased Global Critical Strike Chance",
+                "0.22% of Physical Attack Damage Leeched as Life"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 6,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 61,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MurderousEye.png?scale=1&w=1&h=1&v=6679365e95eb89fd626cf59fa2b57c99",
+            "league": "Standard",
+            "id": "388f17e8cac24360ed6a5dc22a0bc92446515613fb19b80e07fb7eeb75bffc53",
+            "abyssJewel": true,
+            "name": "",
+            "typeLine": "Gleaming Murderous Eye Jewel of Malice",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Abyss",
+                    "values": [],
+                    "displayMode": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "38",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "Adds 3 to 4 Chaos Damage to Attacks",
+                "Adds 3 to 4 Physical Damage to Mace Attacks"
+            ],
+            "descrText": "Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": [
+                    "abyss"
+                ]
+            },
+            "x": 10,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0",
+            "league": "Standard",
+            "id": "6f57acb0e4adfaaa47e9b7c7d5ef3bfe4d97f0ae73629f6d18c59ea5b8e27fa4",
+            "name": "",
+            "typeLine": "A Master Seeks Help",
+            "identified": true,
+            "descrText": "Right-click to add this prophecy to your character.",
+            "flavourText": [
+                "Pursuing a world of perfect balance, a veiled master seeks aid."
+            ],
+            "prophecyText": "You will find Jun and complete her mission.",
+            "frameType": 8,
+            "category": {
+                "currency": []
+            },
+            "x": 8,
+            "y": 11,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0",
+            "league": "Standard",
+            "id": "9f3d20c8d5fe1eb7392c0448c0cf346ad57a1fee35ac43d00d52d2e7fd2680a8",
+            "name": "",
+            "typeLine": "Dark Instincts",
+            "identified": true,
+            "descrText": "Right-click to add this prophecy to your character.",
+            "flavourText": [
+                "Guided by luck, the fox hunts the spider in absolute shadow."
+            ],
+            "prophecyText": "You will defeat Arakaali, Spinner of Shadows while holding Foxshade.",
+            "frameType": 8,
+            "category": {
+                "currency": []
+            },
+            "x": 9,
+            "y": 11,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 62,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/ThePeregrine.png?scale=1&w=2&h=2&v=7c6ee00a609acd86043cbcd2b1199911",
+            "league": "Standard",
+            "id": "c0a6c9dedf21d3f4222030af45f6719420c7884b266913a51ec80daf1c05de4d",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "The Peregrine",
+            "typeLine": "Visored Sallet",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+11%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "106",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "106",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "23",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "28",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "28",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+500 to Accuracy Rating",
+                "55% increased Armour and Evasion",
+                "29% increased Rarity of Items found",
+                "+30% to Lightning Resistance",
+                "0.4% of Attack Damage Leeched as Mana",
+                "10% increased Movement Speed"
+            ],
+            "flavourText": [
+                "We wander to pass time.\r",
+                "We travel to fulfill."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 1,
+            "y": 10,
+            "inventoryId": "Stash6",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 85,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c",
+            "league": "Standard",
+            "id": "c9bcec6b15b7fa59b2f178df0d45768ff4c6468ae8c33be704409bbbaaea10f3",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Sol League",
+            "typeLine": "Nubuck Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "161",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+48 to Evasion Rating",
+                "+36 to maximum Life",
+                "+35% to Fire Resistance",
+                "+33% to Cold Resistance",
+                "15% increased Movement Speed"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 3,
+            "y": 10,
+            "inventoryId": "Stash6",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 69,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/PoisonDamageModifier.png?scale=1&w=1&h=1&v=70643080a1ee44e3b496bfde4ed08430",
+            "league": "Standard",
+            "id": "5689de0bf4ac091b6c838bda7b69f575e417945a1a834ef6a75a828337c53b2f",
+            "name": "Growing Agony",
+            "typeLine": "Viridian Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "8% increased Damage over Time",
+                "With at least 40 Dexterity in Radius, Viper Strike deals 2% increased Damage with Hits and Poison for each Poison on the Enemy",
+                "With at least 40 Dexterity in Radius, Viper Strike has a 10% chance per Poison on Enemy to grant Unholy Might for 4 seconds on Hit"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Maligaro understood that devotion to science,\r",
+                "Means devotion to trial and error.\r",
+                "For Maligaro's errors, death was slow,\r",
+                "And very painful."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 10,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring4Unique.png?scale=1&w=1&h=1&v=53570d8ca34bd52e506a93361eae7680",
+            "league": "Standard",
+            "id": "8fe06172d6b3a69a61b039e7ecb523d240d13117f9e339568d9be394d7fd59d4",
+            "name": "Andvarius",
+            "typeLine": "Gold Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "6% increased Rarity of Items found"
+            ],
+            "explicitMods": [
+                "+10 to Dexterity",
+                "63% increased Rarity of Items found",
+                "-20% to all Elemental Resistances"
+            ],
+            "flavourText": [
+                "Danger is the price of wealth."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 10,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/CleaveThreshold.png?scale=1&w=1&h=1&v=69f0943400f898c4f55b6ea6fa1c8f4f",
+            "league": "Standard",
+            "id": "894a7d0c27b3c4fc266961cc1597adca0a645fcda45963403e4c4e58e242ec04",
+            "name": "Overwhelming Odds",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "13% increased Global Physical Damage",
+                "With at least 40 Strength in Radius, Cleave grants Fortify on Hit",
+                "With at least 40 Strength in Radius, Cleave has +1 to Radius per Nearby\nEnemy, up to +10"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Even as the tide turned, and victory swiftly became impossible,\r",
+                "the legionnaires of Lioneye's Watch stood their ground and fought on,\r",
+                "every last man dying a brutal, but honourable death."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 10,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "45782975c414fa8d6e0bd43e31136d4f9050664e0adeabd1e8932e5e877c5775",
+            "name": "",
+            "typeLine": "Humming Crimson Jewel of Berserking",
+            "identified": true,
+            "explicitMods": [
+                "14% increased Lightning Damage",
+                "3% increased Attack Speed"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 8,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RivetedEye.png?scale=1&w=1&h=1&v=a0904494de195adde172f2d6dd329b05",
+            "league": "Standard",
+            "id": "5f646183ba87a320e4d09dcfb5ffc61c044982a8c52708342f81b2250e6f1a0a",
+            "abyssJewel": true,
+            "name": "",
+            "typeLine": "Incinerating Hypnotic Eye Jewel of Phasing",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Abyss",
+                    "values": [],
+                    "displayMode": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "49",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "Adds 15 to 18 Fire Damage to Spells while holding a Shield",
+                "8% chance to gain Phasing for 4 seconds on Kill"
+            ],
+            "descrText": "Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": [
+                    "abyss"
+                ]
+            },
+            "x": 10,
+            "y": 6,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RivetedEye.png?scale=1&w=1&h=1&v=a0904494de195adde172f2d6dd329b05",
+            "league": "Standard",
+            "id": "f07bdd119ec6e0e59abe8c0ee679baa4cf646281c435f01fdc78e9f30e745795",
+            "abyssJewel": true,
+            "name": "",
+            "typeLine": "Healthy Hypnotic Eye Jewel of Momentum",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Abyss",
+                    "values": [],
+                    "displayMode": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "28",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "+30 to maximum Life",
+                "3% increased Movement Speed if you haven't taken Damage Recently"
+            ],
+            "descrText": "Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": [
+                    "abyss"
+                ]
+            },
+            "x": 11,
+            "y": 6,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "0978f3dc8338d144d447fa5c2ea958cc9c448943c0a388b33655b7a5217afa2a",
+            "name": "",
+            "typeLine": "Soldier's Crimson Jewel of Blasting",
+            "identified": true,
+            "explicitMods": [
+                "10% increased Area Damage",
+                "14% increased Damage with One Handed Weapons"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 7,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 70,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet13.png?scale=1&w=1&h=1&v=d77cab835dcff02f19a41b16e890515c",
+            "league": "Standard",
+            "id": "8fa10d544de4cba9830687b6937feb9100865bb599bf8eb0fdba548a4db51c78",
+            "name": "The Ascetic",
+            "typeLine": "Gold Amulet",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "8",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "16% increased Rarity of Items found"
+            ],
+            "explicitMods": [
+                "80% increased Rarity of Items found with a Normal Item Equipped",
+                "12% increased Quantity of Items found with a Magic Item Equipped"
+            ],
+            "flavourText": [
+                "Many things come to one who has nothing."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 0,
+            "y": 9,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/MagmaOrbThreshold.png?scale=1&w=1&h=1&v=634e2ac0472116f3753785fb5ccbb162",
+            "league": "Standard",
+            "id": "0214312e258da79cc145787584f0900b4494070c432f1d3a6ac8d61f00fe320c",
+            "name": "Inevitability",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "11% increased Fire Damage",
+                "With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectile",
+                "With at least 40 Intelligence in Radius, Magma Orb\nhas 10% increased Area of Effect per Chain"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "Izaro gave rise to Chitus.\r",
+                "Chitus gave rise to Voll.\r",
+                "None could know how it would end.\r",
+                "None could stop it."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 1,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique4.png?scale=1&w=1&h=1&v=aaa28694afa09be8b1c1f085e8cf2d2f",
+            "league": "Standard",
+            "id": "544c15ffbb1247522ac639630fb168e9dd32359bf520bc26b9d16d1543eda05f",
+            "name": "Survival Skills",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "10% increased Global Physical Damage",
+                "+50 to Armour"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "A helping hand has long reach."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 3,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 71,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RaiseZombieThreshold.png?scale=1&w=1&h=1&v=fc8954a3ea60f80baf77948f250a4a2c",
+            "league": "Standard",
+            "id": "f76964736b072de42c423cef7ba9dc04c32e20fa20c5c5597fb9b45fcfc25be1",
+            "name": "Violent Dead",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Radius",
+                    "values": [
+                        [
+                            "Medium",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 25
+                }
+            ],
+            "explicitMods": [
+                "Minions deal 12% increased Damage",
+                "With at least 40 Intelligence in Radius, Raised\nZombies' Slam Attack has 100% increased Cooldown Recovery Speed",
+                "With at least 40 Intelligence in Radius, Raised Zombies' Slam\nAttack deals 30% increased Damage"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "\"Rage, malice, hunger - some traits are more easily carried across the barrier of death.\"\r",
+                "- Kadavrus, Surgeon to the Umbra"
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 1,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/RivetedEye.png?scale=1&w=1&h=1&v=a0904494de195adde172f2d6dd329b05",
+            "league": "Standard",
+            "id": "d8d7e4c33b30743fa9813267849c92d296a1663e0848798a7fe08c68f6ad1470",
+            "abyssJewel": true,
+            "name": "",
+            "typeLine": "Hale Hypnotic Eye Jewel of Shelter",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Abyss",
+                    "values": [],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "+22 to maximum Life",
+                "+11% to Cold and Lightning Resistances"
+            ],
+            "descrText": "Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": [
+                    "abyss"
+                ]
+            },
+            "x": 9,
+            "y": 6,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/ProphecyOrbRed.png?scale=1&w=1&h=1&v=dc9105d2b038a79c7c316fc2ba30cef0",
+            "league": "Standard",
+            "id": "144c80ecbde673654e362085267247e5c6306fd455208a75e2d21c18f81ab628",
+            "name": "",
+            "typeLine": "The Sharpened Blade",
+            "identified": true,
+            "descrText": "Right-click to add this prophecy to your character.",
+            "flavourText": [
+                "The metal softens beneath the stone, reshaping with great ease."
+            ],
+            "prophecyText": "You will greatly enhance the quality of a weapon with a single Blacksmith's Whetstone.",
+            "frameType": 8,
+            "category": {
+                "currency": []
+            },
+            "x": 9,
+            "y": 10,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GolemTempest.png?scale=1&w=1&h=1&v=42e2467180d63e0479f562543baa47e2",
+            "league": "Standard",
+            "id": "b0b17b1ce0f33ef6366ee5ee66ba775a3431db6ec378f0a93d0eea07118452e5",
+            "name": "Primordial Harmony",
+            "typeLine": "Cobalt Jewel",
+            "identified": true,
+            "explicitMods": [
+                "Golem Skills have 24% increased Cooldown Recovery Speed",
+                "Golems have 42% increased Cooldown Recovery Speed",
+                "17% increased Golem Damage for each Type of Golem you have Summoned",
+                "Golems regenerate 2% of their Maximum Life per second",
+                "Primordial"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "\"A stone is not a stone.\r",
+                "It is but one part of a fortress.\"\r",
+                "- Ezomyte proverb"
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 5,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/GhastlyEye.png?scale=1&w=1&h=1&v=118803f4aa870b0d556958d6a0634cee",
+            "league": "Standard",
+            "id": "5424629132d54ea458cf21c02da90d98430ac1b3fcd6a69029e9c261bd3cacce",
+            "abyssJewel": true,
+            "name": "Foul Globe",
+            "typeLine": "Ghastly Eye Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Abyss",
+                    "values": [],
+                    "displayMode": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "43",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "Minions deal 6 to 10 additional Chaos Damage",
+                "5 Energy Shield Regenerated per second",
+                "Minions have 3% chance to Taunt on Hit with Attacks",
+                "Minions deal 31% increased Damage against Abyssal Monsters"
+            ],
+            "descrText": "Place into an Abyssal Socket on an Item or into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 2,
+            "category": {
+                "jewels": [
+                    "abyss"
+                ]
+            },
+            "x": 11,
+            "y": 5,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring4Unique.png?scale=1&w=1&h=1&v=53570d8ca34bd52e506a93361eae7680",
+            "league": "Standard",
+            "id": "aba83fd5fab8cd5581b634356665fa6aff586e55ac0eb0b8dc643ee4903ad972",
+            "name": "Andvarius",
+            "typeLine": "Gold Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "12% increased Rarity of Items found"
+            ],
+            "explicitMods": [
+                "+10 to Dexterity",
+                "63% increased Rarity of Items found",
+                "-20% to all Elemental Resistances"
+            ],
+            "flavourText": [
+                "Danger is the price of wealth."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 11,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 72,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/unique5.png?scale=1&w=1&h=1&v=e1bc414d1737767a4ee5b7735fc3b923",
+            "league": "Standard",
+            "id": "b437674f5d68acce1558b907ec0acbd51e45fa17f9570ee754ca4a0e13b00c11",
+            "name": "Martial Artistry",
+            "typeLine": "Crimson Jewel",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Limited to",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "explicitMods": [
+                "11% increased Area of Effect while Unarmed"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "flavourText": [
+                "A gentle hand rarely leaves a mark on the world."
+            ],
+            "frameType": 3,
+            "category": {
+                "jewels": []
+            },
+            "x": 4,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Jewels\/basicstr.png?scale=1&w=1&h=1&v=5496129c557831c118a679c1001f3df9",
+            "league": "Standard",
+            "id": "f03c3c4fa0aa89453c3bfd630209a1d57d736f7aa5cf5f652f5efc2236727639",
+            "name": "",
+            "typeLine": "Sinister Crimson Jewel of Runes",
+            "identified": true,
+            "explicitMods": [
+                "15% increased Damage with Axes",
+                "Totems gain +9% to all Elemental Resistances"
+            ],
+            "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+            "frameType": 1,
+            "category": {
+                "jewels": []
+            },
+            "x": 11,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 65,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map4.png?scale=1&w=1&h=1&v=0da8b18236c9cbc30846484ae760da6b",
+            "league": "Standard",
+            "id": "6e4ebf5926a67473edd5b96319c91798f6dab39479af03cfd6dd77b5d7049f67",
+            "name": "",
+            "typeLine": "Overgrown Ruin Map",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Map Tier",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 1
+                }
+            ],
+            "descrText": "Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": []
+            },
+            "x": 0,
+            "y": 4,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 66,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map5.png?scale=1&w=1&h=1&v=af4db84ec4fab982545988b2432e7f35",
+            "league": "Standard",
+            "id": "4741cccf89288e8bbe9674233a3de06b17f71108e79e9e17d49610f38d3c29b4",
+            "name": "",
+            "typeLine": "Dunes Map",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Map Tier",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 1
+                }
+            ],
+            "descrText": "Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": []
+            },
+            "x": 0,
+            "y": 2,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 69,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map10.png?scale=1&w=1&h=1&v=38e67db25167df8fbfebaf1656eb46bb",
+            "league": "Standard",
+            "id": "e1baec5c03aefcc4d2f9ceab77c5fb16ffcdec1fc88265f0f2a6eea2e5831644",
+            "name": "",
+            "typeLine": "Thicket Map",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Map Tier",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 1
+                }
+            ],
+            "descrText": "Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": []
+            },
+            "x": 0,
+            "y": 3,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 67,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map36.png?scale=1&w=1&h=1&v=8ffdbbe902856e415ad8523e155dabdc",
+            "league": "Standard",
+            "id": "889f5d873aa7b16d335ebea13dbee6f6bff90a7dc99432151de99e3979a72da7",
+            "name": "",
+            "typeLine": "Arsenal Map",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Map Tier",
+                    "values": [
+                        [
+                            "2",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 1
+                }
+            ],
+            "descrText": "Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": []
+            },
+            "x": 0,
+            "y": 1,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 68,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map13.png?scale=1&w=1&h=1&v=496f00264d1c21dc12f521ce655e8453",
+            "league": "Standard",
+            "id": "a4834ef6338eb9c73445104f25a892d2d836cf865692f4ac15d56007d6cf138d",
+            "name": "",
+            "typeLine": "Tropical Island Map",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Map Tier",
+                    "values": [
+                        [
+                            "1",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 1
+                }
+            ],
+            "descrText": "Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": []
+            },
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Stash6"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 68,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/Map16.png?scale=1&w=1&h=1&v=53a5cc67333cf7f0d5de731e110bdc37",
+            "league": "Standard",
+            "id": "b045cb77e56849ffcb49d9b84a02e39f15cfa5ba1dbf072047ee378ca30ed916",
+            "name": "",
+            "typeLine": "Vaal Pyramid Map",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Map Tier",
+                    "values": [
+                        [
+                            "3",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 1
+                }
+            ],
+            "descrText": "Travel to this Map by using it in the Templar Laboratory or a personal Map Device. Maps can only be used once.",
+            "frameType": 0,
+            "category": {
+                "maps": []
+            },
+            "x": 0,
+            "y": 5,
+            "inventoryId": "Stash6"
+        }
+    ]
+}

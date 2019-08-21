@@ -1,4 +1,6 @@
 {{ define "helpers.js" }}
+    {{ $demo := .Demo }}
+
     <script type="text/javascript">
     function swapWeapon(id, action) {
         var panel = document.getElementById(id);
@@ -642,6 +644,8 @@
 
     initImport();
     initModal();
-    showDownloadShareButton();
+    {{ if not .Demo }}
+        showDownloadShareButton();
+    {{ end }}
     </script>
 {{ end }}

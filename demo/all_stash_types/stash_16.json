@@ -1,1 +1,2916 @@
-{"numTabs":14,"items":[{"verified":false,"w":2,"h":3,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/TabulaRasa.png?scale=1&w=2&h=3&v=c169e1ab88583925693bb3a35cc49b6b","league":"Standard","id":"ce68096e825e6931696b6760ce22458a7314952f1583c859ba00b2ae9b7df716","sockets":[{"group":0,"attr":"G","sColour":"W"},{"group":0,"attr":"G","sColour":"W"},{"group":0,"attr":"G","sColour":"W"},{"group":0,"attr":"G","sColour":"W"},{"group":0,"attr":"G","sColour":"W"},{"group":0,"attr":"G","sColour":"W"}],"name":"Tabula Rasa","typeLine":"Simple Robe","identified":true,"frameType":3,"category":{"armour":["chest"]},"x":4,"y":0,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":72,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/Furryheadofstarkonja.png?scale=1&w=2&h=2&v=e540882692b90c8990e86806919ebf12","league":"Standard","id":"4c6a719efd0cdd0694366aed143ef6a6a44532a390c1a960499831cf01dacc0c","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"D","sColour":"G"}],"name":"Starkonja's Head","typeLine":"Silken Hood","identified":true,"properties":[{"name":"Evasion Rating","values":[["782",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Dex","values":[["138",0]],"displayMode":1}],"explicitMods":["+51 to Dexterity","50% reduced Damage when on Low Life","10% increased Attack Speed","25% increased Global Critical Strike Chance","126% increased Evasion Rating","+90 to maximum Life","150% increased Global Evasion Rating when on Low Life"],"flavourText":["There was no hero made out of Starkonja's death,\r","but merely a long sleep made eternal."],"frameType":3,"category":{"armour":["helmet"]},"x":6,"y":4,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3","league":"Standard","id":"523a1fbde99678667e50f9b71757d4a96120477025167a9048d7af752606a98b","shaper":true,"sockets":[{"group":0,"attr":"I","sColour":"B"}],"name":"Golem Stride","typeLine":"Sorcerer Boots","identified":true,"properties":[{"name":"Energy Shield","values":[["49",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["67",0]],"displayMode":0},{"name":"Int","values":[["123",0]],"displayMode":1}],"explicitMods":["Grants Level 20 Decoy Totem Skill","+47 to Intelligence","+28 to maximum Mana","+32% to Lightning Resistance"],"frameType":2,"category":{"armour":["boots"]},"x":10,"y":10,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/Slitherpinch.png?scale=1&w=2&h=2&v=da27b54504890ed420aa18f1733ebca9","league":"Standard","id":"d1c858ef4449d0ae535625c88418c5cab55be04525592c20176253c1fec2ef6b","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"I","sColour":"B"}],"name":"Slitherpinch","typeLine":"Bronzescale Gauntlets","identified":true,"properties":[{"name":"Armour","values":[["50",0]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["99",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["27",0]],"displayMode":0},{"name":"Str","values":[["22",0]],"displayMode":1},{"name":"Dex","values":[["22",0]],"displayMode":1}],"explicitMods":["+50 to Dexterity","7% increased Attack Speed","98% increased Evasion Rating","0.6% of Physical Attack Damage Leeched as Life","0.4% of Physical Attack Damage Leeched as Mana"],"flavourText":["A soft caress in dead of night,\r","that slips about the neck, so tight."],"frameType":3,"category":{"armour":["gloves"]},"x":2,"y":3,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandAxes\/Dreadarc.png?scale=1&w=2&h=3&v=3dd6086ba9e811b3d83c57adf9e2f4b2","league":"Standard","id":"92a0c370c29be26b38841fd62858afbee3da00734163db8d3e1af1b306b75c13","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"I","sColour":"B"}],"name":"Dreadsurge","typeLine":"Cleaver","identified":true,"properties":[{"name":"One Handed Axe","values":[],"displayMode":0},{"name":"Physical Damage","values":[["18-57",1]],"displayMode":0,"type":9},{"name":"Elemental Damage","values":[["243-264",4]],"displayMode":0,"type":10},{"name":"Critical Strike Chance","values":[["5.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.42",1]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Str","values":[["48",0]],"displayMode":1}],"explicitMods":["Adds 6 to 22 Physical Damage","Adds 243 to 264 Fire Damage","9% increased Attack Speed","+18% to Fire Resistance","5% increased Movement Speed","Hits ignore Enemy Monster Fire Resistance while you are Ignited"],"flavourText":["Make a man hot, and his heart will skip a beat.\r","Set a man on fire, and his heart will skip all beats."],"frameType":3,"category":{"weapons":["oneaxe"]},"x":8,"y":7,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Claws\/Claw6.png?scale=1&w=2&h=2&v=14ffba33f70a7825bc3b08f5f0ec6878","league":"Standard","id":"50b95526b96776695a648f8f70575b5fdca7d94d15b3cad1dfee6ebd707bf47e","elder":true,"sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"D","sColour":"G"},{"group":1,"attr":"I","sColour":"B"}],"name":"Blight Impaler","typeLine":"Vaal Claw","identified":true,"properties":[{"name":"Claw","values":[],"displayMode":0},{"name":"Physical Damage","values":[["63-166",1]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["6.50%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.30",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["66",0]],"displayMode":0},{"name":"Dex","values":[["95",0]],"displayMode":1},{"name":"Int","values":[["131",0]],"displayMode":1}],"implicitMods":["2% of Physical Attack Damage Leeched as Life"],"explicitMods":["Socketed Gems are Supported by Level 20 Poison","Socketed Gems are Supported by Level 18 Ruthless","118% increased Physical Damage","+42 to maximum Mana","28% increased Stun Duration on Enemies","20% chance to Poison on Hit"],"frameType":2,"category":{"weapons":["claw"]},"x":8,"y":10,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr4.png?scale=1&w=2&h=2&v=b2997b2df11d3b19cbb6a4c3054acda6","league":"Standard","id":"90e41bf2acbbea6641ed0eb26e00ec53e04ad64f5457410c77d4cbd6984782eb","shaper":true,"sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"Morbid Mitts","typeLine":"Steel Gauntlets","identified":true,"properties":[{"name":"Armour","values":[["170",1]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["64",0]],"displayMode":0},{"name":"Str","values":[["52",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 20 Advanced Traps","Socketed Gems are Supported by Level 18 Faster Casting","12% increased Cast Speed","+54 to Armour","+25% to Lightning Resistance","19% increased Trap Throwing Speed"],"frameType":2,"category":{"armour":["gloves"]},"x":10,"y":0,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":71,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrDex6.png?scale=1&w=2&h=2&v=80d0b49dc84d2c96f40a4cb270d96748","league":"Standard","id":"b8f74d248e47d6ab739e504cf570b052fd66d161ba943ce40714031a400ea16a","elder":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"S","sColour":"R"},{"group":1,"attr":"S","sColour":"R"}],"name":"Agony Shelter","typeLine":"Fencer Helm","identified":true,"properties":[{"name":"Armour","values":[["117",0]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["117",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["54",0]],"displayMode":0},{"name":"Str","values":[["49",0]],"displayMode":1},{"name":"Dex","values":[["49",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 16 Minion Damage","Adds 18 to 38 Fire Damage to Spells","7.6 Life Regenerated per second","13% increased maximum Mana","Minions deal 18% increased Damage"],"frameType":2,"category":{"armour":["helmet"]},"x":6,"y":0,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandSwords\/OneHandSword5.png?scale=1&w=2&h=3&v=20d0442f22b206975e82638308fbfe3b","league":"Standard","id":"58458ceca7525c90b22648d4c4941a716e0f291e828cc4de95d1131829c451d4","shaper":true,"sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"S","sColour":"R"},{"group":1,"attr":"D","sColour":"G"}],"name":"Tempest Slicer","typeLine":"Legion Sword","identified":true,"properties":[{"name":"One Handed Sword","values":[],"displayMode":0},{"name":"Physical Damage","values":[["53-98",0]],"displayMode":0,"type":9},{"name":"Elemental Damage","values":[["36-68",4]],"displayMode":0,"type":10},{"name":"Critical Strike Chance","values":[["5.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.20",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["62",0]],"displayMode":0},{"name":"Str","values":[["82",1]],"displayMode":1},{"name":"Dex","values":[["70",1]],"displayMode":1}],"implicitMods":["40% increased Global Accuracy Rating"],"explicitMods":["+25 to Dexterity","Adds 36 to 68 Fire Damage","32% reduced Attribute Requirements","Damage Penetrates 6% Elemental Resistances"],"frameType":2,"category":{"weapons":["onesword"]},"x":0,"y":0,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/AbyssHelmet.png?scale=1&w=2&h=2&v=c7383e609399bafe70ad70944133931b","league":"Standard","id":"542a89a8172cd391f8ce328d8f11c7b0a88a1ac0a1cf531cd4d31dcbfff430d4","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"A","sColour":"A"}],"name":"Lightpoacher","typeLine":"Great Crown","identified":true,"properties":[{"name":"Armour","values":[["143",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["28",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["53",0]],"displayMode":0},{"name":"Str","values":[["59",0]],"displayMode":1},{"name":"Int","values":[["59",0]],"displayMode":1}],"explicitMods":["Has 1 Abyssal Socket","Trigger Level 20 Spirit Burst when you Use a Skill while you have a Spirit Charge","+11% to all Elemental Resistances","+1 to Maximum Spirit Charges per Abyss Jewel affecting you","16% chance to gain a Spirit Charge on Kill","Recover 5% of Life when you lose a Spirit Charge"],"flavourText":["The eyes of the living hold a glimmer of hope.\r","Don't waste it."],"frameType":3,"category":{"armour":["helmet"]},"x":10,"y":2,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldDex2.png?scale=1&w=2&h=2&v=958754f78c163c1a80befdca6e8ce7bf","league":"Standard","id":"7ff398d89e9c12807022675d2e83b1f706e128c5df6e7676692a38ba7751c353","shaper":true,"sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"D","sColour":"G"}],"name":"Woe Bulwark","typeLine":"Ironwood Buckler","identified":true,"properties":[{"name":"Chance to Block","values":[["26%",0]],"displayMode":0,"type":15},{"name":"Evasion Rating","values":[["476",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["64",0]],"displayMode":0},{"name":"Dex","values":[["136",0]],"displayMode":1}],"implicitMods":["3% increased Movement Speed"],"explicitMods":["Socketed Gems have 15% reduced Mana Reservation","+470 to Accuracy Rating","70% increased Evasion Rating","+1% to maximum Cold Resistance","+38% to Lightning Resistance"],"frameType":2,"category":{"armour":["shield"]},"x":2,"y":0,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDexInt9.png?scale=1&w=2&h=2&v=f16dbb804ba232a15e23b3539c67b774","league":"Standard","id":"4f5feb6024b9aab5745e6b4d234ad97beedb7657d34263cbf017a7ded02b4f40","shaper":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"S","sColour":"R"}],"name":"Agony Brow","typeLine":"Harlequin Mask","identified":true,"properties":[{"name":"Evasion Rating","values":[["157",0]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["31",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0},{"name":"Dex","values":[["64",0]],"displayMode":1},{"name":"Int","values":[["64",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 16 Innervate","+37 to Dexterity","+42 to maximum Life","+32 to maximum Mana","+17% to Lightning Resistance","Reflects 6 Physical Damage to Melee Attackers","9% increased Effect of Shock"],"frameType":2,"category":{"armour":["helmet"]},"x":8,"y":0,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrDex2.png?scale=1&w=2&h=2&v=bdfb39d9a0b60c4ac542bedd8ff06e08","league":"Standard","id":"019c4c6f4a0a23566ae5228cc5cc4bb246cc88dc5d236e6d016fc050b1001dcd","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"D","sColour":"G"}],"name":"Oblivion Hoof","typeLine":"Hydrascale Boots","identified":true,"properties":[{"name":"Armour","values":[["106",0]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["106",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["64",0]],"displayMode":0},{"name":"Str","values":[["56",0]],"displayMode":1},{"name":"Dex","values":[["56",0]],"displayMode":1}],"explicitMods":["+87 to maximum Life","+23% to Cold Resistance","+35% to Chaos Resistance","15% increased Movement Speed"],"frameType":2,"category":{"armour":["boots"]},"x":6,"y":6,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":1,"h":3,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandSwords\/OneHandSword2.png?scale=1&w=1&h=3&v=a94ce74a6007ca561bb3a4bfa3abe15b","league":"Standard","id":"e2dffd322a0d29942564c2f8a6142fab6c519ab6dbb9cfa0d557184b7a0836cd","elder":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"S","sColour":"R"}],"name":"Skull Hunger","typeLine":"Gemstone Sword","identified":true,"properties":[{"name":"One Handed Sword","values":[],"displayMode":0},{"name":"Physical Damage","values":[["39-83",0]],"displayMode":0,"type":9},{"name":"Elemental Damage","values":[["43-78",5]],"displayMode":0,"type":10},{"name":"Critical Strike Chance","values":[["5.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.30",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["64",0]],"displayMode":0},{"name":"Str","values":[["96",0]],"displayMode":1},{"name":"Dex","values":[["96",0]],"displayMode":1}],"implicitMods":["+400 to Accuracy Rating"],"explicitMods":["Socketed Gems are Supported by Level 20 Ancestral Call","Socketed Gems are supported by Level 18 Increased Critical Damage","Adds 43 to 78 Cold Damage","+23% to Global Critical Strike Multiplier","7% reduced Enemy Stun Threshold","13% increased Area of Effect"],"frameType":2,"category":{"weapons":["onesword"]},"x":10,"y":4,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDexInt9x.png?scale=1&w=2&h=2&v=ec8ee704af919de08a20d6c8107865e3","league":"Standard","id":"efff8d9b079acdf3e7e159c6e2146e133603021c6416e5d1015ed44f3a9e03cc","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Leer Cast","typeLine":"Festival Mask","identified":true,"properties":[{"name":"Evasion Rating","values":[["77",0]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["16",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["28",0]],"displayMode":0},{"name":"Dex","values":[["33",0]],"displayMode":1},{"name":"Int","values":[["33",0]],"displayMode":1}],"explicitMods":["+26 to Dexterity","30% reduced Damage","+29 to maximum Life","+28 to maximum Mana","You and nearby allies gain 15% increased Damage"],"flavourText":["For none of us are as cruel as all of us."],"frameType":3,"category":{"armour":["helmet"]},"x":2,"y":7,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/Invictus.png?scale=1&w=2&h=3&v=8921ffe47a8b925426981a36812fae84","league":"Standard","id":"e39fa5d5045597bb6077ac1b3518244d607daed8aee3118f3f1396c2863ae0ea","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"S","sColour":"R"}],"name":"Invictus Solaris","typeLine":"Archon Kite Shield","identified":true,"properties":[{"name":"Chance to Block","values":[["22%",0]],"displayMode":0,"type":15},{"name":"Armour","values":[["479",1]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["92",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["68",0]],"displayMode":0},{"name":"Str","values":[["85",0]],"displayMode":1},{"name":"Int","values":[["85",0]],"displayMode":1}],"implicitMods":["+12% to all Elemental Resistances"],"explicitMods":["+2 to Level of Socketed Gems","Triggers Level 20 Fire Aegis when Equipped","207% increased Armour and Energy Shield","+69 to maximum Life","Cannot be Ignited"],"flavourText":["Eternal soldiers fight for glory or death.\r","The Solaris Vanguard know only glory."],"frameType":3,"category":{"armour":["shield"]},"x":2,"y":9,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr5.png?scale=1&w=2&h=2&v=d1be3848a301a68c0c5ee6b328b02e82","league":"Standard","id":"3214507fa6e8d46b96e9ac789e59d9401409cc3183478643a87d1bf7da19bfd2","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Meginord's Vise","typeLine":"Steel Gauntlets","identified":true,"properties":[{"name":"Armour","values":[["186",1]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["35",0]],"displayMode":0},{"name":"Str","values":[["52",0]],"displayMode":1}],"explicitMods":["+100 to Strength","10% increased Global Physical Damage","60% increased Armour","2% of Life Regenerated per second with at least 400 Strength"],"flavourText":["Ride with pride,\r","strike with vengeance,\r","live with honour."],"frameType":3,"category":{"armour":["gloves"]},"x":6,"y":2,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/Illuminatis.png?scale=1&w=2&h=3&v=3addf6a97440c72138dd596e36fa7a1d","league":"Standard","id":"147397c3afd657393449e7adb87c5f4b74e56a6c148a6f654a621571d0d9933c","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"Incandescent Heart","typeLine":"Saintly Chainmail","identified":true,"properties":[{"name":"Armour","values":[["1327",1]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["301",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["70",0]],"displayMode":0},{"name":"Str","values":[["99",0]],"displayMode":1},{"name":"Int","values":[["115",0]],"displayMode":1}],"explicitMods":["231% increased Armour and Energy Shield","+83 to maximum Life","0.94% of Attack Damage Leeched as Life","Gain 18% of Elemental Damage as Extra Chaos Damage","25% of Elemental Damage from Hits taken as Chaos Damage","21% increased Light Radius","Light Radius is based on Energy Shield instead of Life"],"flavourText":["Only light may banish the shadows from this land\r","And the black lies wrapped around your heart"],"frameType":3,"category":{"armour":["chest"]},"x":10,"y":7,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":4,"ilvl":70,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff4.png?scale=1&w=2&h=4&v=8af1ab046fb7f7caae8c7ce5b186b63b","league":"Standard","id":"6fcde8409dd31328aadb82d29b22a85ebd490049fbcf348d1da0406211fd8fa2","elder":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":2,"attr":"S","sColour":"R"}],"name":"Rift Call","typeLine":"Military Staff","identified":true,"properties":[{"name":"Staff","values":[],"displayMode":0},{"name":"Physical Damage","values":[["33-98",0]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["6.60%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.25",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["13",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["54",0]],"displayMode":0},{"name":"Str","values":[["72",0]],"displayMode":1},{"name":"Int","values":[["72",0]],"displayMode":1}],"implicitMods":["+18% Chance to Block Attack Damage while wielding a Staff"],"explicitMods":["+2 to Level of Socketed Cold Gems","+50 to maximum Mana","+38% to Fire Resistance","1% increased Spell Damage per 10 Strength"],"frameType":2,"category":{"weapons":["staff"]},"x":6,"y":8,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/MalachaisMark.png?scale=1&w=2&h=2&v=e4f22249a493cf831b31bb8e19245872","league":"Standard","id":"dcc032f0bb165324069a1e137a1319c7450990212b665a5be6a004ce63a4a9f4","sockets":[{"group":0,"attr":"D","sColour":"G"}],"name":"Malachai's Mark","typeLine":"Murder Mitts","identified":true,"properties":[{"name":"Evasion Rating","values":[["242",1]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["48",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["67",0]],"displayMode":0},{"name":"Dex","values":[["51",0]],"displayMode":1},{"name":"Int","values":[["51",0]],"displayMode":1}],"explicitMods":["100% increased Evasion and Energy Shield","+78 to maximum Life","+20 Life gained on Kill","+21 Energy Shield gained on Kill","Grants Malachai's Endurance, Frenzy and Power for 6 seconds each, in sequence"],"flavourText":["What man does not wish for immortality?"],"frameType":3,"category":{"armour":["gloves"]},"x":2,"y":5,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStr4A.png?scale=1&w=2&h=3&v=f9314c7ebb635aa283be76640df8ff00","league":"Standard","id":"c25307f64aa8d817ebad85888574fdac67e044d2410ffd0387a634387296468b","shaper":true,"sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Victory Shroud","typeLine":"Battle Lamellar","identified":true,"properties":[{"name":"Armour","values":[["499",1]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["499",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["54",0]],"displayMode":0},{"name":"Str","values":[["79",0]],"displayMode":1},{"name":"Dex","values":[["79",0]],"displayMode":1}],"explicitMods":["68% increased Armour and Evasion","9.6 Life Regenerated per second","+18% to Cold Resistance","Recover 4% of Maximum Energy Shield on Kill"],"frameType":2,"category":{"armour":["chest"]},"x":4,"y":6,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt2.png?scale=1&w=2&h=2&v=8301a0119606f022ec99a9723749003d","league":"Standard","id":"4ba6eb66368405138f342eb5743d67535d6f4694fb75646933f9610f7d47c4f2","shaper":true,"sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"D","sColour":"G"}],"name":"Gloom Talons","typeLine":"Assassin's Mitts","identified":true,"properties":[{"name":"Quality","values":[["+8%",1]],"displayMode":0,"type":6},{"name":"Evasion Rating","values":[["112",1]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["22",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Dex","values":[["45",0]],"displayMode":1},{"name":"Int","values":[["45",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 18 Slower Projectiles","Socketed Gems are Supported by Level 16 Advanced Traps","24% increased Trap Damage","Adds 4 to 10 Physical Damage to Attacks","+10% to Lightning Resistance","21% increased Projectile Damage"],"frameType":2,"category":{"armour":["gloves"]},"x":8,"y":2,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrInt5.png?scale=1&w=2&h=2&v=39a1f3a8764bd4fbe33230be7004c43b","league":"Standard","id":"dadc8bc691ae89aab26e01a9a538568180a675d9d15f60d7c6001677a3b4d3ce","shaper":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"S","sColour":"R"}],"name":"Apocalypse Corona","typeLine":"Aventail Helmet","identified":true,"properties":[{"name":"Armour","values":[["187",1]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["37",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0},{"name":"Str","values":[["42",0]],"displayMode":1},{"name":"Int","values":[["42",0]],"displayMode":1}],"explicitMods":["Socketed Spells have +1% to Critical Strike Chance","+24 to Strength","85% increased Armour and Energy Shield","+4 to maximum Life","10% increased Rarity of Items found"],"frameType":2,"category":{"armour":["helmet"]},"x":0,"y":3,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldStrInt5.png?scale=1&w=2&h=3&v=823818e9cfc86e3ea4c642b97695932c","league":"Standard","id":"4e2503c294bd6d7f716c44447e8a3f98ad5cdb78d94e55cf134c88eba0132c13","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"Victory Bastion","typeLine":"Angelic Kite Shield","identified":true,"properties":[{"name":"Chance to Block","values":[["22%",0]],"displayMode":0,"type":15},{"name":"Armour","values":[["124",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["24",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["58",0]],"displayMode":0},{"name":"Str","values":[["70",0]],"displayMode":1},{"name":"Int","values":[["70",0]],"displayMode":1}],"implicitMods":["+12% to all Elemental Resistances"],"explicitMods":["9% Chance to Block Spell Damage","30% increased Spell Damage","18% increased Global Physical Damage","+106 to maximum Life","+21% to Chaos Resistance"],"frameType":2,"category":{"armour":["shield"]},"x":4,"y":9,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/Dendrobatis.png?scale=1&w=2&h=3&v=93b47e82d5402b78bdc0abb315363318","league":"Standard","id":"cd7cd587f621769887f43abf7af9be9eecb56cf545a86505fc1cd4b22ca82df1","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"I","sColour":"B"}],"name":"Dendrobate","typeLine":"Sentinel Jacket","identified":true,"properties":[{"name":"Evasion Rating","values":[["779",1]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["245",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["59",0]],"displayMode":0},{"name":"Dex","values":[["86",0]],"displayMode":1},{"name":"Int","values":[["86",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 10 Lesser Poison","136% increased Evasion and Energy Shield","+40 to maximum Energy Shield","+20% to all Elemental Resistances","88% increased Damage with Poison if you have at least 300 Dexterity","24% increased Poison Duration if you have at least 150 Intelligence"],"flavourText":["Ask any tracker and they'll tell you:\r","the most dangerous animals\r","are the ones who don't bother to hide."],"frameType":3,"category":{"armour":["chest"]},"x":0,"y":5,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldStrIntUnique2.png?scale=1&w=2&h=3&v=3cc4e85d8f87166748078394fe27d218","league":"Standard","id":"0684d62b7e5d0f2a705955479fb444e484c21b9c1ba434376ace33e438065dfb","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"S","sColour":"R"}],"name":"Springleaf","typeLine":"Plank Kite Shield","identified":true,"properties":[{"name":"Chance to Block","values":[["22%",0]],"displayMode":0,"type":15},{"name":"Armour","values":[["34",1]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["8",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["7",0]],"displayMode":0}],"implicitMods":["+4% to all Elemental Resistances"],"explicitMods":["90% increased Armour and Energy Shield","50% reduced Freeze Duration on you","3% of Life Regenerated per second","3% of Life Regenerated per second while on Low Life"],"flavourText":["From death springs life."],"frameType":3,"category":{"armour":["shield"]},"x":0,"y":8,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt2C.png?scale=1&w=2&h=3&v=da51dd4c9ab2a0ddb4ea9e2edc4fb6b3","league":"Standard","id":"e80cef36a374b488edfd71d75cf5bbfe31892174640a8815d879002eae678a91","shaper":true,"sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"I","sColour":"B"}],"name":"Sol Mantle","typeLine":"Saint's Hauberk","identified":true,"properties":[{"name":"Armour","values":[["443",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["86",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["67",0]],"displayMode":0},{"name":"Str","values":[["109",0]],"displayMode":1},{"name":"Int","values":[["94",0]],"displayMode":1}],"explicitMods":["+47 to Strength","+13 to maximum Energy Shield","+28 to maximum Life","+58 to maximum Mana","+28% to Chaos Resistance","Recover 3% of Maximum Mana on Kill"],"frameType":2,"category":{"armour":["chest"]},"x":8,"y":4,"inventoryId":"Stash13","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":71,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"b3311dc8a3de45507244e8b007443ac79e63bcb5ffe15ec83fa0441611d9b472","elder":true,"name":"Empyrean Bind","typeLine":"Leather Belt","identified":true,"requirements":[{"name":"Level","values":[["56",0]],"displayMode":0}],"implicitMods":["+35 to maximum Life"],"explicitMods":["Grants Level 22 Enduring Cry Skill","+356 to Armour","+15% to Chaos Resistance","23% increased Stun and Block Recovery"],"frameType":2,"category":{"accessories":["belt"]},"x":0,"y":11,"inventoryId":"Stash13"},{"verified":false,"w":2,"h":3,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex2C.png?scale=1&w=2&h=3&v=b03b38ea29d4757b2578adea2a86115d","league":"Standard","id":"1ac2b12359ec4a88c1fb418188cd90c1a488dcfcc87ccc5176a552461269b2e6","shaper":true,"sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"D","sColour":"G"}],"name":"Beast Coat","typeLine":"Cutthroat's Garb","identified":true,"properties":[{"name":"Evasion Rating","values":[["530",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0},{"name":"Dex","values":[["144",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 10 Item Rarity","+34 to maximum Life","11.8 Life Regenerated per second","+43% to Lightning Resistance","12% increased Rarity of Items found from Slain Unique Enemies"],"frameType":2,"category":{"armour":["chest"]},"x":4,"y":3,"inventoryId":"Stash13","socketedItems":[]}]}
+{
+    "numTabs": 14,
+    "items": [
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/TabulaRasa.png?scale=1&w=2&h=3&v=c169e1ab88583925693bb3a35cc49b6b",
+            "league": "Standard",
+            "id": "ce68096e825e6931696b6760ce22458a7314952f1583c859ba00b2ae9b7df716",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                },
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                }
+            ],
+            "name": "Tabula Rasa",
+            "typeLine": "Simple Robe",
+            "identified": true,
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 4,
+            "y": 0,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 72,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/Furryheadofstarkonja.png?scale=1&w=2&h=2&v=e540882692b90c8990e86806919ebf12",
+            "league": "Standard",
+            "id": "4c6a719efd0cdd0694366aed143ef6a6a44532a390c1a960499831cf01dacc0c",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Starkonja's Head",
+            "typeLine": "Silken Hood",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "782",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "138",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+51 to Dexterity",
+                "50% reduced Damage when on Low Life",
+                "10% increased Attack Speed",
+                "25% increased Global Critical Strike Chance",
+                "126% increased Evasion Rating",
+                "+90 to maximum Life",
+                "150% increased Global Evasion Rating when on Low Life"
+            ],
+            "flavourText": [
+                "There was no hero made out of Starkonja's death,\r",
+                "but merely a long sleep made eternal."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 6,
+            "y": 4,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3",
+            "league": "Standard",
+            "id": "523a1fbde99678667e50f9b71757d4a96120477025167a9048d7af752606a98b",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Golem Stride",
+            "typeLine": "Sorcerer Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "49",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "123",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Grants Level 20 Decoy Totem Skill",
+                "+47 to Intelligence",
+                "+28 to maximum Mana",
+                "+32% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 10,
+            "y": 10,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/Slitherpinch.png?scale=1&w=2&h=2&v=da27b54504890ed420aa18f1733ebca9",
+            "league": "Standard",
+            "id": "d1c858ef4449d0ae535625c88418c5cab55be04525592c20176253c1fec2ef6b",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Slitherpinch",
+            "typeLine": "Bronzescale Gauntlets",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "50",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "99",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "27",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+50 to Dexterity",
+                "7% increased Attack Speed",
+                "98% increased Evasion Rating",
+                "0.6% of Physical Attack Damage Leeched as Life",
+                "0.4% of Physical Attack Damage Leeched as Mana"
+            ],
+            "flavourText": [
+                "A soft caress in dead of night,\r",
+                "that slips about the neck, so tight."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 2,
+            "y": 3,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandAxes\/Dreadarc.png?scale=1&w=2&h=3&v=3dd6086ba9e811b3d83c57adf9e2f4b2",
+            "league": "Standard",
+            "id": "92a0c370c29be26b38841fd62858afbee3da00734163db8d3e1af1b306b75c13",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Dreadsurge",
+            "typeLine": "Cleaver",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "One Handed Axe",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "18-57",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Elemental Damage",
+                    "values": [
+                        [
+                            "243-264",
+                            4
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 10
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.42",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Adds 6 to 22 Physical Damage",
+                "Adds 243 to 264 Fire Damage",
+                "9% increased Attack Speed",
+                "+18% to Fire Resistance",
+                "5% increased Movement Speed",
+                "Hits ignore Enemy Monster Fire Resistance while you are Ignited"
+            ],
+            "flavourText": [
+                "Make a man hot, and his heart will skip a beat.\r",
+                "Set a man on fire, and his heart will skip all beats."
+            ],
+            "frameType": 3,
+            "category": {
+                "weapons": [
+                    "oneaxe"
+                ]
+            },
+            "x": 8,
+            "y": 7,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Claws\/Claw6.png?scale=1&w=2&h=2&v=14ffba33f70a7825bc3b08f5f0ec6878",
+            "league": "Standard",
+            "id": "50b95526b96776695a648f8f70575b5fdca7d94d15b3cad1dfee6ebd707bf47e",
+            "elder": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Blight Impaler",
+            "typeLine": "Vaal Claw",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Claw",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "63-166",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "6.50%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "66",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "95",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "131",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "2% of Physical Attack Damage Leeched as Life"
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 20 Poison",
+                "Socketed Gems are Supported by Level 18 Ruthless",
+                "118% increased Physical Damage",
+                "+42 to maximum Mana",
+                "28% increased Stun Duration on Enemies",
+                "20% chance to Poison on Hit"
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "claw"
+                ]
+            },
+            "x": 8,
+            "y": 10,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr4.png?scale=1&w=2&h=2&v=b2997b2df11d3b19cbb6a4c3054acda6",
+            "league": "Standard",
+            "id": "90e41bf2acbbea6641ed0eb26e00ec53e04ad64f5457410c77d4cbd6984782eb",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Morbid Mitts",
+            "typeLine": "Steel Gauntlets",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "170",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "64",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 20 Advanced Traps",
+                "Socketed Gems are Supported by Level 18 Faster Casting",
+                "12% increased Cast Speed",
+                "+54 to Armour",
+                "+25% to Lightning Resistance",
+                "19% increased Trap Throwing Speed"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 10,
+            "y": 0,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 71,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrDex6.png?scale=1&w=2&h=2&v=80d0b49dc84d2c96f40a4cb270d96748",
+            "league": "Standard",
+            "id": "b8f74d248e47d6ab739e504cf570b052fd66d161ba943ce40714031a400ea16a",
+            "elder": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Agony Shelter",
+            "typeLine": "Fencer Helm",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "117",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "117",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "49",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "49",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 16 Minion Damage",
+                "Adds 18 to 38 Fire Damage to Spells",
+                "7.6 Life Regenerated per second",
+                "13% increased maximum Mana",
+                "Minions deal 18% increased Damage"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 6,
+            "y": 0,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandSwords\/OneHandSword5.png?scale=1&w=2&h=3&v=20d0442f22b206975e82638308fbfe3b",
+            "league": "Standard",
+            "id": "58458ceca7525c90b22648d4c4941a716e0f291e828cc4de95d1131829c451d4",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Tempest Slicer",
+            "typeLine": "Legion Sword",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "One Handed Sword",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "53-98",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Elemental Damage",
+                    "values": [
+                        [
+                            "36-68",
+                            4
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 10
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "82",
+                            1
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "70",
+                            1
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "40% increased Global Accuracy Rating"
+            ],
+            "explicitMods": [
+                "+25 to Dexterity",
+                "Adds 36 to 68 Fire Damage",
+                "32% reduced Attribute Requirements",
+                "Damage Penetrates 6% Elemental Resistances"
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "onesword"
+                ]
+            },
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/AbyssHelmet.png?scale=1&w=2&h=2&v=c7383e609399bafe70ad70944133931b",
+            "league": "Standard",
+            "id": "542a89a8172cd391f8ce328d8f11c7b0a88a1ac0a1cf531cd4d31dcbfff430d4",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "A",
+                    "sColour": "A"
+                }
+            ],
+            "name": "Lightpoacher",
+            "typeLine": "Great Crown",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "143",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "28",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "53",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Has 1 Abyssal Socket",
+                "Trigger Level 20 Spirit Burst when you Use a Skill while you have a Spirit Charge",
+                "+11% to all Elemental Resistances",
+                "+1 to Maximum Spirit Charges per Abyss Jewel affecting you",
+                "16% chance to gain a Spirit Charge on Kill",
+                "Recover 5% of Life when you lose a Spirit Charge"
+            ],
+            "flavourText": [
+                "The eyes of the living hold a glimmer of hope.\r",
+                "Don't waste it."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 10,
+            "y": 2,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldDex2.png?scale=1&w=2&h=2&v=958754f78c163c1a80befdca6e8ce7bf",
+            "league": "Standard",
+            "id": "7ff398d89e9c12807022675d2e83b1f706e128c5df6e7676692a38ba7751c353",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Woe Bulwark",
+            "typeLine": "Ironwood Buckler",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Chance to Block",
+                    "values": [
+                        [
+                            "26%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 15
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "476",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "64",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "136",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "3% increased Movement Speed"
+            ],
+            "explicitMods": [
+                "Socketed Gems have 15% reduced Mana Reservation",
+                "+470 to Accuracy Rating",
+                "70% increased Evasion Rating",
+                "+1% to maximum Cold Resistance",
+                "+38% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "shield"
+                ]
+            },
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDexInt9.png?scale=1&w=2&h=2&v=f16dbb804ba232a15e23b3539c67b774",
+            "league": "Standard",
+            "id": "4f5feb6024b9aab5745e6b4d234ad97beedb7657d34263cbf017a7ded02b4f40",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Agony Brow",
+            "typeLine": "Harlequin Mask",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "157",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "31",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "64",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "64",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 16 Innervate",
+                "+37 to Dexterity",
+                "+42 to maximum Life",
+                "+32 to maximum Mana",
+                "+17% to Lightning Resistance",
+                "Reflects 6 Physical Damage to Melee Attackers",
+                "9% increased Effect of Shock"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 8,
+            "y": 0,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrDex2.png?scale=1&w=2&h=2&v=bdfb39d9a0b60c4ac542bedd8ff06e08",
+            "league": "Standard",
+            "id": "019c4c6f4a0a23566ae5228cc5cc4bb246cc88dc5d236e6d016fc050b1001dcd",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Oblivion Hoof",
+            "typeLine": "Hydrascale Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "106",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "106",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "64",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "56",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "56",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+87 to maximum Life",
+                "+23% to Cold Resistance",
+                "+35% to Chaos Resistance",
+                "15% increased Movement Speed"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 6,
+            "y": 6,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 3,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandSwords\/OneHandSword2.png?scale=1&w=1&h=3&v=a94ce74a6007ca561bb3a4bfa3abe15b",
+            "league": "Standard",
+            "id": "e2dffd322a0d29942564c2f8a6142fab6c519ab6dbb9cfa0d557184b7a0836cd",
+            "elder": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Skull Hunger",
+            "typeLine": "Gemstone Sword",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "One Handed Sword",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "39-83",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Elemental Damage",
+                    "values": [
+                        [
+                            "43-78",
+                            5
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 10
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "64",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "96",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "96",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+400 to Accuracy Rating"
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 20 Ancestral Call",
+                "Socketed Gems are supported by Level 18 Increased Critical Damage",
+                "Adds 43 to 78 Cold Damage",
+                "+23% to Global Critical Strike Multiplier",
+                "7% reduced Enemy Stun Threshold",
+                "13% increased Area of Effect"
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "onesword"
+                ]
+            },
+            "x": 10,
+            "y": 4,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDexInt9x.png?scale=1&w=2&h=2&v=ec8ee704af919de08a20d6c8107865e3",
+            "league": "Standard",
+            "id": "efff8d9b079acdf3e7e159c6e2146e133603021c6416e5d1015ed44f3a9e03cc",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Leer Cast",
+            "typeLine": "Festival Mask",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "77",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "16",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "28",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "33",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "33",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+26 to Dexterity",
+                "30% reduced Damage",
+                "+29 to maximum Life",
+                "+28 to maximum Mana",
+                "You and nearby allies gain 15% increased Damage"
+            ],
+            "flavourText": [
+                "For none of us are as cruel as all of us."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 2,
+            "y": 7,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/Invictus.png?scale=1&w=2&h=3&v=8921ffe47a8b925426981a36812fae84",
+            "league": "Standard",
+            "id": "e39fa5d5045597bb6077ac1b3518244d607daed8aee3118f3f1396c2863ae0ea",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Invictus Solaris",
+            "typeLine": "Archon Kite Shield",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Chance to Block",
+                    "values": [
+                        [
+                            "22%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 15
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "479",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "92",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "85",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "85",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+12% to all Elemental Resistances"
+            ],
+            "explicitMods": [
+                "+2 to Level of Socketed Gems",
+                "Triggers Level 20 Fire Aegis when Equipped",
+                "207% increased Armour and Energy Shield",
+                "+69 to maximum Life",
+                "Cannot be Ignited"
+            ],
+            "flavourText": [
+                "Eternal soldiers fight for glory or death.\r",
+                "The Solaris Vanguard know only glory."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "shield"
+                ]
+            },
+            "x": 2,
+            "y": 9,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr5.png?scale=1&w=2&h=2&v=d1be3848a301a68c0c5ee6b328b02e82",
+            "league": "Standard",
+            "id": "3214507fa6e8d46b96e9ac789e59d9401409cc3183478643a87d1bf7da19bfd2",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Meginord's Vise",
+            "typeLine": "Steel Gauntlets",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "186",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "35",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+100 to Strength",
+                "10% increased Global Physical Damage",
+                "60% increased Armour",
+                "2% of Life Regenerated per second with at least 400 Strength"
+            ],
+            "flavourText": [
+                "Ride with pride,\r",
+                "strike with vengeance,\r",
+                "live with honour."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 6,
+            "y": 2,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/Illuminatis.png?scale=1&w=2&h=3&v=3addf6a97440c72138dd596e36fa7a1d",
+            "league": "Standard",
+            "id": "147397c3afd657393449e7adb87c5f4b74e56a6c148a6f654a621571d0d9933c",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Incandescent Heart",
+            "typeLine": "Saintly Chainmail",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "1327",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "301",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "99",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "115",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "231% increased Armour and Energy Shield",
+                "+83 to maximum Life",
+                "0.94% of Attack Damage Leeched as Life",
+                "Gain 18% of Elemental Damage as Extra Chaos Damage",
+                "25% of Elemental Damage from Hits taken as Chaos Damage",
+                "21% increased Light Radius",
+                "Light Radius is based on Energy Shield instead of Life"
+            ],
+            "flavourText": [
+                "Only light may banish the shadows from this land\r",
+                "And the black lies wrapped around your heart"
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 10,
+            "y": 7,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "ilvl": 70,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff4.png?scale=1&w=2&h=4&v=8af1ab046fb7f7caae8c7ce5b186b63b",
+            "league": "Standard",
+            "id": "6fcde8409dd31328aadb82d29b22a85ebd490049fbcf348d1da0406211fd8fa2",
+            "elder": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 2,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Rift Call",
+            "typeLine": "Military Staff",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Staff",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "33-98",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "6.60%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.25",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "13",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "72",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "72",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+18% Chance to Block Attack Damage while wielding a Staff"
+            ],
+            "explicitMods": [
+                "+2 to Level of Socketed Cold Gems",
+                "+50 to maximum Mana",
+                "+38% to Fire Resistance",
+                "1% increased Spell Damage per 10 Strength"
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "staff"
+                ]
+            },
+            "x": 6,
+            "y": 8,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/MalachaisMark.png?scale=1&w=2&h=2&v=e4f22249a493cf831b31bb8e19245872",
+            "league": "Standard",
+            "id": "dcc032f0bb165324069a1e137a1319c7450990212b665a5be6a004ce63a4a9f4",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Malachai's Mark",
+            "typeLine": "Murder Mitts",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "242",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "48",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "100% increased Evasion and Energy Shield",
+                "+78 to maximum Life",
+                "+20 Life gained on Kill",
+                "+21 Energy Shield gained on Kill",
+                "Grants Malachai's Endurance, Frenzy and Power for 6 seconds each, in sequence"
+            ],
+            "flavourText": [
+                "What man does not wish for immortality?"
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 2,
+            "y": 5,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStr4A.png?scale=1&w=2&h=3&v=f9314c7ebb635aa283be76640df8ff00",
+            "league": "Standard",
+            "id": "c25307f64aa8d817ebad85888574fdac67e044d2410ffd0387a634387296468b",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Victory Shroud",
+            "typeLine": "Battle Lamellar",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "499",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "499",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "79",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "79",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "68% increased Armour and Evasion",
+                "9.6 Life Regenerated per second",
+                "+18% to Cold Resistance",
+                "Recover 4% of Maximum Energy Shield on Kill"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 4,
+            "y": 6,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt2.png?scale=1&w=2&h=2&v=8301a0119606f022ec99a9723749003d",
+            "league": "Standard",
+            "id": "4ba6eb66368405138f342eb5743d67535d6f4694fb75646933f9610f7d47c4f2",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Gloom Talons",
+            "typeLine": "Assassin's Mitts",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+8%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "112",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "22",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 18 Slower Projectiles",
+                "Socketed Gems are Supported by Level 16 Advanced Traps",
+                "24% increased Trap Damage",
+                "Adds 4 to 10 Physical Damage to Attacks",
+                "+10% to Lightning Resistance",
+                "21% increased Projectile Damage"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 8,
+            "y": 2,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrInt5.png?scale=1&w=2&h=2&v=39a1f3a8764bd4fbe33230be7004c43b",
+            "league": "Standard",
+            "id": "dadc8bc691ae89aab26e01a9a538568180a675d9d15f60d7c6001677a3b4d3ce",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Apocalypse Corona",
+            "typeLine": "Aventail Helmet",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "187",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "37",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "42",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "42",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Spells have +1% to Critical Strike Chance",
+                "+24 to Strength",
+                "85% increased Armour and Energy Shield",
+                "+4 to maximum Life",
+                "10% increased Rarity of Items found"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 0,
+            "y": 3,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldStrInt5.png?scale=1&w=2&h=3&v=823818e9cfc86e3ea4c642b97695932c",
+            "league": "Standard",
+            "id": "4e2503c294bd6d7f716c44447e8a3f98ad5cdb78d94e55cf134c88eba0132c13",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Victory Bastion",
+            "typeLine": "Angelic Kite Shield",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Chance to Block",
+                    "values": [
+                        [
+                            "22%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 15
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "124",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "24",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "58",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+12% to all Elemental Resistances"
+            ],
+            "explicitMods": [
+                "9% Chance to Block Spell Damage",
+                "30% increased Spell Damage",
+                "18% increased Global Physical Damage",
+                "+106 to maximum Life",
+                "+21% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "shield"
+                ]
+            },
+            "x": 4,
+            "y": 9,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/Dendrobatis.png?scale=1&w=2&h=3&v=93b47e82d5402b78bdc0abb315363318",
+            "league": "Standard",
+            "id": "cd7cd587f621769887f43abf7af9be9eecb56cf545a86505fc1cd4b22ca82df1",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Dendrobate",
+            "typeLine": "Sentinel Jacket",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "779",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "245",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "86",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "86",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 10 Lesser Poison",
+                "136% increased Evasion and Energy Shield",
+                "+40 to maximum Energy Shield",
+                "+20% to all Elemental Resistances",
+                "88% increased Damage with Poison if you have at least 300 Dexterity",
+                "24% increased Poison Duration if you have at least 150 Intelligence"
+            ],
+            "flavourText": [
+                "Ask any tracker and they'll tell you:\r",
+                "the most dangerous animals\r",
+                "are the ones who don't bother to hide."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 0,
+            "y": 5,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldStrIntUnique2.png?scale=1&w=2&h=3&v=3cc4e85d8f87166748078394fe27d218",
+            "league": "Standard",
+            "id": "0684d62b7e5d0f2a705955479fb444e484c21b9c1ba434376ace33e438065dfb",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Springleaf",
+            "typeLine": "Plank Kite Shield",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Chance to Block",
+                    "values": [
+                        [
+                            "22%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 15
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "34",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "8",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "7",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+4% to all Elemental Resistances"
+            ],
+            "explicitMods": [
+                "90% increased Armour and Energy Shield",
+                "50% reduced Freeze Duration on you",
+                "3% of Life Regenerated per second",
+                "3% of Life Regenerated per second while on Low Life"
+            ],
+            "flavourText": [
+                "From death springs life."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "shield"
+                ]
+            },
+            "x": 0,
+            "y": 8,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt2C.png?scale=1&w=2&h=3&v=da51dd4c9ab2a0ddb4ea9e2edc4fb6b3",
+            "league": "Standard",
+            "id": "e80cef36a374b488edfd71d75cf5bbfe31892174640a8815d879002eae678a91",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Sol Mantle",
+            "typeLine": "Saint's Hauberk",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "443",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "86",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "109",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "94",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+47 to Strength",
+                "+13 to maximum Energy Shield",
+                "+28 to maximum Life",
+                "+58 to maximum Mana",
+                "+28% to Chaos Resistance",
+                "Recover 3% of Maximum Mana on Kill"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 8,
+            "y": 4,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 71,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "b3311dc8a3de45507244e8b007443ac79e63bcb5ffe15ec83fa0441611d9b472",
+            "elder": true,
+            "name": "Empyrean Bind",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "56",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+35 to maximum Life"
+            ],
+            "explicitMods": [
+                "Grants Level 22 Enduring Cry Skill",
+                "+356 to Armour",
+                "+15% to Chaos Resistance",
+                "23% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 0,
+            "y": 11,
+            "inventoryId": "Stash13"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex2C.png?scale=1&w=2&h=3&v=b03b38ea29d4757b2578adea2a86115d",
+            "league": "Standard",
+            "id": "1ac2b12359ec4a88c1fb418188cd90c1a488dcfcc87ccc5176a552461269b2e6",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Beast Coat",
+            "typeLine": "Cutthroat's Garb",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "530",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "144",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 10 Item Rarity",
+                "+34 to maximum Life",
+                "11.8 Life Regenerated per second",
+                "+43% to Lightning Resistance",
+                "12% increased Rarity of Items found from Slain Unique Enemies"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 4,
+            "y": 3,
+            "inventoryId": "Stash13",
+            "socketedItems": []
+        }
+    ]
+}

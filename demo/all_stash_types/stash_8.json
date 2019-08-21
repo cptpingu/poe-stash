@@ -1,1 +1,3118 @@
-{"numTabs":14,"items":[{"verified":false,"w":2,"h":2,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c","league":"Standard","id":"b5eee7aa17b411ed2e95ec4e0ac6f25653236bc8ed405c8519b0593995d7ade3","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"D","sColour":"G"}],"name":"Hate League","typeLine":"Shagreen Boots","identified":true,"properties":[{"name":"Evasion Rating","values":[["180",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["55",0]],"displayMode":0},{"name":"Dex","values":[["97",0]],"displayMode":1}],"explicitMods":["+78 to maximum Life","+35% to Fire Resistance","+38% to Lightning Resistance","15% increased Movement Speed"],"craftedMods":["+33% to Cold Resistance"],"frameType":2,"category":{"armour":["boots"]},"x":8,"y":1,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"a4bd5000ad46c4836f33ba92acb2961f10762c30759b2c0b4f0efe67ac1abd0f","name":"Torment Girdle","typeLine":"Leather Belt","identified":true,"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0}],"implicitMods":["+33 to maximum Life"],"explicitMods":["+21 to Armour","+56 to maximum Life","+43% to Fire Resistance","+28% to Cold Resistance","17% reduced Flask Charges used"],"frameType":2,"category":{"accessories":["belt"]},"x":0,"y":4,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"9769afee1559af6eebc8ef2556d05f0a0edcfbf83b3c86e1266d8dcee98938d6","name":"Nemesis Trap","typeLine":"Leather Belt","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["+40 to maximum Life"],"explicitMods":["+40 to maximum Life","1.5 Life Regenerated per second","+37% to Fire Resistance","+38% to Cold Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":0,"y":6,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"4f73dc3424ee4017c9bfee31141a19bd6ec43c527d34018056a5767b7e9aec6e","name":"Victory Twine","typeLine":"Leather Belt","identified":true,"corrupted":true,"requirements":[{"name":"Level","values":[["54",0]],"displayMode":0}],"implicitMods":["+33 to maximum Life"],"explicitMods":["+39 to maximum Energy Shield","+88 to maximum Life","+32% to Fire Resistance","15% increased Stun and Block Recovery"],"frameType":2,"category":{"accessories":["belt"]},"x":10,"y":6,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe12","league":"Standard","id":"31f5167e11fe79fe499fda77e2a815f251bfe99a42d2997e5915c278447968b6","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Bramble Hoof","typeLine":"Reinforced Greaves","identified":true,"properties":[{"name":"Armour","values":[["113",1]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["52",0]],"displayMode":0},{"name":"Str","values":[["60",0]],"displayMode":1}],"explicitMods":["+42 to Strength","+4 to Armour","+69 to maximum Life","9% increased Rarity of Items found","+33% to Cold Resistance","+31% to Lightning Resistance"],"frameType":2,"category":{"armour":["boots"]},"x":10,"y":7,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt5.png?scale=1&w=2&h=1&v=5aa764352f06af8fd3231e6a52d710f5","league":"Standard","id":"5cf5dfe9c4a2cf5e280e743a715af8a61310f9039be6d2401e38cb0da8b16544","name":"Armageddon Snare","typeLine":"Heavy Belt","identified":true,"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0}],"implicitMods":["+30 to Strength"],"explicitMods":["7% reduced Enemy Stun Threshold","+43 to maximum Energy Shield","+62 to maximum Life","+44% to Fire Resistance","+44% to Cold Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":6,"y":11,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":85,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrDex3.png?scale=1&w=2&h=2&v=601dc135a14c1121dca118c2640a1335","league":"Standard","id":"a0a5a697b96955155bd1f917573b7da3db6f6987cc924995b8ff47a366d9fc8e","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Death Dash","typeLine":"Wyrmscale Boots","identified":true,"properties":[{"name":"Armour","values":[["92",0]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["92",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["67",0]],"displayMode":0},{"name":"Str","values":[["48",0]],"displayMode":1},{"name":"Dex","values":[["48",0]],"displayMode":1}],"explicitMods":["4.7 Life Regenerated per second","+46% to Fire Resistance","+37% to Lightning Resistance","10% increased Movement Speed"],"frameType":2,"category":{"armour":["boots"]},"x":8,"y":3,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"e659fbfa2e79a66e8ceff629b84b48884c68b861355a95bfb7ac5eacc58bff4b","name":"Skull Bond","typeLine":"Leather Belt","identified":true,"requirements":[{"name":"Level","values":[["39",0]],"displayMode":0}],"implicitMods":["+33 to maximum Life"],"explicitMods":["+79 to maximum Life","+27% to Fire Resistance","+30% to Lightning Resistance","19% increased Stun Duration on Enemies"],"frameType":2,"category":{"accessories":["belt"]},"x":6,"y":5,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrInt2.png?scale=1&w=2&h=2&v=9a8ce1f6169c2ad274efc202693b7293","league":"Standard","id":"116cf9d7925d79f9252b766b96c49ef0d8dadee00264c14f222b38806df99569","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"S","sColour":"R"},{"group":1,"attr":"I","sColour":"B"}],"name":"Pain Goad","typeLine":"Zealot Boots","identified":true,"properties":[{"name":"Armour","values":[["73",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["14",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["59",0]],"displayMode":0},{"name":"Str","values":[["38",0]],"displayMode":1},{"name":"Int","values":[["38",0]],"displayMode":1}],"explicitMods":["+43 to Intelligence","+46 to maximum Mana","+42% to Fire Resistance","+23% to Lightning Resistance","30% increased Movement Speed"],"frameType":2,"category":{"armour":["boots"]},"x":8,"y":7,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDexInt4.png?scale=1&w=2&h=2&v=bfbd6b83d1a5a8dafbae030a0041b5fe","league":"Standard","id":"5c170e0e6798393ee09ea0507f6899e6f7bb2dbf0f7f4e334857cadbc6d5cb9b","sockets":[{"group":0,"attr":"I","sColour":"B"}],"name":"Pain Stride","typeLine":"Murder Boots","identified":true,"properties":[{"name":"Evasion Rating","values":[["196",1]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["18",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["69",0]],"displayMode":0},{"name":"Dex","values":[["82",0]],"displayMode":1},{"name":"Int","values":[["42",0]],"displayMode":1}],"explicitMods":["+24 to Dexterity","6% increased Evasion and Energy Shield","+67 to maximum Mana","+27% to Cold Resistance","+33% to Lightning Resistance","30% increased Movement Speed","6% increased Stun and Block Recovery"],"frameType":2,"category":{"armour":["boots"]},"x":0,"y":9,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":85,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/TwoTonedBoots2B.png?scale=1&w=2&h=2&v=435eaf7c0d9a50d4c6cf92eed702ffb7","league":"Standard","id":"e67a0df297a7267e82610ca7909c4d1ba048bcd755fdd8757eba51996623d28f","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"D","sColour":"G"}],"name":"Apocalypse Stride","typeLine":"Two-Toned Boots","identified":true,"properties":[{"name":"Armour","values":[["126",0]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["126",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["70",0]],"displayMode":0},{"name":"Str","values":[["62",0]],"displayMode":1},{"name":"Dex","values":[["62",0]],"displayMode":1}],"implicitMods":["+10% to Fire and Cold Resistances"],"explicitMods":["+40 to maximum Life","+35% to Cold Resistance","+46% to Lightning Resistance"],"craftedMods":["28% increased Totem Placement speed"],"frameType":2,"category":{"armour":["boots"]},"x":4,"y":3,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58","league":"Standard","id":"b5212a6af41fd06f7cd2d4d04275156b6e0cd1a3e99e130b85c7902d2c8a28be","name":"Agony Strap","typeLine":"Studded Belt","identified":true,"requirements":[{"name":"Level","values":[["54",0]],"displayMode":0}],"implicitMods":["25% increased Stun Duration on Enemies"],"explicitMods":["+9 to maximum Energy Shield","+33% to Fire Resistance","+37% to Cold Resistance","+24% to Lightning Resistance","15% increased Flask Mana Recovery rate"],"craftedMods":["+46 to maximum Life"],"frameType":2,"category":{"accessories":["belt"]},"x":8,"y":0,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt5.png?scale=1&w=2&h=1&v=5aa764352f06af8fd3231e6a52d710f5","league":"Standard","id":"b81ece852eb14ec62072e6f82e6333387cf6132684e05305d84f313c4760b7d0","name":"Ambush Clasp","typeLine":"Heavy Belt","identified":true,"requirements":[{"name":"Level","values":[["51",0]],"displayMode":0}],"implicitMods":["+25 to Strength"],"explicitMods":["+15 to Strength","+65 to Armour","+91 to maximum Life","+18% to Lightning Resistance","+23% to Chaos Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":8,"y":5,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae","league":"Standard","id":"b41bd447cb97ef98f038207c09ab2a857c973067ec7e87e8bdc42c805f2f72d6","name":"Miracle Locket","typeLine":"Cloth Belt","identified":true,"requirements":[{"name":"Level","values":[["51",0]],"displayMode":0}],"implicitMods":["23% increased Stun and Block Recovery"],"explicitMods":["12% reduced Enemy Stun Threshold","+32 to maximum Energy Shield","+96 to maximum Life","+38% to Fire Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":6,"y":6,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr2.png?scale=1&w=2&h=2&v=02bb6bfc0c0385695c4fdfa0a5fed536","league":"Standard","id":"8714a201fd15d259d0d4a95bf5b94d53cf1ab6a1c8d3dd9946f57ca886e66de9","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"Armageddon Vise","typeLine":"Antique Gauntlets","identified":true,"properties":[{"name":"Armour","values":[["175",1]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Str","values":[["58",0]],"displayMode":1}],"explicitMods":["Adds 1 to 15 Lightning Damage to Attacks","+46 to Armour","+45% to Fire Resistance","+38% to Cold Resistance","+34% to Lightning Resistance"],"craftedMods":["+66 to maximum Life"],"frameType":2,"category":{"armour":["gloves"]},"x":0,"y":0,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae","league":"Standard","id":"523bb9a9955160c25022fb742b667164a87a543f68110905934372e746370295","name":"Brimstone Cord","typeLine":"Cloth Belt","identified":true,"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0}],"implicitMods":["23% increased Stun and Block Recovery"],"explicitMods":["+36 to Strength","+41 to maximum Energy Shield","+45% to Fire Resistance","+39% to Cold Resistance","Reflects 8 Physical Damage to Melee Attackers"],"frameType":2,"category":{"accessories":["belt"]},"x":10,"y":5,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":66,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58","league":"Standard","id":"0f1c61e0adbf444e1aa684a2df42fe637763ffe645b3e23982be26c807cf6a41","name":"Empyrean Trap","typeLine":"Studded Belt","identified":true,"requirements":[{"name":"Level","values":[["47",0]],"displayMode":0}],"implicitMods":["22% increased Stun Duration on Enemies"],"explicitMods":["+37 to maximum Energy Shield","+85 to maximum Life","+7% to Cold Resistance","+35% to Lightning Resistance","13% increased Flask Effect Duration"],"frameType":2,"category":{"accessories":["belt"]},"x":8,"y":6,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt1.png?scale=1&w=2&h=1&v=a40ff49a65beb9e722af0f85159432f1","league":"Standard","id":"317f0dc7dd983ec0ec6d5b491ae6d98812941f6f29e0d52cafb0f866005e017c","name":"Woe Snare","typeLine":"Rustic Sash","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["20% increased Global Physical Damage"],"explicitMods":["+27 to maximum Energy Shield","+82 to maximum Life","+40% to Fire Resistance","+28% to Lightning Resistance","17% increased Stun and Block Recovery"],"frameType":2,"category":{"accessories":["belt"]},"x":2,"y":11,"inventoryId":"Stash5"},{"verified":false,"w":1,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring4.png?scale=1&w=1&h=1&v=6ef89e2afcf83dc3cc86b1522597ed2b","league":"Standard","id":"1c694ff76fc65f8b15c58c6e0bee9ac7438f17f3f04ede94a66b571eda015c36","name":"Grim Gyre","typeLine":"Gold Ring","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["9% increased Rarity of Items found"],"explicitMods":["10% increased Rarity of Items found","+7% to all Elemental Resistances","+34% to Fire Resistance","+38% to Cold Resistance"],"frameType":2,"category":{"accessories":["ring"]},"x":10,"y":4,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c","league":"Standard","id":"3d1f19be1cbca90c7e482016494ac86cef944577d5fad85ed2c77a396c8619ab","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"S","sColour":"R"}],"name":"Phoenix Spark","typeLine":"Shagreen Boots","identified":true,"properties":[{"name":"Evasion Rating","values":[["218",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["55",0]],"displayMode":0},{"name":"Dex","values":[["97",0]],"displayMode":1}],"explicitMods":["21% increased Evasion Rating","+15% to Cold Resistance","+18% to Lightning Resistance","+12% to Chaos Resistance","30% increased Movement Speed"],"frameType":2,"category":{"armour":["boots"]},"x":0,"y":2,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae","league":"Standard","id":"e657ffe81e281803030220f1b7bf52faa12422800dd66114142a798cb365753f","name":"Pain Snare","typeLine":"Cloth Belt","identified":true,"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0}],"implicitMods":["23% increased Stun and Block Recovery"],"explicitMods":["+98 to maximum Life","+20% to Fire Resistance","+43% to Cold Resistance","25% increased Stun Duration on Enemies"],"frameType":2,"category":{"accessories":["belt"]},"x":4,"y":5,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3","league":"Standard","id":"671a6ab6f6a098d7747c2cb356ca26e862275f394b50a8d94ec55ed0ff5da44e","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"I","sColour":"B"}],"name":"Brimstone Slippers","typeLine":"Sorcerer Boots","identified":true,"properties":[{"name":"Quality","values":[["+8%",1]],"displayMode":0,"type":6},{"name":"Energy Shield","values":[["66",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["67",0]],"displayMode":0},{"name":"Int","values":[["123",0]],"displayMode":1}],"explicitMods":["27% increased Energy Shield","+83 to maximum Life","+35% to Fire Resistance","+23% to Cold Resistance"],"frameType":2,"category":{"armour":["boots"]},"x":10,"y":9,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58","league":"Standard","id":"8c5378ca0a74c93e80cc82d5ae19ec6d54ab62b02ba724b7999ef16a2caa293f","name":"Mind Snare","typeLine":"Studded Belt","identified":true,"requirements":[{"name":"Level","values":[["46",0]],"displayMode":0}],"implicitMods":["30% increased Stun Duration on Enemies"],"explicitMods":["+82 to Armour","+12 to maximum Energy Shield","+65 to maximum Life","+18% to Fire Resistance","+26% to Cold Resistance","31% increased Stun Duration on Enemies"],"frameType":2,"category":{"accessories":["belt"]},"x":4,"y":11,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrDex3.png?scale=1&w=2&h=2&v=601dc135a14c1121dca118c2640a1335","league":"Standard","id":"46854208f668cb78bbcdea80b6abca97515ea156ae8ff54d99329231eec17e79","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"}],"name":"Skull Spark","typeLine":"Wyrmscale Boots","identified":true,"properties":[{"name":"Armour","values":[["92",0]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["92",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["51",0]],"displayMode":0},{"name":"Str","values":[["48",0]],"displayMode":1},{"name":"Dex","values":[["48",0]],"displayMode":1}],"explicitMods":["+80 to maximum Life","+29% to Fire Resistance","+32% to Lightning Resistance","14% increased Stun and Block Recovery"],"frameType":2,"category":{"armour":["boots"]},"x":4,"y":7,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrDexInt1C.png?scale=1&w=2&h=3&v=5a4eb9d863bef835aa3d9cc9224f51a5","league":"Standard","id":"275c73e9b587a353588f46dcc24a718e60a8fb47792f50215d1b3c75c9cd618d","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"}],"name":"Skull Guardian","typeLine":"Vaal Regalia","identified":true,"properties":[{"name":"Energy Shield","values":[["209",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["68",0]],"displayMode":0},{"name":"Int","values":[["194",0]],"displayMode":1}],"explicitMods":["+39 to Intelligence","+46 to maximum Energy Shield","+57 to maximum Life","+48 to maximum Mana","+20% to Fire Resistance","+44% to Lightning Resistance"],"frameType":2,"category":{"armour":["chest"]},"x":2,"y":6,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrDex1B.png?scale=1&w=2&h=3&v=43fe2a71e9f7f4c406d25e6dec029416","league":"Standard","id":"e23296b831a414341c58ab8721563d4f25f4bd853c511ea17f10d92b3b31b46c","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"D","sColour":"G"}],"name":"Golem Jack","typeLine":"Dragonscale Doublet","identified":true,"properties":[{"name":"Armour","values":[["675",1]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["639",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["59",0]],"displayMode":0},{"name":"Str","values":[["83",0]],"displayMode":1},{"name":"Dex","values":[["83",0]],"displayMode":1}],"explicitMods":["+44 to Dexterity","+96 to Armour","+74 to Evasion Rating","65% increased Armour and Evasion","+90 to maximum Life","+43% to Fire Resistance","+42% to Cold Resistance"],"frameType":2,"category":{"armour":["chest"]},"x":2,"y":0,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDexInt3.png?scale=1&w=2&h=2&v=9f826dcdb6b39a4c91d0e6ef83212f74","league":"Standard","id":"a4c9143ef10bc7077751dc3df4376e289e74a25ee7087cba9b3e367e0b03432c","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"S","sColour":"R"}],"name":"Cataclysm Tread","typeLine":"Ambush Boots","identified":true,"properties":[{"name":"Evasion Rating","values":[["100",1]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["17",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0},{"name":"Dex","values":[["45",0]],"displayMode":1},{"name":"Int","values":[["45",0]],"displayMode":1}],"explicitMods":["+15 to Evasion Rating","+22 to maximum Life","+31% to Fire Resistance","+41% to Cold Resistance","+20% to Lightning Resistance"],"frameType":2,"category":{"armour":["boots"]},"x":6,"y":9,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":63,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"5f53d925535b9f6b91288bc115993ec0d7749192e7c406e9e66d2215284a0eff","name":"Foe Thread","typeLine":"Leather Belt","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["+40 to maximum Life"],"explicitMods":["+32 to maximum Energy Shield","+47 to maximum Life","+31% to Fire Resistance","+37% to Lightning Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":0,"y":11,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58","league":"Standard","id":"7d0f250e98598979b4052c9475aca6dd9494eeae7769a59d32814d9eb14e2e5b","name":"Dread Strap","typeLine":"Studded Belt","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["22% increased Stun Duration on Enemies"],"explicitMods":["+181 to Armour","+88 to maximum Life","+12% to Cold Resistance","+36% to Lightning Resistance","11% increased Flask Charges gained"],"frameType":2,"category":{"accessories":["belt"]},"x":8,"y":11,"inventoryId":"Stash5"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Empty-Socket.png?scale=1&w=1&h=1&v=3671f6d79d7190b43879b830e63fc078","league":"Standard","id":"a8b396664deb1f98c05d4d742c67694c95b413fd86707b4b947ca3f31badcff4","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Viper Circle","typeLine":"Unset Ring","identified":true,"requirements":[{"name":"Level","values":[["59",0]],"displayMode":0}],"implicitMods":["Has 1 Socket"],"explicitMods":["+2 to Level of Socketed Gems","+27 to Strength","+46 to maximum Energy Shield","1.6 Life Regenerated per second","21% increased Rarity of Items found","+19% to Lightning Resistance"],"frameType":2,"category":{"accessories":["ring"]},"x":11,"y":4,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3","league":"Standard","id":"4d70f589f4b400e4369093e61f578969809dfaa711640f0a46b189850c67a34f","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"}],"name":"Chimeric Tread","typeLine":"Sorcerer Boots","identified":true,"properties":[{"name":"Energy Shield","values":[["76",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["67",0]],"displayMode":0},{"name":"Int","values":[["123",0]],"displayMode":1}],"explicitMods":["55% increased Energy Shield","+29% to Fire Resistance","+27% to Cold Resistance","+19% to Lightning Resistance","12% increased Stun and Block Recovery"],"frameType":2,"category":{"armour":["boots"]},"x":2,"y":9,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStr7.png?scale=1&w=2&h=2&v=070db8eaafa69c5225d50554bf398ba0","league":"Standard","id":"48b79d5ca693b42d863374765391731b831040c7656199d569c4508b39907c72","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"S","sColour":"R"}],"name":"Empyrean Peak","typeLine":"Siege Helmet","identified":true,"properties":[{"name":"Armour","values":[["318",1]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0},{"name":"Str","values":[["101",0]],"displayMode":1}],"explicitMods":["+1 to Level of Socketed Minion Gems","34% increased Armour","+41 to maximum Life","+45% to Fire Resistance","+45% to Lightning Resistance","15% increased Stun and Block Recovery"],"frameType":2,"category":{"armour":["helmet"]},"x":6,"y":2,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae","league":"Standard","id":"6fb500f6a78f5aecb97dc87895de86c749df67f59419c8e2f9929764ce05d897","name":"Domination Lash","typeLine":"Cloth Belt","identified":true,"requirements":[{"name":"Level","values":[["51",0]],"displayMode":0}],"implicitMods":["19% increased Stun and Block Recovery"],"explicitMods":["+28 to maximum Energy Shield","+98 to maximum Life","1.2 Life Regenerated per second","+19% to Fire Resistance","+24% to Chaos Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":4,"y":6,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":3,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyInt1B.png?scale=1&w=2&h=3&v=8aeda9998a622e9b5d0d61821584b17d","league":"Standard","id":"dd924293db5f47b1043f8322a7e69383eaf90d507f9b27707a03ff3bce7ac0ea","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"}],"name":"Hypnotic Curtain","typeLine":"Savant's Robe","identified":true,"properties":[{"name":"Energy Shield","values":[["206",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Int","values":[["152",0]],"displayMode":1}],"explicitMods":["+97 to maximum Energy Shield","+77 to maximum Life","+24% to Cold Resistance","+31% to Lightning Resistance"],"frameType":2,"category":{"armour":["chest"]},"x":4,"y":0,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt1.png?scale=1&w=2&h=1&v=a40ff49a65beb9e722af0f85159432f1","league":"Standard","id":"6361c0accc4c757fee16f358c30b1bbb94be4b017df61bbdca628ec24f9733fa","name":"Ghoul Strap","typeLine":"Rustic Sash","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["24% increased Global Physical Damage"],"explicitMods":["+36 to maximum Life","+41% to Fire Resistance","+20% to Cold Resistance","+25% to Chaos Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":0,"y":5,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt1.png?scale=1&w=2&h=1&v=a40ff49a65beb9e722af0f85159432f1","league":"Standard","id":"13760b694efc92105b0e78fa6aab0153396296ebe795c2c9a832ff7a8e0eb7b8","name":"Plague Leash","typeLine":"Rustic Sash","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["16% increased Global Physical Damage"],"explicitMods":["+20 to maximum Energy Shield","+29 to maximum Life","+37% to Cold Resistance","+19% to Lightning Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":6,"y":4,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":68,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe12","league":"Standard","id":"fbfec3f15076e70465b392c2e351d6217725022597e23fd290a380be812dc31e","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Viper League","typeLine":"Reinforced Greaves","identified":true,"properties":[{"name":"Quality","values":[["+6%",1]],"displayMode":0,"type":6},{"name":"Armour","values":[["145",1]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0},{"name":"Str","values":[["60",0]],"displayMode":1}],"explicitMods":["27% increased Armour","+83 to maximum Life","10% increased Rarity of Items found","+40% to Fire Resistance","+12% to Cold Resistance","+21% to Lightning Resistance","12% increased Stun and Block Recovery"],"frameType":2,"category":{"armour":["boots"]},"x":8,"y":9,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrInt3.png?scale=1&w=2&h=2&v=3ca9bf635d09f26ef27ad85b922fd5e8","league":"Standard","id":"aad93aebc8976cf93237ca5bb4a186d074b6507ae59ae76c4e86fea81f611e41","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"Oblivion March","typeLine":"Crusader Boots","identified":true,"properties":[{"name":"Armour","values":[["121",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["24",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["64",0]],"displayMode":0},{"name":"Str","values":[["62",0]],"displayMode":1},{"name":"Int","values":[["62",0]],"displayMode":1}],"explicitMods":["+77 to maximum Life","8.3 Life Regenerated per second","+38 to maximum Mana","+25% to Fire Resistance","+38% to Lightning Resistance"],"frameType":2,"category":{"armour":["boots"]},"x":6,"y":7,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrInt3.png?scale=1&w=2&h=2&v=3ca9bf635d09f26ef27ad85b922fd5e8","league":"Standard","id":"7605fd91034f02f7ce944e2134a8c0a00685b1ffbbe5bef1cd2c3f03a3e18e1d","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"}],"name":"Wrath Spark","typeLine":"Soldier Boots","identified":true,"properties":[{"name":"Armour","values":[["88",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["17",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["49",0]],"displayMode":0},{"name":"Str","values":[["47",0]],"displayMode":1},{"name":"Int","values":[["47",0]],"displayMode":1}],"explicitMods":["+41 to maximum Life","+39% to Fire Resistance","+18% to Lightning Resistance","+24% to Chaos Resistance"],"frameType":2,"category":{"armour":["boots"]},"x":4,"y":9,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58","league":"Standard","id":"30e73eafb8bd278027e3851e37d6ab57eb8dce4242b9800d8a2f28853946080a","name":"Brimstone Locket","typeLine":"Studded Belt","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["24% increased Stun Duration on Enemies"],"explicitMods":["+3 to maximum Life","+37% to Fire Resistance","+34% to Cold Resistance","+31% to Lightning Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":10,"y":11,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":2,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/TwoTonedBoots3B.png?scale=1&w=2&h=2&v=be244f0640954c1c79656ff79fcfc79f","league":"Standard","id":"9608af04b4cb42fb26b3356f475b145117c9e541c33f3d844a182fbd4d0b1859","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":2,"attr":"S","sColour":"R"},{"group":2,"attr":"I","sColour":"B"}],"name":"Dire Spark","typeLine":"Two-Toned Boots","identified":true,"properties":[{"name":"Armour","values":[["173",1]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["33",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["70",0]],"displayMode":0},{"name":"Str","values":[["62",0]],"displayMode":1},{"name":"Int","values":[["62",0]],"displayMode":1}],"implicitMods":["+11% to Fire and Lightning Resistances"],"explicitMods":["37% increased Armour and Energy Shield","+77 to maximum Life","+45% to Fire Resistance","29% increased Stun and Block Recovery"],"frameType":2,"category":{"armour":["boots"]},"x":10,"y":2,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrDex10.png?scale=1&w=2&h=2&v=0a540f285248cdb64d4607186e348e3d","league":"Standard","id":"3e739a09804a00532f6d89668908d0697f9e41ee91c106b7c23d9b9c55b043f4","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"S","sColour":"R"}],"name":"Entropy Visage","typeLine":"Nightmare Bascinet","identified":true,"properties":[{"name":"Armour","values":[["217",1]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["312",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["67",0]],"displayMode":0},{"name":"Str","values":[["62",0]],"displayMode":1},{"name":"Dex","values":[["85",0]],"displayMode":1}],"explicitMods":["34% increased Armour and Evasion","+7% to Fire Resistance","+29% to Cold Resistance","+35% to Lightning Resistance","14% increased Stun and Block Recovery"],"frameType":2,"category":{"armour":["helmet"]},"x":6,"y":0,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":63,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrDex1C.png?scale=1&w=2&h=3&v=e0eca364abb34a00e7496c90944c8e12","league":"Standard","id":"5fd77873e3e32d3e94363b40200659fc6b6f7240aed7dbd4b2e1dcdfd83a3093","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"S","sColour":"R"},{"group":2,"attr":"D","sColour":"G"},{"group":2,"attr":"I","sColour":"B"}],"name":"Entropy Cloak","typeLine":"Full Dragonscale","identified":true,"properties":[{"name":"Quality","values":[["+8%",1]],"displayMode":0,"type":6},{"name":"Armour","values":[["513",1]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["442",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["63",0]],"displayMode":0},{"name":"Str","values":[["115",0]],"displayMode":1},{"name":"Dex","values":[["94",0]],"displayMode":1}],"explicitMods":["+5 to Armour","+36 to Evasion Rating","+27 to maximum Life","+23% to Fire Resistance","+31% to Cold Resistance","Reflects 3 Physical Damage to Melee Attackers"],"frameType":2,"category":{"armour":["chest"]},"x":2,"y":3,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":76,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDexInt8.png?scale=1&w=2&h=2&v=3f4940b7435925dd03ce3bce57a9703f","league":"Standard","id":"55e5b43c173a2797a885d395508569fb0c34b97dac94e4b76bc387d3538466a6","shaper":true,"sockets":[{"group":0,"attr":"I","sColour":"B"}],"name":"Empyrean Veil","typeLine":"Regicide Mask","identified":true,"properties":[{"name":"Evasion Rating","values":[["154",1]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["50",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Dex","values":[["58",0]],"displayMode":1},{"name":"Int","values":[["58",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 16 Hypothermia","Adds 21 to 40 Cold Damage to Spells","+13 to Evasion Rating","+22 to maximum Energy Shield","+25 to maximum Life","9% increased Effect of Chill"],"frameType":2,"category":{"armour":["helmet"]},"x":10,"y":0,"inventoryId":"Stash5","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":70,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"cb9f43e6f0ec7823a96a910fd0c04e7c8a9d7da3a50c3c8ca27a5f20691ea212","name":"Oblivion Bind","typeLine":"Leather Belt","identified":true,"requirements":[{"name":"Level","values":[["48",0]],"displayMode":0}],"implicitMods":["+27 to maximum Life"],"explicitMods":["+38% to Fire Resistance","+35% to Cold Resistance","+27% to Lightning Resistance","Reflects 1 Physical Damage to Melee Attackers"],"frameType":2,"category":{"accessories":["belt"]},"x":0,"y":7,"inventoryId":"Stash5"},{"verified":false,"w":2,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363","league":"Standard","id":"fb666aaa481e1b8446d26ce4bf53174264c7acca78f268e9c4f093f93462f0ef","name":"Nemesis Lock","typeLine":"Leather Belt","identified":true,"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0}],"implicitMods":["+28 to maximum Life"],"explicitMods":["+20 to maximum Energy Shield","+23% to Fire Resistance","+44% to Cold Resistance","+29% to Lightning Resistance"],"frameType":2,"category":{"accessories":["belt"]},"x":0,"y":8,"inventoryId":"Stash5"}]}
+{
+    "numTabs": 14,
+    "items": [
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c",
+            "league": "Standard",
+            "id": "b5eee7aa17b411ed2e95ec4e0ac6f25653236bc8ed405c8519b0593995d7ade3",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Hate League",
+            "typeLine": "Shagreen Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "180",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "55",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "97",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+78 to maximum Life",
+                "+35% to Fire Resistance",
+                "+38% to Lightning Resistance",
+                "15% increased Movement Speed"
+            ],
+            "craftedMods": [
+                "+33% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 8,
+            "y": 1,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "a4bd5000ad46c4836f33ba92acb2961f10762c30759b2c0b4f0efe67ac1abd0f",
+            "name": "Torment Girdle",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+33 to maximum Life"
+            ],
+            "explicitMods": [
+                "+21 to Armour",
+                "+56 to maximum Life",
+                "+43% to Fire Resistance",
+                "+28% to Cold Resistance",
+                "17% reduced Flask Charges used"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 0,
+            "y": 4,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "9769afee1559af6eebc8ef2556d05f0a0edcfbf83b3c86e1266d8dcee98938d6",
+            "name": "Nemesis Trap",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+40 to maximum Life"
+            ],
+            "explicitMods": [
+                "+40 to maximum Life",
+                "1.5 Life Regenerated per second",
+                "+37% to Fire Resistance",
+                "+38% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 0,
+            "y": 6,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "4f73dc3424ee4017c9bfee31141a19bd6ec43c527d34018056a5767b7e9aec6e",
+            "name": "Victory Twine",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "corrupted": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+33 to maximum Life"
+            ],
+            "explicitMods": [
+                "+39 to maximum Energy Shield",
+                "+88 to maximum Life",
+                "+32% to Fire Resistance",
+                "15% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 10,
+            "y": 6,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe12",
+            "league": "Standard",
+            "id": "31f5167e11fe79fe499fda77e2a815f251bfe99a42d2997e5915c278447968b6",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Bramble Hoof",
+            "typeLine": "Reinforced Greaves",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "113",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+42 to Strength",
+                "+4 to Armour",
+                "+69 to maximum Life",
+                "9% increased Rarity of Items found",
+                "+33% to Cold Resistance",
+                "+31% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 10,
+            "y": 7,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt5.png?scale=1&w=2&h=1&v=5aa764352f06af8fd3231e6a52d710f5",
+            "league": "Standard",
+            "id": "5cf5dfe9c4a2cf5e280e743a715af8a61310f9039be6d2401e38cb0da8b16544",
+            "name": "Armageddon Snare",
+            "typeLine": "Heavy Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+30 to Strength"
+            ],
+            "explicitMods": [
+                "7% reduced Enemy Stun Threshold",
+                "+43 to maximum Energy Shield",
+                "+62 to maximum Life",
+                "+44% to Fire Resistance",
+                "+44% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 6,
+            "y": 11,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 85,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrDex3.png?scale=1&w=2&h=2&v=601dc135a14c1121dca118c2640a1335",
+            "league": "Standard",
+            "id": "a0a5a697b96955155bd1f917573b7da3db6f6987cc924995b8ff47a366d9fc8e",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Death Dash",
+            "typeLine": "Wyrmscale Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "92",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "92",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "4.7 Life Regenerated per second",
+                "+46% to Fire Resistance",
+                "+37% to Lightning Resistance",
+                "10% increased Movement Speed"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 8,
+            "y": 3,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "e659fbfa2e79a66e8ceff629b84b48884c68b861355a95bfb7ac5eacc58bff4b",
+            "name": "Skull Bond",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "39",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+33 to maximum Life"
+            ],
+            "explicitMods": [
+                "+79 to maximum Life",
+                "+27% to Fire Resistance",
+                "+30% to Lightning Resistance",
+                "19% increased Stun Duration on Enemies"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 6,
+            "y": 5,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrInt2.png?scale=1&w=2&h=2&v=9a8ce1f6169c2ad274efc202693b7293",
+            "league": "Standard",
+            "id": "116cf9d7925d79f9252b766b96c49ef0d8dadee00264c14f222b38806df99569",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Pain Goad",
+            "typeLine": "Zealot Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "73",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "14",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "38",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "38",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+43 to Intelligence",
+                "+46 to maximum Mana",
+                "+42% to Fire Resistance",
+                "+23% to Lightning Resistance",
+                "30% increased Movement Speed"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 8,
+            "y": 7,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDexInt4.png?scale=1&w=2&h=2&v=bfbd6b83d1a5a8dafbae030a0041b5fe",
+            "league": "Standard",
+            "id": "5c170e0e6798393ee09ea0507f6899e6f7bb2dbf0f7f4e334857cadbc6d5cb9b",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Pain Stride",
+            "typeLine": "Murder Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "196",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "18",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "82",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "42",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+24 to Dexterity",
+                "6% increased Evasion and Energy Shield",
+                "+67 to maximum Mana",
+                "+27% to Cold Resistance",
+                "+33% to Lightning Resistance",
+                "30% increased Movement Speed",
+                "6% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 0,
+            "y": 9,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 85,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/TwoTonedBoots2B.png?scale=1&w=2&h=2&v=435eaf7c0d9a50d4c6cf92eed702ffb7",
+            "league": "Standard",
+            "id": "e67a0df297a7267e82610ca7909c4d1ba048bcd755fdd8757eba51996623d28f",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Apocalypse Stride",
+            "typeLine": "Two-Toned Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "126",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "126",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+10% to Fire and Cold Resistances"
+            ],
+            "explicitMods": [
+                "+40 to maximum Life",
+                "+35% to Cold Resistance",
+                "+46% to Lightning Resistance"
+            ],
+            "craftedMods": [
+                "28% increased Totem Placement speed"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 4,
+            "y": 3,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58",
+            "league": "Standard",
+            "id": "b5212a6af41fd06f7cd2d4d04275156b6e0cd1a3e99e130b85c7902d2c8a28be",
+            "name": "Agony Strap",
+            "typeLine": "Studded Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "25% increased Stun Duration on Enemies"
+            ],
+            "explicitMods": [
+                "+9 to maximum Energy Shield",
+                "+33% to Fire Resistance",
+                "+37% to Cold Resistance",
+                "+24% to Lightning Resistance",
+                "15% increased Flask Mana Recovery rate"
+            ],
+            "craftedMods": [
+                "+46 to maximum Life"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 8,
+            "y": 0,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt5.png?scale=1&w=2&h=1&v=5aa764352f06af8fd3231e6a52d710f5",
+            "league": "Standard",
+            "id": "b81ece852eb14ec62072e6f82e6333387cf6132684e05305d84f313c4760b7d0",
+            "name": "Ambush Clasp",
+            "typeLine": "Heavy Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+25 to Strength"
+            ],
+            "explicitMods": [
+                "+15 to Strength",
+                "+65 to Armour",
+                "+91 to maximum Life",
+                "+18% to Lightning Resistance",
+                "+23% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 8,
+            "y": 5,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae",
+            "league": "Standard",
+            "id": "b41bd447cb97ef98f038207c09ab2a857c973067ec7e87e8bdc42c805f2f72d6",
+            "name": "Miracle Locket",
+            "typeLine": "Cloth Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "23% increased Stun and Block Recovery"
+            ],
+            "explicitMods": [
+                "12% reduced Enemy Stun Threshold",
+                "+32 to maximum Energy Shield",
+                "+96 to maximum Life",
+                "+38% to Fire Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 6,
+            "y": 6,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr2.png?scale=1&w=2&h=2&v=02bb6bfc0c0385695c4fdfa0a5fed536",
+            "league": "Standard",
+            "id": "8714a201fd15d259d0d4a95bf5b94d53cf1ab6a1c8d3dd9946f57ca886e66de9",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Armageddon Vise",
+            "typeLine": "Antique Gauntlets",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "175",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "58",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Adds 1 to 15 Lightning Damage to Attacks",
+                "+46 to Armour",
+                "+45% to Fire Resistance",
+                "+38% to Cold Resistance",
+                "+34% to Lightning Resistance"
+            ],
+            "craftedMods": [
+                "+66 to maximum Life"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae",
+            "league": "Standard",
+            "id": "523bb9a9955160c25022fb742b667164a87a543f68110905934372e746370295",
+            "name": "Brimstone Cord",
+            "typeLine": "Cloth Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "23% increased Stun and Block Recovery"
+            ],
+            "explicitMods": [
+                "+36 to Strength",
+                "+41 to maximum Energy Shield",
+                "+45% to Fire Resistance",
+                "+39% to Cold Resistance",
+                "Reflects 8 Physical Damage to Melee Attackers"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 10,
+            "y": 5,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 66,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58",
+            "league": "Standard",
+            "id": "0f1c61e0adbf444e1aa684a2df42fe637763ffe645b3e23982be26c807cf6a41",
+            "name": "Empyrean Trap",
+            "typeLine": "Studded Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "47",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "22% increased Stun Duration on Enemies"
+            ],
+            "explicitMods": [
+                "+37 to maximum Energy Shield",
+                "+85 to maximum Life",
+                "+7% to Cold Resistance",
+                "+35% to Lightning Resistance",
+                "13% increased Flask Effect Duration"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 8,
+            "y": 6,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt1.png?scale=1&w=2&h=1&v=a40ff49a65beb9e722af0f85159432f1",
+            "league": "Standard",
+            "id": "317f0dc7dd983ec0ec6d5b491ae6d98812941f6f29e0d52cafb0f866005e017c",
+            "name": "Woe Snare",
+            "typeLine": "Rustic Sash",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "20% increased Global Physical Damage"
+            ],
+            "explicitMods": [
+                "+27 to maximum Energy Shield",
+                "+82 to maximum Life",
+                "+40% to Fire Resistance",
+                "+28% to Lightning Resistance",
+                "17% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 2,
+            "y": 11,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring4.png?scale=1&w=1&h=1&v=6ef89e2afcf83dc3cc86b1522597ed2b",
+            "league": "Standard",
+            "id": "1c694ff76fc65f8b15c58c6e0bee9ac7438f17f3f04ede94a66b571eda015c36",
+            "name": "Grim Gyre",
+            "typeLine": "Gold Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "9% increased Rarity of Items found"
+            ],
+            "explicitMods": [
+                "10% increased Rarity of Items found",
+                "+7% to all Elemental Resistances",
+                "+34% to Fire Resistance",
+                "+38% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 10,
+            "y": 4,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDex4.png?scale=1&w=2&h=2&v=62a68c142ba5a605dcf6b6603bf0ab0c",
+            "league": "Standard",
+            "id": "3d1f19be1cbca90c7e482016494ac86cef944577d5fad85ed2c77a396c8619ab",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Phoenix Spark",
+            "typeLine": "Shagreen Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "218",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "55",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "97",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "21% increased Evasion Rating",
+                "+15% to Cold Resistance",
+                "+18% to Lightning Resistance",
+                "+12% to Chaos Resistance",
+                "30% increased Movement Speed"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 0,
+            "y": 2,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae",
+            "league": "Standard",
+            "id": "e657ffe81e281803030220f1b7bf52faa12422800dd66114142a798cb365753f",
+            "name": "Pain Snare",
+            "typeLine": "Cloth Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "23% increased Stun and Block Recovery"
+            ],
+            "explicitMods": [
+                "+98 to maximum Life",
+                "+20% to Fire Resistance",
+                "+43% to Cold Resistance",
+                "25% increased Stun Duration on Enemies"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 4,
+            "y": 5,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3",
+            "league": "Standard",
+            "id": "671a6ab6f6a098d7747c2cb356ca26e862275f394b50a8d94ec55ed0ff5da44e",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Brimstone Slippers",
+            "typeLine": "Sorcerer Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+8%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "66",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "123",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "27% increased Energy Shield",
+                "+83 to maximum Life",
+                "+35% to Fire Resistance",
+                "+23% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 10,
+            "y": 9,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58",
+            "league": "Standard",
+            "id": "8c5378ca0a74c93e80cc82d5ae19ec6d54ab62b02ba724b7999ef16a2caa293f",
+            "name": "Mind Snare",
+            "typeLine": "Studded Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "46",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "30% increased Stun Duration on Enemies"
+            ],
+            "explicitMods": [
+                "+82 to Armour",
+                "+12 to maximum Energy Shield",
+                "+65 to maximum Life",
+                "+18% to Fire Resistance",
+                "+26% to Cold Resistance",
+                "31% increased Stun Duration on Enemies"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 4,
+            "y": 11,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrDex3.png?scale=1&w=2&h=2&v=601dc135a14c1121dca118c2640a1335",
+            "league": "Standard",
+            "id": "46854208f668cb78bbcdea80b6abca97515ea156ae8ff54d99329231eec17e79",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Skull Spark",
+            "typeLine": "Wyrmscale Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "92",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "92",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+80 to maximum Life",
+                "+29% to Fire Resistance",
+                "+32% to Lightning Resistance",
+                "14% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 4,
+            "y": 7,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrDexInt1C.png?scale=1&w=2&h=3&v=5a4eb9d863bef835aa3d9cc9224f51a5",
+            "league": "Standard",
+            "id": "275c73e9b587a353588f46dcc24a718e60a8fb47792f50215d1b3c75c9cd618d",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Skull Guardian",
+            "typeLine": "Vaal Regalia",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "209",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "194",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+39 to Intelligence",
+                "+46 to maximum Energy Shield",
+                "+57 to maximum Life",
+                "+48 to maximum Mana",
+                "+20% to Fire Resistance",
+                "+44% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 2,
+            "y": 6,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrDex1B.png?scale=1&w=2&h=3&v=43fe2a71e9f7f4c406d25e6dec029416",
+            "league": "Standard",
+            "id": "e23296b831a414341c58ab8721563d4f25f4bd853c511ea17f10d92b3b31b46c",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Golem Jack",
+            "typeLine": "Dragonscale Doublet",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "675",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "639",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "83",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "83",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+44 to Dexterity",
+                "+96 to Armour",
+                "+74 to Evasion Rating",
+                "65% increased Armour and Evasion",
+                "+90 to maximum Life",
+                "+43% to Fire Resistance",
+                "+42% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsDexInt3.png?scale=1&w=2&h=2&v=9f826dcdb6b39a4c91d0e6ef83212f74",
+            "league": "Standard",
+            "id": "a4c9143ef10bc7077751dc3df4376e289e74a25ee7087cba9b3e367e0b03432c",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Cataclysm Tread",
+            "typeLine": "Ambush Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "100",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "17",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+15 to Evasion Rating",
+                "+22 to maximum Life",
+                "+31% to Fire Resistance",
+                "+41% to Cold Resistance",
+                "+20% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 6,
+            "y": 9,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 63,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "5f53d925535b9f6b91288bc115993ec0d7749192e7c406e9e66d2215284a0eff",
+            "name": "Foe Thread",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+40 to maximum Life"
+            ],
+            "explicitMods": [
+                "+32 to maximum Energy Shield",
+                "+47 to maximum Life",
+                "+31% to Fire Resistance",
+                "+37% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 0,
+            "y": 11,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58",
+            "league": "Standard",
+            "id": "7d0f250e98598979b4052c9475aca6dd9494eeae7769a59d32814d9eb14e2e5b",
+            "name": "Dread Strap",
+            "typeLine": "Studded Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "22% increased Stun Duration on Enemies"
+            ],
+            "explicitMods": [
+                "+181 to Armour",
+                "+88 to maximum Life",
+                "+12% to Cold Resistance",
+                "+36% to Lightning Resistance",
+                "11% increased Flask Charges gained"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 8,
+            "y": 11,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Empty-Socket.png?scale=1&w=1&h=1&v=3671f6d79d7190b43879b830e63fc078",
+            "league": "Standard",
+            "id": "a8b396664deb1f98c05d4d742c67694c95b413fd86707b4b947ca3f31badcff4",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Viper Circle",
+            "typeLine": "Unset Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "Has 1 Socket"
+            ],
+            "explicitMods": [
+                "+2 to Level of Socketed Gems",
+                "+27 to Strength",
+                "+46 to maximum Energy Shield",
+                "1.6 Life Regenerated per second",
+                "21% increased Rarity of Items found",
+                "+19% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 11,
+            "y": 4,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3",
+            "league": "Standard",
+            "id": "4d70f589f4b400e4369093e61f578969809dfaa711640f0a46b189850c67a34f",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Chimeric Tread",
+            "typeLine": "Sorcerer Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "76",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "123",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "55% increased Energy Shield",
+                "+29% to Fire Resistance",
+                "+27% to Cold Resistance",
+                "+19% to Lightning Resistance",
+                "12% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 2,
+            "y": 9,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStr7.png?scale=1&w=2&h=2&v=070db8eaafa69c5225d50554bf398ba0",
+            "league": "Standard",
+            "id": "48b79d5ca693b42d863374765391731b831040c7656199d569c4508b39907c72",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Empyrean Peak",
+            "typeLine": "Siege Helmet",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "318",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "101",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+1 to Level of Socketed Minion Gems",
+                "34% increased Armour",
+                "+41 to maximum Life",
+                "+45% to Fire Resistance",
+                "+45% to Lightning Resistance",
+                "15% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 6,
+            "y": 2,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae",
+            "league": "Standard",
+            "id": "6fb500f6a78f5aecb97dc87895de86c749df67f59419c8e2f9929764ce05d897",
+            "name": "Domination Lash",
+            "typeLine": "Cloth Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "19% increased Stun and Block Recovery"
+            ],
+            "explicitMods": [
+                "+28 to maximum Energy Shield",
+                "+98 to maximum Life",
+                "1.2 Life Regenerated per second",
+                "+19% to Fire Resistance",
+                "+24% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 4,
+            "y": 6,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyInt1B.png?scale=1&w=2&h=3&v=8aeda9998a622e9b5d0d61821584b17d",
+            "league": "Standard",
+            "id": "dd924293db5f47b1043f8322a7e69383eaf90d507f9b27707a03ff3bce7ac0ea",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Hypnotic Curtain",
+            "typeLine": "Savant's Robe",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "206",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "152",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+97 to maximum Energy Shield",
+                "+77 to maximum Life",
+                "+24% to Cold Resistance",
+                "+31% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 4,
+            "y": 0,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt1.png?scale=1&w=2&h=1&v=a40ff49a65beb9e722af0f85159432f1",
+            "league": "Standard",
+            "id": "6361c0accc4c757fee16f358c30b1bbb94be4b017df61bbdca628ec24f9733fa",
+            "name": "Ghoul Strap",
+            "typeLine": "Rustic Sash",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "24% increased Global Physical Damage"
+            ],
+            "explicitMods": [
+                "+36 to maximum Life",
+                "+41% to Fire Resistance",
+                "+20% to Cold Resistance",
+                "+25% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 0,
+            "y": 5,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt1.png?scale=1&w=2&h=1&v=a40ff49a65beb9e722af0f85159432f1",
+            "league": "Standard",
+            "id": "13760b694efc92105b0e78fa6aab0153396296ebe795c2c9a832ff7a8e0eb7b8",
+            "name": "Plague Leash",
+            "typeLine": "Rustic Sash",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "16% increased Global Physical Damage"
+            ],
+            "explicitMods": [
+                "+20 to maximum Energy Shield",
+                "+29 to maximum Life",
+                "+37% to Cold Resistance",
+                "+19% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 6,
+            "y": 4,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 68,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe12",
+            "league": "Standard",
+            "id": "fbfec3f15076e70465b392c2e351d6217725022597e23fd290a380be812dc31e",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Viper League",
+            "typeLine": "Reinforced Greaves",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+6%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "145",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "27% increased Armour",
+                "+83 to maximum Life",
+                "10% increased Rarity of Items found",
+                "+40% to Fire Resistance",
+                "+12% to Cold Resistance",
+                "+21% to Lightning Resistance",
+                "12% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 8,
+            "y": 9,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrInt3.png?scale=1&w=2&h=2&v=3ca9bf635d09f26ef27ad85b922fd5e8",
+            "league": "Standard",
+            "id": "aad93aebc8976cf93237ca5bb4a186d074b6507ae59ae76c4e86fea81f611e41",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Oblivion March",
+            "typeLine": "Crusader Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "121",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "24",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "64",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+77 to maximum Life",
+                "8.3 Life Regenerated per second",
+                "+38 to maximum Mana",
+                "+25% to Fire Resistance",
+                "+38% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 6,
+            "y": 7,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStrInt3.png?scale=1&w=2&h=2&v=3ca9bf635d09f26ef27ad85b922fd5e8",
+            "league": "Standard",
+            "id": "7605fd91034f02f7ce944e2134a8c0a00685b1ffbbe5bef1cd2c3f03a3e18e1d",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Wrath Spark",
+            "typeLine": "Soldier Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "88",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "17",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "49",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "47",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "47",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+41 to maximum Life",
+                "+39% to Fire Resistance",
+                "+18% to Lightning Resistance",
+                "+24% to Chaos Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 4,
+            "y": 9,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt6.png?scale=1&w=2&h=1&v=c6603b23e7ea1431c247869e74262a58",
+            "league": "Standard",
+            "id": "30e73eafb8bd278027e3851e37d6ab57eb8dce4242b9800d8a2f28853946080a",
+            "name": "Brimstone Locket",
+            "typeLine": "Studded Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "24% increased Stun Duration on Enemies"
+            ],
+            "explicitMods": [
+                "+3 to maximum Life",
+                "+37% to Fire Resistance",
+                "+34% to Cold Resistance",
+                "+31% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 10,
+            "y": 11,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/TwoTonedBoots3B.png?scale=1&w=2&h=2&v=be244f0640954c1c79656ff79fcfc79f",
+            "league": "Standard",
+            "id": "9608af04b4cb42fb26b3356f475b145117c9e541c33f3d844a182fbd4d0b1859",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 2,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 2,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Dire Spark",
+            "typeLine": "Two-Toned Boots",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "173",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "33",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "70",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+11% to Fire and Lightning Resistances"
+            ],
+            "explicitMods": [
+                "37% increased Armour and Energy Shield",
+                "+77 to maximum Life",
+                "+45% to Fire Resistance",
+                "29% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 10,
+            "y": 2,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrDex10.png?scale=1&w=2&h=2&v=0a540f285248cdb64d4607186e348e3d",
+            "league": "Standard",
+            "id": "3e739a09804a00532f6d89668908d0697f9e41ee91c106b7c23d9b9c55b043f4",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Entropy Visage",
+            "typeLine": "Nightmare Bascinet",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "217",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "312",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "67",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "85",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "34% increased Armour and Evasion",
+                "+7% to Fire Resistance",
+                "+29% to Cold Resistance",
+                "+35% to Lightning Resistance",
+                "14% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 6,
+            "y": 0,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 63,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrDex1C.png?scale=1&w=2&h=3&v=e0eca364abb34a00e7496c90944c8e12",
+            "league": "Standard",
+            "id": "5fd77873e3e32d3e94363b40200659fc6b6f7240aed7dbd4b2e1dcdfd83a3093",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 2,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 2,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Entropy Cloak",
+            "typeLine": "Full Dragonscale",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+8%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "513",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "442",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "63",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "115",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "94",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+5 to Armour",
+                "+36 to Evasion Rating",
+                "+27 to maximum Life",
+                "+23% to Fire Resistance",
+                "+31% to Cold Resistance",
+                "Reflects 3 Physical Damage to Melee Attackers"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 2,
+            "y": 3,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 76,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDexInt8.png?scale=1&w=2&h=2&v=3f4940b7435925dd03ce3bce57a9703f",
+            "league": "Standard",
+            "id": "55e5b43c173a2797a885d395508569fb0c34b97dac94e4b76bc387d3538466a6",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Empyrean Veil",
+            "typeLine": "Regicide Mask",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "154",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "50",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "58",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "58",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 16 Hypothermia",
+                "Adds 21 to 40 Cold Damage to Spells",
+                "+13 to Evasion Rating",
+                "+22 to maximum Energy Shield",
+                "+25 to maximum Life",
+                "9% increased Effect of Chill"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 10,
+            "y": 0,
+            "inventoryId": "Stash5",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 70,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "cb9f43e6f0ec7823a96a910fd0c04e7c8a9d7da3a50c3c8ca27a5f20691ea212",
+            "name": "Oblivion Bind",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "48",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+27 to maximum Life"
+            ],
+            "explicitMods": [
+                "+38% to Fire Resistance",
+                "+35% to Cold Resistance",
+                "+27% to Lightning Resistance",
+                "Reflects 1 Physical Damage to Melee Attackers"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 0,
+            "y": 7,
+            "inventoryId": "Stash5"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
+            "league": "Standard",
+            "id": "fb666aaa481e1b8446d26ce4bf53174264c7acca78f268e9c4f093f93462f0ef",
+            "name": "Nemesis Lock",
+            "typeLine": "Leather Belt",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+28 to maximum Life"
+            ],
+            "explicitMods": [
+                "+20 to maximum Energy Shield",
+                "+23% to Fire Resistance",
+                "+44% to Cold Resistance",
+                "+29% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 0,
+            "y": 8,
+            "inventoryId": "Stash5"
+        }
+    ]
+}

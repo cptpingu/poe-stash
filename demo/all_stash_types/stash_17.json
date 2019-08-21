@@ -1,1 +1,3836 @@
-{"numTabs":14,"items":[{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/CrownofEyes.png?scale=1&w=2&h=2&v=6295f8e6c2f369a358fc97f530636770","league":"Standard","id":"f925a9469212811cfd219fb4301bfd8115d249efc83d71f2e50f770b50c708f0","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"Crown of Eyes","typeLine":"Hubris Circlet","identified":true,"properties":[{"name":"Quality","values":[["+7%",1]],"displayMode":0,"type":6},{"name":"Energy Shield","values":[["176",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["69",0]],"displayMode":0},{"name":"Int","values":[["154",0]],"displayMode":1}],"explicitMods":["+319 to Accuracy Rating","125% increased Energy Shield","-30% to Fire Resistance","0.44% of Attack Damage Leeched as Life","0.2% of Attack Damage Leeched as Mana","Increases and Reductions to Spell Damage also apply to Attacks"],"flavourText":["Turning, gazing, blinking,\r","behold the eyes of void.\r","Burning, razing, drinking,\r","your mind is destroyed."],"frameType":3,"category":{"armour":["helmet"]},"x":10,"y":5,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/LorisLantern.png?scale=1&w=1&h=1&v=4b05c25bc06097fc709115cd8740e6a1","league":"Standard","id":"e2a3a4054f4bbd26b4b9d36730a22950769a226142d29653868bd82885c2a442","name":"Lori's Lantern","typeLine":"Prismatic Ring","identified":true,"requirements":[{"name":"Level","values":[["30",0]],"displayMode":0}],"implicitMods":["+8% to all Elemental Resistances"],"explicitMods":["+10% to all Elemental Resistances","8% increased Movement Speed when on Low Life","31% increased Light Radius","+23% to Chaos Resistance when on Low Life","Damage from Enemies Hitting you is Unlucky while you are on Low Life"],"flavourText":["By its light, Lori led her young charges to safety \r","and bound up their wounds. \r","Her sword arm was iron, yet her heart gentle \r","and proof against hate."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":10,"inventoryId":"Stash14"},{"verified":false,"w":2,"h":2,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr4.png?scale=1&w=2&h=2&v=b2997b2df11d3b19cbb6a4c3054acda6","league":"Standard","id":"680cae497d758df4ddf5d1b312131da50fd5c8fb413e8e73e635ae9a7e3bb3c3","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"Death Claw","typeLine":"Titan Gauntlets","identified":true,"properties":[{"name":"Armour","values":[["242",0]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["69",0]],"displayMode":0},{"name":"Str","values":[["98",0]],"displayMode":1}],"explicitMods":["+11 to Dexterity","+69 to maximum Life","+44% to Fire Resistance","+38% to Cold Resistance"],"frameType":2,"category":{"armour":["gloves"]},"x":8,"y":6,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/CitrineAmulet.png?scale=1&w=1&h=1&v=392b4ef08d8b72daaf1d0ec50d017398","league":"Standard","id":"114c227692565c0c819568249a360bbd9fee487d560396a92f693e7c9be7bda5","elder":true,"name":"Entropy Gorget","typeLine":"Citrine Amulet","identified":true,"requirements":[{"name":"Level","values":[["54",0]],"displayMode":0}],"implicitMods":["+19 to Strength and Dexterity"],"explicitMods":["26% increased Cold Damage","+36% to Lightning Resistance","0.42% of Physical Damage Leeched as Life","Projectiles Pierce an additional Target"],"frameType":2,"category":{"accessories":["amulet"]},"x":0,"y":8,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MokousEmbrace.png?scale=1&w=1&h=1&v=60613e7904f0f63859c98673562c815e","league":"Standard","id":"b32ea6d8a255974e62e6e52e6c38ded09856badb75536b87946d8ed40e7e2ee8","name":"Mokou's Embrace","typeLine":"Ruby Ring","identified":true,"requirements":[{"name":"Level","values":[["16",0]],"displayMode":0}],"implicitMods":["+21% to Fire Resistance"],"explicitMods":["16% increased Fire Damage","+29% to Cold Resistance","9% chance to Ignite","20% increased Attack Speed while Ignited","20% increased Cast Speed while Ignited","+25% chance to be Ignited"],"flavourText":["Fire makes the perfect blossom in the endless night."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":7,"inventoryId":"Stash14"},{"verified":false,"w":2,"h":2,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesInt3.png?scale=1&w=2&h=2&v=af52d7a61dc25003bf727c86cd21b103","league":"Standard","id":"77d77dbfc068686df45a07580b705773dac0f0a944913adf3ae77daba1f691d2","shaper":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"I","sColour":"B"}],"name":"Corruption Fist","typeLine":"Samite Gloves","identified":true,"properties":[{"name":"Energy Shield","values":[["73",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Int","values":[["68",0]],"displayMode":1}],"explicitMods":["Socketed Gems are supported by Level 18 Blind","Socketed Gems are Supported by Level 18 Faster Casting","10% increased Cast Speed","+43 to maximum Energy Shield","+42% to Cold Resistance","8% Global chance to Blind Enemies on hit"],"frameType":2,"category":{"armour":["gloves"]},"x":10,"y":3,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt3.png?scale=1&w=2&h=2&v=559c119664070970cfbdc8203425aa76","league":"Standard","id":"53cd0ccb4141d5653b71445a3a31c9f482138b22f640bcb9ba447784b30aff52","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"D","sColour":"G"}],"name":"Ghoul Palm","typeLine":"Carnal Mitts","identified":true,"properties":[{"name":"Evasion Rating","values":[["90",0]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["18",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["57",0]],"displayMode":0},{"name":"Dex","values":[["39",0]],"displayMode":1},{"name":"Int","values":[["39",0]],"displayMode":1}],"explicitMods":["+80 to maximum Life","+42% to Fire Resistance","+18% to Cold Resistance","+6% to Lightning Resistance"],"frameType":2,"category":{"armour":["gloves"]},"x":10,"y":1,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e","league":"Standard","id":"decddf4a9a3ac48b13ed82001fb02811a3e18c6034a2bc1f0f60db6ba744f565","sockets":[{"group":0,"attr":"G","sColour":"W"}],"name":"Malachai's Artifice","typeLine":"Unset Ring","identified":true,"requirements":[{"name":"Level","values":[["5",0]],"displayMode":0}],"implicitMods":["Has 1 Socket"],"explicitMods":["Socketed Gems have Elemental Equilibrium","-20% to all Elemental Resistances","+93% to Fire Resistance when Socketed with a Red Gem","+85% to Cold Resistance when Socketed with a Green Gem","+75% to Lightning Resistance when Socketed with a Blue Gem","All Sockets are White"],"flavourText":["When the wind blows, \r","Know which way to bend\r","and watch the others break."],"frameType":3,"category":{"accessories":["ring"]},"x":4,"y":1,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/Thousandribbons.png?scale=1&w=2&h=3&v=79f259f0c23beb85df419e9def6b0528","league":"Standard","id":"b42a16d765d250bbfd348611162aed6bd7dc6e8c658f174e42b1de2d5798f824","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"Thousand Ribbons","typeLine":"Simple Robe","identified":true,"properties":[{"name":"Evasion Rating","values":[["18",1]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["26",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["17",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 5 Elemental Proliferation","Adds 2 to 3 Fire Damage to Spells and Attacks","Adds 2 to 3 Cold Damage to Spells and Attacks","Adds 1 to 4 Lightning Damage to Spells and Attacks","+18 to Evasion Rating","+14 to maximum Energy Shield","+6 to maximum Life","+6 to maximum Mana","+6% to Fire Resistance","+9% to Cold Resistance","+10% to Lightning Resistance"],"flavourText":["The night of a thousand ribbons\r","To remember the day of a thousand flames\r","When Sarn burned\r","And was born again"],"frameType":3,"category":{"armour":["chest"]},"x":8,"y":1,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":72,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/DoedresTenure.png?scale=1&w=2&h=2&v=edf8fd9f9f93ce0c4c55aacd83fe4b78","league":"Standard","id":"332cd8938d52aed8effd515157cf99cbbf70d4b72c8925986f5116036be14d60","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"}],"name":"Doedre's Tenure","typeLine":"Velvet Gloves","identified":true,"properties":[{"name":"Energy Shield","values":[["41",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["12",0]],"displayMode":0},{"name":"Int","values":[["21",0]],"displayMode":1}],"explicitMods":["+20 to Intelligence","59% increased Spell Damage","15% reduced Cast Speed","+32 to maximum Energy Shield"],"flavourText":["While Doedre lacked Maligaro's sense of style,\r","she surpassed her master in pure malevolence."],"frameType":3,"category":{"armour":["gloves"]},"x":2,"y":6,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":4,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandAxes\/SinvictasMettle.png?scale=1&w=2&h=4&v=680f56a3d1cb79a9fa4f7a4319d36588","league":"Standard","id":"23c511ae6a84ff3f6ffb2be5c79c136d4d7f20dfc0357e4c23e6f517ee734ceb","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"D","sColour":"G"}],"name":"Sinvicta's Mettle","typeLine":"Ezomyte Axe","identified":true,"properties":[{"name":"Two Handed Axe","values":[],"displayMode":0},{"name":"Physical Damage","values":[["217-325",1]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["5.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.42",1]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["13",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["62",0]],"displayMode":0},{"name":"Str","values":[["140",0]],"displayMode":1},{"name":"Dex","values":[["86",0]],"displayMode":1}],"explicitMods":["201% increased Physical Damage","9% increased Attack Speed","2% increased Area of Effect per 25 Rampage Kills","Gain a Frenzy Charge on every 50th Rampage Kill","Rampage"],"flavourText":["War is a thriving infection.\r","It numbs the heart and eats away at the soul\r","until only emptiness remains."],"frameType":3,"category":{"weapons":["twoaxe"]},"x":6,"y":8,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStrDex2.png?scale=1&w=2&h=2&v=385517339bcc890605b26256f1265e88","league":"Standard","id":"41ce129a9ee8e2db7badd57538c54569967fe5cd4114f5da4984f95413cd3386","shaper":true,"sockets":[{"group":0,"attr":"D","sColour":"G"}],"name":"Agony Clutches","typeLine":"Hydrascale Gauntlets","identified":true,"properties":[{"name":"Quality","values":[["+5%",1]],"displayMode":0,"type":6},{"name":"Armour","values":[["164",1]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["164",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["59",0]],"displayMode":0},{"name":"Str","values":[["45",0]],"displayMode":1},{"name":"Dex","values":[["45",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 16 Slower Projectiles","Socketed Gems are Supported by Level 16 Faster Casting","7% increased Cast Speed","50% increased Armour and Evasion","4.4 Life Regenerated per second","17% increased Projectile Damage"],"frameType":2,"category":{"armour":["gloves"]},"x":4,"y":5,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Scepters\/scepter6.png?scale=1&w=2&h=3&v=59a333efbe23c0fecdbc46a1cdc28865","league":"Standard","id":"7a7aff18aaacbdc9f13e5ab8c0fabc2a90017124fd51814769b60dc23b70683f","shaper":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"}],"name":"Demon Crusher","typeLine":"Blood Sceptre","identified":true,"properties":[{"name":"One Handed Mace","values":[],"displayMode":0},{"name":"Physical Damage","values":[["30-55",0]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["6.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.40",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Str","values":[["66",1]],"displayMode":1},{"name":"Int","values":[["66",1]],"displayMode":1}],"implicitMods":["24% increased Elemental Damage"],"explicitMods":["Socketed Gems are Supported by Level 20 Elemental Proliferation","Socketed Gems are Supported by Level 16 Controlled Destruction","49% increased Spell Damage","26% increased Stun Duration on Enemies","18% reduced Attribute Requirements","9% chance to Freeze, Shock and Ignite"],"frameType":2,"category":{"weapons":["sceptre","onemace"]},"x":10,"y":9,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":3,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandMaces\/OneHandMace2.png?scale=1&w=1&h=3&v=a46820a7c96f601ec6412fa51e8a86cd","league":"Standard","id":"b4a1811d7777e661134c4c69446f2d39812e670046ae21156b67c01b6b1e9b8d","elder":true,"sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"Corruption Blunt","typeLine":"Ancestral Club","identified":true,"properties":[{"name":"One Handed Mace","values":[],"displayMode":0},{"name":"Physical Damage","values":[["56-94",1]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["5.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.25",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0},{"name":"Str","values":[["179",0]],"displayMode":1}],"implicitMods":["10% reduced Enemy Stun Threshold"],"explicitMods":["Socketed Gems are Supported by Level 20 Chance To Bleed","Socketed Gems are Supported by Level 18 Poison","17% increased Physical Damage","12% increased Global Accuracy Rating","+20 to Accuracy Rating","15% chance to cause Bleeding on Hit","10% increased Light Radius","15% chance to Poison on Hit"],"frameType":2,"category":{"weapons":["onemace"]},"x":0,"y":9,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Cherufe.png?scale=1&w=1&h=1&v=dd9b8521bfd1c76751ecd8ffd5d0d5d4","league":"Standard","id":"5c0e901a164db434f9ad9625c531d6aaea231db20748fcd0348ccce07d8bf2d8","name":"Pyre","typeLine":"Sapphire Ring","identified":true,"requirements":[{"name":"Level","values":[["11",0]],"displayMode":0}],"implicitMods":["+28% to Cold Resistance"],"explicitMods":["+29% to Fire Resistance","70% increased Burning Damage","40% of Cold Damage Converted to Fire Damage","10% increased Light Radius","Ignited Enemies you hit are destroyed on Kill"],"flavourText":["Let winter come. It will only make my fire burn brighter."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":11,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Praxis.png?scale=1&w=1&h=1&v=b2fb96f28c4e2067cff2bb847e231a4b","league":"Standard","id":"46270dead22338c4e56035120b82142c8a50b0d5af20c56b0a8b92e0f097c0c5","name":"Praxis","typeLine":"Paua Ring","identified":true,"requirements":[{"name":"Level","values":[["22",0]],"displayMode":0}],"implicitMods":["+23 to maximum Mana"],"explicitMods":["+38 to maximum Mana","3.5 Mana Regenerated per second","-4 to Total Mana Cost of Skills","8% of Damage taken gained as Mana over 4 seconds when Hit"],"flavourText":["The Thaumaturgical masters of the Eternal Empire,\r","as unpredictable and varied as they were,\r","all understood one thing:\r","Free thinking leads to free action."],"frameType":3,"category":{"accessories":["ring"]},"x":2,"y":2,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MingsHeart.png?scale=1&w=1&h=1&v=afec6b4293c9177878d15abf8846863f","league":"Standard","id":"85b734ae4ee7478927728a092392f503a2655905683488a3b2739db770662f61","name":"Ming's Heart","typeLine":"Amethyst Ring","identified":true,"requirements":[{"name":"Level","values":[["69",0]],"displayMode":0}],"implicitMods":["+12% to Chaos Resistance"],"explicitMods":["7% reduced maximum Energy Shield","6% reduced maximum Life","+44% to Chaos Resistance","Gain 20% of Physical Damage as Extra Chaos Damage"],"flavourText":["Ming slew Tranquillity\r","Took Chaos for his wife\r","And on Her immortal finger\r","He placed his Heart"],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":6,"inventoryId":"Stash14"},{"verified":false,"w":2,"h":3,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyInt1CUnique.png?scale=1&w=2&h=3&v=916d09968d86f9d7840bcd2fab661b10","league":"Standard","id":"57da083cf02822f86c07560b6df61ca6fdb5f0ebe3f78c4517eb6315b3114399","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"Shavronne's Wrappings","typeLine":"Occultist's Vestment","identified":true,"properties":[{"name":"Energy Shield","values":[["312",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["62",0]],"displayMode":0},{"name":"Int","values":[["180",0]],"displayMode":1}],"implicitMods":["6% increased Spell Damage"],"explicitMods":["140% increased Energy Shield","10% faster start of Energy Shield Recharge","+40% to Lightning Resistance","Reflects 1 to 250 Lightning Damage to Melee Attackers","Chaos Damage does not bypass Energy Shield"],"flavourText":["Shavronne's apparel became ever more extravagant\r","as her body and soul became ever more corrupted."],"frameType":3,"category":{"armour":["chest"]},"x":4,"y":9,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":72,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Claws\/ThoughtMotion1.png?scale=1&w=2&h=2&v=fa56d189a8197762a5904b7a95df74bc","league":"Standard","id":"81c60bdecd8ed10472f52a3d90ac2f7e9a366092411aee2c7c59710079b644b4","sockets":[{"group":0,"attr":"I","sColour":"B"}],"name":"Hand of Thought and Motion","typeLine":"Blinder","identified":true,"properties":[{"name":"Claw","values":[],"displayMode":0},{"name":"Quality","values":[["+9%",1]],"displayMode":0,"type":6},{"name":"Physical Damage","values":[["13-34",1]],"displayMode":0,"type":9},{"name":"Elemental Damage","values":[["1-53",6]],"displayMode":0,"type":10},{"name":"Critical Strike Chance","values":[["6.30%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.74",1]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["22",0]],"displayMode":0},{"name":"Dex","values":[["41",0]],"displayMode":1},{"name":"Int","values":[["41",0]],"displayMode":1}],"implicitMods":["+12 Life gained for each Enemy hit by Attacks"],"explicitMods":["Adds 1 to 53 Lightning Damage","12% increased Attack Speed","Adds 1 to 5 Lightning Damage to Attacks with this Weapon per 10 Intelligence","24% increased Elemental Damage with Attack Skills"],"flavourText":["She carries us and nurtures us\r","until we must feed upon each other.\r","\r","<default>{This item can be transformed with a Blessing of Esh}"],"frameType":3,"category":{"weapons":["claw"]},"x":6,"y":0,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44","league":"Standard","id":"d197774d0757ace97cec8a760925a2da788eefef57e36de8587c3184b5322a4d","name":"Blackheart","typeLine":"Iron Ring","identified":true,"implicitMods":["Adds 1 to 4 Physical Damage to Attacks"],"explicitMods":["5% increased Global Physical Damage","Adds 1 to 3 Chaos Damage to Attacks","+20 to maximum Life","2.2 Life Regenerated per second","10% chance to Cause Monsters to Flee"],"flavourText":["Fear is highly infectious."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":3,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet2Unique.png?scale=1&w=1&h=1&v=266e824bb226df8e3f2717ef58b49f6d","league":"Standard","id":"033501fd60097ac746a99086b40aa3d8ebfece8514de4743010451f1e2a127c7","name":"Araku Tiki","typeLine":"Coral Amulet","identified":true,"implicitMods":["3.8 Life Regenerated per second"],"explicitMods":["+100 to Evasion Rating while on Low Life","+43 to maximum Life","+21% to Fire Resistance","1% of Life Regenerated per second while on Low Life"],"flavourText":["It is said to make you invisible when the Great\r","Spirit comes to take you on your final journey."],"frameType":3,"category":{"accessories":["amulet"]},"x":3,"y":2,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/BloodAmulet.png?scale=1&w=1&h=1&v=2b7884965df5fd38636a881a4a8b6501","league":"Standard","id":"cbd8f65a7cd8e9c6019f1e4b0e885049dec7e09b01238d6d28a93d201576433d","name":"Bloodgrip","typeLine":"Marble Amulet","identified":true,"requirements":[{"name":"Level","values":[["74",0]],"displayMode":0}],"implicitMods":["1.52% of Life Regenerated per second"],"explicitMods":["Adds 10 to 20 Physical Damage to Attacks","+64 to maximum Life","11 Life Regenerated per second","100% increased Life Recovery from Flasks","Moving while Bleeding doesn't cause you to take extra Damage"],"flavourText":["Combat is simple.\r","Keep your blood in.\r","Take theirs out."],"frameType":3,"category":{"accessories":["amulet"]},"x":11,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/PerquilsToe.png?scale=1&w=1&h=1&v=ca91a71d8481975605b2066736ad9fc0","league":"Standard","id":"898876c13309a4e05ed886e2f79d3a6af500388bf4bc9467857b6b1a0b9c643d","name":"Perquil's Toe","typeLine":"Gold Amulet","identified":true,"requirements":[{"name":"Level","values":[["29",0]],"displayMode":0}],"implicitMods":["12% increased Rarity of Items found"],"explicitMods":["+40 to Dexterity","5% increased Movement Speed","Lightning Damage from Enemies Hitting you is Lucky","Nearby Allies' Damage with Hits is Lucky"],"flavourText":["He was a lot luckier before he lost this."],"frameType":3,"category":{"accessories":["amulet"]},"x":9,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":2,"h":2,"ilvl":63,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/ThreeDragons.png?scale=1&w=2&h=2&v=61fed7da15e678cfd57b6dd9154865f8","league":"Standard","id":"c3e4f62eeacea02a1e555eab6eb30d1a3b4513fc4a711f5a74009af1d22be4db","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"The Three Dragons","typeLine":"Golden Mask","identified":true,"properties":[{"name":"Evasion Rating","values":[["96",0]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["19",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["35",0]],"displayMode":0},{"name":"Dex","values":[["40",0]],"displayMode":1},{"name":"Int","values":[["40",0]],"displayMode":1}],"explicitMods":["+30% to all Elemental Resistances","Your Fire Damage can Shock but not Ignite","Your Cold Damage can Ignite but not Freeze or Chill","Your Lightning Damage can Freeze but not Shock"],"flavourText":["\"The ice seared his naked feet\r","As the lightning stilled his heart,\r","But it was the flames upon his lover's face\r","That roused him to vengeance.\"\r","- From 'The Three Dragons' by Victario of Sarn"],"frameType":3,"category":{"armour":["helmet"]},"x":4,"y":7,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt7.png?scale=1&w=2&h=2&v=0f230458eaf985d877912eae780a91fc","league":"Standard","id":"455633acaf58b461a3684912fcef142685b2dbf627e79f08ca29e73fdabf8561","elder":true,"sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"Vengeance Keep","typeLine":"Steel Circlet","identified":true,"properties":[{"name":"Quality","values":[["+14%",1]],"displayMode":0,"type":6},{"name":"Energy Shield","values":[["76",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["66",0]],"displayMode":0},{"name":"Int","values":[["101",0]],"displayMode":1}],"explicitMods":["Socketed Gems are Supported by Level 20 Minion Damage","51% increased Energy Shield","+22% to Lightning Resistance","22% increased Stun and Block Recovery","Minions deal 23% increased Damage"],"frameType":2,"category":{"armour":["helmet"]},"x":8,"y":4,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":4,"ilvl":85,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff6unique.png?scale=1&w=2&h=4&v=d2e8ef91b21959805d65c9110d356ada","league":"Standard","id":"93364dbca66f762db5318cd390927f4aa6c04c3767c6cb9ab8450ac91b2e3786","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"Agnerod West","typeLine":"Imperial Staff","identified":true,"properties":[{"name":"Staff","values":[],"displayMode":0},{"name":"Physical Damage","values":[["49-147",0]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["7.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.15",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["13",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["66",0]],"displayMode":0},{"name":"Str","values":[["158",1]],"displayMode":1},{"name":"Int","values":[["113",0]],"displayMode":1}],"implicitMods":["+18% Chance to Block Attack Damage while wielding a Staff"],"explicitMods":["+2 to Level of Socketed Lightning Gems","+85 to Intelligence","46% increased Lightning Damage","Adds 15 to 111 Lightning Damage to Spells","40% increased Strength Requirement","Damage Penetrates 20% Lightning Resistance"],"flavourText":["One for each corner of the great Vinktar Square."],"frameType":3,"category":{"weapons":["staff"]},"x":2,"y":8,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Scepters\/Plaguebringer.png?scale=1&w=2&h=3&v=21365c46344b3a38ac2ebe605dfcc703","league":"Standard","id":"12028bc54e7fd08271c5909b2a25cffb0c6475ac8ea51c5dc57347c1fa3cba52","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"S","sColour":"R"}],"name":"Breath of the Council","typeLine":"Carnal Sceptre","identified":true,"properties":[{"name":"One Handed Mace","values":[],"displayMode":0},{"name":"Physical Damage","values":[["150-348",1]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["6.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.20",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["11",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["66",0]],"displayMode":0},{"name":"Str","values":[["113",0]],"displayMode":1},{"name":"Int","values":[["113",0]],"displayMode":1}],"implicitMods":["32% increased Elemental Damage"],"explicitMods":["266% increased Physical Damage","95% increased Chaos Damage","10% increased Area of Effect","Chaos Skills have 40% increased Skill Effect Duration"],"flavourText":["Breathe deep, and give yourself over to eternity."],"frameType":3,"category":{"weapons":["sceptre","onemace"]},"x":6,"y":2,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet4Unique.png?scale=1&w=1&h=1&v=64218cb6f18db9440f2691a6a52f8fee","league":"Standard","id":"ef33a6e38770fb69fbbef2e448794122a48bed5c4cba35ac5c3cd009944c403f","name":"Karui Ward","typeLine":"Jade Amulet","identified":true,"requirements":[{"name":"Level","values":[["5",0]],"displayMode":0}],"implicitMods":["+27 to Dexterity"],"explicitMods":["+29 to Strength","+100 to Accuracy Rating","30% increased Projectile Speed","10% increased Movement Speed","30% increased Projectile Damage"],"flavourText":["\"Shoot first, ask no questions.\"\r","- Karui wisdom"],"frameType":3,"category":{"accessories":["amulet"]},"x":8,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e","league":"Standard","id":"b0968eaa82db831083053ef1a0b9e213db179ff2ad6dc1c68d0d5f5e3a8c3319","sockets":[{"group":0,"attr":"G","sColour":"W"}],"name":"Malachai's Artifice","typeLine":"Unset Ring","identified":true,"requirements":[{"name":"Level","values":[["5",0]],"displayMode":0}],"implicitMods":["Has 1 Socket"],"explicitMods":["Socketed Gems have Elemental Equilibrium","-20% to all Elemental Resistances","+76% to Fire Resistance when Socketed with a Red Gem","+96% to Cold Resistance when Socketed with a Green Gem","+85% to Lightning Resistance when Socketed with a Blue Gem","All Sockets are White"],"flavourText":["When the wind blows, \r","Know which way to bend\r","and watch the others break."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":1,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/TheSnowblindGrace.png?scale=1&w=2&h=3&v=136f9b88d623c4a6a0c89360ef0a9039","league":"Standard","id":"3f4f839b89dd8ed60616e639b25b147da3cc44c3be6631a152224baf3f075453","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"D","sColour":"G"}],"name":"The Snowblind Grace","typeLine":"Coronal Leather","identified":true,"properties":[{"name":"Quality","values":[["+9%",1]],"displayMode":0,"type":6},{"name":"Evasion Rating","values":[["737",1]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["49",0]],"displayMode":0},{"name":"Dex","values":[["134",0]],"displayMode":1}],"explicitMods":["+30 to Dexterity","41% increased Evasion Rating","+43 to maximum Life","10% chance to Dodge Spell Hits","25% increased Arctic Armour Buff Effect","Evasion Rating is increased by Uncapped Cold Resistance"],"flavourText":["We dance in the white, like water,\r","colliding as many and emerging as one.\r","\r","<default>{This item can be transformed with a Blessing of Tul}"],"frameType":3,"category":{"armour":["chest"]},"x":6,"y":5,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44","league":"Standard","id":"4a469ef24f598f1d20acb6d669da9fe8a547725130e9d590aa6c8d6bda841d53","name":"Blackheart","typeLine":"Iron Ring","identified":true,"implicitMods":["Adds 1 to 4 Physical Damage to Attacks"],"explicitMods":["5% increased Global Physical Damage","Adds 1 to 3 Chaos Damage to Attacks","+20 to maximum Life","3.8 Life Regenerated per second","10% chance to Cause Monsters to Flee"],"flavourText":["Fear is highly infectious."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":2,"inventoryId":"Stash14"},{"verified":false,"w":2,"h":2,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/EmbalmersGloves.png?scale=1&w=2&h=2&v=eb3964fd9a117c0af27d05062defc960","league":"Standard","id":"d699ee2a5aa135f71e5864e9c324658a81a70efc055c93e23ee324324847822b","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"Allelopathy","typeLine":"Sorcerer Gloves","identified":true,"properties":[{"name":"Energy Shield","values":[["94",1]],"displayMode":0,"type":18}],"requirements":[{"name":"Level","values":[["69",0]],"displayMode":0},{"name":"Int","values":[["97",0]],"displayMode":1}],"explicitMods":["Grants Level 22 Blight Skill","28% increased Damage over Time","100% increased Energy Shield","10% increased Area of Effect","Blight has 25% increased Hinder Duration","You cannot be Hindered"],"flavourText":["\"Nothing is more natural than competition.\r","One feasts, another starves.\r","One blossoms, another withers.\r","And one cannot catch the golden sunlight\r","without casting a bitter shadow.\"\r","- Cadiro Perandus"],"frameType":3,"category":{"armour":["gloves"]},"x":10,"y":7,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MokousEmbrace.png?scale=1&w=1&h=1&v=60613e7904f0f63859c98673562c815e","league":"Standard","id":"087b765ec382657b74bcf1a0a1174e09f0f925b547db20a1e6961bfab12cf63c","name":"Mokou's Embrace","typeLine":"Ruby Ring","identified":true,"requirements":[{"name":"Level","values":[["16",0]],"displayMode":0}],"implicitMods":["+23% to Fire Resistance"],"explicitMods":["22% increased Fire Damage","+26% to Cold Resistance","5% chance to Ignite","20% increased Attack Speed while Ignited","20% increased Cast Speed while Ignited","+25% chance to be Ignited"],"flavourText":["Fire makes the perfect blossom in the endless night."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":7,"inventoryId":"Stash14"},{"verified":false,"w":2,"h":2,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr5.png?scale=1&w=2&h=2&v=d1be3848a301a68c0c5ee6b328b02e82","league":"Standard","id":"7b8ad8e570591dc8d6e9ab77561ad3c8e9c3e3179d9639d1241a24035e9ed4a7","sockets":[{"group":0,"attr":"D","sColour":"G"}],"name":"Meginord's Vise","typeLine":"Steel Gauntlets","identified":true,"properties":[{"name":"Armour","values":[["183",1]],"displayMode":0,"type":16}],"requirements":[{"name":"Level","values":[["35",0]],"displayMode":0},{"name":"Str","values":[["52",0]],"displayMode":1}],"explicitMods":["+100 to Strength","10% increased Global Physical Damage","58% increased Armour","2% of Life Regenerated per second with at least 400 Strength"],"flavourText":["Ride with pride,\r","strike with vengeance,\r","live with honour."],"frameType":3,"category":{"armour":["gloves"]},"x":2,"y":4,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex3B.png?scale=1&w=2&h=3&v=808fa9360bda3074d55dce26cc0e823e","league":"Standard","id":"1acc5cb29b70787a58cdebf9c2b60adcc592238a6258fa2e4ae36071b44851c1","elder":true,"sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"D","sColour":"G"}],"name":"Behemoth Cloak","typeLine":"Destiny Leather","identified":true,"properties":[{"name":"Evasion Rating","values":[["601",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Level","values":[["59",0]],"displayMode":0},{"name":"Dex","values":[["160",0]],"displayMode":1}],"explicitMods":["+106 to maximum Life","+26% to Fire Resistance","+28% to Cold Resistance","6% increased Strength"],"frameType":2,"category":{"armour":["chest"]},"x":4,"y":2,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/SibylsLament.png?scale=1&w=1&h=1&v=c6988251dae318076a1828d7675c7a5f","league":"Standard","id":"a34167a3fc944ff399a20aeb37d48b2c66a22c8ac128149420339857d68e769e","name":"Sibyl's Lament","typeLine":"Coral Ring","identified":true,"requirements":[{"name":"Level","values":[["45",0]],"displayMode":0}],"implicitMods":["+27 to maximum Life"],"explicitMods":["Adds 15 to 27 Fire Damage to Attacks","17% reduced Rarity of Items found","Left ring slot: 40% reduced Reflected Elemental Damage taken","Right ring slot: 40% reduced Reflected Physical Damage taken","24% increased Elemental Damage with Attack Skills"],"flavourText":["The portrait reflected his pain,\r","a pain that she could never see."],"frameType":3,"category":{"accessories":["ring"]},"x":3,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":70,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/SibylsLament.png?scale=1&w=1&h=1&v=c6988251dae318076a1828d7675c7a5f","league":"Standard","id":"ec475355728a360697cb25e1dd794ace5f77cadc524d6e2156fd3d8752bfc5b1","name":"Sibyl's Lament","typeLine":"Coral Ring","identified":true,"requirements":[{"name":"Level","values":[["45",0]],"displayMode":0}],"implicitMods":["+20 to maximum Life"],"explicitMods":["Adds 12 to 28 Fire Damage to Attacks","17% reduced Rarity of Items found","Left ring slot: 40% reduced Reflected Elemental Damage taken","Right ring slot: 40% reduced Reflected Physical Damage taken","28% increased Elemental Damage with Attack Skills"],"flavourText":["The portrait reflected his pain,\r","a pain that she could never see."],"frameType":3,"category":{"accessories":["ring"]},"x":5,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet37.png?scale=1&w=1&h=1&v=25bebeac11abfd9f7931d57476552109","league":"Standard","id":"09e6b5db8383570818dda59fcb34254c5a9094baa27f5ccf6f2945b6ecd42297","name":"Carnage Heart","typeLine":"Onyx Amulet","identified":true,"requirements":[{"name":"Level","values":[["20",0]],"displayMode":0}],"implicitMods":["+12 to all Attributes"],"explicitMods":["+21 to all Attributes","+10% to all Elemental Resistances","1.7% of Physical Attack Damage Leeched as Life","50% increased total Recovery per second from Life Leech","31% increased Damage while Leeching","Extra gore"],"flavourText":["Forged from the blood of countless wars, \r","its thirst has only begun."],"frameType":3,"category":{"accessories":["amulet"]},"x":10,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e","league":"Standard","id":"6660ef5f1cd85deb55bd79b024da0d99c104288d962b5a247149985e429b6238","sockets":[{"group":0,"attr":"G","sColour":"W"}],"name":"Malachai's Artifice","typeLine":"Unset Ring","identified":true,"requirements":[{"name":"Level","values":[["5",0]],"displayMode":0}],"implicitMods":["Has 1 Socket"],"explicitMods":["Socketed Gems have Elemental Equilibrium","-20% to all Elemental Resistances","+84% to Fire Resistance when Socketed with a Red Gem","+84% to Cold Resistance when Socketed with a Green Gem","+100% to Lightning Resistance when Socketed with a Blue Gem","All Sockets are White"],"flavourText":["When the wind blows, \r","Know which way to bend\r","and watch the others break."],"frameType":3,"category":{"accessories":["ring"]},"x":2,"y":1,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":72,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/SibylsLament.png?scale=1&w=1&h=1&v=c6988251dae318076a1828d7675c7a5f","league":"Standard","id":"758883c8d80729346d2aa01f4c8ce97c63416bf6749b6d5ed505486ccae1af84","name":"Sibyl's Lament","typeLine":"Coral Ring","identified":true,"requirements":[{"name":"Level","values":[["45",0]],"displayMode":0}],"implicitMods":["+21 to maximum Life"],"explicitMods":["Adds 14 to 22 Fire Damage to Attacks","11% reduced Rarity of Items found","Left ring slot: 40% reduced Reflected Elemental Damage taken","Right ring slot: 40% reduced Reflected Physical Damage taken","24% increased Elemental Damage with Attack Skills"],"flavourText":["The portrait reflected his pain,\r","a pain that she could never see."],"frameType":3,"category":{"accessories":["ring"]},"x":4,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":72,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Timeclasp.png?scale=1&w=1&h=1&v=071ed57ce91bd3d9e3469690db4097be","league":"Standard","id":"cb5498df4a16b535cb37a24cb33b601415a59e109b1584465f5eac13ba1269e9","name":"Timeclasp","typeLine":"Moonstone Ring","identified":true,"requirements":[{"name":"Level","values":[["22",0]],"displayMode":0}],"implicitMods":["+16 to maximum Energy Shield"],"explicitMods":["13% increased Attack Speed","7% increased Cast Speed","+19 to maximum Energy Shield","15% increased Mana Regeneration Rate","Temporal Chains has 50% reduced Effect on you"],"flavourText":["\"To us mere mortals, time is slippery. \r","I'm just evening things out.\" \r","- Doryani, Queen's Thaumaturgist"],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":5,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":70,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e","league":"Standard","id":"0b975b90bedf6c7edf701c15e54ac5278b4a3be6487c3ffe59d58c71c2e4a381","sockets":[{"group":0,"attr":"G","sColour":"W"}],"name":"Malachai's Artifice","typeLine":"Unset Ring","identified":true,"requirements":[{"name":"Level","values":[["5",0]],"displayMode":0}],"implicitMods":["Has 1 Socket"],"explicitMods":["Socketed Gems have Elemental Equilibrium","-20% to all Elemental Resistances","+77% to Fire Resistance when Socketed with a Red Gem","+75% to Cold Resistance when Socketed with a Green Gem","+77% to Lightning Resistance when Socketed with a Blue Gem","All Sockets are White"],"flavourText":["When the wind blows, \r","Know which way to bend\r","and watch the others break."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":1,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":72,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/ThePariah.png?scale=1&w=1&h=1&v=11f9381394952b5be9e08eda1d17458d","league":"Standard","id":"d6f8d6f9eb2969eb0d45e4e2e3ac0c8fcb03fe9d35243a13c57c9e9490947062","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"The Pariah","typeLine":"Unset Ring","identified":true,"requirements":[{"name":"Level","values":[["60",0]],"displayMode":0}],"implicitMods":["Has 1 Socket"],"explicitMods":["+2 to Level of Socketed Gems","9% increased Attack and Cast Speed","+100 to Maximum Life per Red Socket","+100 to Maximum Mana per Green Socket","+100 to Maximum Energy Shield per Blue Socket","15% increased Item Quantity per White Socket"],"flavourText":["A man who changes his loyalties often,\r","soon finds he has none."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":2,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MokousEmbrace.png?scale=1&w=1&h=1&v=60613e7904f0f63859c98673562c815e","league":"Standard","id":"546d5cdc26e2a5abaeeccfdfab719cd1eeb9eaabbc1c4472768a095a3c0c4e00","name":"Mokou's Embrace","typeLine":"Ruby Ring","identified":true,"requirements":[{"name":"Level","values":[["16",0]],"displayMode":0}],"implicitMods":["+23% to Fire Resistance"],"explicitMods":["15% increased Fire Damage","+33% to Cold Resistance","10% chance to Ignite","20% increased Attack Speed while Ignited","20% increased Cast Speed while Ignited","+25% chance to be Ignited"],"flavourText":["Fire makes the perfect blossom in the endless night."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":8,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44","league":"Standard","id":"f062972737259f1868c8e9c223fab5754f4cb0ff7d551b86c046cbf9510a44e8","name":"Blackheart","typeLine":"Iron Ring","identified":true,"implicitMods":["Adds 1 to 4 Physical Damage to Attacks"],"explicitMods":["5% increased Global Physical Damage","Adds 1 to 3 Chaos Damage to Attacks","+21 to maximum Life","2.2 Life Regenerated per second","10% chance to Cause Monsters to Flee"],"flavourText":["Fear is highly infectious."],"frameType":3,"category":{"accessories":["ring"]},"x":3,"y":3,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e","league":"Standard","id":"51a3e19b6c0b3c738c6e043a552f997eae51586ea10f1590a8a3011d868c80ed","sockets":[{"group":0,"attr":"G","sColour":"W"}],"name":"Malachai's Artifice","typeLine":"Unset Ring","identified":true,"requirements":[{"name":"Level","values":[["5",0]],"displayMode":0}],"implicitMods":["Has 1 Socket"],"explicitMods":["Socketed Gems have Elemental Equilibrium","-20% to all Elemental Resistances","+84% to Fire Resistance when Socketed with a Red Gem","+79% to Cold Resistance when Socketed with a Green Gem","+76% to Lightning Resistance when Socketed with a Blue Gem","All Sockets are White"],"flavourText":["When the wind blows, \r","Know which way to bend\r","and watch the others break."],"frameType":3,"category":{"accessories":["ring"]},"x":3,"y":1,"inventoryId":"Stash14","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44","league":"Standard","id":"a0269b864a95c53b4f5c31e9406dd85da773f6457a357203147af732b5682d79","name":"Blackheart","typeLine":"Iron Ring","identified":true,"implicitMods":["Adds 1 to 4 Physical Damage to Attacks"],"explicitMods":["5% increased Global Physical Damage","Adds 1 to 3 Chaos Damage to Attacks","+27 to maximum Life","3 Life Regenerated per second","10% chance to Cause Monsters to Flee"],"flavourText":["Fear is highly infectious."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":3,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Timeclasp.png?scale=1&w=1&h=1&v=071ed57ce91bd3d9e3469690db4097be","league":"Standard","id":"7383f08aa5b2e0aa19191f0ca0e1be6b106696e3442f0985cb6e6f5c705561dc","name":"Timeclasp","typeLine":"Moonstone Ring","identified":true,"requirements":[{"name":"Level","values":[["22",0]],"displayMode":0}],"implicitMods":["+24 to maximum Energy Shield"],"explicitMods":["11% increased Attack Speed","5% increased Cast Speed","+15 to maximum Energy Shield","15% increased Mana Regeneration Rate","Temporal Chains has 50% reduced Effect on you"],"flavourText":["\"To us mere mortals, time is slippery. \r","I'm just evening things out.\" \r","- Doryani, Queen's Thaumaturgist"],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":4,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":74,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/HeartboundRing.png?scale=1&w=1&h=1&v=0de40a044b808bbaff9988548e6cc59b","league":"Standard","id":"58b40f1aa8977d2ab68eba2ebbd6034cfaa6d710fb8ac1ca45d5e5d0d56bf43e","name":"Heartbound Loop","typeLine":"Moonstone Ring","identified":true,"requirements":[{"name":"Level","values":[["20",0]],"displayMode":0}],"implicitMods":["+15 to maximum Energy Shield"],"explicitMods":["13.9 Life Regenerated per second","20% increased Mana Regeneration Rate","Minions have 15% increased maximum Life","Minions have 10% increased Area of Effect","350 Physical Damage taken on Minion Death"],"flavourText":["When the axe finally fell, Seryl shared his pain,\r","and the last thought that flickered through his\r","fading mind was her broken, shattered scream."],"frameType":3,"category":{"accessories":["ring"]},"x":2,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring3Unique.png?scale=1&w=1&h=1&v=689dcd2e6f55af30ca0fa8e1f795e807","league":"Standard","id":"649f1ea5c8fcb23d982e5f393c7c50ba5cb005bf3177850eb1c2cd01160b97a3","name":"Doedre's Damning","typeLine":"Paua Ring","identified":true,"implicitMods":["+22 to maximum Mana"],"explicitMods":["+10 to Intelligence","+5% to all Elemental Resistances","+5 Mana gained on Kill","You can apply an additional Curse"],"flavourText":["Where her mouth should have been\r","there was only a whirling, black void."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":6,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":78,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/HeartboundRing.png?scale=1&w=1&h=1&v=0de40a044b808bbaff9988548e6cc59b","league":"Standard","id":"caa306efe3cf709a681fd305f79f27d2d20c8793508a10cc19d284c8fac43c98","name":"Heartbound Loop","typeLine":"Moonstone Ring","identified":true,"requirements":[{"name":"Level","values":[["20",0]],"displayMode":0}],"implicitMods":["+21 to maximum Energy Shield"],"explicitMods":["13.2 Life Regenerated per second","21% increased Mana Regeneration Rate","Minions have 15% increased maximum Life","Minions have 10% increased Area of Effect","350 Physical Damage taken on Minion Death"],"flavourText":["When the axe finally fell, Seryl shared his pain,\r","and the last thought that flickered through his\r","fading mind was her broken, shattered scream."],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":62,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/HeartboundRing.png?scale=1&w=1&h=1&v=0de40a044b808bbaff9988548e6cc59b","league":"Standard","id":"f8c628e208e0089c93324a71ec377e46aa9ff0854ba5c2d65fd924360619376d","name":"Heartbound Loop","typeLine":"Moonstone Ring","identified":true,"requirements":[{"name":"Level","values":[["20",0]],"displayMode":0}],"implicitMods":["+21 to maximum Energy Shield"],"explicitMods":["14.4 Life Regenerated per second","20% increased Mana Regeneration Rate","Minions have 15% increased maximum Life","Minions have 10% increased Area of Effect","350 Physical Damage taken on Minion Death"],"flavourText":["When the axe finally fell, Seryl shared his pain,\r","and the last thought that flickered through his\r","fading mind was her broken, shattered scream."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":0,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":73,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/BloodBoil.png?scale=1&w=1&h=1&v=791a92cab4872052ab88c1ed56683662","league":"Standard","id":"3792b81e421183b48ecaf72076046257d6c7702e53353d86541663cbca3a3899","name":"Bloodboil","typeLine":"Coral Ring","identified":true,"requirements":[{"name":"Level","values":[["24",0]],"displayMode":0}],"implicitMods":["+23 to maximum Life"],"explicitMods":["Adds 13 to 25 Fire Damage to Attacks","+27 to maximum Life","+13% to Cold Resistance","75% reduced Effect of Chill on you","10% increased Movement Speed while Ignited"],"flavourText":["Rage is a big part of courage."],"frameType":3,"category":{"accessories":["ring"]},"x":1,"y":9,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":79,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Timeclasp.png?scale=1&w=1&h=1&v=071ed57ce91bd3d9e3469690db4097be","league":"Standard","id":"9b8cc0f5802bd9b4ee0f8e26c265d92e8c492d3263b81dad5fae38ccdab1eb06","name":"Timeclasp","typeLine":"Moonstone Ring","identified":true,"requirements":[{"name":"Level","values":[["22",0]],"displayMode":0}],"implicitMods":["+17 to maximum Energy Shield"],"explicitMods":["15% increased Attack Speed","10% increased Cast Speed","+25 to maximum Energy Shield","15% increased Mana Regeneration Rate","Temporal Chains has 50% reduced Effect on you"],"flavourText":["\"To us mere mortals, time is slippery. \r","I'm just evening things out.\" \r","- Doryani, Queen's Thaumaturgist"],"frameType":3,"category":{"accessories":["ring"]},"x":0,"y":4,"inventoryId":"Stash14"},{"verified":false,"w":1,"h":1,"ilvl":77,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44","league":"Standard","id":"d2b09307858b38569ede8e703f2b02dedc0a56b7b4f81ea5b2525d998d2d5d1f","name":"Blackheart","typeLine":"Iron Ring","identified":true,"implicitMods":["Adds 1 to 4 Physical Damage to Attacks"],"explicitMods":["5% increased Global Physical Damage","Adds 1 to 3 Chaos Damage to Attacks","+28 to maximum Life","3.2 Life Regenerated per second","10% chance to Cause Monsters to Flee"],"flavourText":["Fear is highly infectious."],"frameType":3,"category":{"accessories":["ring"]},"x":2,"y":3,"inventoryId":"Stash14"},{"verified":false,"w":2,"h":4,"ilvl":75,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandAxes\/TwoHandAxeUnique1.png?scale=1&w=2&h=4&v=bb325010b109dcd4913a316486948b65","league":"Standard","id":"b5d7456e0c3824acbdc4bde9efb68ec927599b4b270e86bea7e5870b97efe57e","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":1,"attr":"S","sColour":"R"}],"name":"Reaper's Pursuit","typeLine":"Shadow Axe","identified":true,"properties":[{"name":"Two Handed Axe","values":[],"displayMode":0},{"name":"Physical Damage","values":[["94-138",1]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["5.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.25",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["13",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Level","values":[["33",0]],"displayMode":0},{"name":"Str","values":[["80",0]],"displayMode":1},{"name":"Dex","values":[["37",0]],"displayMode":1}],"explicitMods":["123% increased Physical Damage","39% increased Rarity of Items found","+10 Life gained on Kill","15% increased Movement Speed when on Full Life","Culling Strike","Hits can't be Evaded"],"flavourText":["Accept your fate, or lie, pretend.\r","Death collects you in the end."],"frameType":3,"category":{"weapons":["twoaxe"]},"x":8,"y":8,"inventoryId":"Stash14","socketedItems":[]}]}
+{
+    "numTabs": 14,
+    "items": [
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/CrownofEyes.png?scale=1&w=2&h=2&v=6295f8e6c2f369a358fc97f530636770",
+            "league": "Standard",
+            "id": "f925a9469212811cfd219fb4301bfd8115d249efc83d71f2e50f770b50c708f0",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Crown of Eyes",
+            "typeLine": "Hubris Circlet",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+7%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "176",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "154",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+319 to Accuracy Rating",
+                "125% increased Energy Shield",
+                "-30% to Fire Resistance",
+                "0.44% of Attack Damage Leeched as Life",
+                "0.2% of Attack Damage Leeched as Mana",
+                "Increases and Reductions to Spell Damage also apply to Attacks"
+            ],
+            "flavourText": [
+                "Turning, gazing, blinking,\r",
+                "behold the eyes of void.\r",
+                "Burning, razing, drinking,\r",
+                "your mind is destroyed."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 10,
+            "y": 5,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/LorisLantern.png?scale=1&w=1&h=1&v=4b05c25bc06097fc709115cd8740e6a1",
+            "league": "Standard",
+            "id": "e2a3a4054f4bbd26b4b9d36730a22950769a226142d29653868bd82885c2a442",
+            "name": "Lori's Lantern",
+            "typeLine": "Prismatic Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+8% to all Elemental Resistances"
+            ],
+            "explicitMods": [
+                "+10% to all Elemental Resistances",
+                "8% increased Movement Speed when on Low Life",
+                "31% increased Light Radius",
+                "+23% to Chaos Resistance when on Low Life",
+                "Damage from Enemies Hitting you is Unlucky while you are on Low Life"
+            ],
+            "flavourText": [
+                "By its light, Lori led her young charges to safety \r",
+                "and bound up their wounds. \r",
+                "Her sword arm was iron, yet her heart gentle \r",
+                "and proof against hate."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 10,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr4.png?scale=1&w=2&h=2&v=b2997b2df11d3b19cbb6a4c3054acda6",
+            "league": "Standard",
+            "id": "680cae497d758df4ddf5d1b312131da50fd5c8fb413e8e73e635ae9a7e3bb3c3",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Death Claw",
+            "typeLine": "Titan Gauntlets",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "242",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "98",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+11 to Dexterity",
+                "+69 to maximum Life",
+                "+44% to Fire Resistance",
+                "+38% to Cold Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 8,
+            "y": 6,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/CitrineAmulet.png?scale=1&w=1&h=1&v=392b4ef08d8b72daaf1d0ec50d017398",
+            "league": "Standard",
+            "id": "114c227692565c0c819568249a360bbd9fee487d560396a92f693e7c9be7bda5",
+            "elder": true,
+            "name": "Entropy Gorget",
+            "typeLine": "Citrine Amulet",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+19 to Strength and Dexterity"
+            ],
+            "explicitMods": [
+                "26% increased Cold Damage",
+                "+36% to Lightning Resistance",
+                "0.42% of Physical Damage Leeched as Life",
+                "Projectiles Pierce an additional Target"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 0,
+            "y": 8,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MokousEmbrace.png?scale=1&w=1&h=1&v=60613e7904f0f63859c98673562c815e",
+            "league": "Standard",
+            "id": "b32ea6d8a255974e62e6e52e6c38ded09856badb75536b87946d8ed40e7e2ee8",
+            "name": "Mokou's Embrace",
+            "typeLine": "Ruby Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "16",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+21% to Fire Resistance"
+            ],
+            "explicitMods": [
+                "16% increased Fire Damage",
+                "+29% to Cold Resistance",
+                "9% chance to Ignite",
+                "20% increased Attack Speed while Ignited",
+                "20% increased Cast Speed while Ignited",
+                "+25% chance to be Ignited"
+            ],
+            "flavourText": [
+                "Fire makes the perfect blossom in the endless night."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 7,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesInt3.png?scale=1&w=2&h=2&v=af52d7a61dc25003bf727c86cd21b103",
+            "league": "Standard",
+            "id": "77d77dbfc068686df45a07580b705773dac0f0a944913adf3ae77daba1f691d2",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Corruption Fist",
+            "typeLine": "Samite Gloves",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "73",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are supported by Level 18 Blind",
+                "Socketed Gems are Supported by Level 18 Faster Casting",
+                "10% increased Cast Speed",
+                "+43 to maximum Energy Shield",
+                "+42% to Cold Resistance",
+                "8% Global chance to Blind Enemies on hit"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 10,
+            "y": 3,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt3.png?scale=1&w=2&h=2&v=559c119664070970cfbdc8203425aa76",
+            "league": "Standard",
+            "id": "53cd0ccb4141d5653b71445a3a31c9f482138b22f640bcb9ba447784b30aff52",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Ghoul Palm",
+            "typeLine": "Carnal Mitts",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "90",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "18",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "39",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "39",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+80 to maximum Life",
+                "+42% to Fire Resistance",
+                "+18% to Cold Resistance",
+                "+6% to Lightning Resistance"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 10,
+            "y": 1,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e",
+            "league": "Standard",
+            "id": "decddf4a9a3ac48b13ed82001fb02811a3e18c6034a2bc1f0f60db6ba744f565",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                }
+            ],
+            "name": "Malachai's Artifice",
+            "typeLine": "Unset Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "Has 1 Socket"
+            ],
+            "explicitMods": [
+                "Socketed Gems have Elemental Equilibrium",
+                "-20% to all Elemental Resistances",
+                "+93% to Fire Resistance when Socketed with a Red Gem",
+                "+85% to Cold Resistance when Socketed with a Green Gem",
+                "+75% to Lightning Resistance when Socketed with a Blue Gem",
+                "All Sockets are White"
+            ],
+            "flavourText": [
+                "When the wind blows, \r",
+                "Know which way to bend\r",
+                "and watch the others break."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 4,
+            "y": 1,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/Thousandribbons.png?scale=1&w=2&h=3&v=79f259f0c23beb85df419e9def6b0528",
+            "league": "Standard",
+            "id": "b42a16d765d250bbfd348611162aed6bd7dc6e8c658f174e42b1de2d5798f824",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Thousand Ribbons",
+            "typeLine": "Simple Robe",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "18",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "26",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "17",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 5 Elemental Proliferation",
+                "Adds 2 to 3 Fire Damage to Spells and Attacks",
+                "Adds 2 to 3 Cold Damage to Spells and Attacks",
+                "Adds 1 to 4 Lightning Damage to Spells and Attacks",
+                "+18 to Evasion Rating",
+                "+14 to maximum Energy Shield",
+                "+6 to maximum Life",
+                "+6 to maximum Mana",
+                "+6% to Fire Resistance",
+                "+9% to Cold Resistance",
+                "+10% to Lightning Resistance"
+            ],
+            "flavourText": [
+                "The night of a thousand ribbons\r",
+                "To remember the day of a thousand flames\r",
+                "When Sarn burned\r",
+                "And was born again"
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 8,
+            "y": 1,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 72,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/DoedresTenure.png?scale=1&w=2&h=2&v=edf8fd9f9f93ce0c4c55aacd83fe4b78",
+            "league": "Standard",
+            "id": "332cd8938d52aed8effd515157cf99cbbf70d4b72c8925986f5116036be14d60",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Doedre's Tenure",
+            "typeLine": "Velvet Gloves",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "41",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "12",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "21",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+20 to Intelligence",
+                "59% increased Spell Damage",
+                "15% reduced Cast Speed",
+                "+32 to maximum Energy Shield"
+            ],
+            "flavourText": [
+                "While Doedre lacked Maligaro's sense of style,\r",
+                "she surpassed her master in pure malevolence."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 2,
+            "y": 6,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandAxes\/SinvictasMettle.png?scale=1&w=2&h=4&v=680f56a3d1cb79a9fa4f7a4319d36588",
+            "league": "Standard",
+            "id": "23c511ae6a84ff3f6ffb2be5c79c136d4d7f20dfc0357e4c23e6f517ee734ceb",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Sinvicta's Mettle",
+            "typeLine": "Ezomyte Axe",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Two Handed Axe",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "217-325",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.42",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "13",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "140",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "86",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "201% increased Physical Damage",
+                "9% increased Attack Speed",
+                "2% increased Area of Effect per 25 Rampage Kills",
+                "Gain a Frenzy Charge on every 50th Rampage Kill",
+                "Rampage"
+            ],
+            "flavourText": [
+                "War is a thriving infection.\r",
+                "It numbs the heart and eats away at the soul\r",
+                "until only emptiness remains."
+            ],
+            "frameType": 3,
+            "category": {
+                "weapons": [
+                    "twoaxe"
+                ]
+            },
+            "x": 6,
+            "y": 8,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStrDex2.png?scale=1&w=2&h=2&v=385517339bcc890605b26256f1265e88",
+            "league": "Standard",
+            "id": "41ce129a9ee8e2db7badd57538c54569967fe5cd4114f5da4984f95413cd3386",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Agony Clutches",
+            "typeLine": "Hydrascale Gauntlets",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+5%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "164",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "164",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 16 Slower Projectiles",
+                "Socketed Gems are Supported by Level 16 Faster Casting",
+                "7% increased Cast Speed",
+                "50% increased Armour and Evasion",
+                "4.4 Life Regenerated per second",
+                "17% increased Projectile Damage"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 4,
+            "y": 5,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Scepters\/scepter6.png?scale=1&w=2&h=3&v=59a333efbe23c0fecdbc46a1cdc28865",
+            "league": "Standard",
+            "id": "7a7aff18aaacbdc9f13e5ab8c0fabc2a90017124fd51814769b60dc23b70683f",
+            "shaper": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Demon Crusher",
+            "typeLine": "Blood Sceptre",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "One Handed Mace",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "30-55",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "6.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "66",
+                            1
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "66",
+                            1
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "24% increased Elemental Damage"
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 20 Elemental Proliferation",
+                "Socketed Gems are Supported by Level 16 Controlled Destruction",
+                "49% increased Spell Damage",
+                "26% increased Stun Duration on Enemies",
+                "18% reduced Attribute Requirements",
+                "9% chance to Freeze, Shock and Ignite"
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "sceptre",
+                    "onemace"
+                ]
+            },
+            "x": 10,
+            "y": 9,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 3,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandMaces\/OneHandMace2.png?scale=1&w=1&h=3&v=a46820a7c96f601ec6412fa51e8a86cd",
+            "league": "Standard",
+            "id": "b4a1811d7777e661134c4c69446f2d39812e670046ae21156b67c01b6b1e9b8d",
+            "elder": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Corruption Blunt",
+            "typeLine": "Ancestral Club",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "One Handed Mace",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "56-94",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.25",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "179",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "10% reduced Enemy Stun Threshold"
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 20 Chance To Bleed",
+                "Socketed Gems are Supported by Level 18 Poison",
+                "17% increased Physical Damage",
+                "12% increased Global Accuracy Rating",
+                "+20 to Accuracy Rating",
+                "15% chance to cause Bleeding on Hit",
+                "10% increased Light Radius",
+                "15% chance to Poison on Hit"
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "onemace"
+                ]
+            },
+            "x": 0,
+            "y": 9,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Cherufe.png?scale=1&w=1&h=1&v=dd9b8521bfd1c76751ecd8ffd5d0d5d4",
+            "league": "Standard",
+            "id": "5c0e901a164db434f9ad9625c531d6aaea231db20748fcd0348ccce07d8bf2d8",
+            "name": "Pyre",
+            "typeLine": "Sapphire Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+28% to Cold Resistance"
+            ],
+            "explicitMods": [
+                "+29% to Fire Resistance",
+                "70% increased Burning Damage",
+                "40% of Cold Damage Converted to Fire Damage",
+                "10% increased Light Radius",
+                "Ignited Enemies you hit are destroyed on Kill"
+            ],
+            "flavourText": [
+                "Let winter come. It will only make my fire burn brighter."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 11,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Praxis.png?scale=1&w=1&h=1&v=b2fb96f28c4e2067cff2bb847e231a4b",
+            "league": "Standard",
+            "id": "46270dead22338c4e56035120b82142c8a50b0d5af20c56b0a8b92e0f097c0c5",
+            "name": "Praxis",
+            "typeLine": "Paua Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+23 to maximum Mana"
+            ],
+            "explicitMods": [
+                "+38 to maximum Mana",
+                "3.5 Mana Regenerated per second",
+                "-4 to Total Mana Cost of Skills",
+                "8% of Damage taken gained as Mana over 4 seconds when Hit"
+            ],
+            "flavourText": [
+                "The Thaumaturgical masters of the Eternal Empire,\r",
+                "as unpredictable and varied as they were,\r",
+                "all understood one thing:\r",
+                "Free thinking leads to free action."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 2,
+            "y": 2,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MingsHeart.png?scale=1&w=1&h=1&v=afec6b4293c9177878d15abf8846863f",
+            "league": "Standard",
+            "id": "85b734ae4ee7478927728a092392f503a2655905683488a3b2739db770662f61",
+            "name": "Ming's Heart",
+            "typeLine": "Amethyst Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+12% to Chaos Resistance"
+            ],
+            "explicitMods": [
+                "7% reduced maximum Energy Shield",
+                "6% reduced maximum Life",
+                "+44% to Chaos Resistance",
+                "Gain 20% of Physical Damage as Extra Chaos Damage"
+            ],
+            "flavourText": [
+                "Ming slew Tranquillity\r",
+                "Took Chaos for his wife\r",
+                "And on Her immortal finger\r",
+                "He placed his Heart"
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 6,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyInt1CUnique.png?scale=1&w=2&h=3&v=916d09968d86f9d7840bcd2fab661b10",
+            "league": "Standard",
+            "id": "57da083cf02822f86c07560b6df61ca6fdb5f0ebe3f78c4517eb6315b3114399",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Shavronne's Wrappings",
+            "typeLine": "Occultist's Vestment",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "312",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "62",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "180",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "6% increased Spell Damage"
+            ],
+            "explicitMods": [
+                "140% increased Energy Shield",
+                "10% faster start of Energy Shield Recharge",
+                "+40% to Lightning Resistance",
+                "Reflects 1 to 250 Lightning Damage to Melee Attackers",
+                "Chaos Damage does not bypass Energy Shield"
+            ],
+            "flavourText": [
+                "Shavronne's apparel became ever more extravagant\r",
+                "as her body and soul became ever more corrupted."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 4,
+            "y": 9,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 72,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Claws\/ThoughtMotion1.png?scale=1&w=2&h=2&v=fa56d189a8197762a5904b7a95df74bc",
+            "league": "Standard",
+            "id": "81c60bdecd8ed10472f52a3d90ac2f7e9a366092411aee2c7c59710079b644b4",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Hand of Thought and Motion",
+            "typeLine": "Blinder",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Claw",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+9%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "13-34",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Elemental Damage",
+                    "values": [
+                        [
+                            "1-53",
+                            6
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 10
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "6.30%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.74",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "41",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "41",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+12 Life gained for each Enemy hit by Attacks"
+            ],
+            "explicitMods": [
+                "Adds 1 to 53 Lightning Damage",
+                "12% increased Attack Speed",
+                "Adds 1 to 5 Lightning Damage to Attacks with this Weapon per 10 Intelligence",
+                "24% increased Elemental Damage with Attack Skills"
+            ],
+            "flavourText": [
+                "She carries us and nurtures us\r",
+                "until we must feed upon each other.\r",
+                "\r",
+                "<default>{This item can be transformed with a Blessing of Esh}"
+            ],
+            "frameType": 3,
+            "category": {
+                "weapons": [
+                    "claw"
+                ]
+            },
+            "x": 6,
+            "y": 0,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44",
+            "league": "Standard",
+            "id": "d197774d0757ace97cec8a760925a2da788eefef57e36de8587c3184b5322a4d",
+            "name": "Blackheart",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "implicitMods": [
+                "Adds 1 to 4 Physical Damage to Attacks"
+            ],
+            "explicitMods": [
+                "5% increased Global Physical Damage",
+                "Adds 1 to 3 Chaos Damage to Attacks",
+                "+20 to maximum Life",
+                "2.2 Life Regenerated per second",
+                "10% chance to Cause Monsters to Flee"
+            ],
+            "flavourText": [
+                "Fear is highly infectious."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 3,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet2Unique.png?scale=1&w=1&h=1&v=266e824bb226df8e3f2717ef58b49f6d",
+            "league": "Standard",
+            "id": "033501fd60097ac746a99086b40aa3d8ebfece8514de4743010451f1e2a127c7",
+            "name": "Araku Tiki",
+            "typeLine": "Coral Amulet",
+            "identified": true,
+            "implicitMods": [
+                "3.8 Life Regenerated per second"
+            ],
+            "explicitMods": [
+                "+100 to Evasion Rating while on Low Life",
+                "+43 to maximum Life",
+                "+21% to Fire Resistance",
+                "1% of Life Regenerated per second while on Low Life"
+            ],
+            "flavourText": [
+                "It is said to make you invisible when the Great\r",
+                "Spirit comes to take you on your final journey."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 3,
+            "y": 2,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/BloodAmulet.png?scale=1&w=1&h=1&v=2b7884965df5fd38636a881a4a8b6501",
+            "league": "Standard",
+            "id": "cbd8f65a7cd8e9c6019f1e4b0e885049dec7e09b01238d6d28a93d201576433d",
+            "name": "Bloodgrip",
+            "typeLine": "Marble Amulet",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "74",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "1.52% of Life Regenerated per second"
+            ],
+            "explicitMods": [
+                "Adds 10 to 20 Physical Damage to Attacks",
+                "+64 to maximum Life",
+                "11 Life Regenerated per second",
+                "100% increased Life Recovery from Flasks",
+                "Moving while Bleeding doesn't cause you to take extra Damage"
+            ],
+            "flavourText": [
+                "Combat is simple.\r",
+                "Keep your blood in.\r",
+                "Take theirs out."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 11,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/PerquilsToe.png?scale=1&w=1&h=1&v=ca91a71d8481975605b2066736ad9fc0",
+            "league": "Standard",
+            "id": "898876c13309a4e05ed886e2f79d3a6af500388bf4bc9467857b6b1a0b9c643d",
+            "name": "Perquil's Toe",
+            "typeLine": "Gold Amulet",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "29",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "12% increased Rarity of Items found"
+            ],
+            "explicitMods": [
+                "+40 to Dexterity",
+                "5% increased Movement Speed",
+                "Lightning Damage from Enemies Hitting you is Lucky",
+                "Nearby Allies' Damage with Hits is Lucky"
+            ],
+            "flavourText": [
+                "He was a lot luckier before he lost this."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 9,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 63,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/ThreeDragons.png?scale=1&w=2&h=2&v=61fed7da15e678cfd57b6dd9154865f8",
+            "league": "Standard",
+            "id": "c3e4f62eeacea02a1e555eab6eb30d1a3b4513fc4a711f5a74009af1d22be4db",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "The Three Dragons",
+            "typeLine": "Golden Mask",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "96",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "19",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "35",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+30% to all Elemental Resistances",
+                "Your Fire Damage can Shock but not Ignite",
+                "Your Cold Damage can Ignite but not Freeze or Chill",
+                "Your Lightning Damage can Freeze but not Shock"
+            ],
+            "flavourText": [
+                "\"The ice seared his naked feet\r",
+                "As the lightning stilled his heart,\r",
+                "But it was the flames upon his lover's face\r",
+                "That roused him to vengeance.\"\r",
+                "- From 'The Three Dragons' by Victario of Sarn"
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 4,
+            "y": 7,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt7.png?scale=1&w=2&h=2&v=0f230458eaf985d877912eae780a91fc",
+            "league": "Standard",
+            "id": "455633acaf58b461a3684912fcef142685b2dbf627e79f08ca29e73fdabf8561",
+            "elder": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Vengeance Keep",
+            "typeLine": "Steel Circlet",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+14%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "76",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "66",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "101",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Socketed Gems are Supported by Level 20 Minion Damage",
+                "51% increased Energy Shield",
+                "+22% to Lightning Resistance",
+                "22% increased Stun and Block Recovery",
+                "Minions deal 23% increased Damage"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 8,
+            "y": 4,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "ilvl": 85,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff6unique.png?scale=1&w=2&h=4&v=d2e8ef91b21959805d65c9110d356ada",
+            "league": "Standard",
+            "id": "93364dbca66f762db5318cd390927f4aa6c04c3767c6cb9ab8450ac91b2e3786",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Agnerod West",
+            "typeLine": "Imperial Staff",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Staff",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "49-147",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "7.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.15",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "13",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "66",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "158",
+                            1
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "113",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+18% Chance to Block Attack Damage while wielding a Staff"
+            ],
+            "explicitMods": [
+                "+2 to Level of Socketed Lightning Gems",
+                "+85 to Intelligence",
+                "46% increased Lightning Damage",
+                "Adds 15 to 111 Lightning Damage to Spells",
+                "40% increased Strength Requirement",
+                "Damage Penetrates 20% Lightning Resistance"
+            ],
+            "flavourText": [
+                "One for each corner of the great Vinktar Square."
+            ],
+            "frameType": 3,
+            "category": {
+                "weapons": [
+                    "staff"
+                ]
+            },
+            "x": 2,
+            "y": 8,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Scepters\/Plaguebringer.png?scale=1&w=2&h=3&v=21365c46344b3a38ac2ebe605dfcc703",
+            "league": "Standard",
+            "id": "12028bc54e7fd08271c5909b2a25cffb0c6475ac8ea51c5dc57347c1fa3cba52",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Breath of the Council",
+            "typeLine": "Carnal Sceptre",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "One Handed Mace",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "150-348",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "6.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "11",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "66",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "113",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "113",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "32% increased Elemental Damage"
+            ],
+            "explicitMods": [
+                "266% increased Physical Damage",
+                "95% increased Chaos Damage",
+                "10% increased Area of Effect",
+                "Chaos Skills have 40% increased Skill Effect Duration"
+            ],
+            "flavourText": [
+                "Breathe deep, and give yourself over to eternity."
+            ],
+            "frameType": 3,
+            "category": {
+                "weapons": [
+                    "sceptre",
+                    "onemace"
+                ]
+            },
+            "x": 6,
+            "y": 2,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet4Unique.png?scale=1&w=1&h=1&v=64218cb6f18db9440f2691a6a52f8fee",
+            "league": "Standard",
+            "id": "ef33a6e38770fb69fbbef2e448794122a48bed5c4cba35ac5c3cd009944c403f",
+            "name": "Karui Ward",
+            "typeLine": "Jade Amulet",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+27 to Dexterity"
+            ],
+            "explicitMods": [
+                "+29 to Strength",
+                "+100 to Accuracy Rating",
+                "30% increased Projectile Speed",
+                "10% increased Movement Speed",
+                "30% increased Projectile Damage"
+            ],
+            "flavourText": [
+                "\"Shoot first, ask no questions.\"\r",
+                "- Karui wisdom"
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 8,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e",
+            "league": "Standard",
+            "id": "b0968eaa82db831083053ef1a0b9e213db179ff2ad6dc1c68d0d5f5e3a8c3319",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                }
+            ],
+            "name": "Malachai's Artifice",
+            "typeLine": "Unset Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "Has 1 Socket"
+            ],
+            "explicitMods": [
+                "Socketed Gems have Elemental Equilibrium",
+                "-20% to all Elemental Resistances",
+                "+76% to Fire Resistance when Socketed with a Red Gem",
+                "+96% to Cold Resistance when Socketed with a Green Gem",
+                "+85% to Lightning Resistance when Socketed with a Blue Gem",
+                "All Sockets are White"
+            ],
+            "flavourText": [
+                "When the wind blows, \r",
+                "Know which way to bend\r",
+                "and watch the others break."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 1,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/TheSnowblindGrace.png?scale=1&w=2&h=3&v=136f9b88d623c4a6a0c89360ef0a9039",
+            "league": "Standard",
+            "id": "3f4f839b89dd8ed60616e639b25b147da3cc44c3be6631a152224baf3f075453",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "The Snowblind Grace",
+            "typeLine": "Coronal Leather",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+9%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "737",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "49",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "134",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+30 to Dexterity",
+                "41% increased Evasion Rating",
+                "+43 to maximum Life",
+                "10% chance to Dodge Spell Hits",
+                "25% increased Arctic Armour Buff Effect",
+                "Evasion Rating is increased by Uncapped Cold Resistance"
+            ],
+            "flavourText": [
+                "We dance in the white, like water,\r",
+                "colliding as many and emerging as one.\r",
+                "\r",
+                "<default>{This item can be transformed with a Blessing of Tul}"
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 6,
+            "y": 5,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44",
+            "league": "Standard",
+            "id": "4a469ef24f598f1d20acb6d669da9fe8a547725130e9d590aa6c8d6bda841d53",
+            "name": "Blackheart",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "implicitMods": [
+                "Adds 1 to 4 Physical Damage to Attacks"
+            ],
+            "explicitMods": [
+                "5% increased Global Physical Damage",
+                "Adds 1 to 3 Chaos Damage to Attacks",
+                "+20 to maximum Life",
+                "3.8 Life Regenerated per second",
+                "10% chance to Cause Monsters to Flee"
+            ],
+            "flavourText": [
+                "Fear is highly infectious."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 2,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/EmbalmersGloves.png?scale=1&w=2&h=2&v=eb3964fd9a117c0af27d05062defc960",
+            "league": "Standard",
+            "id": "d699ee2a5aa135f71e5864e9c324658a81a70efc055c93e23ee324324847822b",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "Allelopathy",
+            "typeLine": "Sorcerer Gloves",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "94",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "97",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "Grants Level 22 Blight Skill",
+                "28% increased Damage over Time",
+                "100% increased Energy Shield",
+                "10% increased Area of Effect",
+                "Blight has 25% increased Hinder Duration",
+                "You cannot be Hindered"
+            ],
+            "flavourText": [
+                "\"Nothing is more natural than competition.\r",
+                "One feasts, another starves.\r",
+                "One blossoms, another withers.\r",
+                "And one cannot catch the golden sunlight\r",
+                "without casting a bitter shadow.\"\r",
+                "- Cadiro Perandus"
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 10,
+            "y": 7,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MokousEmbrace.png?scale=1&w=1&h=1&v=60613e7904f0f63859c98673562c815e",
+            "league": "Standard",
+            "id": "087b765ec382657b74bcf1a0a1174e09f0f925b547db20a1e6961bfab12cf63c",
+            "name": "Mokou's Embrace",
+            "typeLine": "Ruby Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "16",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+23% to Fire Resistance"
+            ],
+            "explicitMods": [
+                "22% increased Fire Damage",
+                "+26% to Cold Resistance",
+                "5% chance to Ignite",
+                "20% increased Attack Speed while Ignited",
+                "20% increased Cast Speed while Ignited",
+                "+25% chance to be Ignited"
+            ],
+            "flavourText": [
+                "Fire makes the perfect blossom in the endless night."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 7,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr5.png?scale=1&w=2&h=2&v=d1be3848a301a68c0c5ee6b328b02e82",
+            "league": "Standard",
+            "id": "7b8ad8e570591dc8d6e9ab77561ad3c8e9c3e3179d9639d1241a24035e9ed4a7",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Meginord's Vise",
+            "typeLine": "Steel Gauntlets",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "183",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "35",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+100 to Strength",
+                "10% increased Global Physical Damage",
+                "58% increased Armour",
+                "2% of Life Regenerated per second with at least 400 Strength"
+            ],
+            "flavourText": [
+                "Ride with pride,\r",
+                "strike with vengeance,\r",
+                "live with honour."
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 2,
+            "y": 4,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex3B.png?scale=1&w=2&h=3&v=808fa9360bda3074d55dce26cc0e823e",
+            "league": "Standard",
+            "id": "1acc5cb29b70787a58cdebf9c2b60adcc592238a6258fa2e4ae36071b44851c1",
+            "elder": true,
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "Behemoth Cloak",
+            "typeLine": "Destiny Leather",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "601",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "59",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "160",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "+106 to maximum Life",
+                "+26% to Fire Resistance",
+                "+28% to Cold Resistance",
+                "6% increased Strength"
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 4,
+            "y": 2,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/SibylsLament.png?scale=1&w=1&h=1&v=c6988251dae318076a1828d7675c7a5f",
+            "league": "Standard",
+            "id": "a34167a3fc944ff399a20aeb37d48b2c66a22c8ac128149420339857d68e769e",
+            "name": "Sibyl's Lament",
+            "typeLine": "Coral Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+27 to maximum Life"
+            ],
+            "explicitMods": [
+                "Adds 15 to 27 Fire Damage to Attacks",
+                "17% reduced Rarity of Items found",
+                "Left ring slot: 40% reduced Reflected Elemental Damage taken",
+                "Right ring slot: 40% reduced Reflected Physical Damage taken",
+                "24% increased Elemental Damage with Attack Skills"
+            ],
+            "flavourText": [
+                "The portrait reflected his pain,\r",
+                "a pain that she could never see."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 3,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 70,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/SibylsLament.png?scale=1&w=1&h=1&v=c6988251dae318076a1828d7675c7a5f",
+            "league": "Standard",
+            "id": "ec475355728a360697cb25e1dd794ace5f77cadc524d6e2156fd3d8752bfc5b1",
+            "name": "Sibyl's Lament",
+            "typeLine": "Coral Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+20 to maximum Life"
+            ],
+            "explicitMods": [
+                "Adds 12 to 28 Fire Damage to Attacks",
+                "17% reduced Rarity of Items found",
+                "Left ring slot: 40% reduced Reflected Elemental Damage taken",
+                "Right ring slot: 40% reduced Reflected Physical Damage taken",
+                "28% increased Elemental Damage with Attack Skills"
+            ],
+            "flavourText": [
+                "The portrait reflected his pain,\r",
+                "a pain that she could never see."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 5,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet37.png?scale=1&w=1&h=1&v=25bebeac11abfd9f7931d57476552109",
+            "league": "Standard",
+            "id": "09e6b5db8383570818dda59fcb34254c5a9094baa27f5ccf6f2945b6ecd42297",
+            "name": "Carnage Heart",
+            "typeLine": "Onyx Amulet",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+12 to all Attributes"
+            ],
+            "explicitMods": [
+                "+21 to all Attributes",
+                "+10% to all Elemental Resistances",
+                "1.7% of Physical Attack Damage Leeched as Life",
+                "50% increased total Recovery per second from Life Leech",
+                "31% increased Damage while Leeching",
+                "Extra gore"
+            ],
+            "flavourText": [
+                "Forged from the blood of countless wars, \r",
+                "its thirst has only begun."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 10,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e",
+            "league": "Standard",
+            "id": "6660ef5f1cd85deb55bd79b024da0d99c104288d962b5a247149985e429b6238",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                }
+            ],
+            "name": "Malachai's Artifice",
+            "typeLine": "Unset Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "Has 1 Socket"
+            ],
+            "explicitMods": [
+                "Socketed Gems have Elemental Equilibrium",
+                "-20% to all Elemental Resistances",
+                "+84% to Fire Resistance when Socketed with a Red Gem",
+                "+84% to Cold Resistance when Socketed with a Green Gem",
+                "+100% to Lightning Resistance when Socketed with a Blue Gem",
+                "All Sockets are White"
+            ],
+            "flavourText": [
+                "When the wind blows, \r",
+                "Know which way to bend\r",
+                "and watch the others break."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 2,
+            "y": 1,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 72,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/SibylsLament.png?scale=1&w=1&h=1&v=c6988251dae318076a1828d7675c7a5f",
+            "league": "Standard",
+            "id": "758883c8d80729346d2aa01f4c8ce97c63416bf6749b6d5ed505486ccae1af84",
+            "name": "Sibyl's Lament",
+            "typeLine": "Coral Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+21 to maximum Life"
+            ],
+            "explicitMods": [
+                "Adds 14 to 22 Fire Damage to Attacks",
+                "11% reduced Rarity of Items found",
+                "Left ring slot: 40% reduced Reflected Elemental Damage taken",
+                "Right ring slot: 40% reduced Reflected Physical Damage taken",
+                "24% increased Elemental Damage with Attack Skills"
+            ],
+            "flavourText": [
+                "The portrait reflected his pain,\r",
+                "a pain that she could never see."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 4,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 72,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Timeclasp.png?scale=1&w=1&h=1&v=071ed57ce91bd3d9e3469690db4097be",
+            "league": "Standard",
+            "id": "cb5498df4a16b535cb37a24cb33b601415a59e109b1584465f5eac13ba1269e9",
+            "name": "Timeclasp",
+            "typeLine": "Moonstone Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+16 to maximum Energy Shield"
+            ],
+            "explicitMods": [
+                "13% increased Attack Speed",
+                "7% increased Cast Speed",
+                "+19 to maximum Energy Shield",
+                "15% increased Mana Regeneration Rate",
+                "Temporal Chains has 50% reduced Effect on you"
+            ],
+            "flavourText": [
+                "\"To us mere mortals, time is slippery. \r",
+                "I'm just evening things out.\" \r",
+                "- Doryani, Queen's Thaumaturgist"
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 5,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 70,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e",
+            "league": "Standard",
+            "id": "0b975b90bedf6c7edf701c15e54ac5278b4a3be6487c3ffe59d58c71c2e4a381",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                }
+            ],
+            "name": "Malachai's Artifice",
+            "typeLine": "Unset Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "Has 1 Socket"
+            ],
+            "explicitMods": [
+                "Socketed Gems have Elemental Equilibrium",
+                "-20% to all Elemental Resistances",
+                "+77% to Fire Resistance when Socketed with a Red Gem",
+                "+75% to Cold Resistance when Socketed with a Green Gem",
+                "+77% to Lightning Resistance when Socketed with a Blue Gem",
+                "All Sockets are White"
+            ],
+            "flavourText": [
+                "When the wind blows, \r",
+                "Know which way to bend\r",
+                "and watch the others break."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 1,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 72,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/ThePariah.png?scale=1&w=1&h=1&v=11f9381394952b5be9e08eda1d17458d",
+            "league": "Standard",
+            "id": "d6f8d6f9eb2969eb0d45e4e2e3ac0c8fcb03fe9d35243a13c57c9e9490947062",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "The Pariah",
+            "typeLine": "Unset Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "60",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "Has 1 Socket"
+            ],
+            "explicitMods": [
+                "+2 to Level of Socketed Gems",
+                "9% increased Attack and Cast Speed",
+                "+100 to Maximum Life per Red Socket",
+                "+100 to Maximum Mana per Green Socket",
+                "+100 to Maximum Energy Shield per Blue Socket",
+                "15% increased Item Quantity per White Socket"
+            ],
+            "flavourText": [
+                "A man who changes his loyalties often,\r",
+                "soon finds he has none."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 2,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MokousEmbrace.png?scale=1&w=1&h=1&v=60613e7904f0f63859c98673562c815e",
+            "league": "Standard",
+            "id": "546d5cdc26e2a5abaeeccfdfab719cd1eeb9eaabbc1c4472768a095a3c0c4e00",
+            "name": "Mokou's Embrace",
+            "typeLine": "Ruby Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "16",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+23% to Fire Resistance"
+            ],
+            "explicitMods": [
+                "15% increased Fire Damage",
+                "+33% to Cold Resistance",
+                "10% chance to Ignite",
+                "20% increased Attack Speed while Ignited",
+                "20% increased Cast Speed while Ignited",
+                "+25% chance to be Ignited"
+            ],
+            "flavourText": [
+                "Fire makes the perfect blossom in the endless night."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 8,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44",
+            "league": "Standard",
+            "id": "f062972737259f1868c8e9c223fab5754f4cb0ff7d551b86c046cbf9510a44e8",
+            "name": "Blackheart",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "implicitMods": [
+                "Adds 1 to 4 Physical Damage to Attacks"
+            ],
+            "explicitMods": [
+                "5% increased Global Physical Damage",
+                "Adds 1 to 3 Chaos Damage to Attacks",
+                "+21 to maximum Life",
+                "2.2 Life Regenerated per second",
+                "10% chance to Cause Monsters to Flee"
+            ],
+            "flavourText": [
+                "Fear is highly infectious."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 3,
+            "y": 3,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/MalachaisArtifice.png?scale=1&w=1&h=1&v=9dfec25c325226c7b82989fd93bdd57e",
+            "league": "Standard",
+            "id": "51a3e19b6c0b3c738c6e043a552f997eae51586ea10f1590a8a3011d868c80ed",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "G",
+                    "sColour": "W"
+                }
+            ],
+            "name": "Malachai's Artifice",
+            "typeLine": "Unset Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "Has 1 Socket"
+            ],
+            "explicitMods": [
+                "Socketed Gems have Elemental Equilibrium",
+                "-20% to all Elemental Resistances",
+                "+84% to Fire Resistance when Socketed with a Red Gem",
+                "+79% to Cold Resistance when Socketed with a Green Gem",
+                "+76% to Lightning Resistance when Socketed with a Blue Gem",
+                "All Sockets are White"
+            ],
+            "flavourText": [
+                "When the wind blows, \r",
+                "Know which way to bend\r",
+                "and watch the others break."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 3,
+            "y": 1,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44",
+            "league": "Standard",
+            "id": "a0269b864a95c53b4f5c31e9406dd85da773f6457a357203147af732b5682d79",
+            "name": "Blackheart",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "implicitMods": [
+                "Adds 1 to 4 Physical Damage to Attacks"
+            ],
+            "explicitMods": [
+                "5% increased Global Physical Damage",
+                "Adds 1 to 3 Chaos Damage to Attacks",
+                "+27 to maximum Life",
+                "3 Life Regenerated per second",
+                "10% chance to Cause Monsters to Flee"
+            ],
+            "flavourText": [
+                "Fear is highly infectious."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 3,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Timeclasp.png?scale=1&w=1&h=1&v=071ed57ce91bd3d9e3469690db4097be",
+            "league": "Standard",
+            "id": "7383f08aa5b2e0aa19191f0ca0e1be6b106696e3442f0985cb6e6f5c705561dc",
+            "name": "Timeclasp",
+            "typeLine": "Moonstone Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+24 to maximum Energy Shield"
+            ],
+            "explicitMods": [
+                "11% increased Attack Speed",
+                "5% increased Cast Speed",
+                "+15 to maximum Energy Shield",
+                "15% increased Mana Regeneration Rate",
+                "Temporal Chains has 50% reduced Effect on you"
+            ],
+            "flavourText": [
+                "\"To us mere mortals, time is slippery. \r",
+                "I'm just evening things out.\" \r",
+                "- Doryani, Queen's Thaumaturgist"
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 4,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 74,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/HeartboundRing.png?scale=1&w=1&h=1&v=0de40a044b808bbaff9988548e6cc59b",
+            "league": "Standard",
+            "id": "58b40f1aa8977d2ab68eba2ebbd6034cfaa6d710fb8ac1ca45d5e5d0d56bf43e",
+            "name": "Heartbound Loop",
+            "typeLine": "Moonstone Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+15 to maximum Energy Shield"
+            ],
+            "explicitMods": [
+                "13.9 Life Regenerated per second",
+                "20% increased Mana Regeneration Rate",
+                "Minions have 15% increased maximum Life",
+                "Minions have 10% increased Area of Effect",
+                "350 Physical Damage taken on Minion Death"
+            ],
+            "flavourText": [
+                "When the axe finally fell, Seryl shared his pain,\r",
+                "and the last thought that flickered through his\r",
+                "fading mind was her broken, shattered scream."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring3Unique.png?scale=1&w=1&h=1&v=689dcd2e6f55af30ca0fa8e1f795e807",
+            "league": "Standard",
+            "id": "649f1ea5c8fcb23d982e5f393c7c50ba5cb005bf3177850eb1c2cd01160b97a3",
+            "name": "Doedre's Damning",
+            "typeLine": "Paua Ring",
+            "identified": true,
+            "implicitMods": [
+                "+22 to maximum Mana"
+            ],
+            "explicitMods": [
+                "+10 to Intelligence",
+                "+5% to all Elemental Resistances",
+                "+5 Mana gained on Kill",
+                "You can apply an additional Curse"
+            ],
+            "flavourText": [
+                "Where her mouth should have been\r",
+                "there was only a whirling, black void."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 6,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 78,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/HeartboundRing.png?scale=1&w=1&h=1&v=0de40a044b808bbaff9988548e6cc59b",
+            "league": "Standard",
+            "id": "caa306efe3cf709a681fd305f79f27d2d20c8793508a10cc19d284c8fac43c98",
+            "name": "Heartbound Loop",
+            "typeLine": "Moonstone Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+21 to maximum Energy Shield"
+            ],
+            "explicitMods": [
+                "13.2 Life Regenerated per second",
+                "21% increased Mana Regeneration Rate",
+                "Minions have 15% increased maximum Life",
+                "Minions have 10% increased Area of Effect",
+                "350 Physical Damage taken on Minion Death"
+            ],
+            "flavourText": [
+                "When the axe finally fell, Seryl shared his pain,\r",
+                "and the last thought that flickered through his\r",
+                "fading mind was her broken, shattered scream."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 62,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/HeartboundRing.png?scale=1&w=1&h=1&v=0de40a044b808bbaff9988548e6cc59b",
+            "league": "Standard",
+            "id": "f8c628e208e0089c93324a71ec377e46aa9ff0854ba5c2d65fd924360619376d",
+            "name": "Heartbound Loop",
+            "typeLine": "Moonstone Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+21 to maximum Energy Shield"
+            ],
+            "explicitMods": [
+                "14.4 Life Regenerated per second",
+                "20% increased Mana Regeneration Rate",
+                "Minions have 15% increased maximum Life",
+                "Minions have 10% increased Area of Effect",
+                "350 Physical Damage taken on Minion Death"
+            ],
+            "flavourText": [
+                "When the axe finally fell, Seryl shared his pain,\r",
+                "and the last thought that flickered through his\r",
+                "fading mind was her broken, shattered scream."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 0,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 73,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/BloodBoil.png?scale=1&w=1&h=1&v=791a92cab4872052ab88c1ed56683662",
+            "league": "Standard",
+            "id": "3792b81e421183b48ecaf72076046257d6c7702e53353d86541663cbca3a3899",
+            "name": "Bloodboil",
+            "typeLine": "Coral Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "24",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+23 to maximum Life"
+            ],
+            "explicitMods": [
+                "Adds 13 to 25 Fire Damage to Attacks",
+                "+27 to maximum Life",
+                "+13% to Cold Resistance",
+                "75% reduced Effect of Chill on you",
+                "10% increased Movement Speed while Ignited"
+            ],
+            "flavourText": [
+                "Rage is a big part of courage."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 1,
+            "y": 9,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 79,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Timeclasp.png?scale=1&w=1&h=1&v=071ed57ce91bd3d9e3469690db4097be",
+            "league": "Standard",
+            "id": "9b8cc0f5802bd9b4ee0f8e26c265d92e8c492d3263b81dad5fae38ccdab1eb06",
+            "name": "Timeclasp",
+            "typeLine": "Moonstone Ring",
+            "identified": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "22",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "implicitMods": [
+                "+17 to maximum Energy Shield"
+            ],
+            "explicitMods": [
+                "15% increased Attack Speed",
+                "10% increased Cast Speed",
+                "+25 to maximum Energy Shield",
+                "15% increased Mana Regeneration Rate",
+                "Temporal Chains has 50% reduced Effect on you"
+            ],
+            "flavourText": [
+                "\"To us mere mortals, time is slippery. \r",
+                "I'm just evening things out.\" \r",
+                "- Doryani, Queen's Thaumaturgist"
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 0,
+            "y": 4,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 77,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1Unique.png?scale=1&w=1&h=1&v=f962bd6db3b4125085fdadc3f7c00c44",
+            "league": "Standard",
+            "id": "d2b09307858b38569ede8e703f2b02dedc0a56b7b4f81ea5b2525d998d2d5d1f",
+            "name": "Blackheart",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "implicitMods": [
+                "Adds 1 to 4 Physical Damage to Attacks"
+            ],
+            "explicitMods": [
+                "5% increased Global Physical Damage",
+                "Adds 1 to 3 Chaos Damage to Attacks",
+                "+28 to maximum Life",
+                "3.2 Life Regenerated per second",
+                "10% chance to Cause Monsters to Flee"
+            ],
+            "flavourText": [
+                "Fear is highly infectious."
+            ],
+            "frameType": 3,
+            "category": {
+                "accessories": [
+                    "ring"
+                ]
+            },
+            "x": 2,
+            "y": 3,
+            "inventoryId": "Stash14"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "ilvl": 75,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandAxes\/TwoHandAxeUnique1.png?scale=1&w=2&h=4&v=bb325010b109dcd4913a316486948b65",
+            "league": "Standard",
+            "id": "b5d7456e0c3824acbdc4bde9efb68ec927599b4b270e86bea7e5870b97efe57e",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Reaper's Pursuit",
+            "typeLine": "Shadow Axe",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Two Handed Axe",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "94-138",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.25",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "13",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "33",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "80",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "37",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "explicitMods": [
+                "123% increased Physical Damage",
+                "39% increased Rarity of Items found",
+                "+10 Life gained on Kill",
+                "15% increased Movement Speed when on Full Life",
+                "Culling Strike",
+                "Hits can't be Evaded"
+            ],
+            "flavourText": [
+                "Accept your fate, or lie, pretend.\r",
+                "Death collects you in the end."
+            ],
+            "frameType": 3,
+            "category": {
+                "weapons": [
+                    "twoaxe"
+                ]
+            },
+            "x": 8,
+            "y": 8,
+            "inventoryId": "Stash14",
+            "socketedItems": []
+        }
+    ]
+}

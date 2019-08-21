@@ -1,1 +1,1553 @@
-{"numTabs":14,"items":[{"verified":false,"w":2,"h":1,"ilvl":61,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt2.png?scale=1&w=2&h=1&v=05d53adc2875453b6b6bb2652ee3d74d","league":"Standard","id":"8150128b92fa9540888f49306f84f26f0a4f2330c108e5d24a64e2f8aeeecf1e","name":"","typeLine":"Chain Belt","identified":false,"implicitMods":["+15 to maximum Energy Shield"],"frameType":2,"category":{"accessories":["belt"]},"x":2,"y":10,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":2,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe12","league":"Standard","id":"695606ff019198880db5cc9baedaeba52c77055ba101f9027950334250fd6aa5","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"S","sColour":"R"}],"name":"","typeLine":"Goliath Greaves","identified":false,"properties":[{"name":"Armour","values":[["177",0]],"displayMode":0,"type":16}],"requirements":[{"name":"Strength","values":[["95",0]],"displayMode":1}],"frameType":2,"category":{"armour":["boots"]},"x":0,"y":4,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet6.png?scale=1&w=1&h=1&v=bc7ee6ba515d5f34cfaf7daec1571c52","league":"Standard","id":"cb1473f99decad11ecd62818faad46b71a65c512c85c98ee5fc499f9793c61e0","name":"","typeLine":"Gold Amulet","identified":false,"implicitMods":["19% increased Rarity of Items found"],"frameType":2,"category":{"accessories":["amulet"]},"x":10,"y":0,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":3,"ilvl":61,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyInt1B.png?scale=1&w=2&h=3&v=8aeda9998a622e9b5d0d61821584b17d","league":"Standard","id":"8e5e31b9b76259b5a852a353ee53631deed7a454b3a0f28fd79dd46e16b8d8da","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"","typeLine":"Savant's Robe","identified":false,"properties":[{"name":"Energy Shield","values":[["109",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["152",0]],"displayMode":1}],"frameType":2,"category":{"armour":["chest"]},"x":8,"y":1,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":84,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt8.png?scale=1&w=2&h=2&v=ac2e8f600c1f786b95f0aaa816d0a1c5","league":"Standard","id":"891d81285893927313aafc4e25fd290117f111ab4dde94fc800d9cbd9b7c3091","sockets":[{"group":0,"attr":"I","sColour":"B"}],"name":"","typeLine":"Necromancer Circlet","identified":false,"properties":[{"name":"Energy Shield","values":[["52",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["112",0]],"displayMode":1}],"frameType":2,"category":{"armour":["helmet"]},"x":6,"y":0,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesInt3.png?scale=1&w=2&h=2&v=af52d7a61dc25003bf727c86cd21b103","league":"Standard","id":"2ad16e65d37e9f6f9ec85b5970db8c50feadf31d72641e3dbbc46d350c9de37a","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"},{"group":1,"attr":"I","sColour":"B"}],"name":"","typeLine":"Samite Gloves","identified":false,"properties":[{"name":"Energy Shield","values":[["30",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["68",0]],"displayMode":1}],"frameType":2,"category":{"armour":["gloves"]},"x":0,"y":2,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet5.png?scale=1&w=1&h=1&v=574b38016f547495a51268177882d5cc","league":"Standard","id":"a8ba5e9024022df82043a70824b72405e3d1b5439aedbbb5d006b4614655696a","name":"","typeLine":"Lapis Amulet","identified":false,"implicitMods":["+29 to Intelligence"],"frameType":2,"category":{"accessories":["amulet"]},"x":10,"y":5,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":2,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt8.png?scale=1&w=2&h=2&v=ac2e8f600c1f786b95f0aaa816d0a1c5","league":"Standard","id":"104d9ecc815ca87578f865d8f7dc912c096cb7f6758e923be43609859635c24a","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"D","sColour":"G"}],"name":"","typeLine":"Necromancer Circlet","identified":false,"properties":[{"name":"Energy Shield","values":[["52",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["112",0]],"displayMode":1}],"frameType":2,"category":{"armour":["helmet"]},"x":0,"y":0,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet4.png?scale=1&w=1&h=1&v=cc3ec167ca9ea10dfa05b2d55b5dcf62","league":"Standard","id":"4ed4715668ef3661f8e60f2e2bdefe4155d7185ff8eb64c43003250b35c26c8f","name":"","typeLine":"Jade Amulet","identified":false,"implicitMods":["+20 to Dexterity"],"frameType":2,"category":{"accessories":["amulet"]},"x":4,"y":11,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":2,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDex4.png?scale=1&w=2&h=2&v=94df453d0a2c90166ca359ed276a9d29","league":"Standard","id":"cf31227705f101ecd838eab3583539abfb86b23c6e87b9560708e206263f8b38","sockets":[{"group":0,"attr":"D","sColour":"G"}],"name":"","typeLine":"Wolf Pelt","identified":false,"properties":[{"name":"Evasion Rating","values":[["150",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Dexterity","values":[["66",0]],"displayMode":1}],"frameType":2,"category":{"armour":["helmet"]},"x":0,"y":6,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt8.png?scale=1&w=2&h=2&v=ac2e8f600c1f786b95f0aaa816d0a1c5","league":"Standard","id":"3dc775a7556b8d1931f2563f83904c26e151687d419cb90fe00db061cfc4be68","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":1,"attr":"S","sColour":"R"}],"name":"","typeLine":"Necromancer Circlet","identified":false,"properties":[{"name":"Energy Shield","values":[["52",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["112",0]],"displayMode":1}],"frameType":2,"category":{"armour":["helmet"]},"x":6,"y":6,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":84,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3","league":"Standard","id":"abd4733c245c60a3bba6b92a64ac42bf62b170ffc7c6126bc5ce5f13173b5c52","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"}],"name":"","typeLine":"Sorcerer Boots","identified":false,"properties":[{"name":"Energy Shield","values":[["49",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["123",0]],"displayMode":1}],"frameType":2,"category":{"armour":["boots"]},"x":6,"y":4,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":84,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt2B.png?scale=1&w=2&h=3&v=9df549422566422549804e3f90d4d111","league":"Standard","id":"e92a0698ee221d8f92ec8bcce2bfcf93d5b5b3f2da03e6e5aa891331b2e18d5e","sockets":[{"group":0,"attr":"S","sColour":"R"},{"group":0,"attr":"I","sColour":"B"}],"name":"","typeLine":"Conquest Chainmail","identified":false,"properties":[{"name":"Armour","values":[["387",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["75",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Str","values":[["96",0]],"displayMode":1},{"name":"Int","values":[["96",0]],"displayMode":1}],"frameType":2,"category":{"armour":["chest"]},"x":2,"y":7,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":4,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandAxes\/TwoHandAxe2.png?scale=1&w=2&h=4&v=d8b0039b20141493a7712dc722062026","league":"Standard","id":"b74f4baf729fc47a9b4b2bf58b86f45369bc10006222e4edd7cea9b68e76c88b","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"D","sColour":"G"}],"name":"","typeLine":"Karui Chopper","identified":false,"properties":[{"name":"Two Handed Axe","values":[],"displayMode":0},{"name":"Physical Damage","values":[["80-125",0]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["5.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.15",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["13",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Str","values":[["151",0]],"displayMode":1},{"name":"Dex","values":[["43",0]],"displayMode":1}],"frameType":2,"category":{"weapons":["twoaxe"]},"x":4,"y":1,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":84,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt1C.png?scale=1&w=2&h=3&v=cd4e1ae25b62ca228a234ca75312d8db","league":"Standard","id":"9cfe3971b2a71bf651de567717be4c8e2b2a5737656e6d20905190983bc69aef","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"","typeLine":"Ornate Ringmail","identified":false,"properties":[{"name":"Armour","values":[["259",0]],"displayMode":0,"type":16},{"name":"Energy Shield","values":[["51",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Str","values":[["69",0]],"displayMode":1},{"name":"Int","values":[["69",0]],"displayMode":1}],"frameType":2,"category":{"armour":["chest"]},"x":8,"y":7,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesInt3.png?scale=1&w=2&h=2&v=af52d7a61dc25003bf727c86cd21b103","league":"Standard","id":"97d2a93b4bf25434f28c2667c17d19610a63744ee128df9ec91076bbf78c4666","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"D","sColour":"G"}],"name":"","typeLine":"Arcanist Gloves","identified":false,"properties":[{"name":"Energy Shield","values":[["43",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["95",0]],"displayMode":1}],"frameType":2,"category":{"armour":["gloves"]},"x":6,"y":8,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":3,"ilvl":63,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex1C.png?scale=1&w=2&h=3&v=b7e43accd0d753c6edc393121dad415e","league":"Standard","id":"8017ba97562a93e6542ae5bcb278b0ac7773be7cbc0971b3cea753b9dc6bfca0","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"D","sColour":"G"}],"name":"","typeLine":"Exquisite Leather","identified":false,"properties":[{"name":"Evasion Rating","values":[["704",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Dexterity","values":[["170",0]],"displayMode":1}],"frameType":2,"category":{"armour":["chest"]},"x":2,"y":1,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt2.png?scale=1&w=2&h=2&v=8301a0119606f022ec99a9723749003d","league":"Standard","id":"3b67c0262611fc0d2e9a69d06803a7f90cb16845d0421a36e53538af66f66e16","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"D","sColour":"G"},{"group":0,"attr":"I","sColour":"B"}],"name":"","typeLine":"Assassin's Mitts","identified":false,"properties":[{"name":"Evasion Rating","values":[["104",0]],"displayMode":0,"type":17},{"name":"Energy Shield","values":[["20",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Dex","values":[["45",0]],"displayMode":1},{"name":"Int","values":[["45",0]],"displayMode":1}],"frameType":2,"category":{"armour":["gloves"]},"x":0,"y":8,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStrDex2.png?scale=1&w=2&h=2&v=385517339bcc890605b26256f1265e88","league":"Standard","id":"5534b47b60971e6074bf5dfe60e0edc1e18ec73185060c81a9ebbbaf2785feac","sockets":[{"group":0,"attr":"S","sColour":"R"}],"name":"","typeLine":"Hydrascale Gauntlets","identified":false,"properties":[{"name":"Armour","values":[["106",0]],"displayMode":0,"type":16},{"name":"Evasion Rating","values":[["106",0]],"displayMode":0,"type":17}],"requirements":[{"name":"Str","values":[["45",0]],"displayMode":1},{"name":"Dex","values":[["45",0]],"displayMode":1}],"frameType":2,"category":{"armour":["gloves"]},"x":6,"y":2,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt2.png?scale=1&w=2&h=1&v=05d53adc2875453b6b6bb2652ee3d74d","league":"Standard","id":"c09d5c230437dba3c9c1850ced690f5a034fd9ea995264e678304f0fea75979c","name":"","typeLine":"Chain Belt","identified":false,"implicitMods":["+18 to maximum Energy Shield"],"frameType":2,"category":{"accessories":["belt"]},"x":8,"y":10,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":4,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff5.png?scale=1&w=2&h=4&v=7fc20cdfc2edfee54eea27dfd5d54375","league":"Standard","id":"409a5c4dcee91b21f012e7996a4da19dcf07778376bfc04d5144e4910be17927","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"I","sColour":"B"}],"name":"","typeLine":"Superior Serpentine Staff","identified":false,"properties":[{"name":"Staff","values":[],"displayMode":0},{"name":"Quality","values":[["+18%",1]],"displayMode":0,"type":6},{"name":"Physical Damage","values":[["57-118",1]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["6.30%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.25",0]],"displayMode":0,"type":13},{"name":"Weapon Range","values":[["13",0]],"displayMode":0,"type":14}],"requirements":[{"name":"Str","values":[["85",0]],"displayMode":1},{"name":"Int","values":[["85",0]],"displayMode":1}],"implicitMods":["+20% Chance to Block Attack Damage while wielding a Staff"],"frameType":2,"category":{"weapons":["staff"]},"x":4,"y":7,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":2,"h":1,"ilvl":81,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae","league":"Standard","id":"656b6d4dec3952a51e85deaacd30cbb53b63e27fc07cdd87c387c97b1bc1c56c","name":"","typeLine":"Cloth Belt","identified":false,"implicitMods":["25% increased Stun and Block Recovery"],"frameType":2,"category":{"accessories":["belt"]},"x":2,"y":4,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":4,"ilvl":84,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Bows\/Bow4.png?scale=1&w=2&h=4&v=8893a45dda08d2bd96cde7d7b7fc69f9","league":"Standard","id":"a02a556bafe9024729d39fadfeef8d24dabcb84c16acecc136bb2c8d7920eb76","sockets":[{"group":0,"attr":"D","sColour":"G"},{"group":1,"attr":"D","sColour":"G"}],"name":"","typeLine":"Compound Bow","identified":false,"properties":[{"name":"Bow","values":[],"displayMode":0},{"name":"Physical Damage","values":[["26-54",0]],"displayMode":0,"type":9},{"name":"Critical Strike Chance","values":[["6.00%",0]],"displayMode":0,"type":12},{"name":"Attacks per Second","values":[["1.30",0]],"displayMode":0,"type":13}],"requirements":[{"name":"Dexterity","values":[["134",0]],"displayMode":1}],"frameType":2,"category":{"weapons":["bow"]},"x":10,"y":1,"inventoryId":"Stash7","socketedItems":[]},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet5.png?scale=1&w=1&h=1&v=574b38016f547495a51268177882d5cc","league":"Standard","id":"ebc0cf729808a0d9703fbeec6126c7e0da88cc24d89f9accf56d921fd88b442f","name":"","typeLine":"Lapis Amulet","identified":false,"implicitMods":["+21 to Intelligence"],"frameType":2,"category":{"accessories":["amulet"]},"x":11,"y":0,"inventoryId":"Stash7"},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet7.png?scale=1&w=1&h=1&v=ecac1e6f4574572eeef0379d955811cd","league":"Standard","id":"1caeab72841b2e8adb38675d4dfe415db19bc55d8aa6ea96493923b686c393ba","name":"","typeLine":"Onyx Amulet","identified":false,"implicitMods":["+12 to all Attributes"],"frameType":2,"category":{"accessories":["amulet"]},"x":10,"y":11,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":1,"ilvl":82,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae","league":"Standard","id":"43872f1e28514b732c406a1856f6f866e12fba0634d557a4f0827771a593adb7","name":"","typeLine":"Cloth Belt","identified":false,"implicitMods":["22% increased Stun and Block Recovery"],"frameType":2,"category":{"accessories":["belt"]},"x":8,"y":4,"inventoryId":"Stash7"},{"verified":false,"w":1,"h":1,"ilvl":83,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet2.png?scale=1&w=1&h=1&v=1bb23cebd36e20ede7c0e76575215b14","league":"Standard","id":"9170210968a17a370d0dc3e4916af9be5d444f1091fe40979bd18414934eb6e0","name":"","typeLine":"Coral Amulet","identified":false,"implicitMods":["3.8 Life Regenerated per second"],"frameType":2,"category":{"accessories":["amulet"]},"x":4,"y":5,"inventoryId":"Stash7"},{"verified":false,"w":2,"h":2,"ilvl":80,"icon":"https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt3.png?scale=1&w=2&h=2&v=77abd4784ad8e1666ac1b956c565a80e","league":"Standard","id":"8f45c83eca12b3d8d810e3723427e276bcbfb51473bb024466f54a16fde49617","sockets":[{"group":0,"attr":"I","sColour":"B"},{"group":0,"attr":"S","sColour":"R"},{"group":1,"attr":"I","sColour":"B"}],"name":"","typeLine":"Samite Slippers","identified":false,"properties":[{"name":"Energy Shield","values":[["29",0]],"displayMode":0,"type":18}],"requirements":[{"name":"Intelligence","values":[["79",0]],"displayMode":1}],"frameType":2,"category":{"armour":["boots"]},"x":0,"y":10,"inventoryId":"Stash7","socketedItems":[]}]}
+{
+    "numTabs": 14,
+    "items": [
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 61,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt2.png?scale=1&w=2&h=1&v=05d53adc2875453b6b6bb2652ee3d74d",
+            "league": "Standard",
+            "id": "8150128b92fa9540888f49306f84f26f0a4f2330c108e5d24a64e2f8aeeecf1e",
+            "name": "",
+            "typeLine": "Chain Belt",
+            "identified": false,
+            "implicitMods": [
+                "+15 to maximum Energy Shield"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 2,
+            "y": 10,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsStr4.png?scale=1&w=2&h=2&v=e26e440ce9b34d249004f0c063d3fe12",
+            "league": "Standard",
+            "id": "695606ff019198880db5cc9baedaeba52c77055ba101f9027950334250fd6aa5",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "",
+            "typeLine": "Goliath Greaves",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "177",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Strength",
+                    "values": [
+                        [
+                            "95",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 0,
+            "y": 4,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet6.png?scale=1&w=1&h=1&v=bc7ee6ba515d5f34cfaf7daec1571c52",
+            "league": "Standard",
+            "id": "cb1473f99decad11ecd62818faad46b71a65c512c85c98ee5fc499f9793c61e0",
+            "name": "",
+            "typeLine": "Gold Amulet",
+            "identified": false,
+            "implicitMods": [
+                "19% increased Rarity of Items found"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 10,
+            "y": 0,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 61,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyInt1B.png?scale=1&w=2&h=3&v=8aeda9998a622e9b5d0d61821584b17d",
+            "league": "Standard",
+            "id": "8e5e31b9b76259b5a852a353ee53631deed7a454b3a0f28fd79dd46e16b8d8da",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Savant's Robe",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "109",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "152",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 8,
+            "y": 1,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 84,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt8.png?scale=1&w=2&h=2&v=ac2e8f600c1f786b95f0aaa816d0a1c5",
+            "league": "Standard",
+            "id": "891d81285893927313aafc4e25fd290117f111ab4dde94fc800d9cbd9b7c3091",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Necromancer Circlet",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "112",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 6,
+            "y": 0,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesInt3.png?scale=1&w=2&h=2&v=af52d7a61dc25003bf727c86cd21b103",
+            "league": "Standard",
+            "id": "2ad16e65d37e9f6f9ec85b5970db8c50feadf31d72641e3dbbc46d350c9de37a",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Samite Gloves",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "68",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 0,
+            "y": 2,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet5.png?scale=1&w=1&h=1&v=574b38016f547495a51268177882d5cc",
+            "league": "Standard",
+            "id": "a8ba5e9024022df82043a70824b72405e3d1b5439aedbbb5d006b4614655696a",
+            "name": "",
+            "typeLine": "Lapis Amulet",
+            "identified": false,
+            "implicitMods": [
+                "+29 to Intelligence"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 10,
+            "y": 5,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt8.png?scale=1&w=2&h=2&v=ac2e8f600c1f786b95f0aaa816d0a1c5",
+            "league": "Standard",
+            "id": "104d9ecc815ca87578f865d8f7dc912c096cb7f6758e923be43609859635c24a",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "",
+            "typeLine": "Necromancer Circlet",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "112",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet4.png?scale=1&w=1&h=1&v=cc3ec167ca9ea10dfa05b2d55b5dcf62",
+            "league": "Standard",
+            "id": "4ed4715668ef3661f8e60f2e2bdefe4155d7185ff8eb64c43003250b35c26c8f",
+            "name": "",
+            "typeLine": "Jade Amulet",
+            "identified": false,
+            "implicitMods": [
+                "+20 to Dexterity"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 4,
+            "y": 11,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDex4.png?scale=1&w=2&h=2&v=94df453d0a2c90166ca359ed276a9d29",
+            "league": "Standard",
+            "id": "cf31227705f101ecd838eab3583539abfb86b23c6e87b9560708e206263f8b38",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "",
+            "typeLine": "Wolf Pelt",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "150",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Dexterity",
+                    "values": [
+                        [
+                            "66",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 0,
+            "y": 6,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetInt8.png?scale=1&w=2&h=2&v=ac2e8f600c1f786b95f0aaa816d0a1c5",
+            "league": "Standard",
+            "id": "3dc775a7556b8d1931f2563f83904c26e151687d419cb90fe00db061cfc4be68",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 1,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "",
+            "typeLine": "Necromancer Circlet",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "52",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "112",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "helmet"
+                ]
+            },
+            "x": 6,
+            "y": 6,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 84,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3",
+            "league": "Standard",
+            "id": "abd4733c245c60a3bba6b92a64ac42bf62b170ffc7c6126bc5ce5f13173b5c52",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Sorcerer Boots",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "49",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "123",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 6,
+            "y": 4,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 84,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt2B.png?scale=1&w=2&h=3&v=9df549422566422549804e3f90d4d111",
+            "league": "Standard",
+            "id": "e92a0698ee221d8f92ec8bcce2bfcf93d5b5b3f2da03e6e5aa891331b2e18d5e",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Conquest Chainmail",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "387",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "75",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "96",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "96",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 2,
+            "y": 7,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandAxes\/TwoHandAxe2.png?scale=1&w=2&h=4&v=d8b0039b20141493a7712dc722062026",
+            "league": "Standard",
+            "id": "b74f4baf729fc47a9b4b2bf58b86f45369bc10006222e4edd7cea9b68e76c88b",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "",
+            "typeLine": "Karui Chopper",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Two Handed Axe",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "80-125",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "5.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.15",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "13",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "151",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "43",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "twoaxe"
+                ]
+            },
+            "x": 4,
+            "y": 1,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 84,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt1C.png?scale=1&w=2&h=3&v=cd4e1ae25b62ca228a234ca75312d8db",
+            "league": "Standard",
+            "id": "9cfe3971b2a71bf651de567717be4c8e2b2a5737656e6d20905190983bc69aef",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "",
+            "typeLine": "Ornate Ringmail",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "259",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "51",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "69",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 8,
+            "y": 7,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesInt3.png?scale=1&w=2&h=2&v=af52d7a61dc25003bf727c86cd21b103",
+            "league": "Standard",
+            "id": "97d2a93b4bf25434f28c2667c17d19610a63744ee128df9ec91076bbf78c4666",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "",
+            "typeLine": "Arcanist Gloves",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "43",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "95",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 6,
+            "y": 8,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 3,
+            "ilvl": 63,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex1C.png?scale=1&w=2&h=3&v=b7e43accd0d753c6edc393121dad415e",
+            "league": "Standard",
+            "id": "8017ba97562a93e6542ae5bcb278b0ac7773be7cbc0971b3cea753b9dc6bfca0",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "",
+            "typeLine": "Exquisite Leather",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "704",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Dexterity",
+                    "values": [
+                        [
+                            "170",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 2,
+            "y": 1,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt2.png?scale=1&w=2&h=2&v=8301a0119606f022ec99a9723749003d",
+            "league": "Standard",
+            "id": "3b67c0262611fc0d2e9a69d06803a7f90cb16845d0421a36e53538af66f66e16",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Assassin's Mitts",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "104",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                },
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 0,
+            "y": 8,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStrDex2.png?scale=1&w=2&h=2&v=385517339bcc890605b26256f1265e88",
+            "league": "Standard",
+            "id": "5534b47b60971e6074bf5dfe60e0edc1e18ec73185060c81a9ebbbaf2785feac",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "",
+            "typeLine": "Hydrascale Gauntlets",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "106",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "106",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "45",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "gloves"
+                ]
+            },
+            "x": 6,
+            "y": 2,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt2.png?scale=1&w=2&h=1&v=05d53adc2875453b6b6bb2652ee3d74d",
+            "league": "Standard",
+            "id": "c09d5c230437dba3c9c1850ced690f5a034fd9ea995264e678304f0fea75979c",
+            "name": "",
+            "typeLine": "Chain Belt",
+            "identified": false,
+            "implicitMods": [
+                "+18 to maximum Energy Shield"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 8,
+            "y": 10,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff5.png?scale=1&w=2&h=4&v=7fc20cdfc2edfee54eea27dfd5d54375",
+            "league": "Standard",
+            "id": "409a5c4dcee91b21f012e7996a4da19dcf07778376bfc04d5144e4910be17927",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Superior Serpentine Staff",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Staff",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+18%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "57-118",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "6.30%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.25",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                },
+                {
+                    "name": "Weapon Range",
+                    "values": [
+                        [
+                            "13",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 14
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "85",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Int",
+                    "values": [
+                        [
+                            "85",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+20% Chance to Block Attack Damage while wielding a Staff"
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "staff"
+                ]
+            },
+            "x": 4,
+            "y": 7,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 81,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae",
+            "league": "Standard",
+            "id": "656b6d4dec3952a51e85deaacd30cbb53b63e27fc07cdd87c387c97b1bc1c56c",
+            "name": "",
+            "typeLine": "Cloth Belt",
+            "identified": false,
+            "implicitMods": [
+                "25% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 2,
+            "y": 4,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 4,
+            "ilvl": 84,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Bows\/Bow4.png?scale=1&w=2&h=4&v=8893a45dda08d2bd96cde7d7b7fc69f9",
+            "league": "Standard",
+            "id": "a02a556bafe9024729d39fadfeef8d24dabcb84c16acecc136bb2c8d7920eb76",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 1,
+                    "attr": "D",
+                    "sColour": "G"
+                }
+            ],
+            "name": "",
+            "typeLine": "Compound Bow",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Bow",
+                    "values": [],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Physical Damage",
+                    "values": [
+                        [
+                            "26-54",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 9
+                },
+                {
+                    "name": "Critical Strike Chance",
+                    "values": [
+                        [
+                            "6.00%",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 12
+                },
+                {
+                    "name": "Attacks per Second",
+                    "values": [
+                        [
+                            "1.30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 13
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Dexterity",
+                    "values": [
+                        [
+                            "134",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "weapons": [
+                    "bow"
+                ]
+            },
+            "x": 10,
+            "y": 1,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet5.png?scale=1&w=1&h=1&v=574b38016f547495a51268177882d5cc",
+            "league": "Standard",
+            "id": "ebc0cf729808a0d9703fbeec6126c7e0da88cc24d89f9accf56d921fd88b442f",
+            "name": "",
+            "typeLine": "Lapis Amulet",
+            "identified": false,
+            "implicitMods": [
+                "+21 to Intelligence"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 11,
+            "y": 0,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet7.png?scale=1&w=1&h=1&v=ecac1e6f4574572eeef0379d955811cd",
+            "league": "Standard",
+            "id": "1caeab72841b2e8adb38675d4dfe415db19bc55d8aa6ea96493923b686c393ba",
+            "name": "",
+            "typeLine": "Onyx Amulet",
+            "identified": false,
+            "implicitMods": [
+                "+12 to all Attributes"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 10,
+            "y": 11,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 1,
+            "ilvl": 82,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt4.png?scale=1&w=2&h=1&v=da282d3a3d76fc0d14b882450c3ed2ae",
+            "league": "Standard",
+            "id": "43872f1e28514b732c406a1856f6f866e12fba0634d557a4f0827771a593adb7",
+            "name": "",
+            "typeLine": "Cloth Belt",
+            "identified": false,
+            "implicitMods": [
+                "22% increased Stun and Block Recovery"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "belt"
+                ]
+            },
+            "x": 8,
+            "y": 4,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 83,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Amulets\/Amulet2.png?scale=1&w=1&h=1&v=1bb23cebd36e20ede7c0e76575215b14",
+            "league": "Standard",
+            "id": "9170210968a17a370d0dc3e4916af9be5d444f1091fe40979bd18414934eb6e0",
+            "name": "",
+            "typeLine": "Coral Amulet",
+            "identified": false,
+            "implicitMods": [
+                "3.8 Life Regenerated per second"
+            ],
+            "frameType": 2,
+            "category": {
+                "accessories": [
+                    "amulet"
+                ]
+            },
+            "x": 4,
+            "y": 5,
+            "inventoryId": "Stash7"
+        },
+        {
+            "verified": false,
+            "w": 2,
+            "h": 2,
+            "ilvl": 80,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt3.png?scale=1&w=2&h=2&v=77abd4784ad8e1666ac1b956c565a80e",
+            "league": "Standard",
+            "id": "8f45c83eca12b3d8d810e3723427e276bcbfb51473bb024466f54a16fde49617",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "I",
+                    "sColour": "B"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 1,
+                    "attr": "I",
+                    "sColour": "B"
+                }
+            ],
+            "name": "",
+            "typeLine": "Samite Slippers",
+            "identified": false,
+            "properties": [
+                {
+                    "name": "Energy Shield",
+                    "values": [
+                        [
+                            "29",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 18
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Intelligence",
+                    "values": [
+                        [
+                            "79",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "frameType": 2,
+            "category": {
+                "armour": [
+                    "boots"
+                ]
+            },
+            "x": 0,
+            "y": 10,
+            "inventoryId": "Stash7",
+            "socketedItems": []
+        }
+    ]
+}

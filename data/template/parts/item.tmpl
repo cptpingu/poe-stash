@@ -91,6 +91,13 @@
               {{ $layout = .MapLayout }}
               {{ $layoutType = "map" }}
               <div class="stashTabContents poeScroll mapStash" style="border-color: rgb(124, 84, 54);">
+                <p style="width: 75%; margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);">
+                  There is currently a bug on GGG side which prevents anyone to get maps from their API.
+                  They acknowledged the issue, and they are working on it. See:<br />
+                  <a style="text-decoration: underline;" href="https://www.pathofexile.com/forum/view-thread/1733474#p13674912">
+                    https://www.pathofexile.com/forum/view-thread/1733474#p13674912
+                  </a>
+                </p>
             {{ else if .QuadLayout }}
               {{ $layoutType = "quad" }}
               <div class="stashTabContents poeScroll quadStash" style="border-color: rgb(124, 84, 54);">
