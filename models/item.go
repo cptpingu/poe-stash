@@ -93,11 +93,13 @@ const (
 
 // Category is the type of category of an item.
 type Category struct {
-	Armor       []string `json:"armor"`
-	Accessories []string `json:"accessories"`
-	Currency    []string `json:"currency"`
-	Jewels      []string `json:"jewels"`
-	Weapons     []string `json:"weapons"`
+	Armor       *[]string `json:"armour"`
+	Accessories *[]string `json:"accessories"`
+	Currency    *[]string `json:"currency"`
+	Jewels      *[]string `json:"jewels"`
+	Weapons     *[]string `json:"weapons"`
+	Gems        *[]string `json:"gems"`
+	Maps        *[]string `json:"maps"`
 }
 
 // HybridType represent vaal gems additional properties.

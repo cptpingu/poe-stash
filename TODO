@@ -1,6 +1,7 @@
   * More rigourous item description generation
   * Shop id for the link after shop generation
   * Advanced query searching? (lots of work)
+  * Searching not working on divination special stash tab
   * Minify generated files, reducing size.
   * Choose what tabs and characters to generate
     * By character name

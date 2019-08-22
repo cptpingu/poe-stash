@@ -71,6 +71,7 @@ func LoadAllTemplates() (*template.Template, error) {
 		"GenProperties":        GenProperties,
 		"SearchItem":           SearchItem,
 		"GenNaiveSearchIndex":  GenNaiveSearchIndex,
+		"ItemCategory":         ItemCategory,
 		"Version": func() string {
 			return misc.Version
 		},
@@ -263,25 +264,25 @@ func DeducePosY(layoutType, inventoryId string, layout map[string]models.Layout,
 func rarityCharacteritics(frameType models.FrameType) (string, string, string) {
 	switch frameType {
 	case models.NormalItemFrameType:
-		return "Normal", "normalPopup", ""
+		return "normal", "normalPopup", ""
 	case models.MagicItemFrameType:
-		return "Magic", "magicPopup", ""
+		return "magic", "magicPopup", ""
 	case models.RareItemFrameType:
-		return "Rare", "rarePopup", "doubleLine"
+		return "rare", "rarePopup", "doubleLine"
 	case models.UniqueItemFrameType:
-		return "Unique", "uniquePopup", "doubleLine"
+		return "unique", "uniquePopup", "doubleLine"
 	case models.GemFrameType:
-		return "Gem", "gemPopup", ""
+		return "gem", "gemPopup", ""
 	case models.CurrencyFrameType:
-		return "Currency", "currencyPopup", ""
+		return "currency", "currencyPopup", ""
 	case models.DivinationCardFrameType:
-		return "Divination Card", "divinationCard", "doubleLine"
+		return "divinationcard", "divinationCard", "doubleLine"
 	case models.QuestItemFrameType:
-		return "Quest", "questPopup", ""
+		return "quest", "questPopup", ""
 	case models.ProphecyFrameType:
-		return "Normal", "prophecyPopup", ""
+		return "normal", "prophecyPopup", ""
 	case models.RelicFrameType:
-		return "Relic", "relicPopup", "doubleLine"
+		return "relic", "relicPopup", "doubleLine"
 	default:
 		return "", "", ""
 	}
@@ -661,4 +662,93 @@ func GenNaiveSearchIndex(item models.Item) string {
 	}
 	sort.Strings(keys)
 	return strings.Join(keys, " ")
+}
+
+// ItemCategory returns a text item category from categories.
+func ItemCategory(item models.Item) string {
+	res := make([]string, 0, 10)
+
+	if item.IsShaper {
+		res = append(res, "shaper")
+	}
+	if item.IsElder {
+		res = append(res, "elder")
+	}
+	if item.IsIdentified {
+		res = append(res, "identified")
+	} else {
+		res = append(res, "unidentified")
+	}
+	if item.IsCorrupted {
+		res = append(res, "corrupted", "corrupt")
+	}
+	if item.IsVeiled {
+		res = append(res, "veiled", "veil")
+	}
+	if item.IsRelic {
+		res = append(res, "relic")
+	}
+	if item.IsVerified {
+		res = append(res, "verified")
+	}
+	if item.IsAbyssJewel {
+		res = append(res, "abyss")
+	}
+	if len(item.ProphecyText) > 0 {
+		res = append(res, "prophecy")
+	}
+	if item.Hybrid.IsVaalGem {
+		res = append(res, "vaalgem", "vaal")
+	}
+	if len(item.ArtFilename) > 0 {
+		res = append(res, "divination", "divine", "divcard", "divinationcard")
+	}
+
+	categories := item.Category
+
+	if categories.Armor != nil {
+		res = append(res, "armor", "armour", "armors", "armours")
+		for _, v := range *categories.Armor {
+			res = append(res, v)
+		}
+	}
+	if categories.Accessories != nil {
+		res = append(res, "accessory", "accessories")
+		for _, v := range *categories.Accessories {
+			res = append(res, v)
+		}
+	}
+	if categories.Currency != nil {
+		res = append(res, "currency", "currencies")
+		for _, v := range *categories.Currency {
+			res = append(res, v)
+		}
+	}
+	if categories.Jewels != nil {
+		res = append(res, "jewel", "jewels")
+		for _, v := range *categories.Jewels {
+			res = append(res, v)
+		}
+	}
+	if categories.Weapons != nil {
+		res = append(res, "weapon", "weapons")
+		for _, v := range *categories.Weapons {
+			res = append(res, v)
+		}
+	}
+	if categories.Gems != nil {
+		res = append(res, "gem", "gems")
+		for _, v := range *categories.Gems {
+			res = append(res, v)
+		}
+	}
+	if categories.Maps != nil {
+		res = append(res, "map", "maps")
+		for _, v := range *categories.Maps {
+			res = append(res, v)
+		}
+	}
+
+	sort.Strings(res)
+	return strings.Join(res, " ")
 }

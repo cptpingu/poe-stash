@@ -33,7 +33,10 @@
         </select>
       </div>
       <div>
-        <input id="searchbar" class="input-text" type="text" name="searchbar" value="" placeholder="Example: ring | vix lunaris | increased damage" />
+        <input id="searchbar"
+            class="input-text" type="text" name="searchbar" value=""
+            placeholder="Example: ring | vix lunaris | increased damage | rarity:unique"
+            onkeypress="return onEnter(event)" />
         <button id="searchbutton" class="button" onclick="searchItem()">Search</button>
       </div>
     </div>

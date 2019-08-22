@@ -642,6 +642,63 @@
         }
     }
 
+    // Checks if given char is a space.
+    function isSpace(c) {
+        return ' \t\n\r\v'.indexOf(c) > 0;
+    }
+
+    // Checks if str contains a ':'
+    function isSpecialToken(str) {
+        for (var i = 0; i < str.length; i++) {
+            if (str[i] == ':') {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    // Parse query string and returns map of arrays.
+    function parseQueryString(queryStr) {
+        var res = {
+            "desc" : new Array(0),
+            "rarity" : new Array(0),
+            "type" : new Array(0),
+            "ilvl" : new Array(0)
+        };
+        var tokens = queryStr.split(' ');
+
+        for (var i = 0; i < tokens.length; i++) {
+            // Ignore whitespace tokens.
+            if (tokens[i].length == 0 || isSpace(tokens[i][0])) {
+                continue;
+            }
+
+            // Categorize each tokens.
+            if (isSpecialToken(tokens[i])) {
+                var pair = tokens[i].split(':');
+                if (pair.length == 2 && res.hasOwnProperty(pair[0])) {
+                    res[pair[0]] = pair[1].split(',');
+                    continue;
+                }
+            }
+
+            // If can't be categorize, it will be a raw string.
+            res["desc"].push(tokens[i]);
+        }
+
+        // Clean: remove duplicates and sort for non ranged fields.
+        for (obj in res) {
+            if (obj != "ilvl") {
+                let unique = [...new Set(res[obj])];
+                unique.sort();
+                res[obj] = unique;
+            }
+        }
+
+        return res;
+    }
+
     // Will highlight matching items.
     function searchItem() {
         // Disable search button.
@@ -650,26 +707,17 @@
 
         // Get search query.
         var search = document.getElementById('searchbar');
-        var query = search.value;
+        var query = search.value.toLowerCase();
 
         // Reset "not price" highlighting, as we will highlight differently.
         var search = document.getElementById('highlight');
         search.selectedIndex = 0;
 
-        // Split and sort search query.
+        // Split and parse search query.
         var tempQueries = query.split('|');
         var queries = new Array(0);
         for (var i = 0; i < tempQueries.length; i++) {
-            var rawSplitQ = tempQueries[i].split(' ');
-            var splitQ = new Array(0);
-            // Remove whitespaces.
-            for (var j = 0; j < rawSplitQ.length; j++) {
-                if (' \t\n\r\v'.indexOf(rawSplitQ[j]) < 0) {
-                    splitQ.push(rawSplitQ[j]);
-                }
-            }
-            splitQ.sort();
-            queries.push(splitQ);
+            queries.push(parseQueryString(tempQueries[i]));
         }
 
         // Get all indexed items.
@@ -682,9 +730,14 @@
             // Some item description don't have a real item (like divination
             // in divination stash tabs).
             if (item != undefined) {
-                var text = indexItem[i].value;
-                var desc = text.split(' ').sort();
-                if (query == "" || queriesMatch(desc, queries)) {
+                var itemProperties = {
+                    "desc": indexItem[i].value.split(' ').sort(),
+                    "type" : indexItem[i].getAttribute('data-item-type').split(' ').sort(),
+                    "rarity": indexItem[i].getAttribute('data-item-rarity').split(' ').sort(),
+                    "ilvl": indexItem[i].getAttribute('data-item-ilvl').split(' ').sort()
+                };
+
+                if (query == "" || queriesMatch(itemProperties, queries)) {
                     item.style.opacity = 1.0;
                 } else {
                     item.style.opacity = 0.3;
@@ -696,23 +749,53 @@
         searchbutton.disabled = false;
     }
 
-    // Check if any queries match the given description array.
-    function queriesMatch(desc, queries) {
+    // Check if any queries match the given properties.
+    function queriesMatch(itemProperties, queries) {
         for (var i = 0; i < queries.length; i++) {
-            if (queryMatch(desc, queries[i])) {
+            if (queryMatch(itemProperties, queries[i])) {
                 return true;
             }
         }
         return false;
     }
 
-    var myDesc = [ "a", "m", "x", "z" ];
-    var myQuery = [ "m", "z" ];
+    // Check query match the given properties.
+    function queryMatch(itemProperties, query) {
+        // Match any rarity term.
+        if (query.hasOwnProperty('rarity') && query['rarity'].length > 0) {
+            if (!orMatch(itemProperties['rarity'], query['rarity'])) {
+                return false;
+            }
+        }
 
-    // Check if a given query match the given description array.
-    // All term of the query has to find a match in the description.
+        // Match any type term.
+        if (query.hasOwnProperty('type') && query['type'].length > 0) {
+            if (!orMatch(itemProperties['type'], query['type'])) {
+                return false;
+            }
+        }
+
+        // Match any type term.
+        if (query.hasOwnProperty('ilvl') && query['ilvl'].length > 0 &&
+            itemProperties['ilvl'].length > 0) {
+            if (!rangeMatch(itemProperties['ilvl'][0], query['ilvl'])) {
+                return false;
+            }
+        }
+
+        // Match whole description.
+        if (query.hasOwnProperty('desc') && query['desc'].length > 0) {
+            if (!andMatch(itemProperties['desc'], query['desc'])) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // Check if all given terms match.
+    // All terms of the query has to find a match in the given array.
     // It's a "AND" behavior.
-    function queryMatch(desc, query) {
+    function andMatch(desc, query) {
         var i = 0;
         var j = 0;
         while (i < desc.length && j < query.length) {
@@ -733,6 +816,59 @@
         // If we arrived here, then check that all terms have found a match.
         // ie, j has advanced to the end.
         return j >= query.length;
+    }
+
+    // Check if any given terms match.
+    // At least one term of the query has to find a match in the given array.
+    // It's a "OR" behavior.
+    function orMatch(desc, query) {
+        for (var i = 0; i < query.length; i++) {
+            for (var j = 0; j < desc.length; j++) {
+                if (query[i] == desc[j]) {
+                    return true;
+                } else if (query[i] > desc[j]) {
+                    // This term will not match, let's try the next one.
+                    continue;
+                }
+            }
+        }
+        return false;
+    }
+
+    // Check if the given range match the number.
+    // It's a "RANGE" behavi]or.
+    function rangeMatch(value, range) {
+        var v = parseInt(value, 10);
+        if (isNaN(v)) {
+            return false;
+        }
+
+        switch (range.length) {
+            case 1:
+                var r = parseInt(range[0], 10);
+                if (isNaN(r)) {
+                    return false;
+                }
+                return r == v;
+            case 2:
+                var low = parseInt(range[0], 10);
+                if (isNaN(low)) {
+                    return false;
+                }
+                var high = parseInt(range[1], 10);
+                if (isNaN(high)) {
+                    return false;
+                }
+                return low <= v && v <= high;
+        }
+        return false;
+    }
+
+    function onEnter(e) {
+        if (e.keyCode == 13) {
+            searchItem();
+            return false;
+        }
     }
 
     initImport();
