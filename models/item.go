@@ -56,8 +56,9 @@ type Item struct {
 	VeiledMods   []string `json:"veiledMods"`
 	FlavorText   []string `json:"flavourText"`
 
-	Category Category   `json:"category"`
-	Hybrid   HybridType `json:"hybrid"`
+	Category      Category          `json:"category"`
+	Hybrid        HybridType        `json:"hybrid"`
+	IncubatedItem IncubatedItemType `json:"incubatedItem"`
 }
 
 // Socket describes a socket.
@@ -109,6 +110,14 @@ type HybridType struct {
 	SecondDescriptionText string         `json:"secDescrText"`
 	Properties            []ItemProperty `json:"properties"`
 	ExplicitMods          []string       `json:"explicitMods"`
+}
+
+// IncubatedItemType holds information about incubated item attached on an item.
+type IncubatedItemType struct {
+	Name     string `json:"name"`
+	Level    int    `json:"level"`
+	Progress int    `json:"progress"`
+	Total    int    `json:"total"`
 }
 
 // LayoutType is the type of layout.

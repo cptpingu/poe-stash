@@ -1529,6 +1529,714 @@
         {
             "verified": false,
             "w": 2,
+            "h": 3,
+            "ilvl": 74,
+            "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/DaressosDefiance.png?scale=1&w=2&h=3&v=ba1bb1acbf298cf24ab1816aac094d16",
+            "league": "Legion",
+            "id": "8776de9eb0731f10d89a38e24cc65401645672ac7588359c17f30782edc97f58",
+            "sockets": [
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "D",
+                    "sColour": "G"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                },
+                {
+                    "group": 0,
+                    "attr": "S",
+                    "sColour": "R"
+                }
+            ],
+            "name": "Daresso's Defiance",
+            "typeLine": "Full Dragonscale",
+            "identified": true,
+            "corrupted": true,
+            "properties": [
+                {
+                    "name": "Quality",
+                    "values": [
+                        [
+                            "+20%",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 6
+                },
+                {
+                    "name": "Armour",
+                    "values": [
+                        [
+                            "1391",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 16
+                },
+                {
+                    "name": "Evasion Rating",
+                    "values": [
+                        [
+                            "1104",
+                            1
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 17
+                }
+            ],
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "72",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                },
+                {
+                    "name": "Str",
+                    "values": [
+                        [
+                            "115",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                },
+                {
+                    "name": "Dex",
+                    "values": [
+                        [
+                            "159",
+                            0
+                        ]
+                    ],
+                    "displayMode": 1
+                }
+            ],
+            "implicitMods": [
+                "+2 to Level of Socketed Trap or Mine Gems",
+                "6% increased maximum Energy Shield"
+            ],
+            "explicitMods": [
+                "176% increased Armour and Evasion",
+                "+85 to maximum Life",
+                "0.5% of Physical Attack Damage Leeched as Life",
+                "6% chance to Dodge Attack Hits",
+                "You lose all Endurance Charges when Hit",
+                "You gain an Endurance Charge on Kill",
+                "You gain Onslaught for 5 seconds per Endurance Charge when Hit",
+                "93% increased Onslaught Effect"
+            ],
+            "flavourText": [
+                "When your back is against the wall,",
+                "And your opponent is bleeding you dry,",
+                "There is only one appropriate response:",
+                "Unbridled, overwhelming violence.",
+                "- Daresso, the Sword King"
+            ],
+            "frameType": 3,
+            "category": {
+                "armour": [
+                    "chest"
+                ]
+            },
+            "x": 0,
+            "y": 3,
+            "inventoryId": "BodyArmour",
+            "socketedItems": [
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "ilvl": 0,
+                    "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Barrage.png?scale=1&w=1&h=1&v=5e96a91147fde1aad67e09a24a93d6e8",
+                    "support": false,
+                    "id": "a1aef161960c0e7acf77db37f23073b7c450f17427d661abce156777ad78c392",
+                    "name": "",
+                    "typeLine": "Barrage",
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Attack, Projectile, Bow",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Mana Cost",
+                            "values": [
+                                [
+                                    "11",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Effectiveness of Added Damage",
+                            "values": [
+                                [
+                                    "48%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "159",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1
+                        }
+                    ],
+                    "secDescrText": "After a short preparation time, you attack repeatedly with a ranged weapon. These attacks have a small randomised spread. Only works with Bows and Wands.",
+                    "explicitMods": [
+                        "Deals 48% of Base Damage",
+                        "Fires 4 additional Projectiles",
+                        "10% increased Projectile Damage"
+                    ],
+                    "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "category": {
+                        "gems": [
+                            "activegem"
+                        ]
+                    },
+                    "socket": 0,
+                    "colour": "D"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "ilvl": 0,
+                    "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/impale.png?scale=1&w=1&h=1&v=201ecb7141679e4a6906f4478c2b947e",
+                    "support": true,
+                    "id": "205e93c1b236ef64fde46e6fb22442f4b74f1ea7dfabc4985182800f8229fabf",
+                    "name": "",
+                    "typeLine": "Impale Support",
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Attack, Physical, Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "130%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "48",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1
+                        }
+                    ],
+                    "secDescrText": "Supports attack skills.",
+                    "explicitMods": [
+                        "Supported Attacks have 40% chance to Impale Enemies on Hit",
+                        "Supported Attacks have 59% increased Impale Effect",
+                        "Supported Skills deal 15% more Physical Damage"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "category": {
+                        "gems": [
+                            "supportgem"
+                        ]
+                    },
+                    "socket": 1,
+                    "colour": "D"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "ilvl": 0,
+                    "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/SlowerProjectiles.png?scale=1&w=1&h=1&v=6d296762a32530f3f484b129ecc5aecc",
+                    "support": true,
+                    "id": "0b2e058c25a7f06f0c297238bee1e68a3702818548742ebc7d3f4272412a3f50",
+                    "name": "",
+                    "typeLine": "Slower Projectiles Support",
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Support, Projectile",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "140%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "111",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1
+                        }
+                    ],
+                    "secDescrText": "Supports projectile skills.",
+                    "explicitMods": [
+                        "Supported Skills have 49% less Projectile Speed",
+                        "Supported Skills deal 10% increased Projectile Damage",
+                        "Supported Skills deal 29% more Projectile Damage"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "category": {
+                        "gems": [
+                            "supportgem"
+                        ]
+                    },
+                    "socket": 2,
+                    "colour": "D"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "ilvl": 0,
+                    "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/RangedPhysicalAttackDamage.png?scale=1&w=1&h=1&v=df190732cb6d8172467e200833d40cb6",
+                    "support": true,
+                    "id": "84fe3244495f769c104cc5a18cf351d130e4892208b07f9d3516932f493bafd1",
+                    "name": "",
+                    "typeLine": "Vicious Projectiles Support",
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Projectile, Attack, Physical, Chaos, Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "120%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Dex",
+                            "values": [
+                                [
+                                    "111",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1
+                        }
+                    ],
+                    "secDescrText": "Supports projectile attack skills.",
+                    "explicitMods": [
+                        "Supported Skills deal 10% increased Physical Damage",
+                        "Supported Skills deal 49% more Chaos Damage over Time",
+                        "Supported Skills deal 49% more Physical Damage over Time",
+                        "Supported Skills deal 49% more Physical Projectile Attack Damage",
+                        "Supported Skills have 10% less Projectile Attack Speed"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "category": {
+                        "gems": [
+                            "supportgem"
+                        ]
+                    },
+                    "socket": 3,
+                    "colour": "D"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "ilvl": 0,
+                    "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/Brutality.png?scale=1&w=1&h=1&v=e39c3abec2992338acbbeac37e31fae7",
+                    "support": true,
+                    "id": "c4f47663b6b6a6cf219d05023c178ede7ca4bf689d2e4bcfb7691b5f8e91d508",
+                    "name": "",
+                    "typeLine": "Brutality Support",
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Physical, Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "20 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "130%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "70",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "111",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1
+                        }
+                    ],
+                    "secDescrText": "Supports any skill that hits enemies.",
+                    "explicitMods": [
+                        "Supported Skills deal 59% more Physical Damage",
+                        "Supported Skills deal no Chaos Damage",
+                        "Supported Skills deal no Elemental Damage",
+                        "Supported Skills deal 10% increased Physical Damage"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "category": {
+                        "gems": [
+                            "supportgem"
+                        ]
+                    },
+                    "socket": 4,
+                    "colour": "S"
+                },
+                {
+                    "verified": false,
+                    "w": 1,
+                    "h": 1,
+                    "ilvl": 0,
+                    "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/Maim.png?scale=1&w=1&h=1&v=e194d3f305391ae592c02515181c8a6a",
+                    "support": true,
+                    "id": "9fad5e9b2044ce12461bd77ed8939f14fa50a47c6bbc2bffa5aeed14180f8d2f",
+                    "name": "",
+                    "typeLine": "Maim Support",
+                    "identified": true,
+                    "corrupted": true,
+                    "properties": [
+                        {
+                            "name": "Attack, Physical, Support",
+                            "values": [],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "21 (Max)",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 5
+                        },
+                        {
+                            "name": "Mana Multiplier",
+                            "values": [
+                                [
+                                    "115%",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Quality",
+                            "values": [
+                                [
+                                    "+20%",
+                                    1
+                                ]
+                            ],
+                            "displayMode": 0,
+                            "type": 6
+                        }
+                    ],
+                    "requirements": [
+                        {
+                            "name": "Level",
+                            "values": [
+                                [
+                                    "72",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 0
+                        },
+                        {
+                            "name": "Str",
+                            "values": [
+                                [
+                                    "114",
+                                    0
+                                ]
+                            ],
+                            "displayMode": 1
+                        }
+                    ],
+                    "secDescrText": "Supports attack skills, or other skills that can maim enemies.",
+                    "explicitMods": [
+                        "Supported Skills deal 30% more Physical Damage",
+                        "Supported Attacks have 30% chance to Maim on Hit",
+                        "Supported Skills deal 10% increased Physical Damage",
+                        "Enemies Maimed by Supported Skills take 15% increased Physical Damage"
+                    ],
+                    "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                    "frameType": 4,
+                    "category": {
+                        "gems": [
+                            "supportgem"
+                        ]
+                    },
+                    "socket": 5,
+                    "colour": "S"
+                }
+            ],
+            "incubatedItem": {
+                "name": "Unique Item",
+                "level": 67,
+                "progress": 272,
+                "total": 4167
+            }
+        },
+        {
+            "verified": false,
+            "w": 2,
             "h": 4,
             "ilvl": 75,
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Bows\/Bow8unique.png?scale=1&w=2&h=4&relic=1&v=5b53ad25e3708161f8fafefd44b6beb4",

@@ -237,6 +237,28 @@
                         {{ end }}
                       {{ end }}
 
+                      {{ with .IncubatedItem }}
+                        {{ if .Name }}
+                        <div class="separator"></div>
+                          <div class="incubated">
+                              <div class="text">
+                                <span>Incubating {{ .Name }}</span>
+                              </div>
+                              <span class="experienceBar">
+                                <span class="fill">
+                                  <span style="width: {{ div .Total .Progress }}%;"></span>
+                                </span>
+                              </span>
+                              <div class="descrText">
+                                <span>
+                                  <span class="progress">{{ .Progress }}/{{ .Total }}</span>
+                                  Level {{ .Level }}+ Monster Kills
+                                </span>
+                              </div>
+                          </div>
+                        {{ end }}
+                      {{ end }}
+
                       {{ if .Note }}
                       <div class="separator"></div>
                       <div class="textCurrency itemNote">{{ .Note }}</div>
