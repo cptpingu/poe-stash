@@ -608,9 +608,17 @@ func SearchItem(items []models.Item, name string) models.Item {
 // extractWords extracts relevant words from a sentence.
 func extractWords(line string) []string {
 	line = strings.ToLower(line)
-	line = strings.ReplaceAll(line, "'", " ")
-	line = strings.ReplaceAll(line, ":", " ")
-	return strings.Split(line, " ")
+	line = strings.ReplaceAll(line, "'", "")
+	line = strings.ReplaceAll(line, ":", "")
+
+	splitted := strings.Split(line, " ")
+	res := make([]string, 0, len(splitted))
+	for _, v := range splitted {
+		if strings.Trim(v, " ") != "" {
+			res = append(res, v)
+		}
+	}
+	return res
 }
 
 // GenNaiveSearchIndex generates very naive indexing for an item description.

@@ -1,0 +1,10 @@
+language: go
+go: master
+script: go build ./... && go test ./...
+
+git:
+    # for cloning
+    depth: false
+
+before_install:
+  - go get -u github.com/gin-gonic/gin

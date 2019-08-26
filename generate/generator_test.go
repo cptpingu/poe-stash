@@ -105,8 +105,8 @@ func TestExtractWords(t *testing.T) {
 			expected: []string{"an", "item", "to", "lowercase"},
 		},
 		{
-			input:    "remove single letter like a b c",
-			expected: []string{"remove", "single", "letter", "like"},
+			input:    "  ignore    multiple  whitespaces   ",
+			expected: []string{"ignore", "multiple", "whitespaces"},
 		},
 		{
 			input:    "remove some useless char like ' or :",
