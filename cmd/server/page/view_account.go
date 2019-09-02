@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/poe-stash/scraper"
+	"github.com/cptpingu/poe-stash/scraper"
 )
 
 // ViewAccountHandler handles viewing an account

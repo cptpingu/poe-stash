@@ -1,4 +1,10 @@
-## POE STASH
+# POE STASH
+
+[![GoReportCard Badge]][GoReportCard]
+[![Travis Badge]][Travis]
+[![License Badge]][License]
+[![Issue Badge]][Issue]
+[![Pull Request Badge]][Pull Request]
 
 Share your stuff with others!
 
@@ -112,3 +118,14 @@ Check the FAQ: [Here](/docs/faq.md)
 
 To contact me, either send a mail at cptpingu@gmail.com, or open an issue on
 this github.
+
+[GoReportCard]: https://goreportcard.com/report/github.com/cptpingu/poe-stash
+[GoReportCard Badge]: https://goreportcard.com/badge/github.com/cptpingu/poe-stash
+[License]: https://opensource.org/licenses/MIT
+[License Badge]: https://img.shields.io/github/license/cptpingu/poe-stash
+[Travis]: https://travis-ci.com/cptpingu/poe-stash
+[Travis Badge]: https://api.travis-ci.org/cptpingu/poe-stash.svg?branch=master
+[Issue]: https://github.com/cptpingu/poe-stash/issues
+[Issue Badge]: https://img.shields.io/github/issues-raw/cptpingu/poe-stash
+[Pull Request]: https://github.com/cptpingu/poe-stash/pulls
+[Pull Request Badge]: https://img.shields.io/github/issues-pr-raw/cptpingu/poe-stash

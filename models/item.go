@@ -79,6 +79,7 @@ type ItemProperty struct {
 // FrameType is a type of rarity of an item.
 type FrameType int
 
+// Frame type represents the type of frame to draw for an item.
 const (
 	NormalItemFrameType FrameType = iota
 	MagicItemFrameType
@@ -123,6 +124,7 @@ type IncubatedItemType struct {
 // LayoutType is the type of layout.
 type LayoutType string
 
+// Layout is the type of layout to use (type of grid to place items).
 const (
 	DefaultLayout    LayoutType = ""
 	CurrencyLayout              = "currency"

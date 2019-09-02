@@ -38,13 +38,13 @@ func TestExtractFirstRuleFromString(t *testing.T) {
 	var r RateRules
 	var err error
 
-	r, err = ExtractFirstRuleFromString("")
+	_, err = ExtractFirstRuleFromString("")
 	errorEqual(t, errRuleParseFirst, err)
-	r, err = ExtractFirstRuleFromString("errRuleParseFirst")
+	_, err = ExtractFirstRuleFromString("errRuleParseFirst")
 	errorEqual(t, errRuleParseFirst, err)
-	r, err = ExtractFirstRuleFromString("34:34:34:34")
+	_, err = ExtractFirstRuleFromString("34:34:34:34")
 	errorEqual(t, errRuleParseFirst, err)
-	r, err = ExtractFirstRuleFromString("a:b:c")
+	_, err = ExtractFirstRuleFromString("a:b:c")
 	errorEqual(t, errInvalidRule, err)
 
 	r, err = ExtractFirstRuleFromString("1:2:3")

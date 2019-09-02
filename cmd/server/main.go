@@ -12,10 +12,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/poe-stash/cmd/server/page"
-	"github.com/poe-stash/generate"
-	"github.com/poe-stash/misc"
-	"github.com/poe-stash/scraper"
+	"github.com/cptpingu/poe-stash/cmd/server/page"
+	"github.com/cptpingu/poe-stash/generate"
+	"github.com/cptpingu/poe-stash/misc"
+	"github.com/cptpingu/poe-stash/scraper"
 )
 
 // EnvMiddleware will add env to query.

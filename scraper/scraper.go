@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/poe-stash/models"
+	"github.com/cptpingu/poe-stash/models"
 )
 
 const (
@@ -99,6 +99,50 @@ func hash(s string) string {
 	return strconv.Itoa(int(h.Sum32()))
 }
 
+// rateLimitWait waits for an amount of time depending of the rate limit.
+func (s *Scraper) rateLimitWait(req *http.Request, apiURL string) (string, func()) {
+	baseURL := req.URL.Hostname() + req.URL.EscapedPath()
+	rateLimiter := s.rateLimitManager.GetRateLimiter(s.poeSessionID, baseURL)
+
+	waitTime, queryDone := rateLimiter.NextQuery()
+	if s.verbosity > 0 {
+		fmt.Println("wait:", waitTime, "query:", apiURL)
+		if s.verbosity > 1 {
+			fmt.Println("request:", req)
+		}
+	}
+	time.Sleep(waitTime)
+	return baseURL, queryDone
+}
+
+// updateRateLimit updates the dynamic rate limiters.
+func (s *Scraper) updateRateLimit(resp *http.Response, baseURL string) {
+	// Let check if there are some rate limiting rules
+	rateLimitRules := resp.Header.Get("X-Rate-Limit-Account")
+	if rateLimitRules == "" {
+		rateLimitRules = resp.Header.Get("X-Rate-Limit-Ip")
+	}
+	rateLimitState := resp.Header.Get("X-Rate-Limit-Account-State")
+	if rateLimitState == "" {
+		rateLimitState = resp.Header.Get("X-Rate-Limit-Ip-State")
+	}
+	rules, errRule := ExtractFirstRuleFromString(rateLimitRules)
+	state, errState := ExtractFirstRuleFromString(rateLimitState)
+	// If so, then update our current rate limit counters with the ones
+	// the server see from its side (for better accuracy).
+	if errRule == nil && errState == nil {
+		s.rateLimitManager.UpdateRateLimiter(s.poeSessionID, baseURL, rules, state)
+	}
+	if s.verbosity > 0 {
+		r := s.rateLimitManager.GetRateLimiter(s.poeSessionID, baseURL)
+		fmt.Println("Status:", resp.StatusCode, "Rate:", r.NbQuery, "/", r.NbMaxQuery, "ServerRate:", rateLimitState, rateLimitRules)
+		if s.verbosity > 1 {
+			fmt.Println("Response:", resp)
+		}
+	}
+
+}
+
 // CallAPI calls a distant API and returns the content.
 func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 	var fileCache string
@@ -123,17 +167,7 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 	req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
 
 	// Handle rate limiting.
-	baseURL := req.URL.Hostname() + req.URL.EscapedPath()
-	rateLimiter := s.rateLimitManager.GetRateLimiter(s.poeSessionID, baseURL)
-
-	waitTime, queryDone := rateLimiter.NextQuery()
-	if s.verbosity > 0 {
-		fmt.Println("wait:", waitTime, "query:", apiURL)
-		if s.verbosity > 1 {
-			fmt.Println("request:", req)
-		}
-	}
-	time.Sleep(waitTime)
+	baseURL, queryDone := s.rateLimitWait(req, apiURL)
 
 	// Query the server.
 	resp, errResponse := s.client.Do(req)
@@ -142,29 +176,7 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 		return nil, errResponse
 	}
 
-	// Let check if there are some rate limiting rules
-	rateLimitRules := resp.Header.Get("X-Rate-Limit-Account")
-	if rateLimitRules == "" {
-		rateLimitRules = resp.Header.Get("X-Rate-Limit-Ip")
-	}
-	rateLimitState := resp.Header.Get("X-Rate-Limit-Account-State")
-	if rateLimitState == "" {
-		rateLimitState = resp.Header.Get("X-Rate-Limit-Ip-State")
-	}
-	rules, errRule := ExtractFirstRuleFromString(rateLimitRules)
-	state, errState := ExtractFirstRuleFromString(rateLimitState)
-	// If so, then update our current rate limit counters with the ones
-	// the server see from its side (for better accuracy).
-	if errRule == nil && errState == nil {
-		s.rateLimitManager.UpdateRateLimiter(s.poeSessionID, baseURL, rules, state)
-	}
-	if s.verbosity > 0 {
-		r := s.rateLimitManager.GetRateLimiter(s.poeSessionID, baseURL)
-		fmt.Println("Status:", resp.StatusCode, "Rate:", r.NbQuery, "/", r.NbMaxQuery, "ServerRate:", rateLimitState, rateLimitRules)
-		if s.verbosity > 1 {
-			fmt.Println("Response:", resp)
-		}
-	}
+	s.updateRateLimit(resp, baseURL)
 
 	defer func() {
 		localErr := resp.Body.Close()

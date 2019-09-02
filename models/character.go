@@ -97,7 +97,7 @@ func ParseInventory(data []byte) (*CharacterInventory, error) {
 	return &inventory, nil
 }
 
-// CharacterSkills holds all skills choosen by the character
+// CharacterSkills holds all skills chosen by the character
 // and also all items (jewels or abyss) put in the slots.
 type CharacterSkills struct {
 	Hashes     []int   `json:"hashes"`

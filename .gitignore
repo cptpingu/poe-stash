@@ -6,3 +6,4 @@ pass.txt
 .vscode
 *.tar.gz
 *.zip
+coverage.txt

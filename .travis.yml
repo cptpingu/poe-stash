@@ -1,6 +1,7 @@
 language: go
-go: master
-script: go build ./... && go test ./...
+
+go:
+  - 1.12.x
 
 git:
     # for cloning
@@ -8,3 +9,9 @@ git:
 
 before_install:
   - go get -u github.com/gin-gonic/gin
+
+script:
+  - go test -v ./... -race -coverprofile=coverage.txt -covermode=atomic
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
