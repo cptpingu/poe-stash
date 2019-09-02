@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/poe-stash/generate"
-	"github.com/poe-stash/misc"
-	"github.com/poe-stash/scraper"
+	"github.com/cptpingu/poe-stash/generate"
+	"github.com/cptpingu/poe-stash/misc"
+	"github.com/cptpingu/poe-stash/scraper"
 )
 
 // mandatoryOption ensure an option is not empty.
@@ -18,6 +18,55 @@ func mandatoryOption(opt string, name string) bool {
 		return false
 	}
 	return true
+}
+
+// scrapData scraps all data.
+func scrapData(account, poeSessID, realm, league string, demo, cache bool, verbosity int) (*scraper.ScrapedData, error) {
+	scraper := scraper.NewScraper(account, poeSessID, realm, league)
+	scraper.SetDemo(demo)
+	if cache {
+		scraper.EnableCache()
+	}
+	scraper.SetVerbosity(verbosity)
+	data, err := scraper.ScrapEverything()
+	if err != nil {
+		return nil, err
+	}
+
+	return data, nil
+}
+
+// generateData generates html file from the given data.
+func generateData(data *scraper.ScrapedData, output string) (resErr error) {
+	var file *os.File
+	var err error
+
+	if output == "-" {
+		file = os.Stdout
+	} else {
+		file, err = os.Create(output)
+		if err != nil {
+			return err
+		}
+		defer func() {
+			if err := file.Close(); err != nil {
+				if resErr != nil {
+					resErr = err
+				}
+			}
+		}()
+	}
+
+	w := bufio.NewWriter(file)
+	gen := generate.NewGenerator(w)
+	if errGen := gen.GenerateHTML(data); errGen != nil {
+		return err
+	}
+	if errFlush := w.Flush(); err != nil {
+		return errFlush
+	}
+
+	return nil
 }
 
 // main is the main routine for this CLI.
@@ -76,44 +125,20 @@ func main() {
 		}
 	}
 
-	scraper := scraper.NewScraper(*account, *poeSessID, *realm, *league)
-	scraper.SetDemo(*demo)
-	if *cache {
-		scraper.EnableCache()
-	}
-	scraper.SetVerbosity(*verbosity)
-	data, errScrap := scraper.ScrapEverything()
+	data, errScrap := scrapData(*account, *poeSessID, *realm, *league, *demo, *cache, *verbosity)
 	if errScrap != nil {
 		fmt.Println("can't scrap data", errScrap)
 		os.Exit(2)
 	}
 
-	var file *os.File
-	var err error
 	if *output == "" {
 		*output = *account + "-" + *league + ".html"
 	}
 
-	if *output == "-" {
-		file = os.Stdout
-	} else {
-		file, err = os.Create(*output)
-		if err != nil {
-			panic(err)
-		}
-		defer func() {
-			if err := file.Close(); err != nil {
-				panic(err)
-			}
-		}()
-	}
-
-	w := bufio.NewWriter(file)
-	gen := generate.NewGenerator(w)
-	if errGen := gen.GenerateHTML(data); errGen != nil {
+	if errGen := generateData(data, *output); errGen != nil {
 		fmt.Println("can't generate data", errGen)
 		os.Exit(3)
 	}
-	w.Flush()
-	fmt.Println("File sucessfully generated:", *output)
+
+	fmt.Println("File successfully generated:", *output)
 }

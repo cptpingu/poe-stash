@@ -10,8 +10,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/poe-stash/models"
-	"github.com/poe-stash/scraper"
+	"github.com/cptpingu/poe-stash/models"
+	"github.com/cptpingu/poe-stash/scraper"
 )
 
 // listAllAccounts list all fetch accounts.

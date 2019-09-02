@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/poe-stash/scraper"
+	"github.com/cptpingu/poe-stash/scraper"
 )
 
 // DownloadFileHandler handles force download of a file.

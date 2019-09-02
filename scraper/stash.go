@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/poe-stash/models"
+	"github.com/cptpingu/poe-stash/models"
 )
 
 // ScrapStash scraps a stash from the official website.

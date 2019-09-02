@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/poe-stash/generate"
-	"github.com/poe-stash/scraper"
+	"github.com/cptpingu/poe-stash/generate"
+	"github.com/cptpingu/poe-stash/scraper"
 )
 
 // GenAccountHandler handles refresh of an account.
@@ -75,7 +75,7 @@ func GenAccountHandler(c *gin.Context) {
 	// Everything is fine, let's store the poeSessID.
 	if errFile := ioutil.WriteFile(scraper.DataCacheDir+account+".poesessid", []byte(poeSessID), 0644); errFile != nil {
 		// Non fatal error, storing the session is not mandatory.
-		fmt.Println("error occured:", errFile)
+		fmt.Println("error occurred:", errFile)
 	}
 	c.HTML(http.StatusOK, "redirect", "/view/"+name)
 }

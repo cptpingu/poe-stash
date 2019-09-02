@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/url"
 
-	"github.com/poe-stash/models"
+	"github.com/cptpingu/poe-stash/models"
 )
 
 // ScrapCharacters scraps all characters owned by a user.

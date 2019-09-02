@@ -16,9 +16,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/poe-stash/misc"
-	"github.com/poe-stash/models"
-	"github.com/poe-stash/scraper"
+	"github.com/cptpingu/poe-stash/misc"
+	"github.com/cptpingu/poe-stash/models"
+	"github.com/cptpingu/poe-stash/scraper"
 )
 
 const (
@@ -672,9 +672,9 @@ func GenNaiveSearchIndex(item models.Item) string {
 	return strings.Join(keys, " ")
 }
 
-// ItemCategory returns a text item category from categories.
-func ItemCategory(item models.Item) string {
-	res := make([]string, 0, 10)
+// itemCategoryAttribute returns attributes of an item category.
+func itemCategoryAttribute(item models.Item) []string {
+	res := make([]string, 0, 5)
 
 	if item.IsShaper {
 		res = append(res, "shaper")
@@ -712,7 +712,12 @@ func ItemCategory(item models.Item) string {
 		res = append(res, "divination", "divine", "divcard", "divinationcard")
 	}
 
-	categories := item.Category
+	return res
+}
+
+// itemCategoryType returns types of an item category.
+func itemCategoryType(categories models.Category) []string {
+	res := make([]string, 0, 5)
 
 	if categories.Armor != nil {
 		res = append(res, "armor", "armour", "armors", "armours")
@@ -757,6 +762,14 @@ func ItemCategory(item models.Item) string {
 		}
 	}
 
+	return res
+}
+
+// ItemCategory returns a text item category from categories.
+func ItemCategory(item models.Item) string {
+	attributes := itemCategoryAttribute(item)
+	types := itemCategoryType(item.Category)
+	res := append(attributes, types...)
 	sort.Strings(res)
 	return strings.Join(res, " ")
 }
