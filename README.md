@@ -5,6 +5,7 @@
 [![License Badge]][License]
 [![Issue Badge]][Issue]
 [![Pull Request Badge]][Pull Request]
+[![HitCount](http://hits.dwyl.io/cptpingu/poe-stash.svg)](http://hits.dwyl.io/cptpingu/poe-stash)
 
 Share your stuff with others!
 

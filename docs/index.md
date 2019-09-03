@@ -105,10 +105,31 @@ Search for items with chaos or speed:
 chaos | speed
 ```
 
+Search for a ring, a map or a divination:
+```
+type:ring,map,divination
+```
+
+Search for a rarity unique, shaper or rare:
+```
+rarity:unique,rare,shaper
+```
+
+Search for an item level between 65 and 85:
+```
+ilvl:65,85
+```
+
 Search for a ring, an item named "Vix Lunaris" or everything which increase
 damage:
 ```
-ring | vix lunaris | increased damage
+type:ring | vix lunaris | increased damage
+```
+
+Search for a elder base two hand axe, with an item level greater than 84, with
+fortify:
+```
+rarity:elder fortify | type:twoaxe | ilvl:84,100
 ```
 
 ## I need your help!
@@ -122,3 +143,5 @@ I'm facing some issues, I could use a hand:
     behave in my tools.
 
 Thanks you!
+
+[![HitCount](http://hits.dwyl.io/cptpingu/poe-stash.svg)](http://hits.dwyl.io/cptpingu/poe-stash)

@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/gin-gonic/gin"
 	"github.com/cptpingu/poe-stash/scraper"
+	"github.com/gin-gonic/gin"
 )
 
 // ViewAccountHandler handles viewing an account
