@@ -87,8 +87,11 @@ func LoadAllTemplates() (*template.Template, error) {
 		"add": func(a, b int) int {
 			return a + b
 		},
-		"div": func(a, b int) int {
-			return a / b
+		"percentage": func(a, b int) float64 {
+			if b == 0 {
+				return 0
+			}
+			return (float64(a) / float64(b)) * 100
 		},
 		"squeeze": func(s string) string {
 			return strings.Map(

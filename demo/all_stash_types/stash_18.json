@@ -1524,7 +1524,13 @@
             "x": 4,
             "y": 0,
             "inventoryId": "Stash56",
-            "socketedItems": []
+            "socketedItems": [],
+            "incubatedItem": {
+                "name": "Unique Item",
+                "level": 60,
+                "progress": 0,
+                "total": 5000
+            }
         },
         {
             "verified": false,
@@ -2335,7 +2341,13 @@
             "x": 10,
             "y": 8,
             "inventoryId": "Stash56",
-            "socketedItems": []
+            "socketedItems": [],
+            "incubatedItem": {
+                "name": "Unique Item",
+                "level": 70,
+                "progress": 3000,
+                "total": 5000
+            }
         }
     ]
 }
