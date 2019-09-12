@@ -336,6 +336,30 @@
             "y": 315.21298174442194,
             "w": 1,
             "h": 1
+        },
+        "57": {
+            "x": 17.647058823529413,
+            "y": 371.19675456389456,
+            "w": 1,
+            "h": 1
+        },
+        "58": {
+            "x": 70.58823529411765,
+            "y": 371.19675456389456,
+            "w": 1,
+            "h": 1
+        },
+        "59": {
+            "x": 124.13793103448276,
+            "y": 371.19675456389456,
+            "w": 1,
+            "h": 1
+        },
+        "60": {
+            "x": 175.86206896551727,
+            "y": 371.19675456389456,
+            "w": 1,
+            "h": 1
         }
     },
     "items": [
@@ -355,7 +379,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "2401\/40",
+                            "2762\/40",
                             0
                         ]
                     ],
@@ -367,11 +391,8 @@
             ],
             "descrText": "Right click this item then left click an armour to apply it. Has greater effect on lower rarity armours. The maximum quality is 20%.",
             "frameType": 5,
-            "stackSize": 2401,
+            "stackSize": 2762,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 3,
             "y": 0,
             "inventoryId": "Stash1"
@@ -392,7 +413,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "2124\/20",
+                            "2426\/20",
                             0
                         ]
                     ],
@@ -404,11 +425,8 @@
             ],
             "descrText": "Right click this item then left click a magic item to apply it.",
             "frameType": 5,
-            "stackSize": 2124,
+            "stackSize": 2426,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 9,
             "y": 0,
             "inventoryId": "Stash1"
@@ -429,7 +447,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "1701\/20",
+                            "1897\/20",
                             0
                         ]
                     ],
@@ -441,11 +459,8 @@
             ],
             "descrText": "Right click this item then left click a weapon to apply it. Has greater effect on lower rarity weapons. The maximum quality is 20%.",
             "frameType": 5,
-            "stackSize": 1701,
+            "stackSize": 1897,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 0,
             "y": 0,
             "inventoryId": "Stash1"
@@ -466,7 +481,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "2956\/40",
+                            "3364\/40",
                             0
                         ]
                     ],
@@ -478,11 +493,8 @@
             ],
             "descrText": "Right click this item then left click a normal item to apply it.",
             "frameType": 5,
-            "stackSize": 2956,
+            "stackSize": 3364,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 8,
             "y": 0,
             "inventoryId": "Stash1"
@@ -503,7 +515,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "2225\/40",
+                            "2368\/40",
                             0
                         ]
                     ],
@@ -515,11 +527,8 @@
             ],
             "descrText": "Right click on this item to use it.",
             "frameType": 5,
-            "stackSize": 2225,
+            "stackSize": 2368,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 14,
             "y": 0,
             "inventoryId": "Stash1"
@@ -540,7 +549,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "565\/20",
+                            "662\/20",
                             0
                         ]
                     ],
@@ -552,11 +561,8 @@
             ],
             "descrText": "Right click this item then left click a normal item to apply it.",
             "frameType": 5,
-            "stackSize": 565,
+            "stackSize": 662,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 6,
             "y": 0,
             "inventoryId": "Stash1"
@@ -591,10 +597,38 @@
             "frameType": 5,
             "stackSize": 4,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
-            "x": 30,
+            "x": 59,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/CurrencyIdentificationFragment.png?scale=1&w=1&h=1&v=9d03025ab8229c652060781fb2f4b7f9",
+            "league": "Standard",
+            "id": "9dc9f526685d29b09905de3f75dbb8bcea204e77ea52479c9733ffa7c01b95a7",
+            "name": "",
+            "typeLine": "Scroll Fragment",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1\/5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "A stack of 5 fragments becomes a Scroll of Wisdom.",
+            "frameType": 5,
+            "stackSize": 1,
+            "maxStackSize": 5,
+            "x": 23,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -628,44 +662,7 @@
             "frameType": 5,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
-            "x": 34,
-            "y": 0,
-            "inventoryId": "Stash1"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/CurrencyRerollMagicShard.png?scale=1&w=1&h=1&v=937a56eea2dcf9b009ee8f6134818795",
-            "league": "Standard",
-            "id": "e0689992a0883d3d0f64672907bdb97340f6b7b4c0d811eb133371a8ca095161",
-            "name": "",
-            "typeLine": "Alteration Shard",
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Stack Size",
-                    "values": [
-                        [
-                            "6\/20",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0
-                }
-            ],
-            "descrText": "A stack of 20 shards becomes an Orb of Alteration.",
-            "frameType": 5,
-            "stackSize": 6,
-            "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
-            "x": 25,
+            "x": 47,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -696,10 +693,38 @@
             "frameType": 5,
             "stackSize": 3,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 49,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/CurrencyUpgradeToMagicShard.png?scale=1&w=1&h=1&v=764a2f94c7a77f06a56252299246af53",
+            "league": "Standard",
+            "id": "e98471a1e1e3a6e9d174db006acc7519726e1933496ddc74a53b3bcf12ee377e",
+            "name": "",
+            "typeLine": "Transmutation Shard",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "12\/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Transmutation.",
+            "frameType": 5,
+            "stackSize": 12,
+            "maxStackSize": 20,
+            "x": 24,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -719,7 +744,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "2\/20",
+                            "1\/20",
                             0
                         ]
                     ],
@@ -731,12 +756,9 @@
             ],
             "descrText": "Right click this item then left click a Strongbox to apply it. Has greater effect on lower rarity Strongboxes. The maximum quality is 20%.",
             "frameType": 5,
-            "stackSize": 2,
+            "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
-            "x": 31,
+            "x": 60,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -767,9 +789,6 @@
             "frameType": 5,
             "stackSize": 11,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 42,
             "y": 0,
             "inventoryId": "Stash1"
@@ -790,7 +809,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "5\/30",
+                            "34\/30",
                             0
                         ]
                     ],
@@ -799,11 +818,8 @@
             ],
             "descrText": "Cross Navali's palm with silver to receive a prophecy.",
             "frameType": 5,
-            "stackSize": 5,
+            "stackSize": 34,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 35,
             "y": 0,
             "inventoryId": "Stash1"
@@ -838,44 +854,7 @@
             "frameType": 5,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 45,
-            "y": 0,
-            "inventoryId": "Stash1"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachShardLightning.png?scale=1&w=1&h=1&v=11cd23560f7aa0dda27cc323fa97cb96",
-            "league": "Standard",
-            "id": "77b06fa5beb82407d40c9f68a218ae888048da675d18d1342e23ec1a70f49002",
-            "name": "",
-            "typeLine": "Splinter of Esh",
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Stack Size",
-                    "values": [
-                        [
-                            "10\/100",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0
-                }
-            ],
-            "descrText": "Combine 100 Splinters to create Esh's Breachstone.",
-            "frameType": 5,
-            "stackSize": 10,
-            "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
-            "x": 32,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -909,10 +888,7 @@
             "frameType": 5,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
-            "x": 33,
+            "x": 46,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -932,7 +908,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "20\/10",
+                            "21\/10",
                             0
                         ]
                     ],
@@ -944,12 +920,40 @@
             ],
             "descrText": "Right click this item then left click a rare item to apply it. Rare items can have up to six random modifiers.",
             "frameType": 5,
-            "stackSize": 20,
+            "stackSize": 21,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 11,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/CurrencyRerollMagicShard.png?scale=1&w=1&h=1&v=937a56eea2dcf9b009ee8f6134818795",
+            "league": "Standard",
+            "id": "af2598359080ffdd27ddf33a8adfa00302b07fca1005d10aae970fda6296e27d",
+            "name": "",
+            "typeLine": "Alteration Shard",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "5\/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Alteration.",
+            "frameType": 5,
+            "stackSize": 5,
+            "maxStackSize": 20,
+            "x": 25,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -984,44 +988,7 @@
             "frameType": 5,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
-            "x": 41,
-            "y": 0,
-            "inventoryId": "Stash1"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/CurrencyUpgradeToRareShard.png?scale=1&w=1&h=1&v=d8fb5f5edca4b67035081f1eb9955d80",
-            "league": "Standard",
-            "id": "08d772826fde8cad0b09ac0b2bfab3322ecfdf9cdd9a7e0b6eacaa73fc2f2dea",
-            "name": "",
-            "typeLine": "Alchemy Shard",
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Stack Size",
-                    "values": [
-                        [
-                            "14\/20",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0
-                }
-            ],
-            "descrText": "A stack of 20 shards becomes an Orb of Alchemy.",
-            "frameType": 5,
-            "stackSize": 14,
-            "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
-            "x": 26,
+            "x": 48,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -1055,9 +1022,6 @@
             "frameType": 5,
             "stackSize": 2,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 20,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1088,10 +1052,7 @@
             "descrText": "Trade coins to Cadiro Perandus.",
             "frameType": 5,
             "stackSize": 388,
-            "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
+            "maxStackSize": 50000,
             "x": 39,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1123,44 +1084,7 @@
             "frameType": 5,
             "stackSize": 18,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 43,
-            "y": 0,
-            "inventoryId": "Stash1"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/CurrencyUpgradeToMagicShard.png?scale=1&w=1&h=1&v=764a2f94c7a77f06a56252299246af53",
-            "league": "Standard",
-            "id": "8d7a6d271881aa002514eb8f62e81f5664e4d00166d2209d67876ea21b1aa7c2",
-            "name": "",
-            "typeLine": "Transmutation Shard",
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Stack Size",
-                    "values": [
-                        [
-                            "13\/20",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0
-                }
-            ],
-            "descrText": "A stack of 20 shards becomes an Orb of Transmutation.",
-            "frameType": 5,
-            "stackSize": 13,
-            "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
-            "x": 24,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -1191,9 +1115,6 @@
             "frameType": 5,
             "stackSize": 13,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 56,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1225,10 +1146,38 @@
             "frameType": 5,
             "stackSize": 5,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 44,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/CurrencyUpgradeToRareShard.png?scale=1&w=1&h=1&v=d8fb5f5edca4b67035081f1eb9955d80",
+            "league": "Standard",
+            "id": "24c1bfd80bc9a4dd3133a3ac16d15da02c8d1433ad19cfc0c15d5a98f4d67fea",
+            "name": "",
+            "typeLine": "Alchemy Shard",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "14\/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Alchemy.",
+            "frameType": 5,
+            "stackSize": 14,
+            "maxStackSize": 20,
+            "x": 26,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -1248,7 +1197,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "23\/10",
+                            "27\/10",
                             0
                         ]
                     ],
@@ -1260,11 +1209,8 @@
             ],
             "descrText": "Right click this item then left click any map on the Atlas to apply it.",
             "frameType": 5,
-            "stackSize": 23,
+            "stackSize": 27,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 38,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1285,7 +1231,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "42\/10",
+                            "43\/10",
                             0
                         ]
                     ],
@@ -1297,11 +1243,8 @@
             ],
             "descrText": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added.",
             "frameType": 5,
-            "stackSize": 42,
+            "stackSize": 43,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 12,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1322,7 +1265,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "59\/20",
+                            "76\/20",
                             0
                         ]
                     ],
@@ -1334,11 +1277,8 @@
             ],
             "descrText": "Right click this item then left click a gem to apply it. The maximum quality is 20%.",
             "frameType": 5,
-            "stackSize": 59,
+            "stackSize": 76,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 16,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1359,7 +1299,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "55\/10",
+                            "73\/10",
                             0
                         ]
                     ],
@@ -1371,11 +1311,8 @@
             ],
             "descrText": "Right click this item then left click a white map on the Atlas to apply it.",
             "frameType": 5,
-            "stackSize": 55,
+            "stackSize": 73,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 36,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1396,7 +1333,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "1474\/10",
+                            "1903\/10",
                             0
                         ]
                     ],
@@ -1408,11 +1345,8 @@
             ],
             "descrText": "Right click this item then left click a rare item to apply it.",
             "frameType": 5,
-            "stackSize": 1474,
+            "stackSize": 1903,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 2,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1444,9 +1378,6 @@
             "frameType": 5,
             "stackSize": 3,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 52,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1478,9 +1409,6 @@
             "frameType": 5,
             "stackSize": 2,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 51,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1501,7 +1429,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "2\/20",
+                            "5\/20",
                             0
                         ]
                     ],
@@ -1513,12 +1441,9 @@
             ],
             "descrText": "Right click this item then left click a map to apply it.",
             "frameType": 5,
-            "stackSize": 2,
+            "stackSize": 5,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
-            "x": 48,
+            "x": 57,
             "y": 0,
             "inventoryId": "Stash1"
         },
@@ -1538,7 +1463,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "34\/20",
+                            "49\/20",
                             0
                         ]
                     ],
@@ -1550,11 +1475,8 @@
             ],
             "descrText": "Right click this item then left click a map to apply it.",
             "frameType": 5,
-            "stackSize": 34,
+            "stackSize": 49,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 55,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1586,9 +1508,6 @@
             "frameType": 5,
             "stackSize": 4,
             "maxStackSize": 20,
-            "category": {
-                "currency": []
-            },
             "x": 53,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1609,7 +1528,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "45\/10",
+                            "61\/10",
                             0
                         ]
                     ],
@@ -1621,11 +1540,8 @@
             ],
             "descrText": "Right click this item then left click a yellow or white map on the Atlas to apply it.",
             "frameType": 5,
-            "stackSize": 45,
+            "stackSize": 61,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 37,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1660,9 +1576,6 @@
             "frameType": 5,
             "stackSize": 2,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 54,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1683,7 +1596,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "344\/20",
+                            "448\/20",
                             0
                         ]
                     ],
@@ -1695,11 +1608,8 @@
             ],
             "descrText": "Right click this item then left click a map to apply it. Has greater effect on lower rarity maps. The maximum quality is 20%.",
             "frameType": 5,
-            "stackSize": 344,
+            "stackSize": 448,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 22,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1720,7 +1630,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "314\/20",
+                            "382\/20",
                             0
                         ]
                     ],
@@ -1732,11 +1642,8 @@
             ],
             "descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more links.",
             "frameType": 5,
-            "stackSize": 314,
+            "stackSize": 382,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 18,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1757,7 +1664,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "213\/30",
+                            "238\/30",
                             0
                         ]
                     ],
@@ -1769,11 +1676,8 @@
             ],
             "descrText": "Right click this item then left click on a magic or rare item to apply it.",
             "frameType": 5,
-            "stackSize": 213,
+            "stackSize": 238,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 10,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1794,7 +1698,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "184\/10",
+                            "193\/10",
                             0
                         ]
                     ],
@@ -1806,11 +1710,8 @@
             ],
             "descrText": "Right click this item then left click a normal item to apply it.",
             "frameType": 5,
-            "stackSize": 184,
+            "stackSize": 193,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 5,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1831,7 +1732,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "3631\/20",
+                            "4324\/20",
                             0
                         ]
                     ],
@@ -1843,11 +1744,8 @@
             ],
             "descrText": "Right click this item then left click a socketed item to apply it.",
             "frameType": 5,
-            "stackSize": 3631,
+            "stackSize": 4324,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 17,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1868,7 +1766,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "1618\/30",
+                            "1804\/30",
                             0
                         ]
                     ],
@@ -1880,11 +1778,8 @@
             ],
             "descrText": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers.",
             "frameType": 5,
-            "stackSize": 1618,
+            "stackSize": 1804,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 13,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1905,7 +1800,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "117\/40",
+                            "140\/40",
                             0
                         ]
                     ],
@@ -1917,11 +1812,8 @@
             ],
             "descrText": "Right click on this item to use it.",
             "frameType": 5,
-            "stackSize": 117,
+            "stackSize": 140,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 7,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1942,7 +1834,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "3919\/20",
+                            "4597\/20",
                             0
                         ]
                     ],
@@ -1954,11 +1846,8 @@
             ],
             "descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more sockets.",
             "frameType": 5,
-            "stackSize": 3919,
+            "stackSize": 4597,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 19,
             "y": 0,
             "inventoryId": "Stash1"
@@ -1979,7 +1868,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "58\/10",
+                            "52\/10",
                             0
                         ]
                     ],
@@ -1991,11 +1880,8 @@
             ],
             "descrText": "Right click this item then left click an item to corrupt it. Corrupted items cannot be modified again.",
             "frameType": 5,
-            "stackSize": 58,
+            "stackSize": 52,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 27,
             "y": 0,
             "inventoryId": "Stash1"
@@ -2016,7 +1902,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "47\/20",
+                            "50\/20",
                             0
                         ]
                     ],
@@ -2028,11 +1914,8 @@
             ],
             "descrText": "Right click this item then left click another item to apply it.",
             "frameType": 5,
-            "stackSize": 47,
+            "stackSize": 50,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 21,
             "y": 0,
             "inventoryId": "Stash1"
@@ -2053,7 +1936,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "32\/20",
+                            "51\/20",
                             0
                         ]
                     ],
@@ -2065,11 +1948,8 @@
             ],
             "descrText": "Right click this item then left click a flask to apply it. Has greater effect on lower rarity flasks. The maximum quality is 20%.",
             "frameType": 5,
-            "stackSize": 32,
+            "stackSize": 51,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 15,
             "y": 0,
             "inventoryId": "Stash1"
@@ -2090,7 +1970,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "4516\/40",
+                            "4573\/40",
                             0
                         ]
                     ],
@@ -2102,11 +1982,8 @@
             ],
             "descrText": "Right click this item then left click an unidentified item to apply it.",
             "frameType": 5,
-            "stackSize": 4516,
+            "stackSize": 4573,
             "maxStackSize": 5000,
-            "category": {
-                "currency": []
-            },
             "x": 1,
             "y": 0,
             "inventoryId": "Stash1"

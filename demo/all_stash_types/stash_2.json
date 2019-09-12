@@ -2,391 +2,593 @@
     "numTabs": 14,
     "fragmentLayout": {
         "0": {
-            "x": 124.13793103448276,
-            "y": 89.45233265720081,
+            "x": 121.09533468559839,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "1": {
-            "x": 124.13793103448276,
-            "y": 130.22312373225154,
+            "x": 121.09533468559839,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "2": {
-            "x": 82.1501014198783,
-            "y": 130.22312373225154,
+            "x": 79.10750507099392,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "3": {
-            "x": 82.1501014198783,
-            "y": 89.45233265720081,
+            "x": 79.10750507099392,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "4": {
-            "x": 455.78093306288037,
-            "y": 89.45233265720081,
+            "x": 460.6490872210954,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "5": {
-            "x": 455.78093306288037,
-            "y": 130.22312373225154,
+            "x": 460.6490872210954,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "6": {
-            "x": 413.184584178499,
-            "y": 130.22312373225154,
+            "x": 418.052738336714,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "7": {
-            "x": 413.184584178499,
-            "y": 89.45233265720081,
+            "x": 418.052738336714,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "8": {
-            "x": 232.45436105476676,
-            "y": 89.45233265720081,
+            "x": 231.8458417849899,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "9": {
-            "x": 232.45436105476676,
-            "y": 130.22312373225154,
+            "x": 231.8458417849899,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "10": {
-            "x": 189.85801217038542,
-            "y": 130.22312373225154,
+            "x": 189.24949290060854,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "11": {
-            "x": 189.85801217038542,
-            "y": 89.45233265720081,
+            "x": 189.24949290060854,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "12": {
-            "x": 344.421906693712,
-            "y": 89.45233265720081,
+            "x": 347.4645030425964,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "13": {
-            "x": 344.421906693712,
-            "y": 130.22312373225154,
+            "x": 347.4645030425964,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "14": {
-            "x": 301.82555780933063,
-            "y": 130.22312373225154,
+            "x": 304.868154158215,
+            "y": 124.13793103448276,
             "w": 1,
             "h": 1
         },
         "15": {
-            "x": 301.82555780933063,
-            "y": 89.45233265720081,
+            "x": 304.868154158215,
+            "y": 83.36713995943205,
             "w": 1,
             "h": 1
         },
         "16": {
-            "x": 90.66937119675457,
-            "y": 229.41176470588238,
+            "x": 79.10750507099392,
+            "y": 268.96551724137936,
             "w": 1,
             "h": 1
         },
         "17": {
-            "x": 186.20689655172416,
-            "y": 208.72210953346857,
+            "x": 79.10750507099392,
+            "y": 170.99391480730225,
             "w": 1,
             "h": 1
         },
         "18": {
-            "x": 228.19472616632862,
-            "y": 208.72210953346857,
+            "x": 121.09533468559839,
+            "y": 170.99391480730225,
             "w": 1,
             "h": 1
         },
         "19": {
-            "x": 270.18255578093306,
-            "y": 208.72210953346857,
+            "x": 163.08316430020284,
+            "y": 170.99391480730225,
             "w": 1,
             "h": 1
         },
         "20": {
-            "x": 312.17038539553755,
-            "y": 208.72210953346857,
+            "x": 205.07099391480733,
+            "y": 170.99391480730225,
             "w": 1,
             "h": 1
         },
         "21": {
-            "x": 354.76673427991886,
-            "y": 208.72210953346857,
+            "x": 247.66734279918867,
+            "y": 170.99391480730225,
             "w": 1,
             "h": 1
         },
         "22": {
-            "x": 186.20689655172416,
-            "y": 250.10141987829616,
+            "x": 79.10750507099392,
+            "y": 212.37322515212983,
             "w": 1,
             "h": 1
         },
         "23": {
-            "x": 228.19472616632862,
-            "y": 250.10141987829616,
+            "x": 121.09533468559839,
+            "y": 212.37322515212983,
             "w": 1,
             "h": 1
         },
         "24": {
-            "x": 270.18255578093306,
-            "y": 250.10141987829616,
+            "x": 163.08316430020284,
+            "y": 212.37322515212983,
             "w": 1,
             "h": 1
         },
         "25": {
-            "x": 312.17038539553755,
-            "y": 250.10141987829616,
+            "x": 205.07099391480733,
+            "y": 212.37322515212983,
             "w": 1,
             "h": 1
         },
         "26": {
-            "x": 354.76673427991886,
-            "y": 250.10141987829616,
+            "x": 247.66734279918867,
+            "y": 212.37322515212983,
             "w": 1,
             "h": 1
         },
         "27": {
-            "x": 445.43610547667345,
-            "y": 229.41176470588238,
+            "x": 460.6490872210954,
+            "y": 268.96551724137936,
             "w": 1,
             "h": 1
         },
         "28": {
-            "x": 374.23935091277895,
-            "y": 451.5212981744422,
+            "x": 376.0649087221096,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "29": {
-            "x": 415.6186612576065,
-            "y": 451.5212981744422,
+            "x": 418.052738336714,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "30": {
-            "x": 456.38945233265724,
-            "y": 451.5212981744422,
+            "x": 460.6490872210954,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "31": {
             "x": 229.41176470588238,
-            "y": 451.5212981744422,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "32": {
             "x": 270.79107505070994,
-            "y": 451.5212981744422,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "33": {
             "x": 312.7789046653144,
-            "y": 451.5212981744422,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "34": {
-            "x": 83.36713995943205,
-            "y": 363.894523326572,
+            "x": 79.10750507099392,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "35": {
-            "x": 125.9634888438134,
-            "y": 363.894523326572,
+            "x": 121.09533468559839,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "36": {
-            "x": 167.95131845841786,
-            "y": 363.894523326572,
+            "x": 163.08316430020284,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "37": {
-            "x": 83.36713995943205,
-            "y": 320.68965517241384,
+            "x": 79.10750507099392,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "38": {
-            "x": 125.9634888438134,
-            "y": 320.68965517241384,
+            "x": 121.09533468559839,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "39": {
-            "x": 167.95131845841786,
-            "y": 320.68965517241384,
+            "x": 163.08316430020284,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "40": {
             "x": 229.41176470588238,
-            "y": 363.894523326572,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "41": {
             "x": 270.79107505070994,
-            "y": 363.894523326572,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "42": {
             "x": 312.7789046653144,
-            "y": 363.894523326572,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "43": {
-            "x": 374.23935091277895,
-            "y": 363.894523326572,
+            "x": 376.0649087221096,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "44": {
-            "x": 415.6186612576065,
-            "y": 363.894523326572,
+            "x": 418.052738336714,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "45": {
-            "x": 456.38945233265724,
-            "y": 363.894523326572,
+            "x": 460.6490872210954,
+            "y": 369.9797160243408,
             "w": 1,
             "h": 1
         },
         "46": {
-            "x": 83.36713995943205,
-            "y": 451.5212981744422,
+            "x": 79.10750507099392,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "47": {
-            "x": 125.9634888438134,
-            "y": 451.5212981744422,
+            "x": 121.09533468559839,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "48": {
-            "x": 167.95131845841786,
-            "y": 451.5212981744422,
+            "x": 163.08316430020284,
+            "y": 457.606490872211,
             "w": 1,
             "h": 1
         },
         "49": {
-            "x": 374.23935091277895,
-            "y": 406.4908722109534,
+            "x": 376.0649087221096,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "50": {
-            "x": 415.6186612576065,
-            "y": 406.4908722109534,
+            "x": 418.052738336714,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "51": {
-            "x": 456.38945233265724,
-            "y": 406.4908722109534,
+            "x": 460.6490872210954,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "52": {
-            "x": 83.36713995943205,
-            "y": 406.4908722109534,
+            "x": 79.10750507099392,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "53": {
-            "x": 125.9634888438134,
-            "y": 406.4908722109534,
+            "x": 121.09533468559839,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "54": {
-            "x": 167.95131845841786,
-            "y": 406.4908722109534,
+            "x": 163.08316430020284,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "55": {
             "x": 229.41176470588238,
-            "y": 320.68965517241384,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "56": {
             "x": 270.79107505070994,
-            "y": 320.68965517241384,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "57": {
             "x": 312.7789046653144,
-            "y": 320.68965517241384,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "58": {
-            "x": 374.23935091277895,
-            "y": 320.68965517241384,
+            "x": 376.0649087221096,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "59": {
-            "x": 415.6186612576065,
-            "y": 320.68965517241384,
+            "x": 418.052738336714,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "60": {
-            "x": 456.38945233265724,
-            "y": 320.68965517241384,
+            "x": 460.6490872210954,
+            "y": 326.77484787018255,
             "w": 1,
             "h": 1
         },
         "61": {
             "x": 229.41176470588238,
-            "y": 406.4908722109534,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "62": {
             "x": 270.79107505070994,
-            "y": 406.4908722109534,
+            "y": 412.5760649087221,
             "w": 1,
             "h": 1
         },
         "63": {
             "x": 312.7789046653144,
-            "y": 406.4908722109534,
+            "y": 412.5760649087221,
+            "w": 1,
+            "h": 1
+        },
+        "64": {
+            "x": 334.0770791075051,
+            "y": 170.99391480730225,
+            "w": 1,
+            "h": 1
+        },
+        "65": {
+            "x": 376.0649087221096,
+            "y": 170.99391480730225,
+            "w": 1,
+            "h": 1
+        },
+        "66": {
+            "x": 292.08924949290065,
+            "y": 170.99391480730225,
+            "w": 1,
+            "h": 1
+        },
+        "67": {
+            "x": 418.052738336714,
+            "y": 170.99391480730225,
+            "w": 1,
+            "h": 1
+        },
+        "68": {
+            "x": 460.6490872210954,
+            "y": 170.99391480730225,
+            "w": 1,
+            "h": 1
+        },
+        "69": {
+            "x": 334.0770791075051,
+            "y": 212.37322515212983,
+            "w": 1,
+            "h": 1
+        },
+        "70": {
+            "x": 376.0649087221096,
+            "y": 212.37322515212983,
+            "w": 1,
+            "h": 1
+        },
+        "71": {
+            "x": 292.08924949290065,
+            "y": 212.37322515212983,
+            "w": 1,
+            "h": 1
+        },
+        "72": {
+            "x": 418.052738336714,
+            "y": 212.37322515212983,
+            "w": 1,
+            "h": 1
+        },
+        "73": {
+            "x": 460.6490872210954,
+            "y": 212.37322515212983,
+            "w": 1,
+            "h": 1
+        },
+        "74": {
+            "x": 227.58620689655174,
+            "y": 283.56997971602436,
+            "w": 1,
+            "h": 1
+        },
+        "75": {
+            "x": 268.96551724137936,
+            "y": 283.56997971602436,
+            "w": 1,
+            "h": 1
+        },
+        "76": {
+            "x": 310.9533468559838,
+            "y": 283.56997971602436,
             "w": 1,
             "h": 1
         }
     },
     "items": [
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachShardLightning.png?scale=1&w=1&h=1&v=11cd23560f7aa0dda27cc323fa97cb96",
+            "league": "Standard",
+            "id": "427eca562374d87609efb62599cb856ff7cccbea071dd455c9e6fe0fd1311bea",
+            "name": "",
+            "typeLine": "Splinter of Esh",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1\/100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "Combine 100 Splinters to create Esh's Breachstone.",
+            "frameType": 5,
+            "stackSize": 1,
+            "maxStackSize": 100,
+            "x": 24,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachShardFire.png?scale=1&w=1&h=1&v=4635e0847323cf1d62c8b4e8101351bf",
+            "league": "Standard",
+            "id": "61546385cee458248625d59eb4bd294f2322d069bec34997a7661be9b5fbf58c",
+            "name": "",
+            "typeLine": "Splinter of Xoph",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "16\/100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "Combine 100 Splinters to create Xoph's Breachstone.",
+            "frameType": 5,
+            "stackSize": 16,
+            "maxStackSize": 100,
+            "x": 22,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/TemplarShard.png?scale=1&w=1&h=1&v=82d3d517ed1caa15a3dfad5f3a0a8fff",
+            "league": "Standard",
+            "id": "21668951b8ebf0e0a809648acfc9ef896a89af271cd1b3ef463e20af68f4aa90",
+            "name": "",
+            "typeLine": "Timeless Templar Splinter",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "7\/100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "Combine 100 Splinters to create a Timeless Templar Emblem.",
+            "frameType": 5,
+            "stackSize": 7,
+            "maxStackSize": 100,
+            "x": 72,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/EternalEmpireShard.png?scale=1&w=1&h=1&v=c39753adba56300b8c08f3066a79429c",
+            "league": "Standard",
+            "id": "0af1c433512df0f143bc7deb1b5a4582133f6d4c697a711e2e1fb17562f6ad6d",
+            "name": "",
+            "typeLine": "Timeless Eternal Empire Splinter",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "2\/100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "Combine 100 Splinters to create a Timeless Eternal Emblem.",
+            "frameType": 5,
+            "stackSize": 2,
+            "maxStackSize": 100,
+            "x": 71,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
         {
             "verified": false,
             "w": 1,
@@ -403,13 +605,8 @@
                 "The light without pales in comparison to the light within."
             ],
             "frameType": 0,
-            "stackSize": 1,
+            "stackSize": 7,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 2,
             "y": 0,
             "inventoryId": "Stash2"
@@ -430,13 +627,8 @@
                 "Look to our Queen, for she will lead us into the light."
             ],
             "frameType": 0,
-            "stackSize": 2,
+            "stackSize": 4,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 0,
             "y": 0,
             "inventoryId": "Stash2"
@@ -460,11 +652,6 @@
             "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 14,
             "y": 0,
             "inventoryId": "Stash2"
@@ -488,12 +675,33 @@
             "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 12,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Scarabs\/GreaterScarabPerandus.png?scale=1&w=1&h=1&v=e91001b24a7aa9c210487e750c6b82ac",
+            "league": "Standard",
+            "id": "3f78997145b9057bcea31b01ac9356fe738eceb9303d855e2f31cbb5def01bfe",
+            "name": "",
+            "typeLine": "Gilded Perandus Scarab",
+            "identified": true,
+            "explicitMods": [
+                "Area contains 4 additional Perandus Chests\r\nArea contains Cadiro Perandus"
+            ],
+            "descrText": "Can be used in the Templar Laboratory or a personal Map Device to add modifiers to a Map.",
+            "flavourText": [
+                "The dark day has come, Icius Perandus. Today either we succeed or humanity dies.\r",
+                "Enact your plan. Prevent the fate of the Vaal from befalling the Eternal Empire!"
+            ],
+            "frameType": 0,
+            "stackSize": 1,
+            "maxStackSize": 5000,
+            "x": 63,
             "y": 0,
             "inventoryId": "Stash2"
         },
@@ -519,14 +727,54 @@
                 "and yet it always breaks free."
             ],
             "frameType": 0,
+            "stackSize": 5,
+            "maxStackSize": 5000,
+            "x": 16,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Scarabs\/LesserScarabStrongboxes.png?scale=1&w=1&h=1&v=b6c34ba92bd0b27536a4d6ea29611ccc",
+            "league": "Standard",
+            "id": "8b974ff469b2c6cfa219c1a1dc7d0e118b1195b7b39a023073c6ecc3b84b7969",
+            "name": "",
+            "typeLine": "Rusted Ambush Scarab",
+            "identified": true,
+            "explicitMods": [
+                "Area contains 3 additional Strongboxes"
+            ],
+            "descrText": "Can be used in the Templar Laboratory or a personal Map Device to add modifiers to a Map.",
+            "flavourText": [
+                "Your outlaw camp abandoned you when their surprise attack failed, young Rindwik.\r",
+                "Now that you know we exist, we cannot let you go. You have two choices."
+            ],
+            "frameType": 0,
+            "stackSize": 2,
+            "maxStackSize": 5000,
+            "x": 55,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachFragmentsLightning.png?scale=1&w=1&h=1&v=01c1ec0220d90a59ebdbb1847a915710",
+            "league": "Standard",
+            "id": "0dd95f19f65a5819e83b866f4161015bad2cc67d32b1c3bd77f73f55c58d5ec3",
+            "name": "",
+            "typeLine": "Esh's Breachstone",
+            "identified": true,
+            "descrText": "Travel to Esh's Domain by using this item in the Templar Laboratory or a personal Map Device. Can only be used once.",
+            "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
-            "x": 16,
+            "x": 19,
             "y": 0,
             "inventoryId": "Stash2"
         },
@@ -553,12 +801,6 @@
             "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment",
-                    "scarab"
-                ]
-            },
             "x": 54,
             "y": 0,
             "inventoryId": "Stash2"
@@ -582,12 +824,88 @@
             "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 13,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/VaalShard.png?scale=1&w=1&h=1&v=0a4bddb57e7c348f72bfffd3434f0e6b",
+            "league": "Standard",
+            "id": "4755397317056358cb6abe2bc4c6554991aa58bd3d001beae423e98a39c6d254",
+            "name": "",
+            "typeLine": "Timeless Vaal Splinter",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "2\/100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "Combine 100 Splinters to create a Timeless Vaal Emblem.",
+            "frameType": 5,
+            "stackSize": 2,
+            "maxStackSize": 100,
+            "x": 73,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/KaruiShard.png?scale=1&w=1&h=1&v=e3ab494b7e170292856cd88874110b61",
+            "league": "Standard",
+            "id": "e2c994fa41c81859abae9439a36731f0e278e3c898c5dd7ab2a50ee4d8b5581f",
+            "name": "",
+            "typeLine": "Timeless Karui Splinter",
+            "identified": true,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "3\/100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "descrText": "Combine 100 Splinters to create a Timeless Karui Emblem.",
+            "frameType": 5,
+            "stackSize": 3,
+            "maxStackSize": 100,
+            "x": 69,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachFragmentsCold.png?scale=1&w=1&h=1&v=8698bfa03dcc9fca7fdde5c763839bd0",
+            "league": "Standard",
+            "id": "ce2c21fb7c0a63504cfc1e2cdf1ebc9872626867400db1fe58d346b9b40d200b",
+            "name": "",
+            "typeLine": "Tul's Breachstone",
+            "identified": true,
+            "descrText": "Travel to Tul's Domain by using this item in the Templar Laboratory or a personal Map Device. Can only be used once.",
+            "frameType": 0,
+            "stackSize": 1,
+            "maxStackSize": 5000,
+            "x": 18,
             "y": 0,
             "inventoryId": "Stash2"
         },
@@ -613,12 +931,6 @@
             "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment",
-                    "scarab"
-                ]
-            },
             "x": 61,
             "y": 0,
             "inventoryId": "Stash2"
@@ -628,32 +940,20 @@
             "w": 1,
             "h": 1,
             "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachShardLightning.png?scale=1&w=1&h=1&v=11cd23560f7aa0dda27cc323fa97cb96",
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Maps\/UberVaal02.png?scale=1&w=1&h=1&v=db5b529a8425bd2b9fd7bee9fca2e018",
             "league": "Standard",
-            "id": "157e9e3d6ccbc2b0b717d9f24f985223c450c599c1de9cde032c7d223050acc0",
+            "id": "e046835a0503c9b3e3c9245ae5cd479340632c15dde210e2bc1178b2134a678a",
             "name": "",
-            "typeLine": "Splinter of Esh",
+            "typeLine": "Mortal Hope",
             "identified": true,
-            "properties": [
-                {
-                    "name": "Stack Size",
-                    "values": [
-                        [
-                            "54\/100",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0
-                }
+            "descrText": "Can be used in the Templar Laboratory or a personal Map Device.",
+            "flavourText": [
+                "Look to our Queen, for she will lead us from the darkness."
             ],
-            "descrText": "Combine 100 Splinters to create Esh's Breachstone.",
-            "frameType": 5,
-            "stackSize": 54,
-            "maxStackSize": 100,
-            "category": {
-                "currency": []
-            },
-            "x": 24,
+            "frameType": 0,
+            "stackSize": 1,
+            "maxStackSize": 5000,
+            "x": 5,
             "y": 0,
             "inventoryId": "Stash2"
         },
@@ -673,13 +973,8 @@
                 "Only those who aspire can dare to hope."
             ],
             "frameType": 0,
-            "stackSize": 1,
+            "stackSize": 7,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 1,
             "y": 0,
             "inventoryId": "Stash2"
@@ -689,31 +984,48 @@
             "w": 1,
             "h": 1,
             "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Scarabs\/GreaterScarabShaper.png?scale=1&w=1&h=1&v=64add2bb5e7d4708b8cdab380c56567a",
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachShardCold.png?scale=1&w=1&h=1&v=4a7652d6ff5de2493d37768e993c9411",
             "league": "Standard",
-            "id": "1ed2b19bb1112b7f2c6005c06d41d9e3b4604a9433a65a1a05ec8c9db40f7cef",
+            "id": "199be57ee4512bc8c543a11a2002311bae8efa9b871dd621a4c30034f15716f4",
             "name": "",
-            "typeLine": "Gilded Shaper Scarab",
+            "typeLine": "Splinter of Tul",
             "identified": true,
-            "note": "~price 10 chaos",
-            "explicitMods": [
-                "300% more Rare Shaper Items found in Area"
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1\/100",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
             ],
-            "descrText": "Can be used in the Templar Laboratory or a personal Map Device to add modifiers to a Map.",
-            "flavourText": [
-                "Qianga of the Stars, Deliverer of the Sealing Blade to the Watchers, go now, and\r",
-                "let your half-dreamt life be troubled by nightmares of achromic hunger no more."
-            ],
+            "descrText": "Combine 100 Splinters to create Tul's Breachstone.",
+            "frameType": 5,
+            "stackSize": 1,
+            "maxStackSize": 100,
+            "x": 23,
+            "y": 0,
+            "inventoryId": "Stash2"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "ilvl": 0,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachFragmentsFire.png?scale=1&w=1&h=1&v=f9c679d9bd76b1b6c40f2a352b8bbea5",
+            "league": "Standard",
+            "id": "29a053ff8a8e6da0818f1f4a4c1d22678dd9d0eb84e2a8a7972977b08d18df6a",
+            "name": "",
+            "typeLine": "Xoph's Breachstone",
+            "identified": true,
+            "descrText": "Travel to Xoph's Domain by using this item in the Templar Laboratory or a personal Map Device. Can only be used once.",
             "frameType": 0,
-            "stackSize": 2,
+            "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment",
-                    "scarab"
-                ]
-            },
-            "x": 42,
+            "x": 17,
             "y": 0,
             "inventoryId": "Stash2"
         },
@@ -734,13 +1046,8 @@
                 "The Vaal shall never fear the setting of our sun."
             ],
             "frameType": 0,
-            "stackSize": 2,
+            "stackSize": 8,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 3,
             "y": 0,
             "inventoryId": "Stash2"
@@ -762,82 +1069,9 @@
                 "nothingness and equilibrium of eternity."
             ],
             "frameType": 0,
-            "stackSize": 1,
+            "stackSize": 2,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 15,
-            "y": 0,
-            "inventoryId": "Stash2"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachShardFire.png?scale=1&w=1&h=1&v=4635e0847323cf1d62c8b4e8101351bf",
-            "league": "Standard",
-            "id": "6b1cfe46a4e6e61df1469abcb130ab521602e04dfc3c086da8ad9e384e4850b9",
-            "name": "",
-            "typeLine": "Splinter of Xoph",
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Stack Size",
-                    "values": [
-                        [
-                            "90\/100",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0
-                }
-            ],
-            "descrText": "Combine 100 Splinters to create Xoph's Breachstone.",
-            "frameType": 5,
-            "stackSize": 90,
-            "maxStackSize": 100,
-            "category": {
-                "currency": []
-            },
-            "x": 22,
-            "y": 0,
-            "inventoryId": "Stash2"
-        },
-        {
-            "verified": false,
-            "w": 1,
-            "h": 1,
-            "ilvl": 0,
-            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Currency\/Breach\/BreachShardCold.png?scale=1&w=1&h=1&v=4a7652d6ff5de2493d37768e993c9411",
-            "league": "Standard",
-            "id": "ddf8977137bb05aa60528c4da7c1ec2378b104ff41ba27b871fa678bc48a376e",
-            "name": "",
-            "typeLine": "Splinter of Tul",
-            "identified": true,
-            "properties": [
-                {
-                    "name": "Stack Size",
-                    "values": [
-                        [
-                            "82\/100",
-                            0
-                        ]
-                    ],
-                    "displayMode": 0
-                }
-            ],
-            "descrText": "Combine 100 Splinters to create Tul's Breachstone.",
-            "frameType": 5,
-            "stackSize": 82,
-            "maxStackSize": 100,
-            "category": {
-                "currency": []
-            },
-            "x": 23,
             "y": 0,
             "inventoryId": "Stash2"
         },
@@ -861,11 +1095,6 @@
             "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 8,
             "y": 0,
             "inventoryId": "Stash2"
@@ -887,13 +1116,8 @@
                 "Your fate rests in her even hands."
             ],
             "frameType": 0,
-            "stackSize": 6,
+            "stackSize": 7,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment"
-                ]
-            },
             "x": 27,
             "y": 0,
             "inventoryId": "Stash2"
@@ -921,12 +1145,6 @@
             "frameType": 0,
             "stackSize": 2,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment",
-                    "scarab"
-                ]
-            },
             "x": 41,
             "y": 0,
             "inventoryId": "Stash2"
@@ -954,12 +1172,6 @@
             "frameType": 0,
             "stackSize": 1,
             "maxStackSize": 5000,
-            "category": {
-                "maps": [
-                    "fragment",
-                    "scarab"
-                ]
-            },
             "x": 45,
             "y": 0,
             "inventoryId": "Stash2"
@@ -980,7 +1192,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "26\/100",
+                            "45\/100",
                             0
                         ]
                     ],
@@ -989,11 +1201,8 @@
             ],
             "descrText": "Combine 100 Splinters to create Uul-Netol's Breachstone.",
             "frameType": 5,
-            "stackSize": 26,
+            "stackSize": 45,
             "maxStackSize": 100,
-            "category": {
-                "currency": []
-            },
             "x": 25,
             "y": 0,
             "inventoryId": "Stash2"
@@ -1025,9 +1234,6 @@
             "frameType": 5,
             "stackSize": 3,
             "maxStackSize": 100,
-            "category": {
-                "currency": []
-            },
             "x": 26,
             "y": 0,
             "inventoryId": "Stash2"
