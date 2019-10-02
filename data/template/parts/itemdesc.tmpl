@@ -100,6 +100,15 @@
                       {{ end }}
                     {{ end }}
 
+                    {{ if .UtilityMods }}
+                      <div class="separator"></div>
+                      {{ range .UtilityMods }}
+                        <div class="utilityMod">
+                          <span class="lc">{{ . }}</span>
+                        </div>
+                      {{ end }}
+                    {{ end }}
+
                     {{ if not .IsIdentified }}
                     <div class="unmet">
                       <div class="separator"></div>
