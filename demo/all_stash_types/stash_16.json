@@ -150,7 +150,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Boots\/BootsInt4.png?scale=1&w=2&h=2&v=4808dffa0aa9745b57119af9319d0be3",
             "league": "Standard",
             "id": "523a1fbde99678667e50f9b71757d4a96120477025167a9048d7af752606a98b",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -452,7 +454,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Claws\/Claw6.png?scale=1&w=2&h=2&v=14ffba33f70a7825bc3b08f5f0ec6878",
             "league": "Standard",
             "id": "50b95526b96776695a648f8f70575b5fdca7d94d15b3cad1dfee6ebd707bf47e",
-            "elder": true,
+            "influences": {
+                "elder": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -586,7 +590,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesStr4.png?scale=1&w=2&h=2&v=b2997b2df11d3b19cbb6a4c3054acda6",
             "league": "Standard",
             "id": "90e41bf2acbbea6641ed0eb26e00ec53e04ad64f5457410c77d4cbd6984782eb",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -664,7 +670,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrDex6.png?scale=1&w=2&h=2&v=80d0b49dc84d2c96f40a4cb270d96748",
             "league": "Standard",
             "id": "b8f74d248e47d6ab739e504cf570b052fd66d161ba943ce40714031a400ea16a",
-            "elder": true,
+            "influences": {
+                "elder": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -767,7 +775,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandSwords\/OneHandSword5.png?scale=1&w=2&h=3&v=20d0442f22b206975e82638308fbfe3b",
             "league": "Standard",
             "id": "58458ceca7525c90b22648d4c4941a716e0f291e828cc4de95d1131829c451d4",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -1022,7 +1032,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldDex2.png?scale=1&w=2&h=2&v=958754f78c163c1a80befdca6e8ce7bf",
             "league": "Standard",
             "id": "7ff398d89e9c12807022675d2e83b1f706e128c5df6e7676692a38ba7751c353",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -1113,7 +1125,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDexInt9.png?scale=1&w=2&h=2&v=f16dbb804ba232a15e23b3539c67b774",
             "league": "Standard",
             "id": "4f5feb6024b9aab5745e6b4d234ad97beedb7657d34263cbf017a7ded02b4f40",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -1314,7 +1328,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandSwords\/OneHandSword2.png?scale=1&w=1&h=3&v=a94ce74a6007ca561bb3a4bfa3abe15b",
             "league": "Standard",
             "id": "e2dffd322a0d29942564c2f8a6142fab6c519ab6dbb9cfa0d557184b7a0836cd",
-            "elder": true,
+            "influences": {
+                "elder": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -1842,7 +1858,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Staves\/Staff4.png?scale=1&w=2&h=4&v=8af1ab046fb7f7caae8c7ce5b186b63b",
             "league": "Standard",
             "id": "6fcde8409dd31328aadb82d29b22a85ebd490049fbcf348d1da0406211fd8fa2",
-            "elder": true,
+            "influences": {
+                "elder": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2074,7 +2092,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStr4A.png?scale=1&w=2&h=3&v=f9314c7ebb635aa283be76640df8ff00",
             "league": "Standard",
             "id": "c25307f64aa8d817ebad85888574fdac67e044d2410ffd0387a634387296468b",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2166,7 +2186,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Gloves\/GlovesDexInt2.png?scale=1&w=2&h=2&v=8301a0119606f022ec99a9723749003d",
             "league": "Standard",
             "id": "4ba6eb66368405138f342eb5743d67535d6f4694fb75646933f9610f7d47c4f2",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2281,7 +2303,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetStrInt5.png?scale=1&w=2&h=2&v=39a1f3a8764bd4fbe33230be7004c43b",
             "league": "Standard",
             "id": "dadc8bc691ae89aab26e01a9a538568180a675d9d15f60d7c6001677a3b4d3ce",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2696,7 +2720,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrInt2C.png?scale=1&w=2&h=3&v=da51dd4c9ab2a0ddb4ea9e2edc4fb6b3",
             "league": "Standard",
             "id": "e80cef36a374b488edfd71d75cf5bbfe31892174640a8815d879002eae678a91",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2800,7 +2826,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt3.png?scale=1&w=2&h=1&v=a559821037f54c94dae053b90bcea363",
             "league": "Standard",
             "id": "b3311dc8a3de45507244e8b007443ac79e63bcb5ffe15ec83fa0441611d9b472",
-            "elder": true,
+            "influences": {
+                "elder": true
+            },
             "name": "Empyrean Bind",
             "typeLine": "Leather Belt",
             "identified": true,
@@ -2843,7 +2871,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex2C.png?scale=1&w=2&h=3&v=b03b38ea29d4757b2578adea2a86115d",
             "league": "Standard",
             "id": "1ac2b12359ec4a88c1fb418188cd90c1a488dcfcc87ccc5176a552461269b2e6",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,

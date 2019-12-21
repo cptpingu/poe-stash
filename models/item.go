@@ -5,11 +5,10 @@ type Item struct {
 	IsVerified          bool `json:"verified"`
 	IsIdentified        bool `json:"identified"`
 	IsCorrupted         bool `json:"corrupted"`
+	IsSynthesised       bool `json:"synthesised"`
 	IsLockedToCharacter bool `json:"lockedToCharacter"`
 	IsSupport           bool `json:"support"`
 	IsRelic             bool `json:"isRelic"`
-	IsElder             bool `json:"elder"`
-	IsShaper            bool `json:"shaper"`
 	IsAbyssJewel        bool `json:"abyssJewel"`
 	IsVeiled            bool `json:"veiled"`
 
@@ -40,9 +39,10 @@ type Item struct {
 	Note                   string `json:"note"`
 	SocketColor            string `json:"colour"`
 
-	Properties           []ItemProperty `json:"properties"`
-	AdditionalProperties []ItemProperty `json:"additionalProperties"`
-	Requirements         []ItemProperty `json:"requirements"`
+	Influences           InfluenceProperty `json:"influences"`
+	Properties           []ItemProperty    `json:"properties"`
+	AdditionalProperties []ItemProperty    `json:"additionalProperties"`
+	Requirements         []ItemProperty    `json:"requirements"`
 
 	Sockets       []Socket `json:"sockets"`
 	SocketedItems []Item   `json:"socketedItems"`
@@ -74,6 +74,16 @@ type ItemProperty struct {
 	Values      []interface{} `json:"values"`
 	DisplayMode int           `json:"displayMode"`
 	Progress    float64       `json:"progress"`
+}
+
+// InfluenceProperty holds which type of influences affect the item.
+type InfluenceProperty struct {
+	Elder    bool `json:"elder"`
+	Shaper   bool `json:"shaper"`
+	Crusader bool `json:"crusader"`
+	Hunter   bool `json:"hunter"`
+	Redeemer bool `json:"redeemer"`
+	Warlord  bool `json:"warlord"`
 }
 
 // FrameType is a type of rarity of an item.

@@ -49,6 +49,7 @@ func LoadAllTemplates() (*template.Template, error) {
 		"ItemRarity":           ItemRarity,
 		"ItemRarityType":       ItemRarityType,
 		"ItemRarityHeight":     ItemRarityHeight,
+		"InfluenceName":        InfluenceName,
 		"GenSpecialBackground": GenSpecialBackground,
 		"ColorType":            ColorType,
 		"AugmentedType":        AugmentedType,
@@ -309,14 +310,45 @@ func ItemRarityHeight(frameType models.FrameType) string {
 	return heightClass
 }
 
+// InfluenceName returns the influence name.
+func InfluenceName(item models.Item) string {
+	if item.IsSynthesised {
+		return "synthetic"
+	}
+	if item.IsVeiled {
+		return "veiled"
+	}
+
+	if item.Influences.Shaper {
+		return "shaper"
+	}
+	if item.Influences.Elder {
+		return "elder"
+	}
+	if item.Influences.Redeemer {
+		return "redeemer"
+	}
+	if item.Influences.Crusader {
+		return "crusader"
+	}
+	if item.Influences.Hunter {
+		return "hunter"
+	}
+	if item.Influences.Warlord {
+		return "warlord"
+	}
+
+	return ""
+}
+
 // GenSpecialBackground generates a special background
 // like shaper or elder ones.
 func GenSpecialBackground(item models.Item) string {
 	pattern := ""
-	if item.IsShaper {
+	if item.Influences.Shaper {
 		pattern = "style='background-image: url(\"https://www.pathofexile.com/image/inventory/ShaperBackground.png?w=%d&h=%d&x=%d&y=%d\");'"
 	}
-	if item.IsElder {
+	if item.Influences.Elder {
 		pattern = "style='background-image: url(\"https://www.pathofexile.com/image/inventory/ElderBackground.png?w=%d&h=%d&x=%d&y=%d\");'"
 	}
 	if pattern == "" {
@@ -679,10 +711,10 @@ func GenNaiveSearchIndex(item models.Item) string {
 func itemCategoryAttribute(item models.Item) []string {
 	res := make([]string, 0, 5)
 
-	if item.IsShaper {
+	if item.Influences.Shaper {
 		res = append(res, "shaper")
 	}
-	if item.IsElder {
+	if item.Influences.Elder {
 		res = append(res, "elder")
 	}
 	if item.IsIdentified {

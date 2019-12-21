@@ -36,7 +36,7 @@
                 </div>
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
-                  <div class="icon {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }}" {{ GenSpecialBackground . | attr }}>
+                  <div class="icon {{ InfluenceName . }}" {{ GenSpecialBackground . | attr }}>
                     <img class="object-img" src="{{ .Icon }}" alt="" />
 
                     {{ if .Sockets }}

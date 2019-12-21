@@ -15,8 +15,8 @@
             {{ else }}
 
               <div class="itemBoxContent">
-                <div class="itemHeader {{ ItemRarityHeight .FrameType }} {{ if .IsElder }}elder{{ end }} {{ if .IsShaper }}shaper{{ end }} {{ if .IsVeiled }}veiled{{ end }}">
-                  <span class="l"></span>
+                <div class="itemHeader {{ ItemRarityHeight .FrameType }} {{ if .IsVeiled }}veiled{{ end }}">
+                  <span class="l symbol {{ InfluenceName . }}"></span>
                   {{ if .Name }}
                   <div class="itemName">
                     <span class="lc">{{ .Name }}</span>
@@ -33,7 +33,7 @@
                     <span class="lc">{{ .Type }}</span>
                   </div>
                   {{ end }}
-                  <span class="r"></span>
+                  <span class="r symbol {{ InfluenceName . }}"></span>
                 </div>
 
                 <div class="content">

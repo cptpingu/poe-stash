@@ -324,7 +324,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Quivers\/QuiverFire.png?scale=1&w=2&h=3&v=423d4bf842bf5cc10d42a4300b3f5725",
             "league": "Standard",
             "id": "b632720dc6aad589b5a5d1c065b7737f667b35a114a1dfa89862a80e20fbc3f6",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "name": "Brood Needle",
             "typeLine": "Fire Arrow Quiver",
             "identified": true,
@@ -512,7 +514,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/Bows\/Bow2.png?scale=1&w=2&h=3&v=c6b09fe119e14b0a1af35c694e705bd3",
             "league": "Standard",
             "id": "ee5f72353b8e920b73ce0371c7c7aff343a29a7a31b0a2e7adebf8e5a4535c2e",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -633,7 +637,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/OneHandMaces\/OneHandMace3.png?scale=1&w=1&h=3&v=0da211513b53dc8acc1a040ee18b6347",
             "league": "Standard",
             "id": "f4c6c02d7c864717c735c76c7cbe86e61c75bb626f73da8f96f03eadd6b81ba3",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2086,7 +2092,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Shields\/ShieldDex2.png?scale=1&w=2&h=2&v=958754f78c163c1a80befdca6e8ce7bf",
             "league": "Standard",
             "id": "25556a7e6fe68187f3a12d86ee4c479b9fa1f626dbca352629fe3c9d06305df2",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2182,7 +2190,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/TwoHandWeapons\/TwoHandMaces\/TwoHandMace2.png?scale=1&w=2&h=4&v=c013588ad91c15f8411b58f3d5b93300",
             "league": "Standard",
             "id": "78d2d324d85ad52bfc8fff00afb046183bcadc6694c7dcef7e283a3f1def41e1",
-            "elder": true,
+            "influences": {
+                "elder": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -2934,7 +2944,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/Helmets\/HelmetDex9.png?scale=1&w=2&h=2&v=e6a9c07a19f574356cad3d7fc7506641",
             "league": "Standard",
             "id": "cdfcea87a5ff9e064598e40d9bf972fbe4ca2b9739082e80c0e8c894195980f6",
-            "elder": true,
+            "influences": {
+                "elder": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -3012,7 +3024,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Weapons\/OneHandWeapons\/Wands\/Wand5.png?scale=1&w=1&h=3&v=1693f03dab28c272223acf156ce9107e",
             "league": "Standard",
             "id": "92f4d641d6e5fee14da4cfee12353983808e3b69e453444caf64cc6cb0313451",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "sockets": [
                 {
                     "group": 0,
@@ -3120,7 +3134,9 @@
             "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Belts\/Belt5.png?scale=1&w=2&h=1&v=5aa764352f06af8fd3231e6a52d710f5",
             "league": "Standard",
             "id": "06c70f32a60c4b3cab175de05f3c14e6749bbf8046619e7f66e57a090db15ad1",
-            "shaper": true,
+            "influences": {
+                "shaper": true
+            },
             "name": "Horror Twine",
             "typeLine": "Heavy Belt",
             "identified": true,
