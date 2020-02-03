@@ -63,7 +63,8 @@ type StashTab struct {
 	DivinationLayout DivineLayout      `json:"divinationLayout"`
 
 	// Can be empty, hence the *, for allowing to be nullable.
-	MapLayout *map[string]Layout `json:"mapLayout"`
+	MapLayout    *map[string]Layout `json:"mapLayout"`
+	UniqueLayout *map[string]Layout `json:"uniqueLayout"`
 }
 
 func (s *StashTab) String() string {

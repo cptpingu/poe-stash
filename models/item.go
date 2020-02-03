@@ -146,4 +146,5 @@ const (
 	QuadLayout                  = "quad"
 	EssenceLayout               = "essence"
 	DivinationLayout            = "divination"
+	UniqueLayout                = "unique"
 )

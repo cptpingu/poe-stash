@@ -108,7 +108,7 @@ go run cmd/cli/main.go --account cptpingu --poesessid 87f93201234f1234f --output
 ### Not supported yet
 
   * Map stash tab (known issue: https://www.pathofexile.com/forum/view-thread/1733474#p13674912)
-  * Unique stash tab
+  * Unique stash tab (known issue: https://www.pathofexile.com/forum/view-thread/1733474#p13674912)
   * Too much jewels on the character will overflow
 
 ### FAQ

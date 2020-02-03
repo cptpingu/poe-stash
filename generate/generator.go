@@ -208,6 +208,8 @@ func DeducePosX(layoutType, inventoryId string, layout map[string]models.Layout,
 		}
 	case models.MapLayout:
 		return 0
+	case models.UniqueLayout:
+		return 0
 	case models.JewelLayout:
 		return 287 + float64(idx)*47
 	case models.InventoryLayout:
@@ -242,6 +244,8 @@ func DeducePosY(layoutType, inventoryId string, layout map[string]models.Layout,
 			return value.Y
 		}
 	case models.MapLayout:
+		return 0
+	case models.UniqueLayout:
 		return 0
 	case models.JewelLayout:
 		return -47
