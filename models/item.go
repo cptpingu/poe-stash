@@ -11,6 +11,7 @@ type Item struct {
 	IsRelic             bool `json:"isRelic"`
 	IsAbyssJewel        bool `json:"abyssJewel"`
 	IsVeiled            bool `json:"veiled"`
+	IsDuplicated        bool `json:"duplicated"`
 
 	Width        int `json:"w"`
 	Height       int `json:"h"`

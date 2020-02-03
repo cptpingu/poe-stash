@@ -187,6 +187,12 @@
                       {{ end }}
                       <!-- !vaal -->
 
+                      {{ if .IsDuplicated }}
+                      <div class="augmented">
+                        <span class="lc">Mirrored</span>
+                      </div>
+                      {{ end }}
+
                       {{ if .IsCorrupted }}
                       <div class="unmet">
                         <span class="lc">Corrupted</span>
