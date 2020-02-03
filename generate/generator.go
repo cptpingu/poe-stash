@@ -715,11 +715,23 @@ func GenNaiveSearchIndex(item models.Item) string {
 func itemCategoryAttribute(item models.Item) []string {
 	res := make([]string, 0, 5)
 
-	if item.Influences.Shaper {
-		res = append(res, "shaper")
-	}
 	if item.Influences.Elder {
-		res = append(res, "elder")
+		res = append(res, "influences", "influence", "elder")
+	}
+	if item.Influences.Shaper {
+		res = append(res, "influences", "influence", "shaper")
+	}
+	if item.Influences.Crusader {
+		res = append(res, "influences", "influence", "crusader")
+	}
+	if item.Influences.Hunter {
+		res = append(res, "influences", "influence", "hunter")
+	}
+	if item.Influences.Redeemer {
+		res = append(res, "influences", "influence", "redeemer")
+	}
+	if item.Influences.Warlord {
+		res = append(res, "warlord")
 	}
 	if item.IsIdentified {
 		res = append(res, "identified")
@@ -759,43 +771,43 @@ func itemCategoryType(categories models.Category) []string {
 	res := make([]string, 0, 5)
 
 	if categories.Armor != nil {
-		res = append(res, "armor", "armour", "armors", "armours")
+		res = append(res, models.Armors...)
 		for _, v := range *categories.Armor {
 			res = append(res, v)
 		}
 	}
 	if categories.Accessories != nil {
-		res = append(res, "accessory", "accessories")
+		res = append(res, models.Accessories...)
 		for _, v := range *categories.Accessories {
 			res = append(res, v)
 		}
 	}
 	if categories.Currency != nil {
-		res = append(res, "currency", "currencies")
+		res = append(res, models.Currencies...)
 		for _, v := range *categories.Currency {
 			res = append(res, v)
 		}
 	}
 	if categories.Jewels != nil {
-		res = append(res, "jewel", "jewels")
+		res = append(res, models.Jewels...)
 		for _, v := range *categories.Jewels {
 			res = append(res, v)
 		}
 	}
 	if categories.Weapons != nil {
-		res = append(res, "weapon", "weapons")
+		res = append(res, models.Weapons...)
 		for _, v := range *categories.Weapons {
 			res = append(res, v)
 		}
 	}
 	if categories.Gems != nil {
-		res = append(res, "gem", "gems")
+		res = append(res, models.Gems...)
 		for _, v := range *categories.Gems {
 			res = append(res, v)
 		}
 	}
 	if categories.Maps != nil {
-		res = append(res, "map", "maps")
+		res = append(res, models.Maps...)
 		for _, v := range *categories.Maps {
 			res = append(res, v)
 		}
@@ -808,7 +820,52 @@ func itemCategoryType(categories models.Category) []string {
 func ItemCategory(item models.Item) string {
 	attributes := itemCategoryAttribute(item)
 	types := itemCategoryType(item.Category)
+	if len(types) == 0 {
+		types = tryDeduceTypeOfObject(item)
+	}
 	res := append(attributes, types...)
 	sort.Strings(res)
 	return strings.Join(res, " ")
+}
+
+// tryDeduceTypeOfObject tries to deduce categories of an object using object
+// name when the Categories section is missing.
+func tryDeduceTypeOfObject(item models.Item) []string {
+	// Try to match known base type.
+	if attributes, ok := models.BaseTypes[item.Type]; ok {
+		return attributes
+	}
+
+	// Try to deduce item type with the frame type.
+	switch item.FrameType {
+	case models.GemFrameType:
+		return models.Gems
+	case models.CurrencyFrameType:
+		if strings.Contains(item.Type, "Oil") {
+			return models.Oils
+		}
+		if strings.Contains(item.Type, "Fossil") {
+			return models.Fossils
+		}
+		if strings.Contains(item.Type, "Essence") {
+			return models.Essences
+		}
+		return models.Currencies
+	case models.DivinationCardFrameType:
+		return models.Cards
+	case models.QuestItemFrameType:
+		return models.Quests
+	}
+
+	// Detect jewels type.
+	if strings.Contains(item.Type, "Jewel") {
+		return models.Jewels
+	}
+
+	// Detect map type.
+	if strings.Contains(item.Type, "Map") {
+		return models.Maps
+	}
+
+	return []string{}
 }
