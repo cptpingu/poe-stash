@@ -36,7 +36,7 @@
                 </div>
                 <div class="socketPopups"></div>
                 <div class="iconContainer">
-                  <div class="icon {{ InfluenceName . }}" {{ GenSpecialBackground . | attr }}>
+                  <div class="icon {{ InfluenceName . true }} {{ InfluenceName . false }}" {{ GenSpecialBackground . | attr }}>
                     <img class="object-img" src="{{ .Icon }}" alt="" />
 
                     {{ if .Sockets }}

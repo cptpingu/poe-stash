@@ -1,5 +1,5 @@
 {
-    "numTabs": 19,
+    "numTabs": 20,
     "tabs": [
         {
             "n": "empty",
@@ -292,6 +292,22 @@
         {
             "n": "Special",
             "i": 18,
+            "id": "1c073013340d4dc60d2db47c6c31ca9c6fc36767b2c24dcd2af4bb3bb595dbac",
+            "type": "NormalStash",
+            "hidden": false,
+            "selected": true,
+            "colour": {
+                "r": 255,
+                "g": 170,
+                "b": 0
+            },
+            "srcL": "https:\/\/web.poecdn.com\/gen\/image\/WzIzLDEseyJ0IjoibCIsImMiOi04NjI5MTk0fV0\/10d10e4923\/Stash_TabL.png",
+            "srcC": "https:\/\/web.poecdn.com\/gen\/image\/WzIzLDEseyJ0IjoibSIsImMiOi04NjI5MTk0fV0\/bc028daabc\/Stash_TabL.png",
+            "srcR": "https:\/\/web.poecdn.com\/gen\/image\/WzIzLDEseyJ0IjoiciIsImMiOi04NjI5MTk0fV0\/6aa79009ee\/Stash_TabL.png"
+        },
+        {
+            "n": "Influences",
+            "i": 19,
             "id": "1c073013340d4dc60d2db47c6c31ca9c6fc36767b2c24dcd2af4bb3bb595dbac",
             "type": "NormalStash",
             "hidden": false,

@@ -1,0 +1,768 @@
+{
+    "items": [
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_00",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "shaper": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_01",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "elder": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 1,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_02",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "crusader": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_03",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "redeemer": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 3,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_04",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "hunter": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 4,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_05",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "warlord": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 5,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_06",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "synthesised": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 6,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_07",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "veiled": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 7,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_08",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "crusader": true
+            },
+            "synthesised": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 8,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&elder=1&shaper=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_09",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "shaper": true,
+                "elder": true
+            },
+            "veiled": true,
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 9,
+            "y": 0,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&elder=1&shaper=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_10",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "shaper": true,
+                "elder": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 1,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_11",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "shaper": true,
+                "crusader": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 1,
+            "y": 1,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_12",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "shaper": true,
+                "redeemer": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 2,
+            "y": 1,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_13",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "shaper": true,
+                "hunter": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 3,
+            "y": 1,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_14",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "shaper": true,
+                "warlord": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 4,
+            "y": 1,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_20",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "elder": true,
+                "crusader": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 2,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_21",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "elder": true,
+                "redeemer": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 1,
+            "y": 2,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_22",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "elder": true,
+                "hunter": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 2,
+            "y": 2,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_23",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "elder": true,
+                "warlord": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 3,
+            "y": 2,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_30",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "crusader": true,
+                "redeemer": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 3,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_31",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "crusader": true,
+                "hunter": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 1,
+            "y": 3,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_32",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "crusader": true,
+                "warlord": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 2,
+            "y": 3,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_40",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "redeemer": true,
+                "hunter": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 4,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_41",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "redeemer": true,
+                "warlord": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 1,
+            "y": 4,
+            "inventoryId": "Stash19"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Rings\/Ring1.png?w=1&h=1&scale=1&v=7c04d5a65caa0371eccfe06a129a7407",
+            "league": "Standard",
+            "id": "test19_50",
+            "typeLine": "Iron Ring",
+            "identified": true,
+            "ilvl": 82,
+            "influences": {
+                "hunter": true,
+                "warlord": true
+            },
+            "requirements": [
+                {
+                    "name": "Level",
+                    "values": [
+                        [
+                            "57",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0
+                }
+            ],
+            "frameType": 0,
+            "x": 0,
+            "y": 5,
+            "inventoryId": "Stash19"
+        }
+   ]
+}

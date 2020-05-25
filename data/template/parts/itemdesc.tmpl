@@ -16,7 +16,7 @@
 
               <div class="itemBoxContent">
                 <div class="itemHeader {{ ItemRarityHeight .FrameType }} {{ if .IsVeiled }}veiled{{ end }}">
-                  <span class="l symbol {{ InfluenceName . }}"></span>
+                  <span class="l symbol {{ InfluenceName . true }}"></span>
                   {{ if .Name }}
                   <div class="itemName">
                     <span class="lc">{{ .Name }}</span>
@@ -33,7 +33,7 @@
                     <span class="lc">{{ .Type }}</span>
                   </div>
                   {{ end }}
-                  <span class="r symbol {{ InfluenceName . }}"></span>
+                  <span class="r symbol {{ InfluenceName . false }}"></span>
                 </div>
 
                 <div class="content">

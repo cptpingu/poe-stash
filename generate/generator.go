@@ -315,34 +315,45 @@ func ItemRarityHeight(frameType models.FrameType) string {
 }
 
 // InfluenceName returns the influence name.
-func InfluenceName(item models.Item) string {
-	if item.IsSynthesised {
-		return "synthetic"
+// The left icon follows a predetermined hierarchy with Shaper always having top
+// priority. It seems to follow the following order:
+// Shaper > Elder > Crusader > Redeemer > Hunter > Warlord.
+func InfluenceName(item models.Item, leftInfluence bool) string {
+	res := ""
+
+	// Shaper/Elder are top display priority.
+	if item.Influences.Shaper && (!leftInfluence || res == "") {
+		res = "shaper"
 	}
-	if item.IsVeiled {
-		return "veiled"
+	if item.Influences.Elder && (!leftInfluence || res == "") {
+		res = "elder"
 	}
 
-	if item.Influences.Shaper {
-		return "shaper"
+	// Influences are display in a defined order.
+	if item.Influences.Crusader && (!leftInfluence || res == "") {
+		res = "crusader"
 	}
-	if item.Influences.Elder {
-		return "elder"
+	if item.Influences.Redeemer && (!leftInfluence || res == "") {
+		res = "redeemer"
 	}
-	if item.Influences.Redeemer {
-		return "redeemer"
+	if item.Influences.Hunter && (!leftInfluence || res == "") {
+		res = "hunter"
 	}
-	if item.Influences.Crusader {
-		return "crusader"
-	}
-	if item.Influences.Hunter {
-		return "hunter"
-	}
-	if item.Influences.Warlord {
-		return "warlord"
+	if item.Influences.Warlord && (!leftInfluence || res == "") {
+		res = "warlord"
 	}
 
-	return ""
+	// Synthesised can't be influenced.
+	if item.IsSynthesised && res == "" {
+		res = "synthetic"
+	}
+	// Influenced veiled items are displayed as influenced items.
+	// Very low priority.
+	if item.IsVeiled && res == "" {
+		res = "veiled"
+	}
+
+	return res
 }
 
 // GenSpecialBackground generates a special background
@@ -714,25 +725,36 @@ func GenNaiveSearchIndex(item models.Item) string {
 // itemCategoryAttribute returns attributes of an item category.
 func itemCategoryAttribute(item models.Item) []string {
 	res := make([]string, 0, 5)
+	hasInfluence := false
 
 	if item.Influences.Elder {
-		res = append(res, "influences", "influence", "elder")
+		hasInfluence = true
+		res = append(res, "elder")
 	}
 	if item.Influences.Shaper {
-		res = append(res, "influences", "influence", "shaper")
+		hasInfluence = true
+		res = append(res, "shaper")
 	}
 	if item.Influences.Crusader {
-		res = append(res, "influences", "influence", "crusader")
+		hasInfluence = true
+		res = append(res, "crusader")
 	}
 	if item.Influences.Hunter {
-		res = append(res, "influences", "influence", "hunter")
+		hasInfluence = true
+		res = append(res, "hunter")
 	}
 	if item.Influences.Redeemer {
-		res = append(res, "influences", "influence", "redeemer")
+		hasInfluence = true
+		res = append(res, "redeemer")
 	}
 	if item.Influences.Warlord {
+		hasInfluence = true
 		res = append(res, "warlord")
 	}
+	if hasInfluence {
+		res = append(res, "influences", "influence")
+	}
+
 	if item.IsIdentified {
 		res = append(res, "identified")
 	} else {
