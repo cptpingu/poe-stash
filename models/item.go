@@ -138,13 +138,13 @@ type LayoutType string
 // Layout is the type of layout to use (type of grid to place items).
 const (
 	DefaultLayout    LayoutType = ""
-	CurrencyLayout              = "currency"
-	InventoryLayout             = "inventory"
-	JewelLayout                 = "jewel"
-	FragmentLayout              = "fragment"
-	MapLayout                   = "map"
-	QuadLayout                  = "quad"
-	EssenceLayout               = "essence"
-	DivinationLayout            = "divination"
-	UniqueLayout                = "unique"
+	CurrencyLayout   LayoutType = "currency"
+	InventoryLayout  LayoutType = "inventory"
+	JewelLayout      LayoutType = "jewel"
+	FragmentLayout   LayoutType = "fragment"
+	MapLayout        LayoutType = "map"
+	QuadLayout       LayoutType = "quad"
+	EssenceLayout    LayoutType = "essence"
+	DivinationLayout LayoutType = "divination"
+	UniqueLayout     LayoutType = "unique"
 )

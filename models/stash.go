@@ -29,11 +29,13 @@ type Tab struct {
 
 // Layout is used for custom layout like currency.
 type Layout struct {
-	Type LayoutType // Not mapped used internally.
-	X    float64    `json:"x"`
-	Y    float64    `json:"y"`
-	W    int        `json:"w"`
-	H    int        `json:"h"`
+	Type    LayoutType // Not mapped used internally.
+	Section string     `json:"section"`
+	X       float64    `json:"x"`
+	Y       float64    `json:"y"`
+	W       int        `json:"w"`
+	H       int        `json:"h"`
+	Scale   float64    `json:"scale"`
 }
 
 // CardLayout is used for the divination card layout.
@@ -51,16 +53,22 @@ type DivineLayout struct {
 	Cards  []CardLayout `json:"cards"`
 }
 
+// FragmentLayoutType hold fragment layout information.
+type FragmentLayoutType struct {
+	Sections []string          `json:"sections"`
+	Layouts  map[string]Layout `json:"layout"`
+}
+
 // StashTab holds all stash tabulations (thus all items).
 type StashTab struct {
-	NumTabs          int               `json:"numTabs"`
-	QuadLayout       bool              `json:"quadLayout"`
-	Items            []Item            `json:"items"`
-	Tabs             []Tab             `json:"tabs"`
-	CurrencyLayout   map[string]Layout `json:"currencyLayout"`
-	FragmentLayout   map[string]Layout `json:"fragmentLayout"`
-	EssenceLayout    map[string]Layout `json:"essenceLayout"`
-	DivinationLayout DivineLayout      `json:"divinationLayout"`
+	NumTabs          int                `json:"numTabs"`
+	QuadLayout       bool               `json:"quadLayout"`
+	Items            []Item             `json:"items"`
+	Tabs             []Tab              `json:"tabs"`
+	CurrencyLayout   map[string]Layout  `json:"currencyLayout"`
+	FragmentLayout   FragmentLayoutType `json:"fragmentLayout"`
+	EssenceLayout    map[string]Layout  `json:"essenceLayout"`
+	DivinationLayout DivineLayout       `json:"divinationLayout"`
 
 	// Can be empty, hence the *, for allowing to be nullable.
 	MapLayout    *map[string]Layout `json:"mapLayout"`

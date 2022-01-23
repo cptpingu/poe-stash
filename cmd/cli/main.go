@@ -9,6 +9,7 @@ import (
 	"github.com/cptpingu/poe-stash/generate"
 	"github.com/cptpingu/poe-stash/misc"
 	"github.com/cptpingu/poe-stash/scraper"
+	"github.com/pkg/errors"
 )
 
 // mandatoryOption ensure an option is not empty.
@@ -30,7 +31,7 @@ func scrapData(account, poeSessID, realm, league string, demo, cache bool, verbo
 	scraper.SetVerbosity(verbosity)
 	data, err := scraper.ScrapEverything()
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "ScrapEverything")
 	}
 
 	return data, nil
@@ -46,12 +47,12 @@ func generateData(data *scraper.ScrapedData, output string) (resErr error) {
 	} else {
 		file, err = os.Create(output)
 		if err != nil {
-			return err
+			return errors.Wrap(err, "os.Create")
 		}
 		defer func() {
 			if err := file.Close(); err != nil {
 				if resErr != nil {
-					resErr = err
+					resErr = errors.Wrap(err, "file.Close")
 				}
 			}
 		}()
@@ -60,10 +61,10 @@ func generateData(data *scraper.ScrapedData, output string) (resErr error) {
 	w := bufio.NewWriter(file)
 	gen := generate.NewGenerator(w)
 	if errGen := gen.GenerateHTML(data); errGen != nil {
-		return err
+		return errors.Wrap(err, "GenerateHTML")
 	}
 	if errFlush := w.Flush(); err != nil {
-		return errFlush
+		return errors.Wrap(errFlush, "Flush")
 	}
 
 	return nil
@@ -127,7 +128,7 @@ func main() {
 
 	data, errScrap := scrapData(*account, *poeSessID, *realm, *league, *demo, *cache, *verbosity)
 	if errScrap != nil {
-		fmt.Println("can't scrap data", errScrap)
+		fmt.Println("can't scrap data", errors.WithStack(errScrap))
 		os.Exit(2)
 	}
 

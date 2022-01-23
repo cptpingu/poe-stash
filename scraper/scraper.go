@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"github.com/cptpingu/poe-stash/models"
+	"github.com/pkg/errors"
 )
 
 const (
@@ -157,7 +158,7 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 
 	req, err := http.NewRequest("GET", apiURL, nil)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "NewRequest")
 	}
 	cookie := http.Cookie{
 		Name:  "POESESSID",
@@ -173,7 +174,7 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 	resp, errResponse := s.client.Do(req)
 	queryDone()
 	if errResponse != nil {
-		return nil, errResponse
+		return nil, errors.Wrap(errResponse, "client.")
 	}
 
 	s.updateRateLimit(resp, baseURL)
@@ -181,7 +182,7 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 	defer func() {
 		localErr := resp.Body.Close()
 		if err == nil {
-			err = localErr
+			err = errors.Wrap(localErr, "Body.Close")
 		}
 	}()
 
@@ -191,7 +192,7 @@ func (s *Scraper) CallAPI(apiURL string) ([]byte, error) {
 
 	body, errRead := ioutil.ReadAll(resp.Body)
 	if errRead != nil {
-		return nil, errRead
+		return nil, errors.Wrap(errRead, "ioutil.ReadAll")
 	}
 
 	if s.cache {
@@ -219,7 +220,7 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	// Get the list of all characters of a user.
 	characters, errChar := s.ScrapCharacters()
 	if errChar != nil {
-		return nil, errChar
+		return nil, errors.Wrap(errChar, "ScrapCharacters")
 	}
 
 	// Get inventory of every characters found.
@@ -227,12 +228,12 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 		if !character.Expired {
 			charInventory, errInventory := s.ScrapCharacterInventory(character.Name)
 			if errInventory != nil {
-				return nil, errInventory
+				return nil, errors.Wrap(errInventory, "ScrapCharacterInventory")
 			}
 			data.Characters = append(data.Characters, charInventory)
 			charSkills, errSkills := s.ScrapCharacterSkills(character.Name)
 			if errSkills != nil {
-				return nil, errSkills
+				return nil, errors.Wrap(errSkills, "ScrapCharacterSkills")
 			}
 			data.Skills = append(data.Skills, charSkills)
 		}
@@ -241,7 +242,7 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 	// Retrieves the stash of an account.
 	tabsDesc, stash, errStash := s.ScrapWholeStash()
 	if errStash != nil {
-		return nil, errStash
+		return nil, errors.Wrap(errStash, "ScrapWholeStash")
 	}
 	data.TabsDesc = tabsDesc
 	data.Stash = stash
@@ -254,11 +255,11 @@ func (s *Scraper) ScrapEverything() (*ScrapedData, error) {
 func (s *Scraper) GetLeagues() ([]*models.League, error) {
 	body, errRequest := s.CallAPI(LeaguesURL)
 	if errRequest != nil {
-		return nil, errRequest
+		return nil, errors.Wrap(errRequest, "CallAPI")
 	}
 	leagues, errLeagues := models.ParseLeagues(body)
 	if errLeagues != nil {
-		return nil, errLeagues
+		return nil, errors.Wrap(errLeagues, "ParseLeagues")
 	}
 
 	return leagues, nil

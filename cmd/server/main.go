@@ -11,6 +11,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
+	"github.com/pkg/errors"
 
 	"github.com/cptpingu/poe-stash/cmd/server/page"
 	"github.com/cptpingu/poe-stash/generate"
@@ -127,7 +128,7 @@ func main() {
 		var err error
 		_, err = loadPasswords(*passwordFile)
 		if err != nil {
-			panic(err)
+			panic(errors.Wrap(err, "loadPasswords"))
 		}
 	}
 

@@ -80,7 +80,7 @@ func LoadAllTemplates() (*template.Template, error) {
 			return template.HTMLAttr(s)
 		},
 		"ieq": func(a, b string) bool {
-			return strings.ToLower(a) == strings.ToLower(b)
+			return strings.EqualFold(a, b)
 		},
 		"safe": func(s string) template.HTML {
 			return template.HTML(s)
@@ -179,7 +179,7 @@ func FindAndParseTemplates(rootDir, ext string, funcMap template.FuncMap) (*temp
 
 			name := path[pfx:]
 			t := root.New(name).Funcs(funcMap)
-			t, e2 = t.Parse(string(b))
+			_, e2 = t.Parse(string(b))
 			if e2 != nil {
 				return e2
 			}
@@ -487,7 +487,7 @@ func PoEMarkup(raw string, small bool) template.HTML {
 // It is expexcted to only have lines separated by end of lines.
 func PoEMarkupLinesOnly(lines []string, small bool) template.HTML {
 	res := ReplacePoEMarkup(strings.Join(lines, "\n"), small)
-	strings.Replace(res, "\n", "<br />", -1)
+	res = strings.Replace(res, "\n", "<br />", -1)
 	return template.HTML(res)
 }
 
@@ -674,7 +674,7 @@ func extractWords(line string) []string {
 // GenNaiveSearchIndex generates very naive indexing for an item description.
 // It's just a list of selected unique sorted words.
 func GenNaiveSearchIndex(item models.Item) string {
-	words := make(map[string]struct{}, 0)
+	words := make(map[string]struct{})
 
 	// Extract name.
 	for _, v := range extractWords(item.Name) {
@@ -794,45 +794,31 @@ func itemCategoryType(categories models.Category) []string {
 
 	if categories.Armor != nil {
 		res = append(res, models.Armors...)
-		for _, v := range *categories.Armor {
-			res = append(res, v)
-		}
+		res = append(res, *categories.Armor...)
 	}
 	if categories.Accessories != nil {
 		res = append(res, models.Accessories...)
-		for _, v := range *categories.Accessories {
-			res = append(res, v)
-		}
+		res = append(res, *categories.Accessories...)
 	}
 	if categories.Currency != nil {
 		res = append(res, models.Currencies...)
-		for _, v := range *categories.Currency {
-			res = append(res, v)
-		}
+		res = append(res, *categories.Currency...)
 	}
 	if categories.Jewels != nil {
 		res = append(res, models.Jewels...)
-		for _, v := range *categories.Jewels {
-			res = append(res, v)
-		}
+		res = append(res, *categories.Jewels...)
 	}
 	if categories.Weapons != nil {
 		res = append(res, models.Weapons...)
-		for _, v := range *categories.Weapons {
-			res = append(res, v)
-		}
+		res = append(res, *categories.Weapons...)
 	}
 	if categories.Gems != nil {
 		res = append(res, models.Gems...)
-		for _, v := range *categories.Gems {
-			res = append(res, v)
-		}
+		res = append(res, *categories.Gems...)
 	}
 	if categories.Maps != nil {
 		res = append(res, models.Maps...)
-		for _, v := range *categories.Maps {
-			res = append(res, v)
-		}
+		res = append(res, *categories.Maps...)
 	}
 
 	return res

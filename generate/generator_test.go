@@ -5,19 +5,6 @@ import (
 	"testing"
 )
 
-func mapEqual(a, b map[string][]string) bool {
-	if len(a) != len(b) {
-		return false
-	}
-	for k, v := range a {
-		if w, ok := b[k]; !ok { //|| v != w {
-			_, _ = v, w
-			return false
-		}
-	}
-	return true
-}
-
 // TestPoEMarkup tests parsing custom langage works.
 func TestPoEMarkup(t *testing.T) {
 	tests := []struct {

@@ -1,4 +1,4 @@
 package misc
 
 // Version of the application.
-const Version = "v1.0"
+const Version = "v1.1"
